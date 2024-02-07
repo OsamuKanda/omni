@@ -1,0 +1,615 @@
+﻿	.divUPBtn
+	{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divBtn
+	{
+		float: left;
+		width: 500px;
+		text-align: left;
+		height: 20px;
+	}
+	.btn
+	{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+	}
+	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltHACCHUNO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.HACCHUNO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnHACCHUNO
+	{
+		position: absolute;
+		top: -1px;
+		left: 148px;
+		height: 18px;
+	}
+	.btnSearch
+	{
+		position: absolute;
+		top: -1px;
+		left: 190px;
+		height: 18px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 118px;
+	}
+	.lbltHACCHUYMD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.HACCHUYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnHACCHUYMD
+	{
+		position: absolute;
+		top: 0px;
+		left: 156px;
+	}
+	.lbltSIRCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SIRCD
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnSIRCD
+	{
+		position: absolute;
+		top: 20px;
+		left: 130px;
+		height: 18px;
+	}
+	.SIRNMR
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 172px;
+	}
+	.lbltSENTANTNM
+	{
+		position: absolute;
+		top: 23px;
+		left: 500px;
+	}
+	.SENTANTNM
+	{
+		width: 180px;
+		ime-mode: active;
+		position: absolute;
+		top: 21px;
+		left: 592px;
+	}
+	.lbltTANTCD
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.TANTCD
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.btnTANTCD
+	{
+		position: absolute;
+		top: 41px;
+		left: 142px;
+		height: 18px;
+	}
+	.TANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 184px;
+	}
+	.lbltBIKO
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.BIKO
+	{
+		width: 720px;
+		ime-mode: active;
+		position: absolute;
+		top: 63px;
+		left: 92px;
+	}
+	.BIKO1
+	{
+		width: 720px;
+		ime-mode: active;
+		position: absolute;
+		top: 80px;
+		left: 92px;
+	}
+	.BIKO2
+	{
+		width: 720px;
+		ime-mode: active;
+		position: absolute;
+		top: 97px;
+		left: 92px;
+	}
+	.CellRNUM
+	{
+		text-align: left;
+		width: 24px;
+	}
+	.itemTiRNUM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellBBUNRUICD
+	{
+		text-align: left;
+		width: 60px;
+	}
+	.itemTiBBUNRUICD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellBBUNRUINM
+	{
+		text-align: left;
+		width: 341px;
+	}
+	.itemTiBBUNRUINM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellHACCHUSU
+	{
+		text-align: right;
+		width: 65px;
+	}
+	.itemTiHACCHUSU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellTANINM
+	{
+		text-align: left;
+		width: 24px;
+	}
+	.itemTiTANINM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellNONYUKBN
+	{
+		text-align: left;
+		width: 96px;
+	}
+	.itemTiNONYUKBN
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellNOKIKBN
+	{
+		text-align: left;
+		width: 90px;
+	}
+	.itemTiNOKIKBN
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellJIGYOCD
+	{
+		text-align: left;
+		width: 145px;
+	}
+	.itemTiJIGYOCD
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellCHG
+	{
+		text-align: left;
+		width: 30px;
+	}
+	.CellBKIKAKUCD
+	{
+		text-align: left;
+	}
+	.itemTiBKIKAKUCD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellBKIKAKUNM
+	{
+		text-align: left;
+	}
+	.itemTiBKIKAKUNM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellHACCHUTANK
+	{
+		text-align: right;
+	}
+	.itemTiHACCHUTANK
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellKOJIYOTEIYMD
+	{
+		text-align: left;
+	}
+	.itemTiKOJIYOTEIYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellNONYUYMD
+	{
+		text-align: left;
+	}
+	.itemTiNONYUYMD
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellBUKKENNM
+	{
+		text-align: left;
+	}
+	.itemTiBUKKENNM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.scroll
+	{
+		width: 974px;
+		min-height: 0px;
+		max-height: 241px;
+		overflow: auto;
+		position: relative;
+	}
+	.itemcellRNUM
+	{
+		width: 12px;
+		display: inline-block;
+	}
+	.itemcellBBUNRUICD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemcellBBUNRUINM
+	{
+		width: 180px;
+		display: inline-block;
+	}
+	.itemcellHACCHUSU
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemcellTANINM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.itemcellNONYUKBN
+	{
+		width: 91px;
+		display: inline-block;
+	}
+	.itemcellNOKIKBN
+	{
+		width: 61px;
+		display: inline-block;
+	}
+	.itemcellBKNNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.btnCHG
+	{
+	    height: 18px;
+	}
+	.btnDELLNO
+	{
+	    height: 18px;
+	}
+	.itemcellBKIKAKUCD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemcellBKIKAKUNM
+	{
+		width: 336px;
+		display: inline-block;
+	}
+	.itemcellHACCHUTANK
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemcellKOJIYOTEIYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemcellNONYUYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemcellBUKKENNM
+	{
+		width: 120px;
+		display: inline-block;
+	}
+	.gu
+	{
+	}
+	.RNUM00
+	{
+		width: 12px;
+		display: inline-block;
+		height: 12px;
+		overflow: hidden;
+	}
+	.BBUNRUICD00
+	{
+		width: 18px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.btnBBUNRUICD00
+	{
+		width: 32px;
+		height: 18px;
+	}
+	.BBUNRUINM00
+	{
+		width: 180px;
+		ime-mode: active;
+		border-style: none;
+		background-color: transparent;
+	}
+	.HACCHUSU00
+	{
+		width: 60px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.TANINM00
+	{
+		width: 24px;
+		display: inline-block;
+		height: 12px;
+		overflow: hidden;
+	}
+	.NONYUKBN00
+	{
+		display: inline;
+		width: 91px;
+		ime-mode: disabled;
+	}
+	.NOKIKBN00
+	{
+		display: inline;
+		width: 61px;
+		ime-mode: disabled;
+	}
+	.JIGYOCD00
+	{
+		width: 12px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.udpJIGYOCD
+	{
+		width: 12px;
+	}
+	.TITLE100
+	{
+		width: 6px;
+		margin-top: 4px;
+		display: inline-block;
+		height: 12px;
+		overflow: hidden;
+	}
+	.SAGYOBKBN00
+	{
+		width: 6px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.udpSAGYOBKBN00
+	{
+		width: 6px;
+	}
+
+	.TITLE200
+	{
+		width: 6px;
+		margin-top: 4px;
+		display: inline-block;
+		height: 12px;
+		overflow: hidden;
+	}
+	.RENNO00
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.udpRENNO
+	{
+		width: 42px;
+	}
+
+	.btnRENNO00
+	{
+		width: 32px;
+		height: 18px;
+	}
+	.btnADD
+	{
+	    height: 18px;
+	}
+	.btnCANCEL
+	{
+	    height: 18px;
+	}
+	.BKIKAKUCD00
+	{
+		width: 18px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.btnBKIKAKUCD00
+	{
+		width: 32px;
+		height: 18px;
+	}
+	.BKIKAKUNM00
+	{
+		width: 336px;
+		ime-mode: active;
+		border-style: none;
+		background-color: transparent;
+	}
+	.HACCHUTANK00
+	{
+		width: 72px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.KOJIYOTEIYMD00
+	{
+		width: 60px;
+		ime-mode: disabled;
+		border-style: none;
+		background-color: transparent;
+	}
+	.NONYUYMD00
+	{
+		width: 60px;
+		ime-mode: disabled;
+		border-style: none;
+		background-color: transparent;
+	}
+	.BUKKENNM00
+	{
+		width: 120px;
+		ime-mode: active;
+		border-style: none;
+		background-color: transparent;
+	}
+	.tblfoot
+	{
+	}
+	.footer
+	{
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

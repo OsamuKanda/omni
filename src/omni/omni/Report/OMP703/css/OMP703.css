@@ -1,0 +1,75 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: -1px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltJYOKEN
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.JYOKEN
+	{
+		display: inline;
+		width: 300px;
+		position: absolute;
+		top: 20px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltHIZUKE
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.HIZUKE
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.btnHIZUKE
+	{
+		position: absolute;
+		top: 42px;
+		left: 156px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

@@ -1,0 +1,183 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 86px;
+	}
+	.lbltOUTYYMM
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.OUTYYMM
+	{
+		width: 46px;
+		position: absolute;
+		top: 0px;
+		left: 68px;
+	}
+	.lbltJIGYOCDFROM1
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.JIGYOCDFROM1
+	{
+		width: 16px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 68px;
+	}
+	.lbl0
+	{
+		position: absolute;
+		top: 23px;
+		left: 89px;
+	}
+	.SAGYOBKBNFROM1
+	{
+		width: 10px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 98px;
+	}
+	.lbl1
+	{
+		position: absolute;
+		top: 23px;
+		left: 116px;
+	}
+	.RENNOFROM1
+	{
+		width: 46px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 124px;
+	}
+	.lbl2
+	{
+		position: absolute;
+		top: 23px;
+		left: 178px;
+	}
+	.JIGYOCDTO1
+	{
+		width: 16px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 194px;
+	}
+	.lbl3
+	{
+		position: absolute;
+		top: 23px;
+		left: 217px;
+	}
+	.SAGYOBKBNTO1
+	{
+		width: 10px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 226px;
+	}
+	.lbl4
+	{
+		position: absolute;
+		top: 23px;
+		left: 243px;
+	}
+	.RENNOTO1
+	{
+		width: 46px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 252px;
+	}
+	.lbltSIRYMDFROM1
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SIRYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 68px;
+	}
+	.btnSIRYMDFROM1
+	{
+		position: absolute;
+		top: 42px;
+		left: 132px;
+	}
+	.lbl5
+	{
+		position: absolute;
+		top: 44px;
+		left: 164px;
+	}
+	.SIRYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 188px;
+	}
+	.btnSIRYMDTO1
+	{
+		position: absolute;
+		top: 42px;
+		left: 252px;
+	}
+	.lbltBUNRUIDCD
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.BUNRUIDCD
+	{
+		display: inline;
+		width: 103px;
+		position: absolute;
+		top: 62px;
+		left: 68px;
+		ime-mode: disabled;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

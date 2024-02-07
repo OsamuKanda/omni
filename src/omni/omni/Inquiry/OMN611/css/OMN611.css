@@ -1,0 +1,319 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltNYUKINYMDFROM1
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.NYUKINYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 80px;
+	}
+	.btnNYUKINYMDFROM1
+	{
+		position: absolute;
+		top: 0px;
+		left: 144px;
+	}
+	.lblTitle1
+	{
+		position: absolute;
+		top: 2px;
+		left: 171px;
+	}
+	.NYUKINYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 193px;
+	}
+	.btnNYUKINYMDTO1
+	{
+		position: absolute;
+		top: 0px;
+		left: 257px;
+	}
+	.lbltGINKOCDFROM2
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.GINKOCDFROM2
+	{
+		width: 18px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 80px;
+	}
+	.btnGINKOCDFROM2
+	{
+		position: absolute;
+		top: 20px;
+		left: 112px;
+		height: 18px;
+	}
+	.GINKONMFROM2
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 154px;
+	}
+	.lblTitle2
+	{
+		position: absolute;
+		top: 23px;
+		left: 348px;
+	}
+	.GINKOCDTO2
+	{
+		width: 18px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 370px;
+	}
+	.btnGINKOCDTO2
+	{
+		position: absolute;
+		top: 20px;
+		left: 402px;
+		height: 18px;
+	}
+	.GINKONMTO2
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 444px;
+	}
+	.LVHeader
+	{
+		width: 612px;
+		position: relative;
+		margin-left: 10px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.divBtnSerch
+	{
+		position: absolute;
+		top: 0px;
+		width: 172px;
+		right: 0px;
+		text-align: right;
+	}
+	.LVContent
+	{
+		width: 612px;
+		height: 401px;
+		position: absolute;
+		top: 21px;
+	}
+	.SearchDP
+	{
+		width: 612px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellNYUKINYMD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiNYUKINYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellGINKOCD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiGINKOCD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellGINKONM
+	{
+		width: 190px;
+		text-align: left;
+	}
+	.itemTiGINKONM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellNYUKING
+	{
+		width: 94px;
+		text-align: right;
+	}
+	.itemTiNYUKING
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSEIKYUKING
+	{
+		width: 94px;
+		text-align: right;
+	}
+	.itemTiSEIKYUKING
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSAGAKU
+	{
+		width: 94px;
+		text-align: right;
+	}
+	.itemTiSAGAKU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemNYUKINYMD
+	{
+		text-align: left;
+	}
+	.itemcellNYUKINYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemGINKOCD
+	{
+		text-align: left;
+	}
+	.itemcellGINKOCD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemGINKONM
+	{
+		text-align: left;
+	}
+	.itemcellGINKONM
+	{
+		width: 180px;
+		display: inline-block;
+	}
+	.itemNYUKING
+	{
+		text-align: right;
+	}
+	.itemcellNYUKING
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.itemSEIKYUKING
+	{
+		text-align: right;
+	}
+	.itemcellSEIKYUKING
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.itemSAGAKU
+	{
+		text-align: right;
+	}
+	.itemcellSAGAKU
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

@@ -1,0 +1,99 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltTAISHONAIYO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.TAISHONAIYO
+	{
+		width: 600px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 56px;
+	}
+	.divbtnSearch
+	{
+		width: 718px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 718px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 718px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellTAISHOCD
+	{
+		width: 88px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellTAISHONAIYO
+	{
+		width: 610px;
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemTAISHOCD
+	{
+		text-align: left;
+	}
+	.itemcellTAISHOCD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.itemTAISHONAIYO
+	{
+		text-align: left;
+	}
+	.itemcellTAISHONAIYO
+	{
+		width: 600px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

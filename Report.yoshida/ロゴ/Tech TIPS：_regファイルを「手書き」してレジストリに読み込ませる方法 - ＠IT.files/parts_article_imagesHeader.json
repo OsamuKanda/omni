@@ -1,0 +1,136 @@
+setArticlHeader({
+'data':[
+{
+	KEYWORDS:'Editors Eye',
+	URL:'javascript:void(0);',
+	NAME:'Editor&#039;s Eye',
+	PATH:'/ait/images/htmlgen/article_Header_images_1_1421825651.jpg'
+},
+{
+	KEYWORDS:'業務アプリInsider',
+	URL:'/ait/subtop/dotnet/app/',
+	NAME:'業務アプリInsider',
+	PATH:'/ait/images/htmlgen/article_Header_images_2_1427780751.gif'
+},
+{
+	KEYWORDS:'Insider.NET',
+	URL:'/ait/subtop/dotnet/',
+	NAME:'Insider.NET',
+	PATH:'/ait/images/htmlgen/article_Header_images_3_1427780751.gif'
+},
+{
+	KEYWORDS:'Java Agile',
+	URL:'/ait/subtop/java/',
+	NAME:'Java Agile',
+	PATH:'/ait/images/htmlgen/article_Header_images_4_1427780751.gif'
+},
+{
+	KEYWORDS:'自分戦略研究室',
+	URL:'/ait/subtop/jibun/ljibun/',
+	NAME:'自分戦略研究室',
+	PATH:'/ait/images/htmlgen/article_Header_images_5_1427780751.gif'
+},
+{
+	KEYWORDS:'キャリア実現研究室',
+	URL:'/ait/subtop/jibun/lcareer/',
+	NAME:'キャリア実現研究室',
+	PATH:'/ait/images/htmlgen/article_Header_images_6_1427780751.gif'
+},
+{
+	KEYWORDS:'スキル創造研究室',
+	URL:'/ait/subtop/jibun/lskill/',
+	NAME:'スキル創造研究室',
+	PATH:'/ait/images/htmlgen/article_Header_images_7_1427780751.gif'
+},
+{
+	KEYWORDS:'自分戦略研究所',
+	URL:'/ait/subtop/jibun/',
+	NAME:'自分戦略研究所',
+	PATH:'/ait/images/htmlgen/article_Header_images_8_1427780751.gif'
+},
+{
+	KEYWORDS:'Linux ＆ OSS',
+	URL:'/ait/subtop/linux/',
+	NAME:'Linux ＆ OSS',
+	PATH:'/ait/images/htmlgen/article_Header_images_9_1427780751.gif'
+},
+{
+	KEYWORDS:'Master of IP Network',
+	URL:'/ait/subtop/network/',
+	NAME:'Master of IP Network',
+	PATH:'/ait/images/htmlgen/article_Header_images_10_1427780751.gif'
+},
+{
+	KEYWORDS:'Rails Hub',
+	URL:'/ait/subtop/coding/rails/',
+	NAME:'Rails Hub',
+	PATH:'/ait/images/htmlgen/article_Header_images_11_1427780751.gif'
+},
+{
+	KEYWORDS:'Coding Edge',
+	URL:'/ait/subtop/coding/',
+	NAME:'Coding Edge',
+	PATH:'/ait/images/htmlgen/article_Header_images_12_1427780751.gif'
+},
+{
+	KEYWORDS:'Security ＆ Trust',
+	URL:'/ait/subtop/security/',
+	NAME:'Security ＆ Trust',
+	PATH:'/ait/images/htmlgen/article_Header_images_13_1427780751.gif'
+},
+{
+	KEYWORDS:'Server ＆ Storage',
+	URL:'/ait/subtop/server/',
+	NAME:'Server ＆ Storage',
+	PATH:'/ait/images/htmlgen/article_Header_images_14_1427780751.gif'
+},
+{
+	KEYWORDS:'Smart ＆ Social',
+	URL:'/ait/subtop/smart/',
+	NAME:'Smart ＆ Social',
+	PATH:'/ait/images/htmlgen/article_Header_images_15_1427780751.gif'
+},
+{
+	KEYWORDS:'System Insider',
+	URL:'/ait/subtop/sys/',
+	NAME:'System Insider',
+	PATH:'/ait/images/htmlgen/article_Header_images_16_1427780751.gif'
+},
+{
+	KEYWORDS:'System Design',
+	URL:'/ait/subtop/systemdesign/',
+	NAME:'System Design',
+	PATH:'/ait/images/htmlgen/article_Header_images_17_1427780751.gif'
+},
+{
+	KEYWORDS:'Test & Tools',
+	URL:'/ait/subtop/testtools/',
+	NAME:'Test & Tools',
+	PATH:'/ait/images/htmlgen/article_Header_images_18_1427780751.gif'
+},
+{
+	KEYWORDS:'デザインハック',
+	URL:'/ait/subtop/ux/design/',
+	NAME:'デザインハック',
+	PATH:'/ait/images/htmlgen/article_Header_images_19_1427780751.gif'
+},
+{
+	KEYWORDS:'HTML5 ＋ UX',
+	URL:'/ait/subtop/ux/',
+	NAME:'HTML5 ＋ UX',
+	PATH:'/ait/images/htmlgen/article_Header_images_20_1427780751.gif'
+},
+{
+	KEYWORDS:'Windows Server Insider',
+	URL:'/ait/subtop/win/',
+	NAME:'Windows Server Insider',
+	PATH:'/ait/images/htmlgen/article_Header_images_21_1427335987.gif'
+},
+{
+	KEYWORDS:'Database Expert',
+	URL:'/ait/subtop/db/',
+	NAME:'Database Expert',
+	PATH:'/ait/images/htmlgen/article_Header_images_22_1427780751.gif'
+},
+{}]
+})

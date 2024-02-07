@@ -1,0 +1,363 @@
+﻿	.divUPBtn
+	{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divBtn
+	{
+		float: left;
+		width: 500px;
+		text-align: left;
+		height: 20px;
+	}
+	.btn
+	{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+	}
+	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltKANRINO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.KANRINO
+	{
+		width: 6px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 140px;
+	}
+	.btnSearch
+	{
+		position: absolute;
+		top: -1px;
+		left: 160px;
+		height: 18px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 338px;
+	}
+	.lbltKINENDO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.KINENDO
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 140px;
+	}
+	.btnKINENDO
+	{
+		position: absolute;
+		top: 0px;
+		left: 204px;
+	}
+	.lbltKISU
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.KISU
+	{
+		width: 18px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 140px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 140px;
+	}
+	.lbltMONYMD
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.MONYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 63px;
+		left: 140px;
+	}
+	.btnMONYMD
+	{
+		position: absolute;
+		top: 63px;
+		left: 204px;
+	}
+	.lbltMONKARIYMD
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.MONKARIYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 84px;
+		left: 140px;
+	}
+	.btnMONKARIYMD
+	{
+		position: absolute;
+		top: 84px;
+		left: 204px;
+	}
+	.lbltMONJIKKOYMD
+	{
+		position: absolute;
+		top: 107px;
+		left: 0px;
+	}
+	.MONJIKKOYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 105px;
+		left: 140px;
+	}
+	.btnMONJIKKOYMD
+	{
+		position: absolute;
+		top: 105px;
+		left: 204px;
+	}
+	.lbltMONKARIJIKKOYMD
+	{
+		position: absolute;
+		top: 128px;
+		left: 0px;
+	}
+	.MONKARIJIKKOYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 126px;
+		left: 140px;
+	}
+	.btnMONKARIJIKKOYMD
+	{
+		position: absolute;
+		top: 126px;
+		left: 204px;
+	}
+	.lbltSHRYMD
+	{
+		position: absolute;
+		top: 149px;
+		left: 0px;
+	}
+	.SHRYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 147px;
+		left: 140px;
+	}
+	.btnSHRYMD
+	{
+		position: absolute;
+		top: 147px;
+		left: 204px;
+	}
+	.lbltSHRJIKKOYMD
+	{
+		position: absolute;
+		top: 170px;
+		left: 0px;
+	}
+	.SHRJIKKOYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 168px;
+		left: 140px;
+	}
+	.btnSHRJIKKOYMD
+	{
+		position: absolute;
+		top: 168px;
+		left: 204px;
+	}
+	.lbltTAX1
+	{
+		position: absolute;
+		top: 191px;
+		left: 0px;
+	}
+	.TAX1
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 189px;
+		left: 140px;
+	}
+	.lbltTAX2
+	{
+		position: absolute;
+		top: 212px;
+		left: 0px;
+	}
+	.TAX2
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 210px;
+		left: 140px;
+	}
+	.lbltTAX2TAIOYMD
+	{
+		position: absolute;
+		top: 233px;
+		left: 0px;
+	}
+	.TAX2TAIOYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 231px;
+		left: 140px;
+	}
+	.btnTAX2TAIOYMD
+	{
+		position: absolute;
+		top: 231px;
+		left: 204px;
+	}
+	.lbltADD1
+	{
+		position: absolute;
+		top: 254px;
+		left: 0px;
+	}
+	.ADD1
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 252px;
+		left: 140px;
+	}
+	.lbltADD2
+	{
+		position: absolute;
+		top: 275px;
+		left: 0px;
+	}
+	.ADD2
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 273px;
+		left: 140px;
+	}
+	.lbltKAISYANM
+	{
+		position: absolute;
+		top: 296px;
+		left: 0px;
+	}
+	.KAISYANM
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 294px;
+		left: 140px;
+	}
+	.lbltTORINAM
+	{
+		position: absolute;
+		top: 317px;
+		left: 0px;
+	}
+	.TORINAM
+	{
+		width: 240px;
+		ime-mode: active;
+		position: absolute;
+		top: 315px;
+		left: 140px;
+	}
+	.lbltSEIKYUSHONO
+	{
+		position: absolute;
+		top: 338px;
+		left: 0px;
+	}
+	.SEIKYUSHONO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 336px;
+		left: 140px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

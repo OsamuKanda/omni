@@ -1,0 +1,524 @@
+﻿	.divUPBtn
+	{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divBtn
+	{
+		float: left;
+		width: 500px;
+		text-align: left;
+		height: 20px;
+	}
+	.btn
+	{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+	}
+	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltSEIKYUSHONO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SEIKYUSHONO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 68px;
+	}
+	.btnSearch
+	{
+		position: absolute;
+		top: -1px;
+		left: 166px;
+		height: 18px;
+	}
+	.lbltNYUKINNO
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NYUKINNO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 68px;
+	}
+	.btnNYUKINNO
+	{
+		position: absolute;
+		top: 20px;
+		left: 124px;
+		height: 18px;
+	}
+	.btnSearch2
+	{
+		position: absolute;
+		top: 20px;
+		left: 166px;
+		height: 18px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 149px;
+	}
+	.lbltNYUKINYMD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.NYUKINYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 68px;
+	}
+	.btnNYUKINYMD
+	{
+		position: absolute;
+		top: 0px;
+		left: 132px;
+	}
+	.lbltSEIKYUYMD
+	{
+		position: absolute;
+		top: 2px;
+		left: 600px;
+	}
+	.SEIKYUYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 668px;
+	}
+	.lbltSEIKYUKING
+	{
+		position: absolute;
+		top: 23px;
+		left: 600px;
+	}
+	.SEIKYUKING
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 668px;
+	}
+	.lbltNYUKINR
+	{
+		position: absolute;
+		top: 44px;
+		left: 600px;
+	}
+	.NYUKINR
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 668px;
+	}
+	.lbltRENNO
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.RENNO
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 68px;
+	}
+	.lbltKAISHUYOTEIYMD
+	{
+		position: absolute;
+		top: 65px;
+		left: 600px;
+	}
+	.KAISHUYOTEIYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 668px;
+	}
+	.lbltNONYUNM
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.NONYUNM
+	{
+		width: 756px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 68px;
+	}
+	.lbltSEIKYUNM
+	{
+		position: absolute;
+		top: 107px;
+		left: 0px;
+	}
+	.SEIKYUNM
+	{
+		width: 756px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 68px;
+	}
+	.lbltBIKO
+	{
+		position: absolute;
+		top: 128px;
+		left: 0px;
+	}
+	.BIKO
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 126px;
+		left: 68px;
+	}
+	.CellRNUM
+	{
+		text-align: left;
+		width: 24px;
+	}
+	.itemTiRNUM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellNYUKINKBN
+	{
+		text-align: left;
+		width: 149px;
+	}
+	.itemTiNYUKINKBN
+	{
+		width: 149px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		text-align: right;
+		width: 82px;
+	}
+	.itemTiKING
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellGINKOCD
+	{
+		text-align: left;
+		width: 65px;
+	}
+	.itemTiGINKOCD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellGINKONM
+	{
+		text-align: left;
+		width: 195px;
+	}
+	.CellTEGATANO
+	{
+		text-align: left;
+		width: 105px;
+	}
+	.itemTiTEGATANO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellHURIYMD
+	{
+		text-align: left;
+		width: 90px;
+	}
+	.itemTiHURIYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellCHG
+	{
+		text-align: left;
+		width: 30px;
+	}
+	.Cell
+	{
+		text-align: left;
+	}
+	.CellHURIDASHI
+	{
+		text-align: left;
+		width: 324px;
+	}
+	.itemTiHURIDASHI
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.CellTEGATAKIJITSU
+	{
+		text-align: left;
+	}
+	.itemTiTEGATAKIJITSU
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.scroll
+	{
+		width: 837px;
+		min-height: 0px;
+		max-height: 161px;
+		overflow: auto;
+		position: relative;
+	}
+	.itemcellRNUM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.itemcellNYUKINKBN
+	{
+		width: 149px;
+		display: inline-block;
+	}
+	.itemcellKING
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemcellGINKOCD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemcellGINKONM
+	{
+		width: 180px;
+		display: inline-block;
+	}
+	.itemcellTEGATANO
+	{
+		width: 90px;
+		display: inline-block;
+	}
+	.itemcellHURIYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.btnCHG
+	{
+	    height: 18px;
+	}
+	.btnDELLNO
+	{
+	    height: 18px;
+	}
+	.itemcellHURIDASHI
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.itemcellTEGATAKIJITSU
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.gu
+	{
+	}
+	.RNUM00
+	{
+		width: 24px;
+		display: inline-block;
+		height: 12px;
+		overflow: hidden;
+	}
+	.NYUKINKBN00
+	{
+		display: inline;
+		width: 139px;
+		ime-mode: disabled;
+	}
+	.KING00
+	{
+		width: 72px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.GINKOCD00
+	{
+		width: 18px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.btnGINKOCD00
+	{
+		width: 32px;
+		height: 18px;
+	}
+	.GINKONM00
+	{
+		width: 180px;
+		display: inline-block;
+		height: 12px;
+		overflow: hidden;
+	}
+	.TEGATANO00
+	{
+		width: 90px;
+		ime-mode: inactive;
+		border-style: none;
+		background-color: transparent;
+	}
+	.HURIYMD00
+	{
+		width: 60px;
+		ime-mode: disabled;
+		border-style: none;
+		background-color: transparent;
+	}
+	.btnADD
+	{
+	    height: 18px;
+	}
+	.btnCANCEL
+	{
+	    height: 18px;
+	}
+	.HURIDASHI00
+	{
+		width: 360px;
+		ime-mode: active;
+		border-style: none;
+		background-color: transparent;
+	}
+	.TEGATAKIJITSU00
+	{
+		width: 60px;
+		ime-mode: disabled;
+		border-style: none;
+		background-color: transparent;
+	}
+	.tblfoot
+	{
+	}
+	.footer
+	{
+	}
+	.ftiKEI
+	{
+		text-align: center;
+		color: #FFFFFF;
+		background-color: #000080;
+		border: none;
+	}
+	.lbltKEI
+	{
+	}
+	.fvalKEI
+	{
+		text-align: right;
+		border: none;
+	}
+	.KEI00
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		overflow: hidden;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

@@ -1,0 +1,609 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		width: 12px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 102px;
+	}
+	.JIGYONM
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 128px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 102px;
+	}
+	.NONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 146px;
+	}
+	.NONYUNM2
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 520px;
+	}
+	.lbltGOUKI
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.GOUKI
+	{
+		width: 18px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 102px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 401px;
+	}
+	.lbltSAGYOYMD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SAGYOYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 102px;
+	}
+	.lbltKISHUKATA
+	{
+		position: absolute;
+		top: 2px;
+		left: 500px;
+	}
+	.KISHUKATA
+	{
+		width: 240px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 616px;
+	}
+	.lbltYOSHIDANO
+	{
+		position: absolute;
+		top: 23px;
+		left: 500px;
+	}
+	.YOSHIDANO
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 616px;
+	}
+	.lbltSHUBETSUCD
+	{
+		position: absolute;
+		top: 44px;
+		left: 500px;
+	}
+	.SHUBETSUCD
+	{
+		width: 12px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 616px;
+	}
+	.SHUBETSUNM
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 642px;
+	}
+	.lbltZIPCODE
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.ZIPCODE
+	{
+		width: 48px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 102px;
+	}
+	.lbltADD1
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.ADD1
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 102px;
+	}
+	.ADD2
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 102px;
+	}
+	.lbltTELNO1
+	{
+		position: absolute;
+		top: 128px;
+		left: 0px;
+	}
+	.TELNO1
+	{
+		width: 90px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 128px;
+		left: 102px;
+	}
+	.lbltTELNO2
+	{
+		position: absolute;
+		top: 128px;
+		left: 300px;
+	}
+	.TELNO2
+	{
+		width: 90px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 128px;
+		left: 374px;
+	}
+	.lbltSECCHIYMD
+	{
+		position: absolute;
+		top: 170px;
+		left: 0px;
+	}
+	.SECCHIYMD
+	{
+		width: 42px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 170px;
+		left: 102px;
+	}
+	.lbltKEIKNENGTU
+	{
+		position: absolute;
+		top: 170px;
+		left: 300px;
+	}
+	.KEIKNENGTU
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 170px;
+		left: 374px;
+	}
+	.lbltBUHINKBN
+	{
+		position: absolute;
+		top: 170px;
+		left: 600px;
+	}
+	.BUHINKBN
+	{
+		width: 36px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 170px;
+		left: 668px;
+	}
+	.lbltSAGYOTANTNM
+	{
+		position: absolute;
+		top: 191px;
+		left: 0px;
+	}
+	.SAGYOTANTCD
+	{
+		width: 36px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 191px;
+		left: 102px;
+	}
+	.SAGYOTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 191px;
+		left: 148px;
+	}
+	.lbltSTARTTIME
+	{
+		position: absolute;
+		top: 191px;
+		left: 300px;
+	}
+	.STARTTIME
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 191px;
+		left: 374px;
+	}
+	.lblTITLE1
+	{
+		position: absolute;
+		top: 191px;
+		left: 418px;
+	}
+	.ENDTIME
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 191px;
+		left: 440px;
+	}
+	.lbltSAGYOTANNMOTHER
+	{
+		position: absolute;
+		top: 212px;
+		left: 0px;
+	}
+	.SAGYOTANNMOTHER
+	{
+		width: 300px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 212px;
+		left: 102px;
+	}
+	.lbltKYAKUTANTCD
+	{
+		position: absolute;
+		top: 212px;
+		left: 600px;
+	}
+	.KYAKUTANTCD
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 212px;
+		left: 668px;
+	}
+	.lbltKOSHO
+	{
+		position: absolute;
+		top: 233px;
+		left: 0px;
+	}
+	.KOSHO
+	{
+		width: 500px;
+		ime-mode: active;
+		position: absolute;
+		top: 231px;
+		left: 102px;
+	}
+	.lbltGENIN
+	{
+		position: absolute;
+		top: 275px;
+		left: 0px;
+	}
+	.GENIN
+	{
+		width: 500px;
+		ime-mode: active;
+		position: absolute;
+		top: 273px;
+		left: 102px;
+	}
+	.lbltTAISHO
+	{
+		position: absolute;
+		top: 317px;
+		left: 0px;
+	}
+	.TAISHO
+	{
+		width: 500px;
+		ime-mode: active;
+		position: absolute;
+		top: 315px;
+		left: 102px;
+	}
+	.lbltTOKKI
+	{
+		position: absolute;
+		top: 359px;
+		left: 0px;
+	}
+	.TOKKI
+	{
+		width: 500px;
+		ime-mode: active;
+		position: absolute;
+		top: 357px;
+		left: 102px;
+	}
+	.lbltBKNNO
+	{
+		position: absolute;
+		top: 401px;
+		left: 0px;
+	}
+	.BKNNO
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 401px;
+		left: 102px;
+	}
+	.lbltUKETSUKEYMD
+	{
+		position: absolute;
+		top: 401px;
+		left: 299px;
+	}
+	.UKETSUKEYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 401px;
+		left: 355px;
+	}
+	.lbltSEIKYUSHONO
+	{
+		position: absolute;
+		top: 422px;
+		left: 0px;
+	}
+	.SEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 422px;
+		left: 102px;
+	}
+	.lbltSEIKYUYMD
+	{
+		position: absolute;
+		top: 422px;
+		left: 299px;
+	}
+	.SEIKYUYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 422px;
+		left: 355px;
+	}
+	.lbltSEIKYUKING
+	{
+		position: absolute;
+		top: 422px;
+		left: 599px;
+	}
+	.SEIKYUKING
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 422px;
+		left: 655px;
+	}
+	.lbltMITSUMORINO
+	{
+		position: absolute;
+		top: 443px;
+		left: 0px;
+	}
+	.MITSUMORINO
+	{
+		width: 66px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 443px;
+		left: 102px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

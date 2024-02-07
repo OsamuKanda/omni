@@ -1,0 +1,113 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltAREANM
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.AREANM
+	{
+		width: 180px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 56px;
+	}
+	.lbltAREANMR
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.AREANMR
+	{
+		width: 120px;
+		ime-mode: active;
+		position: absolute;
+		top: 21px;
+		left: 56px;
+	}
+	.divbtnSearch
+	{
+		width: 298px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 298px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 298px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellAREACD
+	{
+		width: 88px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellAREANM
+	{
+		width: 190px;
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemAREACD
+	{
+		text-align: left;
+	}
+	.itemcellAREACD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemAREANM
+	{
+		text-align: left;
+	}
+	.itemcellAREANM
+	{
+		width: 180px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

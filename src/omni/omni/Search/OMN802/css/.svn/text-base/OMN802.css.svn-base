@@ -1,0 +1,136 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltYUBINCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.YUBINCD
+	{
+		width: 48px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 0px;
+		left: 68px;
+	}
+	.lbltADDKANA
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.ADDKANA
+	{
+		width: 600px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 21px;
+		left: 68px;
+	}
+	.lbltADD1
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.ADD1
+	{
+		width: 600px;
+		ime-mode: active;
+		position: absolute;
+		top: 42px;
+		left: 68px;
+	}
+	.divbtnSearch
+	{
+		width: 706px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 706px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 706px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellYUBINCD
+	{
+		width: 76px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellADD1
+	{
+		width: 610px;
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemYUBINCD
+	{
+		text-align: left;
+	}
+	.itemcellYUBINCD
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.itemADD1
+	{
+		text-align: left;
+	}
+	.itemcellADD1
+	{
+		width: 600px;
+		display: inline-block;
+	}
+	.itemADD2
+	{
+		text-align: left;
+	}
+	.itemcellADD2
+	{
+		width: 600px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

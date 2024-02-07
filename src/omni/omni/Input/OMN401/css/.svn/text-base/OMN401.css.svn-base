@@ -1,0 +1,277 @@
+﻿	.divUPBtn
+	{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divBtn
+	{
+		float: left;
+		width: 500px;
+		text-align: left;
+		height: 20px;
+	}
+	.btn
+	{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+	}
+	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltRENNO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.RENNO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnRENNO
+	{
+		position: absolute;
+		top: -1px;
+		left: 148px;
+		height: 18px;
+	}
+	.lbltGOUKI
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.GOUKI
+	{
+		width: 18px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnGOUKI
+	{
+		position: absolute;
+		top: 20px;
+		left: 124px;
+		height: 18px;
+	}
+	.btnSearch
+	{
+		position: absolute;
+		top: 20px;
+		left: 166px;
+		height: 18px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 107px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 92px;
+	}
+	.NONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 136px;
+	}
+	.NONYUNM2
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 510px;
+	}
+	.lbltSECCHIYMD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SECCHIYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnSECCHIYMD
+	{
+		position: absolute;
+		top: 21px;
+		left: 156px;
+	}
+	.lbltKISHUKATA
+	{
+		position: absolute;
+		top: 23px;
+		left: 400px;
+	}
+	.KISHUKATA
+	{
+		width: 240px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 516px;
+	}
+	.lbltSAGYOTANTKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SAGYOTANTKBN
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.btnSAGYOTANTKBN
+	{
+		position: absolute;
+		top: 41px;
+		left: 142px;
+		height: 18px;
+	}
+	.SAGYOTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 184px;
+	}
+	.lbltYOSHIDANO
+	{
+		position: absolute;
+		top: 44px;
+		left: 400px;
+	}
+	.YOSHIDANO
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 516px;
+	}
+	.lbltSHUBETSUCD
+	{
+		position: absolute;
+		top: 65px;
+		left: 400px;
+	}
+	.SHUBETSUCD
+	{
+		width: 12px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 516px;
+	}
+	.SHUBETSUNM
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 542px;
+	}
+	.lbltTOKKI
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.TOKKI
+	{
+		width: 500px;
+		ime-mode: active;
+		position: absolute;
+		top: 84px;
+		left: 92px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

@@ -1,0 +1,1760 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0059)http://www.atmarkit.co.jp/ait/articles/0901/16/news156.html -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><HTML 
+id="masterChannel-ait" lang="ja"><HEAD>
+<META content="text/html;charset=shift_jis" http-equiv="content-type">
+<META content="IE=Edge" http-equiv="X-UA-Compatible">
+<SCRIPT>var swspv = '(none)';var cms_summary_flag = '0';</SCRIPT>
+
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/movePC2SP.js"></SCRIPT>
+
+<META content="text/css" http-equiv="content-style-type">
+<META content="text/javascript" http-equiv="content-script-type"><!-- FIX DMOZ --><!-- masterType = not top --><!-- masterType == article --><!-- SET SERIES FLAG -->
+<META id="TMP_SeriesID" name="TMP_SeriesID" content="1"><!-- SET AUTHOR FLAG -->
+<META id="TMP_JointWriterID" name="TMP_JointWriterID" content="194033"><!-- SET CANONICAL FLAG -->
+<META name="itmid:series" content="Windows TIPS">
+<META name="build" content="2009年01月16日 05時00分">
+<META name="keywords" content=",Windows Server Insider">
+<META name="description" content="グループ・ポリシーが使えない複数のWindows PCに共通の設定を適用するには、レジストリを書き替えるという方法がある。それには変更内容を.regファイルに記してインポートすればよい。.regファイルの作成には注意すべき点があるものの、慣れれば難しくない。">
+<META name="extraid" content="&#9;at-series&#9;ao-win&#9;kw-windowsserverinsider&#9;">
+<META name="writer" content="島田広道，<b>デジタルアドバンテージ</b>">
+<META name="dispatch" content="国内">
+<META name="adpath" content="root/ITmedia/ait/article/win">
+<META name="rcid" content="">
+<META name="rcid_filename" content=""><LINK rel="alternate" href="http://www.atmarkit.co.jp/ait/spv/0901/16/news156.html" 
+media="only screen and (max-width: 640px)">
+<META content=".regファイルを「手書き」してレジストリに読み込ませる方法" property="og:title">
+<META content="グループ・ポリシーが使えない複数のWindows PCに共通の設定を適用するには、レジストリを書き替えるという方法がある。それには変更内容を.regファイルに記してインポートすればよい。.regファイルの作成には注意すべき点があるものの、慣れれば難しくない。" 
+property="og:description"><TITLE> Tech TIPS：.regファイルを「手書き」してレジストリに読み込ませる方法 - 
+＠IT</TITLE>
+<META name="twitter:card" content="summary">
+<META name="twitter:site" content="@atmark_it">
+<META name="twitter:creator" content="@atmark_it">
+<META content="＠IT" property="og:site_name">
+<META content="http://www.atmarkit.co.jp/ait/articles/0901/16/news156.html" 
+property="og:url">
+<META content="article" property="og:type">
+<META content="http://image.itmedia.co.jp/nac/images/logo/200_ait_bgw.gif" 
+property="og:image"><!--EDIT START--><!--EDIT END--><!-- ITIKW --><!-- masterType = article --><!-- CMSKW NOT JIBUN ITIKW -->
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/news156.js"></SCRIPT>
+<LINK rel="stylesheet" type="text/css" href="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/base(1).css" 
+media="all"><LINK rel="stylesheet" type="text/css" href="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/ad(1).css" 
+media="all"><LINK rel="stylesheet" type="text/css" href="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/article(1).css" 
+media="all"><LINK rel="stylesheet" href="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/prettify.css">
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/prettify.js"></SCRIPT>
+
+<SCRIPT charset="UTF-8" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/jquery.min.js"></SCRIPT>
+
+<SCRIPT>jQuery.noConflict();</SCRIPT>
+
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/fpcookie.js"></SCRIPT>
+
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/scAccount.js"></SCRIPT>
+
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/adRequest.js"></SCRIPT>
+
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/scRequest.js"></SCRIPT>
+
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/ex_adRequest.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/base.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/ad.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/article.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/base(1).js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/ad(1).js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/article(1).js"></SCRIPT>
+
+<SCRIPT>
+var metaPlus = function(key, val){
+	var mtag = document.createElement('meta');
+	if (key == 'meta-build') {
+		mtag.setAttribute('name', 'cXenseParse:recs:publishtime');
+	} else {
+		mtag.setAttribute('name', 'cXenseParse:itm-' + key);
+		var mtagMarker = document.createElement('meta');
+		mtagMarker.setAttribute('name', 'cXenseParse:itm-marker-opt-' + key);
+		mtagMarker.setAttribute('content', 'opt-' + val);
+		jQuery('head').append(mtagMarker);
+	}
+	mtag.setAttribute('content', val);
+	jQuery('head').append(mtag);
+};
+if (typeof kv_ait_forum !== 'undefined') metaPlus('iti-forum', kv_ait_forum[0]);
+if ((typeof itikw !== 'undefined')&&(itikw != '')) metaPlus('iti-keyword', itikw.split('\,')[0]);
+if ((typeof itikw !== 'undefined')&&(itikw != '')) metaPlus('iti-keyword', itikw.split('\,')[1]);
+jQuery('head meta').each(function(){
+	var key = 'meta\-' + jQuery(this).attr('name');
+	var val = jQuery(this).attr('content');
+	if (key == 'meta-extraid') {
+		var val = val.split('\t');
+		for(var i = 0; i < val.length ; i++) {
+			if (val[i].length != 0) {
+				metaPlus(key, val[i]);
+			}
+		};
+	} else if (key == 'meta-build') {
+		if ((val.length != 0)&&(val.match(/(\d{1,4})年(\d{1,2})月(\d{1,2})日 (\d{1,2})時(\d{1,2})分/))) {
+			metaPlus(key, RegExp.$1 + '\-' + RegExp.$2 + '-' + RegExp.$3 + 'T' + RegExp.$4 + ':' + RegExp.$5 + ':00Z');
+		}
+	} else if (key == 'meta-writer') {
+		var val = val.replace('<b>','').replace('<\/b>','');
+		if (val.length != 0) {
+			metaPlus(key, val);
+		}
+	} else if (key.match(/meta-keywords/)) {
+		var val = val.split('\,');
+		for(var i = 0; i < val.length ; i++) {
+			if (val[i].length != 0) {
+				metaPlus(key, val[i]);
+			};
+		};
+	} else {
+		//
+	};
+});
+jQuery(document).ready(function(){
+	var mainText = '#masterMain .tmplArticle';
+	jQuery('#cmsTitle', mainText).before('\<\!\-\- cxenseparse_start \-\-\>');
+	if (jQuery('.endlink', mainText).length != 0) {
+		jQuery('.endlink', mainText).before('\<\!\-\- cxenseparse_end \-\-\>');
+	} else {
+		jQuery('#cmsCopyright', mainText).before('\<\!\-\- cxenseparse_end \-\-\>');
+	}
+	// 記事のみ処理
+	if(masterType() != 'article') return;
+	// 左｜右カラム高さ比較
+	var colSymmetry = 'leftLarge';
+	var leftColHeight = jQuery('#masterMain').height();
+	var rightColHeight = jQuery('#masterSub').height();
+	if (leftColHeight < rightColHeight) colSymmetry = 'rightLarge';
+	metaPlus('meta-symmetry', colSymmetry);
+	// 読了率
+
+	// NOT PR
+	cX.setEventAttributes({ origin: 'itm-website', persistedQueryId: '7afa26d5cf882cbdf1133ef0a74bc60ab5581d17' });
+	var countArea = jQuery('#cmsBody');
+	var countAreaScale = countArea.height() / 5;
+	var countAreaStart = countArea.offset().top;
+	var countAreaFlag = 0;
+	var scaleY = jQuery(this).scrollTop();
+	var loadPos = (Math.ceil((scaleY - countAreaStart) / countAreaScale) * 20) + 0;
+	if (loadPos > 100) loadPos = 100;
+	jQuery(window).scroll(function () {
+		scaleY = jQuery(this).scrollTop()
+		if (loadPos == 100) jQuery(this).unbind();
+		if ((scaleY < countAreaStart) && (countAreaFlag < 20)) {
+			countAreaFlag = 0;
+		} else if ((scaleY < countAreaStart + countAreaScale) && (countAreaFlag < 40)) {
+			countAreaFlag = 20;
+		} else if ((scaleY < countAreaStart + countAreaScale * 2) && (countAreaFlag < 60)) {
+			countAreaFlag = 40;
+		} else if ((scaleY < countAreaStart + countAreaScale * 3) && (countAreaFlag < 80)) {
+			countAreaFlag = 60;
+		} else if ((scaleY < countAreaStart + countAreaScale * 4) && (countAreaFlag < 100)) {
+			countAreaFlag = 80;
+		} else if (scaleY < countAreaStart + countAreaScale * 5) {
+			countAreaFlag = 100;
+			jQuery(this).unbind();
+		} else {
+			//
+		};
+	})
+	window.onbeforeunload = function(){
+		if (countAreaFlag == 0) {
+			cX.sendEvent('readable', {area : loadPos + '%'});
+		} else {
+			cX.sendEvent('readable', {area : countAreaFlag + '%'});
+		}
+	};
+
+});
+</SCRIPT>
+<!-- Cxense script begin -->
+<SCRIPT type="text/javascript">
+var cX = cX || {}; cX.callQueue = cX.callQueue || [];
+var idName = 'iitt';
+if(getCookie(idName) != '') cX.callQueue.push(['addExternalId', { 'id': getCookie(idName).slice(0,40), 'type': 'itm'}]);
+cX.callQueue.push(['setSiteId', '1127153793923352357']);
+cX.callQueue.push(['sendPageViewEvent']);
+</SCRIPT>
+
+<SCRIPT type="text/javascript">
+(function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async';
+scriptEl.src = ('https:' == location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js';
+var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {};} ());
+</SCRIPT>
+<!-- Cxense script end -->
+<META name="GENERATOR" content="MSHTML 9.00.8112.16672"></HEAD>
+<BODY id="masterType-article">
+<SCRIPT type="text/javascript">
+attachBodyClass();
+function masterChannel(){return 'ait';}
+function masterType(){return 'article';}
+function prFlag(){return '';}
+function spFlag(){return '';}
+(function(){
+if(getUrl()['domain'].match(/(preview|localhost)/)) document.write('<div id="PATHDEBUG">masterChannel = <strong>' + masterChannel() + '</strong> / masterType = <strong>' + masterType() + '</strong> / smartPhone = <strong>' + spFlag() + '</strong></div>');
+return true;
+})();
+</SCRIPT>
+<!--ITWS-->
+<DIV id="ITWS">
+<SCRIPT>adRequest({'position':'ITWS'});</SCRIPT>
+</DIV><!--/ITWS--><!--ITWL-->
+<SCRIPT>adRequest({'position':'ITWL'});</SCRIPT>
+<!--/ITWL--><!--COIDP-->
+<DIV id="COIDP">
+<DIV class="COIDP-in">
+<SCRIPT>adRequest({'position':'COIDP1','path':'root/cds/id/ITmedia/' + masterChannel()});</SCRIPT>
+
+<DIV class="COIDP-Member">
+<SCRIPT>adRequest({'position':'COIDP2','path':'root/cds/id/ITmedia/' + masterChannel()});</SCRIPT>
+
+<SCRIPT>adRequest({'position':'COIDP3','path':'root/cds/id/ITmedia/' + masterChannel()});</SCRIPT>
+</DIV></DIV></DIV>
+<SCRIPT>
+		(function(){
+			var coidp = document.getElementById('COIDP');
+			if(coidp.innerHTML.match('st=noad.*pos=')){
+				coidp.style.display = 'none';
+				return false;
+			}
+			return true;
+		})();
+		</SCRIPT>
+<!--/COIDP-->
+<DIV id="masterBody">
+<DIV id="masterBodyOut">
+<DIV id="masterBodyIn">
+<DIV id="masterNavigation">
+<DIV id="globalNavigationGroup4">
+<DIV id="globalNavigation">
+<DIV class="gnavOut">
+<DIV class="gnavIn">
+<DIV class="gnavBtn gnavBtn1"><A href="http://www.atmarkit.co.jp/">TOP</A></DIV>
+<DIV class="gnavBtn gnavBtn2"><A href="http://www.atmarkit.co.jp/ait/subtop/features/special/">＠IT 
+Special</A></DIV>
+<DIV class="gnavBtn gnavBtn3"><A href="http://www.atmarkit.co.jp/ait/subtop/features/seminar/">＠ITセミナー</A></DIV>
+<DIV class="gnavBtn gnavBtn4"><A href="http://www.atmarkit.co.jp/ait/kw/atmarkit_ebook.html">eBook一覧</A></DIV>
+<DIV class="gnavBtn gnavBtn5"><A 
+href="http://qa.atmarkit.co.jp/">QA＠IT</A></DIV>
+<DIV class="gnavBtn gnavBtn6"><A href="http://jibun.atmarkit.co.jp/scenter/ittrain/">ITトレメ</A></DIV>
+<DIV class="gnavBtn gnavBtn7"><A 
+href="http://el.jibun.atmarkit.co.jp/">ブログ</A></DIV>
+<DIV class="gnavBtn gnavBtn8"><A 
+href="http://www.atmarkit.co.jp/job/jc/">転職</A></DIV>
+<DIV class="gnavBtn gnavBtn9"><A href="http://www.atmarkit.co.jp/job/jt/aud/index.php">派遣</A></DIV>
+</DIV></DIV></DIV></DIV></DIV>
+<DIV id="masterBodyOuter"><!---->
+<DIV id="masterBodyInner">
+<DIV id="masterHeader">
+<DIV id="globalHeader">
+<DIV id="headerBgArea"></DIV>
+<DIV id="globalHeaderTop">
+<DIV id="globalHeaderTopInner">
+<DIV id="globalLogo">
+<DIV class="logoArea"><A title="＠IT - アットマーク・アイティ" href="http://www.atmarkit.co.jp/">＠IT 
+- アットマーク・アイティ</A></DIV>
+<DIV id="globalTagline"></DIV></DIV><!-- ITN --><!-- masterType = not 404 --><!-- masterType = not 404 -->
+<DIV id="ITN">
+<SCRIPT>adRequest({'position':'ITN'});</SCRIPT>
+</DIV>
+<DIV class="colBoxClear"></DIV></DIV><!-- /#globalHeaderTopInner --></DIV><!-- /#globalHeaderTop --><!-- <div id="globalHeaderMiddle"></div> -->
+<DIV id="globalHeaderBottom">
+<DIV id="globalHeaderBottomInner">
+<DIV id="localNavigation">
+<DIV class="lnavOut">
+<DIV class="lnavIn">
+<DIV id="lnavMain">
+<DIV class="lnavBtn"><A title="Win" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/win/">Win</A></DIV>
+<DIV class="lnavBtn"><A title=".NET" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/dotnet/">.NET</A></DIV>
+<DIV class="lnavBtn"><A title="System" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/sys/">System</A></DIV>
+<DIV class="lnavBtn"><A title="DataCenter" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/server/">DataCenter</A></DIV>
+<DIV class="lnavBtn"><A title="HTML5" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/ux/">HTML5</A></DIV>
+<DIV class="lnavBtn"><A title="Mobile" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/smart/">Mobile</A></DIV>
+<DIV class="lnavBtn"><A title="Coding" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/coding/">Coding</A></DIV>
+<DIV class="lnavBtn"><A title="Java" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/java/">Java</A></DIV>
+<DIV class="lnavBtn"><A title="DB" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/db/">DB</A></DIV>
+<DIV class="lnavBtn"><A title="Linux" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/linux/">Linux</A></DIV>
+<DIV class="lnavBtn"><A title="Network" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/network/">Network</A></DIV>
+<DIV class="lnavBtn"><A title="Security" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/security/">Security</A></DIV>
+<DIV class="lnavBtn"><A title="SysDesign" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/systemdesign/">SysDesign</A></DIV>
+<DIV class="lnavBtn"><A title="Test&amp;Tools" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/testtools/">Test&amp;Tools</A></DIV>
+<DIV class="lnavBtn lnavBtnMainLast"><A title="自分戦略" onclick="designCnt('lnavMain',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/jibun/">自分戦略</A></DIV></DIV>
+<DIV id="lnavSub">
+<DIV class="lnavBtn lnavBtnspecialcolor"><A title="今月の特集「Docker」" onclick="designCnt('lnavSub',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/features/linux/docker_manage.html"><SPAN 
+class="raquo">&raquo;</SPAN> 今月の特集「Docker」</A></DIV>
+<DIV class="lnavBtn"><A title="DB高速化" onclick="designCnt('lnavSub',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/features/kwd/dbperformance.html"><SPAN 
+class="raquo">&raquo;</SPAN> DB高速化</A></DIV>
+<DIV class="lnavBtn"><A title="セキュリティ事故対応" onclick="designCnt('lnavSub',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/features/ait/ir.html"><SPAN class="raquo">&raquo;</SPAN> 
+セキュリティ事故対応</A></DIV>
+<DIV class="lnavBtn"><A title="IoTセキュリティ" onclick="designCnt('lnavSub',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/features/ait/iotsec.html"><SPAN 
+class="raquo">&raquo;</SPAN> IoTセキュリティ</A></DIV>
+<DIV class="lnavBtn"><A title="その他の特集" onclick="designCnt('lnavSub',this.href);" 
+href="http://www.atmarkit.co.jp/ait/subtop/features/theme/index.html"><SPAN 
+class="raquo">&raquo;</SPAN> その他の特集</A></DIV></DIV></DIV></DIV></DIV>
+<SCRIPT type="text/javascript">
+</SCRIPT>
+
+<DIV id="localPankuzu">
+<DIV class="lpanOut">
+<DIV class="lpanIn"><A href="http://www.atmarkit.co.jp/">＠IT</A> &gt;<!--ao-win--><A 
+href="http://www.atmarkit.co.jp/ait/subtop/win/">Windows Server Insider</A> &gt;
+<SCRIPT type="text/javascript">
+var str = document.title.replace(/\<\!\-\-EDIT START\-\-\>/g,'').replace(/\<\!\-\-EDIT END\-\-\>/g,'').replace(' - ＠IT','');
+str = cutString(str,60);
+document.write(str);
+</SCRIPT>
+</DIV></DIV></DIV></DIV></DIV></DIV><!-- /#globalHeader --></DIV>
+<DIV id="masterContents">
+<DIV id="globalContents">
+<DIV id="masterMain">
+<DIV id="tmplNews" class="tmplArticle">
+<DIV id="tmplNewsIn" class="tmplArticleIn"><!--EDIT START-->
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_article_imagesHeader.json"></SCRIPT>
+<!--EDIT END-->
+<DIV id="cmsType">
+<DIV class="inner">連載</DIV></DIV><!--EDIT START--><!--EDIT END-->
+<DIV id="cmsDate">
+<DIV class="inner"><SPAN class="arrow">&raquo;</SPAN> <SPAN id="update">2009年01月16日 
+05時00分 UPDATE</SPAN></DIV></DIV><!--EDIT START--><!--EDIT END-->
+<DIV id="cmsTitle">
+<DIV class="inner">
+<H1><SMALL>Tech 
+TIPS：</SMALL><BIG>.regファイルを「手書き」してレジストリに読み込ませる方法</BIG></H1></DIV></DIV><!--EDIT START--><!--EDIT END-->
+<DIV id="cmsAbstract">
+<DIV class="inner">
+<H2>グループ・ポリシーが使えない複数のWindows 
+PCに共通の設定を適用するには、レジストリを書き替えるという方法がある。それには変更内容を.regファイルに記してインポートすればよい。.regファイルの作成には注意すべき点があるものの、慣れれば難しくない。</H2></DIV></DIV><!--EDIT START--><!--EDIT END-->
+<DIV id="cmsByline">
+<DIV id="byline" class="inner"><B>[</B>島田広道，<B>デジタルアドバンテージ]</B></DIV></DIV><!--EDIT START--><!--EDIT END-->
+<DIV id="cmsBody">
+<DIV class="inner"><!--EDIT START--><!-- SET AUTHOR INDEX LINK -->
+<SCRIPT>
+jQuery(document).ready(function(){
+
+var d = document;
+
+// 著者 META と著者 DOM のチェック
+if(!d.getElementById('byline') || !d.getElementById('TMP_JointWriterID')) return false;
+
+// 著者 META の取得
+var authorID = d.getElementById('TMP_JointWriterID').content;
+
+// 著者 META content のチェック
+if(authorID == '') return false;
+
+// 著者 META を配列にする
+var authorIDs = authorID.split(',');
+
+// 著者 DOM の取得
+var authorDOM = d.getElementById('byline');
+
+// 著者 HTML の取得
+var authorHTML = authorDOM.innerHTML;
+
+// 著者 HTML の分解
+// [0] = <b>[</b>著者名1, 著者名2，<b>シグネチャ</b>
+// [1] = <b>[</b>
+// [2] = 著者名1, 著者名2
+// [3] = ，<b>シグネチャ</b>
+var authorHTMLs = authorHTML.match(/^(<b>\[<\/b>)(.+)(，<b>.+<\/b>)$/);
+
+// 正しく分解できているかチェック
+if(authorHTMLs == null) return false;
+if(authorHTMLs.length != 4) return false;
+
+// 著者名を配列にする
+var authorTXTs = authorHTMLs[2].split(', ');
+
+// 著者名を著者インデックスへのリンク付きに変換
+var rep_authorTXTs = [];
+for(var i = 0; i < authorTXTs.length; i++){
+	rep_authorTXTs.push('<a href="http://www.itmedia.co.jp/author/' + authorIDs[i] + '/">' + authorTXTs[i] + '</a>');
+}
+
+// リンク付き著者名をオリジナルと入れ替える
+authorHTMLs[2] = rep_authorTXTs.join(', ');
+
+// 著者 DOM 内に HTML を戻す
+authorDOM.innerHTML = authorHTMLs[1] + authorHTMLs[2] + authorHTMLs[3];
+
+return true;
+});
+</SCRIPT>
+<!-- Facebook JavaScript SDK <Body> のすぐ後に配置 -->
+<DIV id="fb-root"></DIV>
+<SCRIPT>
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</SCRIPT>
+<!-- Facebook JavaScript SDK <Body> のすぐ後に配置 --><LINK rel="stylesheet" href="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/socialbutton.css">
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/socialbutton.js"></SCRIPT>
+<!-- ait -->
+<SCRIPT>
+	msbBtn({
+	'pos':'top',
+	'tag':'table',
+	'popup_pos':'upper',
+	'base_color':'white',
+	'line':[
+	[
+		{'name':'印刷／PDF','title':'この記事を印刷する','id':'printbutton'},
+		{'name':'ツイート','id':'tweetbutton'},
+		{'name':'Like Share Button','id':'likesharebutton'},
+		{'name':'はてなブックマーク','id':'hatenabookmarkC'},
+		{'name':'Google +1 Button','id':'googleplusone'},
+		{'name':'Pocket Button','id':'pocketbuttonC'},
+	{}],
+	[
+		{'name':'類似記事の掲載をメールで通知','id':'alertbutton'},
+		{'name':'連載「％」の新着をメールで通知','id':'alertseries'},
+	{}],
+	[]]
+	});
+	</SCRIPT>
+
+<DIV class="colBoxClear"></DIV><!-- DMP Body -->
+<DIV id="dmp">
+<DIV style="display: none;" id="insertAdSpaceBeforeThis_0000000161e4c1f6"></DIV>
+<SCRIPT type="text/javascript"> (function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async'; scriptEl.src = ('https:' == document.location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js'; var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {}; })(); </SCRIPT>
+ 
+<SCRIPT type="text/javascript"> var cX = cX || {}; cX.callQueue = cX.callQueue || []; cX.callQueue.push(['insertAdSpace', { adSpaceId:'0000000161e4c1f6', width:500, height:60, initialHorizontalAdUnits:1, initialVerticalAdUnits:1, resizeToContentSize: true, renderTemplateUrl: 'http://www.atmarkit.co.jp/ait/files/20150815/rendertemplate.html' } ]); </SCRIPT>
+</DIV><!-- /DMP Body -->
+<DIV class="colBoxClear h10px"></DIV>
+<DIV id="TABLETAD">
+<SCRIPT>adRequest({'position':'TABLETAD'});</SCRIPT>
+</DIV><!--EDIT END-->
+<DIV id="cmsMark"><!-- --></DIV><!--CAP-->
+<DIV id="col200r"><A name="top_news156.jpg"></A><IMG alt="Tech TIPS" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/top_news156.jpg" 
+width="120" height="90"></DIV><!--CAPEND--><!--CAP-->
+<DIV id="col200l"><A name="da_win.gif"></A><A class="imgLink" href="http://www.atmarkit.co.jp/ait/subtop/win/" 
+target="_blank"><IMG alt="Windows Server Insider" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/da_win.gif" 
+width="148" height="24"></A></DIV><!--CAPEND-->
+<P><BR></P><!--CAP-->
+<DIV id="col200l"><A name="backn2.gif"></A><A class="imgLink" href="http://www.atmarkit.co.jp/fwin2k/win2ktips/index/index.html" 
+target="_blank"><IMG alt="「Tech TIPS」のインデックス" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/backn2.gif" 
+width="146" height="20"></A></DIV><!--CAPEND-->
+<P><A 
+href="http://www.atmarkit.co.jp/fwin2k/win2ktips/index/index.html">連載目次</A></P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<P><SPAN class="cmsFontsize-1"><STRONG>対象OS：</STRONG>Windows 2000／Windows 
+XP／Windows Server 2003／Windows Vista／Windows Server 2008</SPAN></P><BR clear="all"><SPAN></SPAN></DIV>
+<DIV class="trBoxR">
+<DIV class="trBoxWidth">
+<P><SPAN class="cmsFontsize-1"><STRONG><A href="http://www.atmarkit.co.jp/ait/articles/0901/16/news156.html#ope">解説をスキップして操作手順を今すぐ読む→</A></STRONG></SPAN></P>
+</DIV></DIV><BR clear="all"><A name="desc"></A>
+<H3>解説</H3>
+<P>　周知のとおり、レジストリはWindowsシステム全般のさまざまな情報を集中的に管理するデータベースである。レジストリにはWindowsのシステムやアプリケーションなどに関する設定情報も含まれており、レジストリを書き替えることで各種設定も変更できる。</P>
+<P>　もっともレジストリを直接書き替えることなく、設定を変更する方法はいくつもある。そもそも、コントロール・パネルや管理ツール、あるいはアプリケーションの設定メニューといったGUIから設定を変更するのがWindowsの基本だ。しかし、例えば複数のPCに同一の設定を反映する場合、いちいちGUIから対話的操作をするのは非常に手間がかかるのも事実である。</P>
+<DIV class="trBoxR">
+<DIV class="trBoxWidth">
+<DIV id="blue" class="box cmsBox cmsBox cmsBoxBlue"><!--CAP-->
+<DIV id="col300"><A name="wi-kanren.gif"></A><IMG alt="Windows Server Insiderの関連記事" 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/wi-kanren.gif" 
+width="200" height="18"><SMALL><SPAN class="cmsColorGray">・</SPAN>基礎解説「<A href="http://www.atmarkit.co.jp/ait/articles/0601/31/news107.html" 
+target="_blank">グループ・ポリシーのしくみ</A>」</SMALL></DIV><!--CAPEND--><BR 
+clear="all"><SPAN></SPAN></DIV></DIV></DIV>
+<P>　こんなときの王道はActive 
+Directoryでグループ・ポリシーを活用することだ。ドメインあるいは組織単位ごとにグループ・ポリシーを作成して割り当てれば、その所属PCすべてに対して自動的に共通の設定を適用できる（グループ・ポリシーの詳細は関連記事参照）。</P>
+<P>　しかし、ワークグループ構成のコンピュータやグループ・ポリシー非対応のアプリケーションが対象だと、この方法はほぼ利用できない。</P>
+<P>　こうした状況ではレジストリ書き替えによる設定変更が有力な手段といえる。</P>
+<P>　その1つとして、.regファイルを作成してレジストリに読み込ませる方法がある。.regファイルとはレジストリにインポート可能な形式のテキスト・ファイルの一種で、Windowsのメモ帳で作成できる。</P>
+<DIV class="trBoxR">
+<DIV class="trBoxWidth">
+<DIV id="blue" class="box cmsBox cmsBox cmsBoxBlue"><!--CAP-->
+<DIV id="col300"><A name="wi-kanren.gif"></A><IMG alt="Windows Server Insiderの関連記事" 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/wi-kanren.gif" 
+width="200" height="18"><SMALL><SPAN class="cmsColorGray">・</SPAN><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/277regkeybu/regkeybu.html" 
+target="_blank">レジストリ・キーのデータを移行・バックアップする</A></SMALL></DIV><!--CAPEND--><BR 
+clear="all"><SPAN></SPAN></DIV></DIV></DIV>
+<P>　単一の.regファイルに複数のレジストリ操作をまとめられるほか、Windowsエクスプローラなどで.regファイルをダブルクリックするだけでレジストリにその内容をインポートできるメリットがある（レジストリのインポートの詳細については関連記事参照）。特に、同一の設定を複数のコンピュータに対して適用する場合に有効だ。</P>
+<P>　一方、コンピュータ／ユーザーごとに設定内容を変えたい場合は、それぞれに対応した.regファイルを用意する必要があり、かえって手順が複雑になる点に注意が必要である。また.regファイルを書くのはそれほど難しくないものの、書式上注意すべき点もある。</P>
+<P>　本TIPSではこうした注意点も含めて、.regファイルを「手書き」で新規作成する方法を説明する。</P><A name="ope"></A>
+<H3>操作方法</H3>
+<DIV id="red" class="box cmsBox cmsBox cmsBoxRed">
+<H3>［注意］</H3>
+<P>レジストリに不正な値を書き込んでしまうと、システムに重大な障害を及ぼし、最悪の場合、システムの再インストールを余儀なくされることもあります。レジストリ・エディタの操作は慎重に行うとともに、あくまで御自分のリスクで設定を行ってください。何らかの障害が発生した場合でも、本Windows 
+Server Insider編集部では責任を負いかねます。ご了承ください。</P><BR clear="all"><SPAN></SPAN></DIV>
+<DIV class="trBoxR">
+<DIV class="trBoxWidth">
+<DIV id="blue" class="box cmsBox cmsBox cmsBoxBlue"><!--CAP-->
+<DIV id="col300"><A name="wi-kanren.gif"></A><IMG alt="Windows Server Insiderの関連記事" 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/wi-kanren.gif" 
+width="200" height="18"><SMALL><SPAN class="cmsColorGray">・</SPAN><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/593regsave/regsave.html" 
+target="_blank">特定のレジストリ・キー以下を素早くバックアップする</A><BR><SPAN 
+class="cmsColorGray">・</SPAN><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/277regkeybu/regkeybu.html" 
+target="_blank">レジストリ・キーのデータを移行・バックアップする</A></SMALL></DIV><!--CAPEND--><BR 
+clear="all"><SPAN></SPAN></DIV></DIV></DIV>
+<P>　.regファイルの記述を誤ると、レジストリに深刻な損傷を与える危険性がある。大規模に.regファイルを展開する前にテストを入念に実施するのはもちろん、テスト環境でも.regファイルによる変更個所を復元できるよう、あらかじめレジストリをバックアップしておくことをお勧めする（バックアップ手順など詳細は関連記事参照）。</P>
+<H4>●.regファイルはメモ帳で作成・編集可能</H4>
+<P>　.regファイルを作成するには、Windowsのメモ帳のようなUnicode（UTF-16）対応のテキスト・エディタを用いる。よほど長大な.regファイルでない限り、メモ帳で事足りるだろう。</P>
+<P>　ただし、.regファイルを保存する際、拡張子と文字コードに注意する必要がある。メモ帳の場合、後述の書式などに従ってレジストリの変更内容を記述後、［ファイル］－［名前を付けて保存］を実行したら、拡張子は「.reg」、文字コードは「Unicode」にそれぞれ変更してから保存する（UTF-16のUnicodeで、<A 
+href="http://www.atmarkit.co.jp/icd/root/70/5784470.html">バイト・オーダー</A>は<A href="http://www.atmarkit.co.jp/icd/root/00/49717200.html">リトル・エンディアン</A>とする）。ほかのテキスト・エディタでも同様に対処する必要がある。</P>
+<DIV class="box cmsBoxNoborder cmsBox"><!--CAP-->
+<DIV id="col500"><A name="l_wi-wrtregfil01.gif"></A><A href="http://image.itmedia.co.jp/l/im/ait/articles/0901/16/l_wi-wrtregfil01.gif"><IMG 
+alt="メモ帳で.regファイルを保存する際の注意点" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/wi-wrtregfil01.gif" 
+width="490" height="348"></A>
+<SMALL><STRONG>メモ帳で.regファイルを保存する際の注意点</STRONG><BR>これはメモ帳で［ファイル］－［名前を付けて保存］を実行して表示されるファイル保存ダイアログ・ボックス。デフォルトの文字コード（ANSI）と拡張子（.txt）を、.regファイルに合わせて明示的に変更する必要がある。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN>ファイル名を指定する。拡張子.regを付けること。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN>「Unicode」を選択する。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN>これをクリックすると、.regファイルが保存される。</SMALL></DIV><!--CAPEND-->
+<BR clear="all"><SPAN></SPAN></DIV>
+<P>　この例だと「MyApp01.reg」というファイル名の.regファイルが作成される。</P>
+<H4>●.regファイルの基本構成</H4>
+<P>　ここからは、最も重要な.regファイルの記述内容について説明する。</P>
+<P>　.regファイルの基本構成は、以下のように先頭のレジストリ・エディタのバージョン指定と、変更対象のサブ・キー／値のセットからなる。このセットは複数指定が可能で、それぞれ空行で区切って記述する。レジストリに読み込む際には、上から順番に各セットが処理される。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>Windows Registry Editor Version 5.00&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN><BR>&nbsp;<SPAN class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Config\Site1]&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN><BR>"SiteName"="TestSite"&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN><BR>&nbsp;<SPAN class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Config\user1]&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（4）</STRONG></SPAN><BR><SPAN 
+class="cmsColorOrange"><STRONG>……（以下省略）……</STRONG></SPAN></P><BR 
+clear="all"><SPAN></SPAN></DIV><!--CAP-->
+<DIV id="noalign" 
+class="cmsCaption"><SMALL><STRONG>.regファイルの基本構成</STRONG><BR>.regファイルの内容は、レジストリ・エディタのバージョン指定から始まり、レジストリの変更内容を表すサブ・キーと値のセットが続いて記述される。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN>レジストリ・エディタのバージョン指定行。この文字列の決め打ちでよい。この下には必ず空行を挿入する。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN>変更対象のサブ・キー。必ずフル・パスで記述する。各サブ・キーの区切り文字は半角の「\」で、全体をくくるカッコは半角の「[ 
+]」。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN>変更対象の値。「=」の左側に値の名前（値名）、右側に値の内容（型とデータ）を記述する（詳細は後述）。1つのサブ・キーに複数の値の行を指定できる。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（4）</STRONG></SPAN>次の変更対象のサブ・キー。前（上）のサブ・キー／値のセットとは空行で区切る必要がある。</SMALL></DIV><!--CAPEND-->
+<BR clear="all"><SPAN></SPAN></DIV>
+<P>　サブ・キーは必ずフル・パスで記述する。その際、各サブ・キーの区切りには半角の「\」を挿入し、全体は半角の「[ ]」でくくる。</P>
+<P>　値については、「=」の左に値の名前（値名）、右側に値の内容（データ）を記述する。複数の値を変更するには、サブ・キー行の下に1行ずつ各値の設定変更の行を連ねていけばよい。値名および型、データの指定方法は変更内容によって異なるので、詳細は後述する。</P>
+<H4>●サブ・キーを追加する記述</H4>
+<P>　レジストリに新たなサブ・キーを追加するには、単にそのフル・パスを記述するだけでよい。各サブ・キーの区切り文字（「\」）やパス全体をくくるカッコ（「[ 
+]」）の指定は前述のとおり。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>Windows Registry Editor Version 5.00<BR>&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Config\Site1]&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN><BR>&nbsp;<SPAN class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN></P>
+<BR clear="all"><SPAN></SPAN></DIV><!--CAP-->
+<DIV id="noalign" 
+class="cmsCaption"><SMALL><STRONG>サブ・キーを追加する.regファイルの例</STRONG><BR>新たにサブ・キー「Site1」を追加する。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN>追加するサブ・キー。上下に空行を入れて、ほかのサブ・キー／値のセットと区切る。</SMALL></DIV><!--CAPEND-->
+<BR clear="all"><SPAN></SPAN></DIV>
+<P>　途中の階層のサブ・キー（上記の「MyCampany」や「MyApp」など）は、存在しなくても自動的に作成される。そのため、途中のサブ・キーを追加するための行は不要で、対象のサブ・キーへのフル・パスを1行だけ記述すればよい。また、既存のサブ・キーを追加対象としても、レジストリへの読み込み時にエラーとはならない。単に無視されるだけなので、特に対処の必要はない。</P>
+<P>　サブ・キーと同時に値も追加したい場合は、サブ・キー指定行のすぐ下に、値を追加する行を記述する（次項参照）。</P>
+<H4>●値を追加／修正する記述</H4>
+<P>　値の追加または値の内容の修正には、対象のサブ・キーを指定する行のすぐ下に値の追加／修正のための行を記述する。レジストリに.regファイルを読み込ませる際、対象のサブ・キーが存在しなければ、そのサブ・キーが新たに作成された後、指定した値も追加される。</P>
+<P>　新たに値を追加する手順と、既存の値の内容を修正する手順は変わらない。対象の値が存在しなければ「追加」、存在すれば「修正」として扱われる。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>Windows Registry Editor Version 5.00<BR>&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Config\Site1]&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN><BR>@="DefaultSite"&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN><BR>"SiteType"="SharePoint"&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN><BR>"SiteNo"=dword:00000001&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（4）</STRONG></SPAN><BR>"SiteDir"="D:\\InetRoot\\WWWRoot\\"&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（5）</STRONG></SPAN><BR>&nbsp;<SPAN class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN></P>
+<BR clear="all"><SPAN></SPAN></DIV><!--CAP-->
+<DIV id="noalign" 
+class="cmsCaption"><SMALL><STRONG>値を追加／修正する.regファイルの例</STRONG><BR>サブ・キー「Site1」に対し、3つの値を追加または修正する。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN>対象のサブ・キーを指定する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN>サブ・キー「Site1」の無名値を設定する行。無名値とは、レジストリ・エディタの［名前］列に「(既定)」あるいは「（標準）」と表示される値のこと。値名として二重引用符でくくらない半角の「@」を指定すると無名値を設定できる。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN>値「SiteType」に文字列「SharePoint」を設定する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（4）</STRONG></SPAN>値「SiteNo」に数値「0x00000001」を設定する行。データの型である「dword」と内容である数値「00000001」は、半角のコロン（「:」）で区切って指定する。型の種類については後述。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（5）</STRONG></SPAN>値「SiteDir」に文字列「D:\InetRoot\WWWRoot\」を指定する行。「\」そのものを格納するには「\\」と二重にして指定する必要がある。</SMALL></DIV><!--CAPEND-->
+<BR clear="all"><SPAN></SPAN></DIV>
+<P>　特に、値の内容としてフォルダのパスなど「\」を含む文字列を設定する場合、二重すなわち「\\」に変換して記述する必要がある点には注意したい。「\」が残っていると、その値は正常にレジストリへ追加されない。</P>
+<P>　なお、.regファイルでは値の内容の一部だけ修正することはできず、値の内容全体を指定する必要がある。例えば上記の値「SiteDir」の内容にて「WWW」を「FTP」に変更したい場合でも、全体すなわち「"D:\\InetRoot\\FTPRoot\\"」と指定しなければならない。</P>
+<P><STRONG>■値の型について</STRONG><BR>　レジストリの値には、あらかじめ決まっているいくつかの型がある。文字列値以外の型については、.regファイルでは明示的に指定しなければならない。代表的な型を下表に記す。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<TABLE id="tbl" class="cmsTable cmsTable cmsTable">
+  <CAPTION></CAPTION>
+  <THEAD>
+  <TR>
+    <TH id="null">名称</TH>
+    <TH id="null">型の種類</TH>
+    <TH id="null">.regファイルの書式</TH>
+    <TH id="null">説明</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH id="null">文字列値</TH>
+    <TD id="null">REG_SZ</TD>
+    <TD id="null">"<SPAN 
+      class="cmsColorOrange"><STRONG>＜値名＞</STRONG></SPAN>"="<SPAN class="cmsColorOrange"><STRONG>＜文字列＞</STRONG></SPAN>"</TD>
+    <TD id="null">1行の文字列。値の型は指定不要。</TD></TR>
+  <TR>
+    <TH id="null">DWORD値</TH>
+    <TD id="null">REG_DWORD</TD>
+    <TD id="null">"<SPAN 
+      class="cmsColorOrange"><STRONG>＜値名＞</STRONG></SPAN>"=dword:<SPAN class="cmsColorOrange"><STRONG>＜8桁16進数＞</STRONG></SPAN></TD>
+    <TD 
+      id="null">32bit長の数値。「0（0x00000000）」から「4294967295（0xffffffff）」までの数値を指定可能。</TD>
+  </TR>
+  <TR>
+    <TH id="null">バイナリ値</TH>
+    <TD id="null">REG_BINARY</TD>
+    <TD id="null">"<SPAN 
+      class="cmsColorOrange"><STRONG>＜値名＞</STRONG></SPAN>"=hex:<SPAN class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,<SPAN 
+      class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,……,\<BR><SPAN 
+      class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,……,<SPAN class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN></TD>
+    <TD id="null">バイナリ・データ。1byteずつ半角カンマで区切り、行末には「,\」を記す。</TD></TR>
+  <TR>
+    <TH id="null">複数行文字列値</TH>
+    <TD id="null">REG_MULTI_SZ</TD>
+    <TD id="null">"<SPAN 
+      class="cmsColorOrange"><STRONG>＜値名＞</STRONG></SPAN>＞"=hex(7):<SPAN class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,<SPAN 
+      class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,……,\<BR><SPAN 
+      class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,……,<SPAN class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN></TD>
+    <TD id="null">複数行にわたって記述された文字列。文字コードを1byteずつ半角カンマで区切って記述し、行末には「,\」を記す。</TD>
+  </TR>
+  <TR>
+    <TH id="null">展開可能な文字列値</TH>
+    <TD id="null">REG_EXPAND_SZ</TD>
+    <TD id="null">"<SPAN 
+      class="cmsColorOrange"><STRONG>＜値名＞</STRONG></SPAN>"=hex(2):<SPAN class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,<SPAN 
+      class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,……,\<BR><SPAN 
+      class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN>,……,<SPAN class="cmsColorOrange"><STRONG>＜2桁16進数＞</STRONG></SPAN></TD>
+    <TD id="null">環境変数や式が挿入された文字列。文字コードを1byteずつ半角カンマで区切って記述し、行末には「,\」を記す。</TD>
+  </TR></TBODY>
+  <TFOOT>
+  <TR>
+    <TD 
+      colSpan="4"><STRONG>代表的なレジストリ値の型と書式</STRONG><BR>「名称」「型の種類」はレジストリ・エディタで表示されるデータの型の表記を表す。.regファイルには、「.regファイルの書式」に従って値の型を記述する必要がある。特によく使われるのは文字列値とDWORD値の2種類。</TD></TR></TFOOT>
+</TABLE><BR clear="all"><SPAN></SPAN></DIV>
+<P>　このうち、複数行文字列値（REG_MULTI_SZ）と展開可能な文字列値（REG_EXPAND_SZ）は、その文字コードを1byteずつ16進数に展開して記述しなければならず、ひどく面倒だ。</P>
+<DIV class="trBoxR">
+<DIV class="trBoxWidth">
+<DIV id="blue" class="box cmsBox cmsBox cmsBoxBlue"><!--CAP-->
+<DIV id="col300"><A name="wi-kanren.gif"></A><IMG alt="Windows Server Insiderの関連記事" 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/wi-kanren.gif" 
+width="200" height="18"><SMALL><SPAN class="cmsColorGray">・</SPAN><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/277regkeybu/regkeybu.html" 
+target="_blank">レジストリ・キーのデータを移行・バックアップする</A></SMALL></DIV><!--CAPEND--><BR 
+clear="all"><SPAN></SPAN></DIV></DIV></DIV>
+<P>　これらの型のデータを手間なく作成するにはレジストリ・エディタのエクスポート機能を利用するとよい（エクスポート方法の詳細は関連記事を参照）。手順は以下のとおり。</P>
+<OL>
+  <LI>レジストリ・エディタを起動する。Windows 2000ではregedt32.exeを利用する。</LI>
+  <LI>一時的に使えるサブ・キーを新たに用意する。</LI>
+  <LI>［編集］－［新規］－［複数行文字列値］または［展開可能な文字列値］を実行して、適当な名前の値を追加する。Windows 
+  2000では［編集］－［値の追加］を実行し、 
+  ［データ型］に「REG_MULTI_SZ」または「REG_EXPAND_SZ」を指定して値を追加する。</LI>
+  <LI>.regファイルに記述したい文字列を、3.の値の内容として入力する。</LI>
+  <LI>2.のサブ・キーを.regファイル形式でエクスポートする。</LI>
+  <LI>5.のファイルから4.で設定した値の記述を見つけ、その内容を.regファイルへコピーする。</LI>
+  <LI>作業が完了したら2.のサブ・キーを削除して元に戻す。</LI></OL>
+<H4>●サブ・キーを削除する記述</H4>
+<P>　サブ・キーを削除するには、以下のようにサブ・キーのフル・パスの先頭にハイフン（「-」）を挿入する。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>Windows Registry Editor Version 
+5.00<BR><BR>[-HKEY_CURRENT_USER\Software\MyCompany\MyApp\Config\Site1]&nbsp;</P>
+<BR clear="all"><SPAN></SPAN></DIV><BR clear="all"><SPAN></SPAN></DIV>
+<P>　これでサブ・キー「Site1」はもちろん、「Site1」に含まれる値および「Site1」以下の階層のサブ・キーもすべて削除される。</P>
+<H4>●値を削除する記述</H4>
+<P>　値を削除するには、内容部分すなわち「=」の右側にハイフンのみ記述する。ハイフンを二重引用符でくくらないよう注意すること（内容が「-」という文字列に変更されてしまい、値は削除されない）。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>Windows Registry Editor Version 
+5.00<BR><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Config\Site1]<BR>"Setting1"=-</P>
+<BR clear="all"><SPAN></SPAN></DIV><BR clear="all"><SPAN></SPAN></DIV>
+<P>　これでサブ・キー「Site1」の値「Setting1」が削除される。</P>
+<H4>●サブ・キーの名前は直接変更できない</H4>
+<P>　.regファイルでは直接サブ・キーの名前を変更できず、いったん対象のサブ・キーを削除して新しい名前で再作成する必要がある。そのため、元のサブ・キーの値および下階層のサブ・キーを、新しいサブ・キーに設定し直すための記述が必要となる。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>Windows Registry Editor Version 5.00<BR>&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN><BR>[-HKEY_CURRENT_USER\Software\MyCompany\MyApp\Config]&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN><BR>&nbsp;<SPAN class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Conf]&nbsp;&nbsp;&nbsp; 
+<SPAN class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN><BR>"Type"="default"&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN><BR>&nbsp;<SPAN class="cmsColorOrange"><STRONG>……空行</STRONG></SPAN><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Conf\site1] 
+<SPAN class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（4）</STRONG></SPAN><BR>"Setting1"=dword:1234abcd&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（5）</STRONG></SPAN></P><BR 
+clear="all"><SPAN></SPAN></DIV><!--CAP-->
+<DIV id="noalign" 
+class="cmsCaption"><SMALL><STRONG>サブ・キー名を変更する.regファイルの例</STRONG><BR>サブ・キー「Config」の名前を「Conf」に変更する。<SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN>～<SPAN 
+class="cmsColorRed"><STRONG>（5）</STRONG></SPAN>を記述するには、あらかじめ「Config」以下のサブ・キー／値をエクスポートするなどして内容を把握しておく必要がある。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN>元のサブ・キー「Config」以下をすべて削除する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN>新しいサブ・キー「Conf」を追加する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN>元の「Config」に格納されていた値を復元する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（4）</STRONG></SPAN>元の「Config」以下にあったサブ・キー「Site1」を復元する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（5）</STRONG></SPAN>元の「Config\Site1」に格納されていた値を復元する行。</SMALL></DIV><!--CAPEND-->
+<BR clear="all"><SPAN></SPAN></DIV>
+<P>　これでサブ・キー「Config」の名前が「Conf」に変更される。</P>
+<H4>●値の名前も直接変更できない</H4>
+<P>　サブ・キーと同じく、値の名前（値名）もまた.regファイルでは直接変更できず、いったん削除して新しい名前で作り直す必要がある。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>Windows Registry Editor Version 
+5.00<BR><BR>[HKEY_CURRENT_USER\Software\MyCompany\MyApp\Conf\site1]&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN><BR>"Setting1"=-&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN><BR>"Setting2"=dword:1234abcd&nbsp;<SPAN 
+class="cmsColorOrange"><STRONG>……</STRONG></SPAN><SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN></P><BR 
+clear="all"><SPAN></SPAN></DIV><!--CAP-->
+<DIV id="noalign" 
+class="cmsCaption"><SMALL><STRONG>値名を変更する.regファイルの例</STRONG><BR>値「Setting1」の名前を「Setting2」に変更する。<SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN>を記述するには、あらかじめ元の値「Setting1」の内容をエクスポートするなどして把握しておく必要がある。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（1）</STRONG></SPAN>対象のサブ・キーを指定する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（2）</STRONG></SPAN>値「Setting1」を削除する行。<BR>　&nbsp;<SPAN 
+class="cmsColorRed"><STRONG>（3）</STRONG></SPAN>値「Setting2」に元の値「Setting1」の内容を復元する行。</SMALL></DIV><!--CAPEND-->
+<BR clear="all"><SPAN></SPAN></DIV>
+<P>　これで値「Setting1」の名前が「Setting2」に変更される。</P>
+<H4>●.regファイルをレジストリに読み込ませる方法</H4>
+<P>　以上のようにして作成した.regファイルを、実際にコンピュータに読み込ませるにはいくつかの方法がある。簡単なのは、Windowsエクスプローラなどから.regファイルをダブルクリックするという方法だ。デフォルトで.regファイルは、実行されるとその内容がレジストリに読み込まれる。</P>
+<P>　例えば.regファイルをファイル・サーバのネットワーク共有フォルダに保存し、それをエンド・ユーザーに依頼してクライアントPCからWindowsエクスプローラで実行してもらう。これで.regファイルの内容がレジストリに読み込まれる。</P>
+<P>　ただし、エンド・ユーザーが管理者権限を持っていない場合、HKEY_LOCAL_MACHINE以下のように管理者だけが書き替え可能なサブ・キーは変更できない。</P>
+<P>　リモートから各コンピュータでコマンドを実行する手段があれば、以下のようにreg 
+importコマンドを利用して.regファイルを読み込ませることができる。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>reg import <SPAN 
+class="cmsColorOrange"><STRONG>＜.regファイル名＞</STRONG></SPAN></P><BR 
+clear="all"><SPAN></SPAN></DIV><BR clear="all"><SPAN></SPAN></DIV>
+<DIV class="trBoxR">
+<DIV class="trBoxWidth">
+<DIV id="blue" class="box cmsBox cmsBox cmsBoxBlue"><!--CAP-->
+<DIV id="col300"><A name="wi-kanren.gif"></A><IMG alt="Windows Server Insiderの関連記事" 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/wi-kanren.gif" 
+width="200" height="18"><SMALL><SPAN class="cmsColorGray">・</SPAN><A href="http://www.atmarkit.co.jp/ait/articles/0402/21/news005.html" 
+target="_blank">コマンド・プロンプトでレジストリを操作する</A></SMALL></DIV><!--CAPEND--><BR clear="all"><SPAN></SPAN></DIV>
+</DIV></DIV>
+<P>　このコマンドラインをローカル・システム・アカウントまたは管理者アカウントで実行すれば、管理者限定のサブ・キーも変更できる。reg 
+importコマンドの詳細については関連記事を参照していただきたい。</P>
+<P>　Windows 2000でregコマンドが使えない場合は、レジストリ・エディタ（regedit.exe）でも代用できる。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<DIV class="box cmsBox cmsBox cmsBox">
+<P>regedit /s <SPAN 
+class="cmsColorOrange"><STRONG>＜.regファイル名＞</STRONG></SPAN></P><BR 
+clear="all"><SPAN></SPAN></DIV><BR clear="all"><SPAN></SPAN></DIV>
+<P>　どちらのコマンドラインでも、対話的操作なしで.regファイルがレジストリに読み込まれる。</P>
+<DIV class="box cmsBoxNoborder cmsBox">
+<P><STRONG>■関連リンク</STRONG></P>
+<UL>
+  <LI><A href="https://support.microsoft.com/ja-jp/kb/310516" 
+  target="_blank">.reg ファイルを使用してレジストリ サブキーおよび値を追加、変更または削除する方法</A>（マイクロソフト 
+  サポート技術情報310516）</LI>
+  <LI><A href="https://support.microsoft.com/ja-jp/kb/256986" 
+  target="_blank">上級ユーザー向けの Windows レジストリ情報</A>（マイクロソフト サポート技術情報256986）</LI></UL>
+<BR clear="all"><SPAN></SPAN></DIV>
+<DIV class="box cmsBoxNoborder cmsBox">
+<P><STRONG>■この記事と関連性の高い別の記事</STRONG></P>
+<UL>
+  <LI><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/277regkeybu/regkeybu.html">レジストリ・キーのデータを移行・バックアップする</A>（TIPS）</LI>
+  <LI><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/593regsave/regsave.html">特定のレジストリ・キー以下を素早くバックアップする</A>（TIPS）</LI>
+  <LI><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/040regkeycp/regkeycp.html">レジストリ・キーのパス文字列をクリップボードにコピーする方法</A>（TIPS）</LI>
+  <LI><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/453regaccess/regaccess.html">WSHでレジストリの読み書きを行う</A>（TIPS）</LI>
+  <LI><A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/020regconvt/regconvt.html">NT 
+  4.0のアプリケーション設定情報をWindows 2000に移行させる方法</A>（TIPS）</LI></UL><BR 
+clear="all"><SPAN></SPAN></DIV><!--CAP-->
+<DIV id="col200l"><A name="backn2.gif"></A><A class="imgLink" href="http://www.atmarkit.co.jp/fwin2k/win2ktips/index/index.html" 
+target="_blank"><IMG alt="「Tech TIPS」のインデックス" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/backn2.gif" 
+width="146" height="20"></A></DIV><!--CAPEND-->
+<P>「<A href="http://www.atmarkit.co.jp/fwin2k/win2ktips/index/index.html">Tech 
+TIPS</A>」</P>
+<DIV class="cmsBodyItmidSeriesButtonRegist"></DIV>
+<DIV id="cmsCopyright">
+<P><SPAN style="color: rgb(85, 85, 85); line-height: 135%; font-family: Arial,Helvetica,sans-serif; font-size: 65%;">
+Copyright&copy; 1999-2015 Digital Advantage Corp. All Rights Reserved.</SPAN></P>
+</DIV><!--EDIT START--><!-- RD27807 -->
+<SCRIPT>
+(function(){
+	if(itikw == '') return false;
+	var ary = itikw.split(',');
+	var kw = encodeURIComponent(ary[0]); /* 1 つめはキーワードとみなす */
+	var ct = encodeURIComponent(ary[1]); /* 2 つめはカテゴリとみなす */
+	var rd = new Date().getTime(); /* キャッシュ対策用ランダム文字列 */
+	var img = new Image();
+	img.src = 'http://ybx.yahoo.co.jp/clear.gif?bkey=ext_bt&site=itmedia&pagetype=atmarkit&category=' + ct + '&keyword=' + kw + '&r=' + rd;
+	if(img.addEventListener){
+		img.addEventListener('load',function(e){return},false);
+	}else if(img.attachEvent){
+		img.attachEvent('onload',function(e){return});
+	}
+	return;
+})();
+</SCRIPT>
+<!-- /RD27807 --><!-- RD28762 -->
+<SCRIPT>
+	/* KV AIT FORUM
+	-------------------------------------------------------*/
+	if(typeof kv_ait_forum != 'undefined'){ // 変数存在チェック
+		kv_ait_forum = kv_ait_forum; // 変数あり
+	}else{
+		kv_ait_forum = ''; // 変数なし
+	}
+	if(itikw != ''){
+		var kv_ait_key = itikw.split(',');
+		var AudienceOne_forum = encodeURIComponent(kv_ait_forum[0]);
+		var AudienceOne_keyword1 = encodeURIComponent(kv_ait_key[0]);
+		var AudienceOne_keyword2 = encodeURIComponent(kv_ait_key[1]);
+		document.write('<script src="//img.ak.impact-ad.jp/ut/3fd7226817f3a426_1516.js?forum=' + AudienceOne_forum + '&keyword1=' + AudienceOne_keyword1 + '&keyword2=' + AudienceOne_keyword2 + '" type="text/javascript" charset="UTF-8"><\/script>');
+	}
+</SCRIPT>
+<NOSCRIPT>	&lt;iframe src="//nspt.unitag.jp/3fd7226817f3a426_1516.php" width="0" 
+height="0" frameborder="0"&gt;&lt;/iframe&gt;</NOSCRIPT><!-- /RD28762 --><!--EDIT END--></DIV></DIV><!--EDIT START-->
+<DIV id="ITKB">
+<SCRIPT>adRequest({'position':'ITKB'});</SCRIPT>
+</DIV><!-- googlePlus -->
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/plusone.js">
+{lang:'ja',parsetags:'explicit'}
+</SCRIPT>
+
+<SCRIPT type="text/javascript">gapi.plusone.go();</SCRIPT>
+<!-- /googlePlus -->
+<DIV id="ISALC">
+<DIV class="ISALCHead">
+<H2>＠IT Special</H2><SPAN class="ISALCHeadSubtxt">- PR -</SPAN></DIV>
+<DIV class="colBoxClear"></DIV>
+<DIV class="ISALCInnerLeft">
+<DIV id="ISALC1">
+<SCRIPT>adRequest({'position':'10ISALC1'});</SCRIPT>
+</DIV>
+<DIV id="ISALC3">
+<SCRIPT>adRequest({'position':'10ISALC3'});</SCRIPT>
+</DIV></DIV>
+<DIV class="ISALCInnerRight">
+<DIV id="ISALC2">
+<SCRIPT>adRequest({'position':'10ISALC2'});</SCRIPT>
+</DIV>
+<DIV id="ISALC4">
+<SCRIPT>adRequest({'position':'10ISALC4'});</SCRIPT>
+</DIV>
+<DIV id="ISALC5">
+<SCRIPT>adRequest({'position':'10ISALC5'});</SCRIPT>
+</DIV>
+<DIV id="ISALC6">
+<SCRIPT>adRequest({'position':'10ISALC6'});</SCRIPT>
+</DIV></DIV>
+<DIV class="colBoxClear"></DIV></DIV>
+<DIV class="colBoxClear"></DIV>
+<DIV class="colBox">
+<DIV class="colBoxOuter">
+<DIV class="colBoxInner">
+<DIV class="colBoxL50">
+<DIV id="ITSB">
+<SCRIPT>adRequest({'position':'ITSB'});</SCRIPT>
+</DIV></DIV>
+<DIV class="colBoxR50">
+<DIV id="ITSB2">
+<SCRIPT>adRequest({'position':'ITSB2'});</SCRIPT>
+</DIV></DIV>
+<DIV class="colBoxClear"></DIV></DIV></DIV></DIV>
+<DIV class="colBoxClear"></DIV>
+<DIV class="newziaBox newzia_article">
+<DIV class="colBoxHead">
+<H4>TechTargetジャパン</H4></DIV>
+<SCRIPT type="text/javascript" charset="utf-8" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/script.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" charset="utf-8" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/script(1).js"></SCRIPT>
+</DIV>
+<DIV class="colBoxClear"></DIV>
+<STYLE type="text/css">
+.newzia_copyright {
+	margin:10px 0;
+	font-size:10px;
+	text-align:right;
+	color:#555;
+}
+.testPatternB #newzia_TEST_20140728 h4 {
+	border-bottom:0!important;
+}
+</STYLE>
+
+<SCRIPT type="text/javascript">
+var _nc_test_20140728clicked = function (url) {
+	var tempUrl = thisDomain() + getUrl()['path_cutpageing_cutparam'];
+	new Image().src = 'http://connect.newzia.jp/channels/447/clicked'
+		+ '?url=' + encodeURIComponent(url)
+		+ '&page_url=' + encodeURIComponent(tempUrl)
+		+ '&ref=' + encodeURIComponent(document.referrer)
+		+ '&' + Math.random();
+};
+var _nc_test_20140728callback = function (response) {
+	var tempUrl = thisDomain() + getUrl()['path_cutpageing_cutparam'];
+	(function (contents_length) {
+		new Image().src = 'http://connect.newzia.jp/channels/447/viewed'
+		+ '?url=' + encodeURIComponent(tempUrl)
+		+ '&ref=' + encodeURIComponent(document.referrer)
+		+ '&contents_length=' + contents_length
+		+ '&' + Math.random();
+	})(response.length);
+	var newziaConnect = document.getElementById('newzia_TEST_20140728');
+	/* custom field start */
+	if (response.length == 0) {
+		newziaConnect.parentNode.removeChild(newziaConnect);
+		return;
+	};
+	var replaceVariables = function(template, content) {
+		template = template.replace(/\$url\$/g, content.url);
+		template = template.replace(/\$title\$/g, content.title);
+		template = template.replace(/\$summary\$/g, content.summary);
+		template = template.replace(/\$published_at\$/g, content.published_at);
+		var img = content.image_url;
+		if(!img || img == '') {
+			img = imgSrv() + '/nac/images/logo/200_ait_bgw.gif';
+		};
+		template = template.replace(/\$image_url\$/g, img);
+		template = template.replace(/\$site\$/g, content.site);
+		return template
+	};
+	var h4Rap = newziaConnect.appendChild(document.createElement('div'));
+	h4Rap.setAttribute("class", "colBoxHead");
+	var h4 = h4Rap.appendChild(document.createElement('h4'));
+		h4.innerHTML = 'この記事を読んだ人にオススメの記事';
+	var countId = s.prop51.slice(0,5).toLowerCase();
+	if (countId.match(/itm\_[a|b]/)||location.hash.match(/itm\_a/)) {
+		var appendListItem = function (container, content, resnum) {
+				var li = container.appendChild(document.createElement('li'));
+				li.id = 'colNum' + resnum;
+				li.innerHTML = replaceVariables('<a href="$url$" onmousedown="_nc_test_20140728clicked(this.href)">$title$</a>', content);
+		};
+		var ulRap = newziaConnect.appendChild(document.createElement('ul'));
+		for (i = 0; i < response.length; i++) {
+			appendListItem(ulRap, response[i]);
+		};
+	} else if (countId.match(/itm\_[c|d]/)||location.hash.match(/itm\_b/)) {
+		h4Rap.setAttribute("class", "colBoxHead patternB");
+		var appendListItem = function (container, content, resnum) {
+				var li = container.appendChild(document.createElement('li'));
+				li.id = 'colNum' + resnum;
+				li.innerHTML = replaceVariables('<a href="$url$" onmousedown="_nc_test_20140728clicked(this.href)">$title$</a>', content);
+		};
+		var ulRap = newziaConnect.appendChild(document.createElement('ul'));
+		for (i = 0; i < response.length; i++) {
+			appendListItem(ulRap, response[i]);
+		};
+	} else {
+		var appendListItem = function (container, content) {
+				var li = container.appendChild(document.createElement('li'));
+				li.innerHTML = replaceVariables('<a href="$url$" onmousedown="_nc_test_20140728clicked(this.href)">$title$</a>', content);
+		};
+		var ulRap = newziaConnect.appendChild(document.createElement('ul'));
+		for (i = 0; i < response.length; i++) {
+			appendListItem(ulRap, response[i]);
+		};
+	};
+	//@cc_on
+	window. /*@if(true) attachEvent("on" + @else@*/
+	addEventListener( /*@end@*/ "load", function() {
+		var img = document.getElementsByName("connect_image");
+		for(var i = 0, j = img.length; i < j; i++) {
+			var w = img[i].width;
+			var h = img[i].height;
+			if((w / 4 * 3) < h) {
+				img[i].height = 60;
+				var w = img[i].width;
+				var pw = (84 - w) / 2;
+				img[i].style.padding = '2px ' + pw + 'px';
+			} else {
+				img[i].width = 80;
+				var h = img[i].height;
+				var ph = (64 - h) / 2;
+				img[i].style.padding = ph + 'px 2px';
+			};
+		};
+	}, false);
+	/* custom field end */
+	newziaConnect.innerHTML += '<div class="newzia_copyright"><small>powered by <a href="http://connect.newzia.jp/" target="_blank">newziaコネクト</a></small></div>';
+};
+(function() {
+	var tempUrl = thisDomain() + getUrl()['path_cutpageing_cutparam'];
+	var url = tempUrl;
+	var getMetaContentByName = function (name) {
+		if (document.getElementsByName(name).length > 0) {
+			return document.getElementsByName(name)[0].getAttribute('content');
+		}
+		return '';
+	};
+	var bindReady = function (callback) {
+	var isReady = false;
+	function ready(){
+		if(isReady)return;
+		isReady = true;
+		callback();
+	};
+	bindReady = function(){};
+	var userAgent = navigator.userAgent.toLowerCase();
+	var browser = {
+		safari: /webkit/.test( userAgent ),
+		opera: /opera/.test( userAgent ),
+		msie: /msie/.test( userAgent ) && !/opera/.test( userAgent )
+	};
+	// Mozilla, Opera (see further below for it) and webkit nightlies currently support this event
+	if ( document.addEventListener && !browser.opera)
+		// Use the handy event callback
+		document.addEventListener( "DOMContentLoaded", ready, false );
+		// If IE is used and is not in a frame
+		// Continually check to see if the document is ready
+	if ( browser.msie && window == top ) (function(){
+		if (isReady) return;
+		try {
+			// If IE is used, use the trick by Diego Perini
+			// http://javascript.nwbox.com/IEContentLoaded/
+			document.documentElement.doScroll("left");
+		} catch( error ) {
+			setTimeout( arguments.callee, 0 );
+			return;
+		};
+		// and execute a waiting function
+		ready();
+	})();
+	if ( browser.opera )
+		document.addEventListener( "DOMContentLoaded", function () {
+			if (isReady) return;
+			for (var i = 0; i < document.styleSheets.length; i++)
+				if (document.styleSheets[i].disabled) {
+					setTimeout( arguments.callee, 0 );
+					return;
+				};
+			// and execute a waiting function
+			ready();
+		}, false);
+	if ( browser.safari ) {
+		var numStyles;
+		function countNumStyles(){
+			var d = document;
+			var stylesLength = d.getElementsByTagName('style').length;
+			var links = d.getElementsByTagName('link');
+			for(var i = 0; i++; i < links.length){
+				if(links[i].rel == 'stylesheet'){
+					stylesLength++;
+				}
+			}
+			return stylesLength;
+		}
+		(function(){
+			if (isReady) return;
+			if ( document.readyState != "loaded" && document.readyState != "complete" ) {
+				setTimeout( arguments.callee, 0 );
+				return;
+			}
+			if ( numStyles === undefined )
+				numStyles = countNumStyles();
+			if ( document.styleSheets.length != numStyles ) {
+				setTimeout( arguments.callee, 0 );
+				return;
+			}
+			// and execute a waiting function
+			ready();
+		})();
+	}
+	var oldOnload = window.onload;
+	window.onload=function(){
+		if(oldOnload)oldOnload();
+		ready();
+	};
+};
+var callNewziaConnect = function () {
+var md5 = new function() {
+var blockLen = 64;
+var state = [ 0x67452301 , 0xefcdab89 , 0x98badcfe , 0x10325476 ];
+var sttLen = state.length;
+this.hex = function(_data) {
+	return toHex( getMD(_data) );
+};
+this.dec = function(_data) {
+	return getMD(_data);
+};
+this.bin = function(_data) {
+	return pack( getMD(_data) );
+};
+	var getMD = function(_data) {
+		var datz = [];
+		if (isAry(_data)) datz = _data;
+		else if (isStr(_data)) datz = unpack(_data);
+		else "unknown type";
+		datz = paddingData(datz);
+		return round(datz);
+	};
+	var isAry = function(_ary) {
+		return _ary && _ary.constructor === [].constructor;
+	};
+	var isStr = function(_str) {
+		return typeof(_str) == typeof("string");
+	};
+	var round = function(_blk) {
+	var stt = [];
+	var tmpS= [];
+	var i, j, tmp, x = [];
+		for (j=0; j<sttLen; j++) stt[j] = state[j];
+		for (i=0; i<_blk.length; i+=blockLen) {
+			for (j=0; j<sttLen; j++) tmpS[j] = stt[j];
+			x = toLittleEndian32( _blk.slice(i, i+ blockLen) );
+			for (j=0; j<64; j++) {
+				if (j<16) 
+					tmp = (stt[1] & stt[2]) | (~stt[1] & stt[3]);
+				else if (j<32)
+					tmp = (stt[1] & stt[3]) | (stt[2] & ~stt[3]);
+				else if (j<48)
+					tmp = stt[1] ^ stt[2] ^ stt[3];
+				else
+					tmp = stt[2] ^ (stt[1] | ~stt[3]);
+				tmp +=  x[ K[j] ] + T[j] + stt[0];
+				stt[0] = stt[1] + ( (tmp << S[j]) | (tmp >>> (32-S[j])) );
+				stt = [ stt[3], stt[0], stt[1], stt[2] ];
+			}
+			for (j=0; j<sttLen; j++) stt[j] += tmpS[j];
+		};
+		return fromLittleEndian32(stt);
+	};
+	var paddingData = function(_datz) {
+		var datLen = _datz.length;
+		var n = datLen;
+		_datz[n++] = 0x80;
+		while (n% blockLen != 56) _datz[n++] = 0;
+		datLen *= 8;
+		return _datz.concat(
+			fromLittleEndian32([datLen]),
+			0, 0, 0, 0
+		);
+	};
+	var toHex = function(_decz) {
+		var i, hex = "";
+		for (i=0; i<_decz.length; i++)
+			hex += (_decz[i]>0xf?"":"0")+ _decz[i].toString(16);
+		return hex;
+	};
+	var fromLittleEndian32 = function(_blk) {
+		var tmp = [];
+		for (n=i=0; i<_blk.length; i++)
+		{
+			tmp[n++] = _blk[i] & 0xff;
+			tmp[n++] = (_blk[i] >>>  8) & 0xff;
+			tmp[n++] = (_blk[i] >>> 16) & 0xff;
+			tmp[n++] = (_blk[i] >>> 24) & 0xff;
+		}
+		return tmp;
+	};
+	var toLittleEndian32 = function( _blk ) {
+		var tmp = [];
+		var i, n;
+		for (n=i=0; i<_blk.length; i+=4, n++)
+			tmp[n] = (_blk[i+ 3]<<24) | (_blk[i+ 2]<<16) | (_blk[i+ 1]<<8) | _blk[i];
+		return tmp;
+	};
+	var unpack = function( _dat ){
+		var i, n, c, tmp = [];
+		for (n=i=0; i<_dat.length; i++) {
+			c = _dat.charCodeAt(i);
+			if (c <= 0xff) tmp[n++] = c;
+			else {
+				tmp[n++] = c >>> 8;
+				tmp[n++] = c &  0xff;
+			}
+		}
+		return tmp;
+		};
+		var pack = function(_ary) {
+			var i, tmp = "";
+			for (i in _ary) tmp += String.fromCharCode(_ary[i]);
+			return tmp;
+		};
+		var K = [
+			0 ,  1 ,  2 ,  3 ,  4 ,  5 ,  6 ,  7 ,	8 ,  9 , 10 , 11 , 12 , 13 , 14 , 15 , 
+			1 ,  6 , 11 ,  0 ,  5 , 10 , 15 ,  4 ,	9 , 14 ,  3 ,  8 , 13 ,  2 ,  7 , 12 , 
+			5 ,  8 , 11 , 14 ,  1 ,  4 ,  7 , 10 ,   13 ,  0 ,  3 ,  6 ,  9 , 12 , 15 ,  2 , 
+			0 ,  7 , 14 ,  5 , 12 ,  3 , 10 ,  1 ,	8 , 15 ,  6 , 13 ,  4 , 11 ,  2 ,  9  
+		];
+		var S = [
+			7 , 12 , 17 , 22 ,  7 , 12 , 17 , 22 ,	7 , 12 , 17 , 22 ,  7 , 12 , 17 , 22 , 
+			5 ,  9 , 14 , 20 ,  5 ,  9 , 14 , 20 ,	5 ,  9 , 14 , 20 ,  5 ,  9 , 14 , 20 , 
+			4 , 11 , 16 , 23 ,  4 , 11 , 16 , 23 ,	4 , 11 , 16 , 23 ,  4 , 11 , 16 , 23 , 
+			6 , 10 , 15 , 21 ,  6 , 10 , 15 , 21 ,	6 , 10 , 15 , 21 ,  6 , 10 , 15 , 21  
+		];
+		var T = [
+			0xd76aa478 , 0xe8c7b756 , 0x242070db , 0xc1bdceee , 0xf57c0faf , 0x4787c62a , 0xa8304613 , 0xfd469501 , 
+			0x698098d8 , 0x8b44f7af , 0xffff5bb1 , 0x895cd7be , 0x6b901122 , 0xfd987193 , 0xa679438e , 0x49b40821 , 
+			0xf61e2562 , 0xc040b340 , 0x265e5a51 , 0xe9b6c7aa , 0xd62f105d , 0x2441453 , 0xd8a1e681 , 0xe7d3fbc8 , 
+			0x21e1cde6 , 0xc33707d6 , 0xf4d50d87 , 0x455a14ed , 0xa9e3e905 , 0xfcefa3f8 , 0x676f02d9 , 0x8d2a4c8a , 
+			0xfffa3942 , 0x8771f681 , 0x6d9d6122 , 0xfde5380c , 0xa4beea44 , 0x4bdecfa9 , 0xf6bb4b60 , 0xbebfbc70 , 
+			0x289b7ec6 , 0xeaa127fa , 0xd4ef3085 ,  0x4881d05 , 0xd9d4d039 , 0xe6db99e5 , 0x1fa27cf8 , 0xc4ac5665 , 
+			0xf4292244 , 0x432aff97 , 0xab9423a7 , 0xfc93a039 , 0x655b59c3 , 0x8f0ccc92 , 0xffeff47d , 0x85845dd1 , 
+			0x6fa87e4f , 0xfe2ce6e0 , 0xa3014314 , 0x4e0811a1 , 0xf7537e82 , 0xbd3af235 , 0x2ad7d2bb , 0xeb86d391 
+		];
+	};
+		var script = document.createElement('script');
+		script.charset = 'utf-8';
+		script.type = 'text/javascript';
+		script.src = 'http://connect.newzia.jp/channels/447/' + md5.hex(url) + '/contents.json?'
+			 + 'url=' + encodeURIComponent(url)
+			 + '&ref=' + encodeURIComponent(document.referrer)
+			 ;
+		var target = document.getElementsByTagName('script')[0];
+		target.parentNode.insertBefore(script, target);
+	};
+	if (!document.getElementById('newzia_TEST_20140728')) {
+		document.write('<div class="newziaBox" id="newzia_TEST_20140728"></div>');
+		bindReady(callNewziaConnect);
+	} else {
+		callNewziaConnect();
+	};
+})();
+function clickCount(pos, opt) { // クリックカウント
+	if (!pos) return false;
+	if (!opt) opt = 0;
+	s.prop14 = pos;
+	if (opt == 1) { // opt が 1 の場合 oid に格納
+		s_objectID = pos;
+	} else {
+		s.tl(this,'o',pos);
+		s_objectid = pos;
+	};
+	console.log(pos);
+};
+jQuery(document).ready(function(){
+	if(typeof s.prop51 === 'undefined') return false;
+	var ref = '';
+	if (document.referrer.match(/yahoo|google/)||location.hash.match(/itm\_b/)) ref = '_gy';
+	var countId = s.prop51.slice(0,5).toLowerCase();
+	var exitFlag = 0;
+	if (countId.match(/itm\_[a|b|c]/)||location.hash.match(/itm\_a/)) {
+		countId = 'itm_a' + ref;
+	} else if (countId.match(/itm\_[d|e|f]/)||location.hash.match(/itm\_b/)) {
+		countId = 'itm_b' + ref;
+		console.log('testtest');
+		jQuery('#newzia_TEST_20140728').hide();
+	} else {
+		return false;
+	};
+	clickCount('testAitEndlink = ' + countId); // IMP
+	jQuery('.newzia_article').click(function(){
+			clickCount('testAitEndlinkTt = ' + countId);
+	});
+	jQuery('#newzia_TEST_20140728').click(function(){
+			clickCount('testAitEndlinkAt = ' + countId);
+	});
+	jQuery('a').click(function(){
+		exitFlag++;
+	});
+	window.onbeforeunload = function() {
+		if (exitFlag == 0) clickCount('testAitEndlinkOut = ' + countId)
+	};
+});
+</SCRIPT>
+
+<DIV class="colBoxClear"></DIV>
+<DIV class="colBox colBoxCampaignBannar">
+<DIV class="colBoxOuter">
+<DIV class="colBoxInner">
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A title="Surface Pro 3" onclick="designCnt('記事下','campaignLink');" 
+href="http://www.atmarkit.co.jp/ait/articles/1509/01/news022.html"><IMG alt="Surface Pro 3" 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_article_campaignBannar_1_1444106289.gif"></A></DIV>
+</DIV></DIV></DIV></DIV>
+<DIV class="colBoxClear"></DIV><!-- QA_Layer -->
+<DIV id="colBoxQaLayer">
+<SCRIPT id="qa_widget" charset="UTF-8" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/atmarkit.js"></SCRIPT>
+</DIV><!-- /QA_Layer --><!-- "/include/ait/index_article_newArticle.html" -->
+<SCRIPT>
+ISLOGIN({
+	'isLoginURL':'http://status.atmarkit.co.jp/isLoginAIT.cgi',
+	'sc':'f00f2e7bca65e9f8409fdb3bcddfa031664224255d7bd2f6b3de8ff11ababe20',
+	'lc':'c0aa4a0be7ba28399b09a68835a21755f442e25f8e0971b1d1ea3a6c749f0385',
+	'bc':2,
+	'heading':'続きを読むには、<strong style="color:#F90;">会員登録（無料）</strong> が必須です',
+	'description':'この記事は、＠ITのメールマガジン「＠IT通信」をお申し込みになると無料で閲覧できます。アイティメディアIDを持っている方は次のページでIDとパスワードを入力してください。登録されていない方は新規登録ボタンをクリックしてください。',
+	'eVer':'26',
+	'eVerStr':'id_ait_article-mask'
+});
+</SCRIPT>
+<!--EDIT END-->
+<DIV id="cmsPrcredit">
+<DIV class="inner"></DIV></DIV><!--EDIT START--><!--EDIT END--></DIV></DIV>
+<SCRIPT>endlinkAll();</SCRIPT>
+</DIV>
+<DIV id="masterSub"><!--編集記事-->
+<DIV id="colBoxGlobalSearch" class="colBox">
+<DIV id="globalSearchBox" class="colBoxOuter"><!-- Google searchBox Begin -->
+<DIV style="width: 100%;" id="cse-search-form">Loading</DIV>
+<SCRIPT type="text/javascript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/jsapi.js"></SCRIPT>
+
+<SCRIPT type="text/javascript">
+google.load('search', '1', {language :'ja', style :google.loader.themes.V2_DEFAULT});
+google.setOnLoadCallback(function() {
+	var customSearchOptions = {};
+	var orderByOptions = {};
+	orderByOptions['keys'] = [{label:'関連性', key:''},{label:'日付', key:'date'}];
+	customSearchOptions['enableOrderBy'] = true;
+	customSearchOptions['orderByOptions'] = orderByOptions;
+	var imageSearchOptions = {};
+	imageSearchOptions['layout'] = google.search.ImageSearch.LAYOUT_POPUP;
+	customSearchOptions['enableImageSearch'] = true;
+	customSearchOptions['imageSearchOptions'] = imageSearchOptions;
+	customSearchOptions['adoptions'] = {'layout':'noTop'};
+	var customSearchControl = new google.search.CustomSearchControl(
+	'000492183644671384608:zpcmlmr1swi', customSearchOptions);
+	customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+	var options = new google.search.DrawOptions();
+	options.enableSearchboxOnly("http://www.google.com/cse?cx=000492183644671384608:zpcmlmr1swi");
+	customSearchControl.draw('cse-search-form', options);
+}, true);
+</SCRIPT>
+
+<STYLE type="text/css">
+input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus {
+	border-color:#D9D9D9;
+}
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+	border-color:#2F5BB7;
+	background-color:#357AE8;
+	background-image:none;
+	filter:none;
+}
+</STYLE>
+
+<STYLE type="text/css"><!--
+#cmsBody .cmsBodyItmidSeriesButtonRegist a {
+	width:590px;
+	height:62px;
+	background:url(http://image.itmedia.co.jp/ait/images/rensai_alert_bg1309_2.gif) no-repeat 0 0;
+}
+#cmsBody .cmsBodyItmidSeriesButtonRegist a:hover {
+	opacity:0.65;
+	background:url(http://image.itmedia.co.jp/ait/images/rensai_alert_bg1309_2.gif) no-repeat 0 0;
+}
+#newzia_connect_atmarkit ul {
+	margin-bottom:0;
+	font-size:13px;
+	line-height:1.6;
+}
+#newzia_connect_atmarkit .title {
+	font-size:12px;
+	line-height:18px;
+	margin-bottom:11px;
+	border-left:3px solid #389839;
+	padding:0 0 0 4px;
+	color:#000;
+}
+--></STYLE>
+
+<SCRIPT type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery('.cmsBodyItmidSeriesButtonRegist').addClass('testbutton'); // 連載アラート
+});
+</SCRIPT>
+
+<SCRIPT>
+jQuery(document).ready(function(){
+	jQuery('a').click(function(){
+		var pos = jQuery(this).parents('.colBox').attr('class');
+		if (!pos) pos = jQuery(this).parents('.endlink').attr('class');
+		if (!pos) pos = jQuery(this).parents('#lnavMain').attr('id');
+		if (!pos) pos = jQuery(this).parents('#lnavSub').attr('id');
+		if (!pos) pos = jQuery(this).parents('.tmplArticle').attr('class');
+		if (!pos) pos = jQuery(this).parents('#globalNavigation').attr('id');
+		if (!pos) pos = jQuery(this).parents('#masterFooter').attr('id');
+		if (!pos) pos = jQuery(this).parents('#globalLogo').attr('id');
+		s.prop14 = 'boxCount = ' + s.hier3 + ' ' + pos;
+//		s.tl(this,'o',pos);
+//		s_objectid = 'boxCount = ' + s.hier3 + ' ' + pos;
+		s_objectID = 'boxCount = ' + s.hier3 + ' ' + pos;
+	});
+	var relBox = jQuery('.endlink2column');
+	if (relBox.length == 1) {
+		jQuery('.ctrl').eq(1).after(jQuery('.endlink2column'))
+	} else {
+		//
+	};
+});
+</SCRIPT>
+<!-- Google searchBox End --></DIV></DIV>
+<DIV id="LOGOAD">
+<SCRIPT>adRequest({'position':'10LOGOAD'});</SCRIPT>
+</DIV>
+<DIV id="ITTN">
+<SCRIPT>adRequest({'position':'2ITTN'});</SCRIPT>
+</DIV>
+<DIV id="MSITTI">
+<DIV class="colBox colBoxMSITTI">
+<DIV class="colBoxOuter">
+<DIV class="colBoxInner">
+<DIV class="colBoxIndex">
+<DIV class="colBoxUlist">
+<UL>
+<SCRIPT>adRequest({'position':'MSITTI'});</SCRIPT>
+</UL></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV id="ITR">
+<SCRIPT>adRequest({'position':'ITR'});</SCRIPT>
+</DIV><!-- レクタングル -->
+<DIV id="ITTI">
+<SCRIPT>adRequest({'position':'3ITTI'});</SCRIPT>
+</DIV><!-- スポンサーからのお知らせ -->
+<DIV id="ITR3">
+<DIV style="display: none;" id="insertAdSpaceBeforeThis_000000016223692d"></DIV> 
+
+<SCRIPT type="text/javascript"> (function() { try { var scriptEl = document.createElement('script'); scriptEl.type = 'text/javascript'; scriptEl.async = 'async'; scriptEl.src = ('https:' == document.location.protocol) ? 'https://scdn.cxense.com/cx.js' : 'http://cdn.cxense.com/cx.js'; var targetEl = document.getElementsByTagName('script')[0]; targetEl.parentNode.insertBefore(scriptEl, targetEl); } catch (e) {}; })(); </SCRIPT>
+ 
+<SCRIPT type="text/javascript"> var cX = cX || {}; cX.callQueue = cX.callQueue || []; cX.callQueue.push(['insertAdSpace', { adSpaceId:'000000016223692d', width:300, height:300, initialHorizontalAdUnits:1, initialVerticalAdUnits:1, 'lf-am': '0 0 20px 0' } ]); </SCRIPT>
+</DIV><!-- 3rdレクタングル -->
+<DIV id="ISALR">
+<SCRIPT>adRequest({'position':'30ISALR'});</SCRIPT>
+</DIV><!-- チャンネルリンク -->
+<DIV class="colBoxClear"></DIV><!-- htmlgen --><!-- /htmlgen --><!-- 特別誘導枠 --><!-- ホワイトペーパー/ -->
+<DIV class="colBox colBoxWP">
+<DIV class="colBoxOuter">
+<DIV class="colBoxHead">
+<H2>ホワイトペーパー（TechTargetジャパン）</H2></DIV>
+<DIV class="colBoxInner">
+<SCRIPT type="text/javascript" charset="utf-8" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/script(2).js"></SCRIPT>
+
+<SCRIPT type="text/javascript" charset="utf-8" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/script(3).js"></SCRIPT>
+</DIV></DIV></DIV><!-- /ホワイトペーパー --><!-- htmlgen -->
+<DIV class="colBox colBoxThemeBannar">
+<DIV class="colBoxOuter">
+<DIV class="colBoxHead">
+<H2>注目のテーマ</H2></DIV>
+<DIV class="colBoxInner">
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A onclick="designCnt('themeBannar');" href="http://www.atmarkit.co.jp/ait/subtop/features/jibun/joblab.html"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_reborn_themeBannar1_1_1443672115.jpg"></A></DIV>
+</DIV>
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A onclick="designCnt('themeBannar');" href="http://www.atmarkit.co.jp/ait/subtop/features/kwd/devops.html"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_reborn_themeBannar1_1_1441072473.jpg"></A></DIV>
+</DIV>
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A onclick="designCnt('themeBannar');" href="http://www.atmarkit.co.jp/ait/subtop/features/kwd/gamedev.html"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_reborn_themeBannar1_1_1421150982.jpg"></A></DIV>
+</DIV>
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A onclick="designCnt('themeBannar');" href="http://www.atmarkit.co.jp/ait/subtop/features/kwd/windows_tablet.html"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_reborn_themeBannar1_1_1416880097.jpg"></A></DIV>
+</DIV>
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A onclick="designCnt('themeBannar');" href="http://www.atmarkit.co.jp/ait/subtop/features/kwd/bizdev.html"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_reborn_themeBannar1_1_1410161905.jpg"></A></DIV>
+</DIV>
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A onclick="designCnt('themeBannar');" href="http://www.atmarkit.co.jp/ait/subtop/features/kwd/future.html"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/parts_reborn_themeBannar1_1_1409555067.jpg"></A></DIV>
+</DIV></DIV></DIV></DIV><!-- /htmlgen --><!-- 注目のテーマ --><!-- htmlgen --><!-- htmlgen --><!-- 注目のテーマ PR --><!-- htmlgen --><!-- /htmlgen -->
+<DIV id="ITTO">
+<SCRIPT>adRequest({'position':'5ITTO'});</SCRIPT>
+</DIV><!-- お勧め求人情報 -->
+<DIV id="ITR2">
+<SCRIPT>adRequest({'position':'ITR2'});</SCRIPT>
+</DIV><!-- セカンドレクタングル -->
+<DIV id="colBoxArticleRanking" class="colBox colBoxArticleRanking"></DIV><!-- フォーラムランキング -->
+<SCRIPT type="text/javascript">setForumRankingMonthAndDay();</SCRIPT>
+
+<DIV class="colBox colBoxTensyoku">
+<DIV class="colBoxOuter">
+<DIV class="colBoxHead">
+<H2>転職／派遣情報を探す</H2></DIV>
+<DIV class="colBoxInner">
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A title="エンジニアの求人情報、ただいま増加中" href="http://www.atmarkit.co.jp/job/jc/"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/top_dokusyacolumn_icon_1_1346326003.jpg"></A></DIV>
+<DIV class="colBoxTitle">
+<H3><A title="エンジニアの求人情報、ただいま増加中" 
+href="http://www.atmarkit.co.jp/job/jc/">エンジニアの求人情報、ただいま増加中</A></H3></DIV>
+<DIV class="colBoxDescription">
+<P>【転職サーチ】SIer／Web企業／新規事業 スマホ開発で、あなたのキャリアを生かす</P></DIV>
+<DIV class="colBoxClear h10px"></DIV></DIV>
+<DIV class="colBoxIndex">
+<DIV class="colBoxIcon"><A title="派遣エンジニアにお役立ちの仕事情報" href="http://www.atmarkit.co.jp/job/jt/aud/index.php?action_aud_Portal=true"><IMG 
+src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/top_dokusyacolumn_icon_2_1346326003.jpg"></A></DIV>
+<DIV class="colBoxTitle">
+<H3><A title="派遣エンジニアにお役立ちの仕事情報" href="http://www.atmarkit.co.jp/job/jt/aud/index.php?action_aud_Portal=true">派遣エンジニアにお役立ちの仕事情報</A></H3></DIV>
+<DIV class="colBoxDescription">
+<P>「派遣・フリーで働くメリット」とは？ 活躍する派遣エンジニアの本音</P></DIV>
+<DIV class="colBoxClear h10px"></DIV></DIV>
+<DIV class="colBoxClear"></DIV></DIV></DIV></DIV><!-- 転職／派遣情報を探す -->
+<DIV class="colBox colBoxEditorInfo">
+<DIV class="colBoxOuter">
+<DIV class="colBoxHead">
+<H2>編集部からのお知らせ</H2></DIV>
+<DIV class="colBoxInner">
+<DIV class="colBoxIndex">
+<DIV class="colBoxTitle">
+<H3><A href="http://corp.itmedia.co.jp/recruit/career/2015/04/22/editoratmarlit/">＠ITで働いてみませんか？</A></H3></DIV>
+<DIV class="colBoxDescription">
+<P>＠IT編集部では現在、編集スタッフを募集しています。編集経験は不問。 ITに関する経験のある方、ご応募お待ちしています。</P></DIV>
+<DIV class="colBoxClear"></DIV></DIV></DIV></DIV></DIV><!-- 編集部からのおしらせ --></DIV>
+<DIV class="colBoxClear"></DIV></DIV></DIV>
+<DIV id="mediaFooter">
+<DIV id="mediaFooterBgArea"></DIV>
+<DIV class="mediaFooterMediaList">
+<DIV class="colBoxIndex colBoxAit">
+<DIV class="colBoxTitle">
+<H3>@ITについて</H3></DIV>
+<DIV class="colBoxUlist">
+<UL>
+  <LI><A title="お問い合わせ" href="http://www.atmarkit.co.jp/aboutus/contact_us/contact_us.html">お問い合わせ</A></LI>
+  <LI><A title="プライバシーポリシー" 
+  href="http://corp.itmedia.co.jp/corp/privacy/">プライバシーポリシー</A></LI>
+  <LI><A title="利用規約" href="http://www.atmarkit.co.jp/aboutus/termofuse/termofuse.html">利用規約</A></LI>
+  <LI><A title="著作権・リンク・免責事項" href="http://www.atmarkit.co.jp/aboutus/copyright/copyright.html">著作権・リンク・免責事項</A></LI>
+  <LI><A title="サイトマップ" href="http://www.atmarkit.co.jp/info/sitemap/sitemap.html">サイトマップ</A></LI>
+  <LI><A title="広告案内" href="http://corp.itmedia.co.jp/ad/">広告案内</A></LI></UL>
+</DIV>
+<DIV class="colBoxClear"></DIV></DIV>
+<DIV class="colBoxIndex colBoxRSS">
+<DIV class="colBoxTitle">
+<H3>RSSについて</H3></DIV>
+<DIV class="colBoxUlist">
+<UL>
+  <LI><A title="＠ITのRSS一覧" href="http://www.itmedia.co.jp/info/rss/atmarkit.html">＠ITのRSS一覧</A></LI>
+</UL></DIV>
+<DIV class="colBoxClear"></DIV></DIV>
+<DIV class="colBoxIndex colBoxID">
+<DIV class="colBoxTitle">
+<H3>アイティメディアIDについて</H3></DIV>
+<DIV class="colBoxUlist">
+<UL>
+  <LI><A title="アイティメディアIDとは" href="http://id.itmedia.jp/info/campaign/all_id.html">アイティメディアIDとは</A></LI>
+</UL></DIV>
+<DIV class="colBoxClear"></DIV></DIV>
+<DIV id="_popIn_recommend"></DIV>
+<SCRIPT type="text/javascript">
+(function() {
+var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.charset = "utf-8"; pa.async = true;
+pa.src = window.location.protocol + "//api.popin.cc/searchbox/atmarkit.js";
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+})(); 
+</SCRIPT>
+<!-- メディアフッター -->
+<DIV class="colBoxIndex colBoxMailmagazine">
+<DIV class="colBoxTitle">
+<H3>メールマガジン登録</H3></DIV>
+<DIV class="colBoxDescription">
+<P>＠ITのメールマガジンは、 もちろん、すべて無料です。ぜひメールマガジンをご購読ください。</P>
+<DIV id="registerButton"><A href="http://www.atmarkit.co.jp/ait/subtop/info/lp/ait_new.html">申し込みページへ</A>
+</DIV></DIV></DIV>
+<DIV class="colBoxClear"></DIV></DIV></DIV>
+<DIV id="masterFooter">
+<DIV id="globalFooter">
+<DIV id="footerBgArea"></DIV><!-- masterFooterNavigation -->
+<DIV id="globalFooterMediaList">
+<DIV id="globalFooterMediaListIn">
+<DIV class="mediaListGroup">
+<DIV id="mediaList01" class="mediaList">
+<H2>IT総合</H2>
+<UL>
+  <LI><A href="http://www.itmedia.co.jp/">ITmedia 総合TOP</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/news/">ITmedia ニュース</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/keywords/">ITmedia Keywords</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/qa/">質問！ITmedia</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/douga/">ITmedia 動画</A></LI></UL></DIV><!-- /#mediaList01 -->
+<DIV id="mediaList02" class="mediaList">
+<H2>デジタル・ガジェット</H2>
+<UL>
+  <LI><A href="http://www.itmedia.co.jp/mobile/">ITmedia Mobile</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/pcuser/">ITmedia PC USER</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/lifestyle/">ITmedia LifeStyle</A></LI>
+  <LI><A href="http://camera.itmedia.co.jp/">デジカメプラス</A></LI></UL></DIV><!-- /#mediaList02 -->
+<DIV id="mediaList03" class="mediaList">
+<H2>ビジネス</H2>
+<UL>
+  <LI><A href="http://www.itmedia.co.jp/business/">ITmedia ビジネスオンライン</A></LI>
+  <LI><A href="http://mag.executive.itmedia.co.jp/">ITmedia エグゼクティブ</A></LI>
+  <LI><A href="http://marketing.itmedia.co.jp/">ITmedia マーケティング</A></LI>
+  <LI><A href="http://blog.marketing.itmedia.co.jp/">マーケター通信 </A></LI>
+  <LI><A href="http://chosa.itmedia.co.jp/">調査のチカラ</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/pcuser/subtop/pcuserpro/">ITmedia PC 
+  USER Pro</A></LI></UL></DIV><!-- /#mediaList03 -->
+<DIV id="mediaList04" class="mediaList">
+<H2>カルチャー</H2>
+<UL>
+  <LI><A href="http://nlab.itmedia.co.jp/">ねとらぼ</A></LI>
+  <LI><A href="http://classics.itmedia.co.jp/">ITmedia 名作文庫</A></LI></UL></DIV><!-- /#mediaList04 -->
+<DIV id="mediaList10" class="mediaList">
+<H2>ライフ</H2>
+<UL>
+  <LI><A href="http://healthcare.itmedia.co.jp/">ヘルスケア</A></LI></UL></DIV><!-- /#mediaList04 --></DIV><!-- /.mediaListGroup -->
+<DIV class="mediaListGroup">
+<DIV id="mediaList06" class="mediaList">
+<H2>企業IT</H2>
+<UL>
+  <LI><A href="http://www.itmedia.co.jp/enterprise/">ITmedia エンタープライズ</A></LI>
+  <LI><A 
+  href="http://www.itmedia.co.jp/enterprise/subtop/dictionary/">情報システム用語事典</A></LI>
+  <LI><A href="http://blogs.itmedia.co.jp/">オルタナティブ・ブログ</A></LI>
+  <LI><A href="http://techtarget.itmedia.co.jp/">TechTargetジャパン</A></LI>
+  <LI><A href="http://wp.techtarget.itmedia.co.jp/">ホワイトペーパー</A></LI>
+  <LI><A href="http://techtarget.itmedia.co.jp/tt/cw/">Computer Weekly</A></LI>
+  <LI><A href="http://www.keyman.or.jp/">キーマンズネット</A></LI></UL></DIV><!-- /#mediaList06 -->
+<DIV id="mediaList07" class="mediaList">
+<H2>テクノロジー</H2>
+<UL>
+  <LI><A href="http://www.atmarkit.co.jp/">＠IT</A></LI>
+  <LI><A href="http://qa.atmarkit.co.jp/">QA＠IT</A></LI>
+  <LI><A href="https://event.atmarkit.co.jp/">イベントカレンダー＋ログ</A></LI></UL></DIV><!-- /#mediaList07 -->
+<DIV id="mediaList08" class="mediaList">
+<H2>エンジニアリング</H2>
+<UL>
+  <LI><A href="http://monoist.atmarkit.co.jp/">MONOist</A></LI>
+  <LI><A href="http://eetimes.jp/">EE Times Japan</A></LI>
+  <LI><A href="http://ednjapan.com/">EDN Japan</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/smartjapan/">スマートジャパン</A></LI>
+  <LI><A 
+  href="http://monoist.atmarkit.co.jp/mn/special/mo120701/">モノづくりライブラリ</A></LI>
+  <LI><A href="https://modelabo.itmedia.co.jp/">3Dモデラボ</A></LI></UL></DIV><!-- /#mediaList08 -->
+<DIV id="mediaList09" class="mediaList">
+<H2>キャリア</H2>
+<UL>
+  <LI><A href="http://www.atmarkit.co.jp/ait/subtop/jibun/">＠IT自分戦略研究所</A></LI>
+  <LI><A href="http://el.jibun.atmarkit.co.jp/">エンジニアライフ</A></LI>
+  <LI><A 
+  href="http://www.itmedia.co.jp/enterprise/subtop/dilbert/">ディルバート</A></LI></UL></DIV><!-- /#mediaList09 -->
+<DIV id="mediaList05" class="mediaList">
+<H2>アプリ</H2>
+<UL>
+  <LI><A 
+  href="http://www.itmedia.co.jp/info/itmapp/itmedia.html">ITmedia</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/info/itmapp/nlab.html">ねとらぼ</A></LI>
+  <LI><A href="http://www.itmedia.co.jp/info/itmapp/necolab.html">ねこらぼ</A></LI>
+  <LI><A 
+href="http://www.itmedia.co.jp/info/itmapp/tweetopi.html">ついトピ！</A></LI></UL></DIV><!-- /#mediaList05 --></DIV><!-- /.mediaListGroup --></DIV>
+</DIV><!-- /#globalFooterMediaList -->
+<DIV id="globalFooterCorp">
+<DIV id="globalFooterCorpIn">
+<P id="globalFooterCorpLogo"><A href="http://corp.itmedia.co.jp/"><IMG src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/170_itmedia_bgw.gif" 
+width="170" height="28"></A>ITmediaはアイティメディア株式会社の登録商標です。</P>
+<P id="globalFooterCorpLink"><A href="http://corp.itmedia.co.jp/">運営会社</A> | <A 
+href="http://corp.itmedia.co.jp/pr/">プレスリリース</A> | <A href="http://corp.itmedia.co.jp/ir/">IR情報</A> 
+| <A href="http://corp.itmedia.co.jp/recruit/">採用情報</A> | <A href="http://blog.corp.itmedia.co.jp/">お知らせブログ</A> 
+| <A href="http://id.itmedia.jp/info/campaign/all_id.html">アイティメディアID</A> | <A 
+href="http://www.itmedia.co.jp/info/rss/">RSS</A> | <A href="http://www.itmedia.co.jp/info/twitter/">Twitter</A> 
+| <A href="http://www.itmedia.co.jp/info/fb/">Facebook</A> | <A href="http://www.itmedia.co.jp/info/mailmag/">メルマガ</A> 
+| <A href="http://www.itmedia.co.jp/info/virtualevent/">バーチャルイベント</A> | <A href="http://www.itmedia.co.jp/info/ebook/">ITmediaのeBook</A></P></DIV>
+</DIV><!-- /#globalFooterCorp --><!-- masterFooterNavigation --></DIV>
+</DIV></DIV><!--/masterBodyInner--></DIV><!--/masterBodyOuter--></DIV><!--/masterBodyIn-->
+</DIV><!--/masterBodyOut--></DIV><!--/masterBody-->
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/masterBodyEnd.js"></SCRIPT>
+<!-- window.onload -->
+<SCRIPT src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/smartPhoneHeadLink.js"></SCRIPT>
+<!-- Smart Phone Large Button--><!--BEACON-->
+<DIV id="BEACON">
+<DIV id="N"><!-- SiteCatalyst code version: H.2.
+Copyright 1997-2005 Omniture, Inc. More info available at
+http://www.omniture.com -->
+<SCRIPT language="JavaScript" src="Tech%20TIPS：_regファイルを「手書き」してレジストリに読み込ませる方法%20-%20＠IT.files/s_code.js"></SCRIPT>
+
+<SCRIPT language="JavaScript"><!--
+/* You may give each page an identifying name, server, and channel on
+the next lines. */
+function $() {
+  var elements = new Array();
+  for (var i = 0; i < arguments.length; i++) {
+    var element = arguments[i];
+    if (typeof element == 'string')
+      element = document.getElementById(element);
+    if (arguments.length == 1)
+      return element;
+    elements.push(element);
+  }
+  return elements;
+}
+
+// 旧 AIT とドメインパスを一致させる
+// meta adpath
+var adpath = getMetaContent({'keywords':'adpath','encode':'no'}).split('/');
+adpath[3] = adpath[3].replace('article','articles');
+if(adpath[4]) adpath[4] = adpath[4].replace(/^win$/,'windows').replace(/^sys$/,'system').replace(/^ux$/,'wcr');
+var dp = [];
+dp.push('root');
+dp.push('atmarkit');
+dp.push('atit');
+for(var i = 4; i < adpath.length; i++){
+	dp.push(adpath[i]);
+}
+dp.push('cont');
+dp.push(adpath[3]);
+
+var path = {};
+path['hier1'] = dp.join(',');
+path['hier2'] = dp.join(',').replace(dp[0] + ',','');
+path['hier3'] = dp.join(',').replace(dp[0] + ',','').replace(dp[1] + ',','');
+
+var channelname = '＠IT';
+
+s.pageName=document.URL.replace( /(\?|#).*$/, '' );
+s.server="www.atmarkit.co.jp"
+s.channel=channelname + ' ' + dp[3]
+s.pageType=""
+s.hier1=path['hier1']
+s.hier2=path['hier2']
+s.hier3=path['hier3']
+s.prop1=document.URL.replace( /(\?|#).*$/, '' );
+s.prop2=path['hier1']
+if ( $('update') == undefined )
+  s.prop3='';
+else
+  s.prop3=$('update').innerHTML.replace(/\d+分\s更新/,"");
+if ( $('byline') == undefined )
+  s.prop4=''
+else
+  s.prop4=$('byline').innerHTML.replace(/<b>|<\/b>/ig,'').replace(/\[|\]/g,'');
+/* s.prop5 : ad link name reserves */
+s.prop5=""
+s.prop6=dp[2]
+s.prop7=dp[2] + ',' + dp[3]
+s.prop8=document.title
+s.prop9=navigator.userAgent
+s.prop10=document.URL.replace( /(\?|#).*$/, '' );
+/* s.prop13 : document.URL reserves */
+/* E-commerce Variables */
+s.campaign=""
+s.state=""
+s.zip=""
+s.events="event3"
+s.products=""
+s.purchaseID=""
+s.eVar1=""
+s.eVar2=""
+s.eVar3=""
+s.eVar4=""
+s.eVar5=""
+s.prop20=channelname
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></SCRIPT>
+
+<SCRIPT language="JavaScript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></SCRIPT>
+<!--/DO NOT REMOVE/--><!-- End SiteCatalyst code version: H.2. -->
+<SCRIPT>adRequest({'position':'N'});</SCRIPT>
+</DIV></DIV><!--/BEACON--></BODY></HTML>

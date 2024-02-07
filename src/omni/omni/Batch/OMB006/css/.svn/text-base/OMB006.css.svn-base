@@ -1,0 +1,33 @@
+﻿	.divHeadMsg
+	{
+		margin: 20px;
+		padding: 10px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.divMessage
+	{
+		margin: 20px;
+		padding: 10px;
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

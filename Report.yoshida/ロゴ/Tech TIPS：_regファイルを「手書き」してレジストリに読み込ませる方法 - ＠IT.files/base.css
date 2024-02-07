@@ -1,0 +1,765 @@
+body {
+	margin: 0px; padding: 0px; font-family: Meiryo, "ÉÅÉCÉäÉI", ArialMT, Hiragino Kaku Gothic Pro, "ÉqÉâÉMÉmäpÉS Pro W3", Osaka, Verdana, "ÇlÇr ÇoÉSÉVÉbÉN"; -webkit-text-size-adjust: none;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(204, 0, 0); text-decoration: underline;
+}
+#PATHDEBUG {
+	background: rgb(204, 0, 0); text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: none;
+}
+.floatclear {
+	height: 0px; line-height: 0; clear: both; font-size: 0px;
+}
+.txtR {
+	text-align: right;
+}
+.txtC {
+	text-align: center;
+}
+#globalNavigationGroup0 #globalNavigation .gnavOut {
+	background: rgb(51, 51, 51); line-height: 100%; overflow: hidden; font-size: 11px; font-weight: bold;
+}
+#globalNavigationGroup0 #globalNavigation .gnavOut .gnavIn {
+	margin: 0px auto; width: 990px; position: relative;
+}
+#globalNavigationGroup0 #globalNavigation .gnavBtn {
+	margin: 0px 0px 3px 3px; padding: 7px 8px 5px; border-radius: 0px 0px 3px 3px; float: left;
+}
+#globalNavigationGroup0 #globalNavigation .gnavBtn0 {
+	background: rgb(238, 51, 0); box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
+#globalNavigationGroup0 #globalNavigation .gnavBtn a {
+	color: rgb(170, 170, 170); text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#globalNavigationGroup0 #globalNavigation .gnavBtn0:hover {
+	background: rgb(255, 68, 17);
+}
+#globalNavigationGroup0 #globalNavigation .gnavBtn0 a {
+	color: rgb(255, 255, 255);
+}
+#globalNavigationGroup0 #globalNavigation .gnavBtn a:hover {
+	color: rgb(238, 238, 238); text-decoration: none;
+}
+#globalNavigationGroup1 #globalNavigation {
+	background: url("http://image.itmedia.co.jp/images/globalnavigation/group1/globalNavigation_bg.gif") no-repeat 0px 0px rgb(34, 23, 20); height: 35px; line-height: 16px; font-size: 12px; position: relative;
+}
+#globalNavigationGroup1 #globalNavigation .gnavOut {
+	top: 0px; width: 701px; height: 35px; right: 0px; position: absolute;
+}
+#globalNavigationGroup1 #globalNavigation .gnavIn {
+	position: relative;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn {
+	background: url("http://image.itmedia.co.jp/images/globalnavigation/group1/globalNavigation.gif") no-repeat 0px 0px; top: 0px; width: 100px; height: 35px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; position: absolute;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn0 {
+	left: 0px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn1 {
+	background-position: -100px 0px; left: 100px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn2 {
+	background-position: -200px 0px; left: 200px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn3 {
+	background-position: -300px 0px; left: 300px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn4 {
+	background-position: -400px 0px; left: 400px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn5 {
+	background-position: -500px 0px; left: 500px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn6 {
+	background-position: -600px 0px; left: 600px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn a {
+	width: 100px; height: 35px; text-indent: -9999px; overflow: hidden; display: block;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn a:hover {
+	background: url("http://image.itmedia.co.jp/images/globalnavigation/group1/globalNavigation.gif") no-repeat 0px -40px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn0 a:hover {
+	background-position: 0px -40px; left: 0px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn1 a:hover {
+	background-position: -100px -40px; left: 100px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn2 a:hover {
+	background-position: -200px -40px; left: 200px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn3 a:hover {
+	background-position: -300px -40px; left: 300px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn4 a:hover {
+	background-position: -400px -40px; left: 400px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn5 a:hover {
+	background-position: -500px -40px; left: 500px;
+}
+#globalNavigationGroup1 #globalNavigation .gnavBtn6 a:hover {
+	background-position: -600px -40px; left: 600px;
+}
+#globalNavigationGroup2 #globalNavigation {
+	
+}
+#globalNavigationGroup2 #globalNavigation .gnavOut {
+	
+}
+#globalNavigationGroup2 #globalNavigation .gnavIn {
+	
+}
+#globalNavigationGroup2 #globalNavigation .gnavBtn {
+	background: url("http://image.itmedia.co.jp/images/globalnavigation/group2/globalNavigation_bg.gif") no-repeat left; margin: 5px 0px; padding: 0px 5px; line-height: 14px; font-size: 10px; float: right; display: inline; position: relative; z-index: 100;
+}
+#globalNavigationGroup2 #globalNavigation .gnavBtn0 {
+	
+}
+#globalNavigationGroup4 #globalNavigation {
+	width: 990px; position: relative; z-index: 10;
+}
+#globalNavigationGroup4 #globalNavigation .gnavOut {
+	background: rgb(0, 0, 0); border-radius: 0px 0px 5px 5px; left: 191px; top: 0px; width: 790px; height: 24px; position: absolute; -webkit-border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px;
+}
+#globalNavigationGroup4 #globalNavigation .gnavIn {
+	padding: 0px 2px;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn {
+	line-height: 24px; font-size: 11px; font-weight: bold; display: inline;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn a {
+	border-radius: 0px 0px 3px 3px; width: 134px; height: 22px; text-align: center; color: rgb(183, 183, 183); overflow: hidden; float: left; display: block; -webkit-border-radius: 0 0 3px 3px; -moz-border-radius: 0 0 3px 3px;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn0 a {
+	background: rgb(0, 166, 74); color: rgb(255, 255, 255); text-shadow: #666 1px 1px 1px;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn a:link {
+	
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn a:visited {
+	
+}
+.colBox {
+	width: auto; margin-bottom: 10px;
+}
+.colBoxL33 {
+	width: 33%; float: left;
+}
+.colBoxR33 {
+	width: 33%; float: right;
+}
+.colBoxL50 {
+	width: 50%; float: left;
+}
+.colBoxR50 {
+	width: 50%; float: right;
+}
+.colBoxL66 {
+	width: 66%; float: left;
+}
+.colBoxR66 {
+	width: 66%; float: right;
+}
+.colBox a:link {
+	text-decoration: none;
+}
+.colBox a:visited {
+	text-decoration: none;
+}
+.colBox a:hover {
+	color: rgb(204, 0, 0); text-decoration: underline;
+}
+.colBoxOuter {
+	
+}
+.colBoxHead {
+	margin: 0px 0px 5px; padding: 0px 0px 3px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.colBoxHeadSubtxt {
+	top: 3px; right: 0px; line-height: 14px; font-size: 10px; position: absolute;
+}
+.colBoxNewtxt {
+	color: rgb(204, 0, 0); font-weight: bold;
+}
+.colBoxHead h2 {
+	margin: 0px; line-height: 18px; font-size: 14px;
+}
+.colBoxSubhead {
+	background: rgb(238, 238, 238); margin: 0px 0px 5px; padding: 3px;
+}
+.colBoxSubhead h4 {
+	margin: 0px; line-height: 16px; font-size: 12px;
+}
+.colBoxInner {
+	
+}
+.colBoxLeft {
+	float: left;
+}
+.colBoxRight {
+	
+}
+.colBoxIconMargin120 .colBoxLeft {
+	
+}
+.colBoxIconMargin80 .colBoxLeft {
+	
+}
+.colBoxIconMargin120 .colBoxRight {
+	margin-left: 132px;
+}
+.colBoxIconMargin80 .colBoxRight {
+	margin-left: 92px;
+}
+.colBoxIndex {
+	
+}
+.colBoxIndexL33 {
+	width: 33%; float: left;
+}
+.colBoxIndexR33 {
+	width: 33%; float: right;
+}
+.colBoxIndexL50 {
+	width: 49%; float: left;
+}
+.colBoxIndexR50 {
+	width: 49%; float: right;
+}
+.colBoxIndexL66 {
+	width: 66%; float: left;
+}
+.colBoxIndexR66 {
+	width: 66%; float: right;
+}
+.colBoxIcon {
+	display: inline;
+}
+.colBoxIcon a {
+	margin: 0px 5px 3px 0px; border: 1px solid rgb(204, 204, 204); float: left;
+}
+.colBoxLeft .colBoxIcon a {
+	margin: 0px;
+}
+.colBoxSubTitle {
+	margin: 0px 0px 3px;
+}
+.colBoxSubTitle h5 {
+	margin: 0px; color: rgb(170, 119, 51); line-height: 16px; font-size: 12px;
+}
+.colBoxSubIcon {
+	
+}
+.colBoxSubIcon img {
+	vertical-align: middle;
+}
+.colBoxTitle {
+	margin: 0px 0px 3px;
+}
+.colBoxTitle h3 {
+	margin: 0px; line-height: 20px; font-size: 16px;
+}
+.colBoxDescription {
+	margin: 0px 0px 3px;
+}
+.colBoxDescription p {
+	margin: 0px; line-height: 16px; font-size: 12px;
+}
+.colBoxButton {
+	margin: 0px auto; border-radius: 20px; border: 1px solid rgb(204, 204, 204); width: 150px; -webkit-border-radius: 20px; -moz-border-radius: 20px;
+}
+.colBoxButton a {
+	background: rgb(0, 51, 102); padding: 5px; border-radius: 20px; border: 2px solid rgb(255, 255, 255); text-align: center; font-size: 14px; font-weight: bold; display: block; -webkit-border-radius: 20px; -moz-border-radius: 20px;
+}
+.colBoxButton a:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.colBoxButton a:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.colBoxButton a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.colBoxIndex .linkset {
+	margin: 0px 0px 3px; padding: 0px; clear: both; list-style-type: none;
+}
+.colBoxIconMargin120 .colBoxIndex .linkset {
+	clear: none;
+}
+.colBoxIconMargin80 .colBoxIndex .linkset {
+	clear: none;
+}
+.colBoxIndex .linkset li {
+	background: url("http://image.itmedia.co.jp/images/ulli_book0.gif") no-repeat 0px 2px; margin: 0px; padding: 0px 0px 3px 12px; line-height: 16px; font-size: 12px;
+}
+.colBoxInfo {
+	margin: 0px 0px 3px; text-align: right;
+}
+.colBoxInfo .colBoxDate {
+	line-height: 14px; font-size: 10px;
+}
+.colBoxInfo .colBoxLinktxt {
+	line-height: 16px; font-size: 12px;
+}
+.colBoxClear {
+	height: 0px; line-height: 0; clear: both; font-size: 0px;
+}
+.colBoxClearLeft {
+	height: 0px; line-height: 0; clear: left; font-size: 0px;
+}
+.colBoxClearRight {
+	height: 0px; line-height: 0; clear: right; font-size: 0px;
+}
+.colBoxUlist {
+	
+}
+.colBoxUlist ul {
+	margin: 0px; padding: 0px; line-height: 16px; clear: both; font-size: 12px; list-style-type: none;
+}
+.colBoxUlist ul li {
+	background: url("http://image.itmedia.co.jp/images/ulli_book0.gif") no-repeat 0px 2px; margin: 0px 0px 3px; padding: 0px 0px 3px 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.colBoxUlistDate {
+	margin: 0px 0px 0px 5px; line-height: 14px; font-size: 10px;
+}
+.colBoxOlist {
+	
+}
+.colBoxUlist ul .lastLiMarginClear {
+	
+}
+.colBoxOlist ol .lastLiMarginClear {
+	
+}
+.colBoxOlist ol {
+	margin: 0px; padding: 0px; line-height: 16px; clear: both; font-size: 12px; list-style-type: none;
+}
+.colBoxOlist ol li {
+	background: url("http://image.itmedia.co.jp/images/olli_rank0.gif") no-repeat 0px 2px; margin: 0px 0px 3px; padding: 0px 0px 3px 34px; height: auto !important; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted; min-height: 30px;
+}
+.colBoxOlist ol .rank1 {
+	
+}
+.colBoxOlist ol .rank2 {
+	background-position: 0px -100px;
+}
+.colBoxOlist ol .rank3 {
+	background-position: 0px -200px;
+}
+.colBoxOlist ol .rank4 {
+	background-position: 0px -300px;
+}
+.colBoxOlist ol .rank5 {
+	background-position: 0px -400px;
+}
+.colBoxOlist ol .rank6 {
+	background-position: 0px -500px;
+}
+.colBoxOlist ol .rank7 {
+	background-position: 0px -600px;
+}
+.colBoxOlist ol .rank8 {
+	background-position: 0px -700px;
+}
+.colBoxOlist ol .rank9 {
+	background-position: 0px -800px;
+}
+.colBoxOlist ol .rank10 {
+	background-position: 0px -900px;
+}
+.colBoxOlistDate {
+	margin: 0px 0px 0px 5px; line-height: 14px; font-size: 10px;
+}
+.colBox .backNumBoxRap {
+	
+}
+.colBox .backNumBoxRap strong {
+	display: none;
+}
+.colBox .backNumBoxIn ul {
+	margin: 0px; padding: 0px; line-height: 16px; clear: both; font-size: 12px; list-style-type: none;
+}
+.colBox .backNumBoxIn ul li {
+	background: url("http://image.itmedia.co.jp/images/ulli_book0.gif") no-repeat 0px 2px; margin: 0px 0px 3px; padding: 0px 0px 3px 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.colBoxPageLink {
+	text-align: right; line-height: 16px; font-size: 12px;
+}
+.colBoxTable {
+	
+}
+.colBoxTable table {
+	border-collapse: collapse;
+}
+.colBoxTable table th {
+	padding: 1px 3px; border: 1px solid rgb(204, 204, 204); text-align: left; line-height: 16px; font-size: 12px;
+}
+.colBoxTable table td {
+	padding: 1px 3px; border: 1px solid rgb(204, 204, 204); text-align: left; line-height: 16px; font-size: 12px;
+}
+.colBoxTable table th {
+	background: rgb(238, 238, 238);
+}
+.colBoxTable table td {
+	
+}
+.colBoxCalendar .colBoxIndex {
+	margin: 0px 10px 10px 0px; padding: 3px; border-radius: 5px; width: 140px; height: 100px; float: left; box-shadow: 2px 2px 3px #eee; -webkit-border-radius: 5px; -moz-border-radius: 5px; -webkit-box-shadow: 2px 2px 3px #EEE; -moz-box-shadow: 2px 2px 3px #EEE;
+}
+.colBoxCalendar .colBoxSubhead {
+	margin: 0px 0px 5px; padding: 0px 0px 3px; border-bottom-color: rgb(204, 204, 187); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.colBoxCalendar .colBoxUlist ul {
+	line-height: 14px; font-size: 10px;
+}
+.colBoxCalendar .colBoxUlist ul li {
+	margin: 0px; padding: 0px; border: currentColor; display: inline;
+}
+.colBoxCalendar .colBoxUlist ul li a {
+	background: rgb(238, 238, 221); margin: 0px 5px 5px 0px; padding: 2px; border: 1px solid rgb(221, 221, 221); width: 24px; text-align: center; float: left; display: block;
+}
+.colBoxCalendar .colBoxUlist ul li a:link {
+	color: rgb(51, 51, 34); text-decoration: none;
+}
+.colBoxCalendar .colBoxUlist ul li a:visited {
+	color: rgb(51, 51, 34); text-decoration: none;
+}
+.colBoxCalendar .colBoxUlist ul li a:hover {
+	background: rgb(221, 221, 204); color: rgb(51, 51, 34); text-decoration: none;
+}
+.colBoxCalendar .colBoxUlist ul .colBoxActive a:link {
+	background: rgb(102, 102, 85); color: rgb(255, 255, 255);
+}
+.colBoxCalendar .colBoxUlist ul .colBoxActive a:visited {
+	background: rgb(102, 102, 85); color: rgb(255, 255, 255);
+}
+.colBoxCalendar .colBoxUlist ul .colBoxActive a:hover {
+	background: rgb(102, 102, 85); color: rgb(255, 255, 255);
+}
+.colBoxBacknumber .colBoxUlist ul li .colBoxArticletype {
+	background: rgb(238, 238, 238); margin: 0px 5px 0px 0px; padding: 0px 2px; border: 1px solid rgb(204, 204, 204); width: 60px; text-align: center; line-height: 14px; font-size: 10px; float: left; display: block;
+}
+.colBoxBacknumber .colBoxUlist ul li .colBoxArticlewriter {
+	line-height: 14px; font-size: 10px;
+}
+.colBoxSentence p {
+	margin: 0px 0px 20px; line-height: 24px; font-size: 16px;
+}
+.colBoxSentence ul {
+	margin: 0px 0px 20px; line-height: 22px; font-size: 14px;
+}
+.colBoxSentence ol {
+	margin: 0px 0px 20px; line-height: 22px; font-size: 14px;
+}
+.colBoxSentence li {
+	margin: 0px 0px 10px;
+}
+.colBoxButtons .colBoxUlist ul li {
+	background-position: 3px 5px; margin: 0px 5px 5px 0px; padding: 3px 3px 3px 16px; border: 1px solid rgb(204, 204, 187); float: left; cursor: pointer; background-color: rgb(238, 238, 221);
+}
+.colBoxButtons .colBoxUlist ul .hover {
+	background-color: rgb(221, 221, 204);
+}
+.colBoxButtons .colBoxUlist ul .active {
+	color: rgb(255, 255, 255); font-weight: bold; background-color: rgb(204, 0, 0);
+}
+.colBoxLargeImage {
+	
+}
+.colBoxLargeImage .colBoxIcon {
+	
+}
+.colBoxLargeImage .colBoxSubTitle {
+	margin: 0px 0px 10px; clear: both;
+}
+.colBoxLargeImage .colBoxInfo {
+	margin: 0px 0px 10px; text-align: left;
+}
+.colBoxImage .colBoxIndex {
+	margin: 0px 0px 30px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.colBoxImage .colBoxTitle h3 {
+	line-height: 30px; font-size: 24px;
+}
+.colBoxImage .colBoxDescription p {
+	line-height: 22px; font-size: 16px;
+}
+.colBoxIconShuffle .colBoxIndex {
+	display: inline;
+}
+.colBoxIconShuffle .colBoxIcon a {
+	margin: 0px 5px 0px 0px; padding: 1px; border: 3px solid rgb(204, 204, 204); width: 80px; height: 60px; display: block;
+}
+.colBoxIconShuffle .colBoxIcon a.active {
+	border: 3px solid rgb(204, 0, 0);
+}
+.colBoxAccessTop10 {
+	
+}
+.colBoxAccessTop10 .colBoxOuter {
+	background: rgb(204, 204, 204); padding: 10px; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px;
+}
+.colBoxAccessTop10 .colBoxHead h2 {
+	background: url("http://image.itmedia.co.jp/images/ulli_king1.gif") no-repeat 0px 0px; padding: 8px 0px 3px 42px; color: rgb(122, 113, 31); line-height: 24px; font-size: 18px;
+}
+.colBoxAccessTop10 .colBoxInner {
+	background: rgb(255, 255, 255); padding: 10px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+#cmsBody .colBoxAccessTop10 .colBoxOlist ol {
+	margin: 0px;
+}
+#cmsBody .colBoxAccessTop10 .colBoxOlist li {
+	line-height: 22px; font-size: 16px;
+}
+.colBoxQuickPoll .colBoxIndex form {
+	margin: 0px;
+}
+.colBoxQuickPoll .colBoxIndex form label {
+	font-size: 14px; font-weight: bold; vertical-align: middle;
+}
+.colBoxQuickPoll .colBoxGraph {
+	background: rgb(255, 255, 255); margin: 0px 0px 5px; padding: 2px 0px; border-radius: 5px; border: 1px solid rgb(255, 255, 255); text-align: center; font-size: 12px; box-shadow: 0px 0px 1px #999; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.colBoxQuickPoll .colBoxInfo {
+	text-align: center;
+}
+.colBoxQuickPoll .colBoxInfoBtn {
+	padding: 10px 0px 0px;
+}
+.colBoxQuickPoll .colBoxInfo p {
+	color: rgb(204, 0, 0);
+}
+#globalFooterMediaList {
+	
+}
+#globalFooterMediaListIn {
+	
+}
+#globalFooterMediaList .mediaListGroup {
+	clear: both;
+}
+#globalFooterMediaList .mediaList {
+	margin: 0px 10px 10px 0px; width: 170px; float: left;
+}
+#globalFooterMediaList .mediaList h2 {
+	margin: 0px 0px 3px; padding: 0px 0px 0px 6px; line-height: 16px; font-size: 12px; border-left-color: rgb(204, 0, 0); border-left-width: 3px; border-left-style: solid;
+}
+#globalFooterMediaList .mediaList ul {
+	list-style: none; margin: 0px; padding: 3px 0px 0px; border-top-color: rgb(102, 102, 102); border-top-width: 1px; border-top-style: solid;
+}
+#globalFooterMediaList .mediaList ul li {
+	margin: 0px 0px 3px; padding: 0px; line-height: 16px; font-size: 12px;
+}
+#globalFooterMediaList hr {
+	clear: both; visibility: hidden;
+}
+#globalFooterCorp {
+	padding: 10px 0px 0px; clear: both; border-top-color: rgb(102, 102, 102); border-top-width: 1px; border-top-style: solid;
+}
+#globalFooterCorpIn {
+	
+}
+#globalFooterCorp p a:link {
+	
+}
+#globalFooterCorp p a:visited {
+	
+}
+#globalFooterCorpLogo {
+	margin: 0px 0px 5px; padding: 12px 0px 0px 180px; height: 1%; line-height: 16px; font-size: 12px; display: block; position: relative;
+}
+#globalFooterCorpLogo a {
+	background: url("http://image.itmedia.co.jp/images/logo/170_itmedia_bgw.gif") no-repeat 0px 0px; left: 0px; top: 0px; width: 170px; height: 28px; text-indent: -9999px; float: left; display: block; position: absolute;
+}
+#globalFooterCorpLink {
+	margin: 0px; line-height: 16px; clear: both; font-size: 12px;
+}
+.newziaConnectAPI {
+	margin-bottom: 10px;
+}
+.newziaConnectAPI a:link {
+	text-decoration: none;
+}
+.newziaConnectAPI a:visited {
+	text-decoration: none;
+}
+.newziaConnectAPI a:hover {
+	color: rgb(204, 0, 0); text-decoration: underline;
+}
+.newziaConnectAPI h3 {
+	margin: 0px 0px 5px; padding: 0px 0px 3px; line-height: 18px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.newziaConnectAPI ul {
+	margin: 0px; padding: 0px; line-height: 16px; clear: both; font-size: 12px; list-style-type: none;
+}
+.newziaConnectAPI ul li {
+	background: url("http://image.itmedia.co.jp/images/ulli_book0.gif") no-repeat 0px 2px; margin: 0px 0px 3px; padding: 0px 0px 3px 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.newziaConnectAPI div {
+	text-align: right; line-height: 14px; font-size: 10px;
+}
+.snsContents {
+	
+}
+.snsContents .colBox .colBoxOuter {
+	border: currentColor !important;
+}
+.snsContents .colBox .colBoxIndex {
+	padding: 0px !important; border: currentColor !important;
+}
+.snsButtons {
+	height: 17px;
+}
+.snsButtons .colBox {
+	margin: 0px;
+}
+.snsButtons .colBoxUlist ul {
+	
+}
+.snsButtons .colBoxUlist li {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px 3px; border: 1px solid rgb(204, 204, 204); font-weight: bold; display: inline; cursor: pointer;
+}
+.snsButtons .colBoxUlist li.hover {
+	
+}
+.snsButtons .colBoxUlist li.active {
+	background: rgb(238, 238, 238);
+}
+.snsContents .colBoxHead {
+	display: none;
+}
+.colBoxSnsMostpopular {
+	border: 1px solid rgb(204, 204, 204);
+}
+.colBoxSnsFriendsactivity {
+	border: 1px solid rgb(204, 204, 204);
+}
+.colBoxSnsMosttweeted {
+	border: 1px solid rgb(204, 204, 204); height: 262px; overflow: scroll;
+}
+.colBoxSnsMosttweeted .colBoxUlist li {
+	padding: 0px 0px 3px; font-size: 11px;
+}
+.colBoxSnsSocialbutton .colBoxOuter {
+	background: rgb(204, 204, 204); padding: 5px; border-radius: 0px 0px 5px 5px;
+}
+.colBoxSnsSocialbutton .colBoxUlist li {
+	margin: 0px; padding: 0px; border: 0px currentColor; display: inline;
+}
+.colBoxR50 #newzia_connect_flmobile {
+	width: 300px;
+}
+.colBoxR50 #newzia_connect_flmobile h4 {
+	background: url("http://image.itmedia.co.jp/images/ulli_note0.gif") no-repeat 0px 0px; margin: 0px 0px 5px; padding: 0px 0px 5px 20px; width: auto; color: rgb(17, 17, 17); line-height: 120%; clear: both; font-size: small; font-weight: bold; border-bottom-color: rgb(204, 204, 187); border-bottom-width: 2px; border-bottom-style: solid; float: none;
+}
+.colBoxR50 #newzia_connect_flmobile h4 u {
+	text-decoration: none;
+}
+.colBoxR50 #newzia_connect_flmobile img {
+	margin: 0px 3px 2px 0px !important; border: 0px currentColor; padding-right: 0px; float: left;
+}
+.colBoxR50 #newzia_connect_flmobile a:link {
+	text-decoration: none;
+}
+.colBoxR50 #newzia_connect_flmobile a:visited {
+	text-decoration: none;
+}
+.colBoxR50 #newzia_connect_flmobile a:hover {
+	text-decoration: underline;
+}
+body .colBoxR50 #newzia_connect_flmobile a:link img {
+	border: 0px currentColor; padding-right: 5px; padding-bottom: 2px;
+}
+body .colBoxR50 #newzia_connect_flmobile a:visited img {
+	border: 0px currentColor; padding-right: 5px; padding-bottom: 2px;
+}
+.colBoxR50 #newzia_connect_flmobile .adsense .endlink p {
+	background: url("http://image.itmedia.co.jp/images/newzia_bg_1.gif") no-repeat left bottom !important; margin: 0px 0px 5px !important; padding: 4px !important; color: rgb(85, 85, 85) !important; line-height: 16px !important; clear: both !important; font-size: 12px !important; border-left-color: currentColor !important; border-left-width: medium !important; border-left-style: none !important; min-height: 65px !important;
+}
+* html .colBoxR50 #newzia_connect_flmobile .adsense .endlink p {
+	height: 65px;
+}
+.colBoxR50 #newzia_connect_flmobile p span.title {
+	line-height: 18px !important; font-size: 12px !important; font-weight: bold !important;
+}
+.colBoxR50 #newzia_connect_flmobile ul#newart {
+	list-style: none !important; margin: 0px; padding: 0px;
+}
+.colBoxR50 #newzia_connect_flmobile ul#newart li {
+	background: url("http://image.itmedia.co.jp/images/newzia_bg_1.gif") no-repeat left bottom !important; margin: 0px 0px 5px !important; padding: 4px !important; color: rgb(85, 85, 85) !important; line-height: 16px !important; clear: both !important; font-size: 12px !important; border-left-color: currentColor !important; border-left-width: medium !important; border-left-style: none !important; min-height: 65px !important;
+}
+* html .colBoxR50 #newzia_connect_flmobile ul#newart li {
+	height: 65px;
+}
+.colBoxR50 #newzia_connect_flmobile ul#newart li a {
+	line-height: 18px !important; font-size: 12px !important; font-weight: bold !important;
+}
+#colBoxDictionaryMenu {
+	
+}
+#colBoxDictionaryMenu .colBoxUlist ul li {
+	margin: 0px; padding: 0px; border: 1px solid rgb(204, 204, 204); width: 30px; height: 30px; text-align: center; line-height: 30px; float: left; display: block; cursor: pointer;
+}
+.cmsVideo {
+	margin: 0px auto 20px;
+}
+.cmsVideoContents {
+	
+}
+.cmsVideoCaption {
+	background: rgb(238, 238, 238); padding: 5px; border: 1px solid rgb(204, 204, 204); line-height: 18px; font-size: 14px;
+}
+.cmsEmbeddedTweets {
+	margin-bottom: 20px;
+}
+.cmsEmbeddedFBposts {
+	margin-bottom: 20px;
+}
+.cmsEmbeddedTweets iframe {
+	margin: 0px 0px 5px !important;
+}
+.cmsEmbeddedFBposts .fb_iframe_widget.fb-post {
+	margin: 0px 0px 5px !important;
+}
+.cmsEmbeddedInstagramCaption {
+	background: rgb(246, 246, 246); border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); padding: 5px; border-radius: 10px; line-height: 16px; font-size: 12px; min-width: 220px; max-width: 99%; box-shadow: 0px 1px 3px rgba(0,0,0,0.15); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none;
+}
+.cmsEmbeddedTweetsCaption {
+	background: rgb(246, 246, 246); border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); padding: 5px; border-radius: 10px; line-height: 16px; font-size: 12px; min-width: 220px; max-width: 99%; box-shadow: 0px 1px 3px rgba(0,0,0,0.15); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none;
+}
+.cmsEmbeddedFBpostsCaption {
+	background: rgb(246, 246, 246); border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); padding: 5px; border-radius: 10px; line-height: 16px; font-size: 12px; min-width: 220px; max-width: 99%; box-shadow: 0px 1px 3px rgba(0,0,0,0.15); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none;
+}
+.cmsEmbeddedImgur {
+	margin: 0px auto 20px; width: 540px;
+}
+.cmsEmbeddedImgurCaption {
+	background: rgb(246, 246, 246); border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(221, 221, 221) rgb(187, 187, 187); padding: 5px; border-radius: 10px; line-height: 16px; font-size: 12px; min-width: 220px; max-width: 99%; box-shadow: 0px 1px 3px rgba(0,0,0,0.15); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none;
+}
+.h5px {
+	height: 5px;
+}
+.h10px {
+	height: 10px;
+}
+.h15px {
+	height: 15px;
+}
+.h20px {
+	height: 20px;
+}
+.h25px {
+	height: 25px;
+}
+.h30px {
+	height: 30px;
+}

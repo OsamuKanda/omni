@@ -1,0 +1,148 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltSYOZOKJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SYOZOKJIGYOCD
+	{
+		display: inline;
+		width: 103px;
+		position: absolute;
+		top: -1px;
+		left: 68px;
+		ime-mode: disabled;
+	}
+	.lbltSHANAIKBN
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SHANAIKBN
+	{
+		display: inline;
+		width: 110px;
+		position: absolute;
+		top: 20px;
+		left: 68px;
+		ime-mode: disabled;
+	}
+	.lbltTANTNM
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.TANTNM
+	{
+		width: 96px;
+		ime-mode: active;
+		position: absolute;
+		top: 42px;
+		left: 68px;
+	}
+	.divbtnSearch
+	{
+		width: 296px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 296px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 296px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellTANTCD
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellTANTNM
+	{
+		width: 106px;
+		text-align: left;
+	}
+	.CellJIGYONM
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiJIGYONM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemTANTCD
+	{
+		text-align: left;
+	}
+	.itemcellTANTCD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemTANTNM
+	{
+		text-align: left;
+	}
+	.itemcellTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.itemJIGYONM
+	{
+		text-align: left;
+	}
+	.itemcellJIGYONM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

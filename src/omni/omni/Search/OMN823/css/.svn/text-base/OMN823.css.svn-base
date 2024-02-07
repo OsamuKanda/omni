@@ -1,0 +1,99 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltTANINM
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.TANINM
+	{
+		width: 24px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 68px;
+	}
+	.divbtnSearch
+	{
+		width: 172px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 172px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 172px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellTANICD
+	{
+		width: 88px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellTANINM
+	{
+		width: 64px;
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemTANICD
+	{
+		text-align: left;
+	}
+	.itemcellTANICD
+	{
+		width: 12px;
+		display: inline-block;
+	}
+	.itemTANINM
+	{
+		text-align: left;
+	}
+	.itemcellTANINM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

@@ -1,0 +1,455 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		width: 12px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 92px;
+	}
+	.JIGYONM
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 118px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 92px;
+	}
+	.NONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 136px;
+	}
+	.NONYUNM2
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 510px;
+	}
+	.LVHeader
+	{
+		width: 838px;
+		position: relative;
+		margin-left: 10px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.LVContent
+	{
+		width: 838px;
+		position: absolute;
+	}
+	.SearchDP
+	{
+		width: 838px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.scroll
+	{
+		width: 838px;
+		height: 425px;
+		overflow: auto;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellGOUKI
+	{
+		text-align: left;
+	}
+	.itemTiGOUKI
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellKISHUKATA
+	{
+		text-align: left;
+	}
+	.itemTiKISHUKATA
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSECCHIYMD
+	{
+		text-align: left;
+	}
+	.itemTiSECCHIYMD
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellTANTNM
+	{
+		width: 106px;
+		text-align: left;
+	}
+	.itemTiTANTNM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellHOSYUTUKI
+	{
+		text-align: left;
+	}
+	.itemTiHOSYUTUKI
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSHIYOUSHA
+	{
+		width: 125px;
+		text-align: left;
+	}
+	.itemTiSHIYOUSHA
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellYOSHIDANO
+	{
+		text-align: left;
+	}
+	.itemTiYOSHIDANO
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.CellKEIYAKUYMD
+	{
+		text-align: left;
+	}
+	.itemTiKEIYAKUYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellKEIYAKUKING
+	{
+		text-align: right;
+	}
+	.itemTiKEIYAKUKING
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellHOSHUKBNNM
+	{
+		text-align: left;
+	}
+	.itemTiHOSHUKBNNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellBUHINYMD
+	{
+		text-align: left;
+	}
+	.itemTiBUHINYMD
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellBUHINBUKKENNO
+	{
+		text-align: left;
+	}
+	.itemTiBUHINBUKKENNO
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellNONYUNMR01
+	{
+		text-align: left;
+	}
+	.itemTiNONYUNMR01
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellNONYUNMR02
+	{
+		text-align: left;
+	}
+	.itemTiNONYUNMR02
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellSECCHIKYMD
+	{
+		text-align: left;
+	}
+	.itemTiSECCHIKYMD
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.CellSECCHIBUKKENNO
+	{
+		text-align: left;
+	}
+	.itemTiSECCHIBUKKENNO
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemGOUKI
+	{
+		text-align: left;
+	}
+	.itemcellGOUKI
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemKISHUKATA
+	{
+		text-align: left;
+	}
+	.itemcellKISHUKATA
+	{
+		width: 240px;
+		display: inline-block;
+	}
+	.itemSECCHIYMD
+	{
+		text-align: left;
+	}
+	.itemcellSECCHIYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemTANTNM
+	{
+		text-align: left;
+	}
+	.itemcellTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.itemHOSYUTUKI
+	{
+		text-align: left;
+	}
+	.itemcellHOSYUTUKI
+	{
+		width: 162px;
+		display: inline-block;
+	}
+	.itemSHIYOUSHA
+	{
+		text-align: left;
+	}
+	.itemcellSHIYOUSHA
+	{
+		width: 192px;
+		display: inline-block;
+	}
+	.itemYOSHIDANO
+	{
+		text-align: left;
+	}
+	.itemcellYOSHIDANO
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemKEIYAKUYMD
+	{
+		text-align: left;
+	}
+	.itemcellKEIYAKUYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemKEIYAKUKING
+	{
+		text-align: right;
+	}
+	.itemcellKEIYAKUKING
+	{
+		width: 66px;
+		display: inline-block;
+	}
+	.itemHOSHUKBNNM
+	{
+		text-align: left;
+	}
+	.itemcellHOSHUKBNNM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemBUHINYMD
+	{
+		text-align: left;
+	}
+	.itemcellBUHINYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemBUHINBUKKENNO
+	{
+		text-align: left;
+	}
+	.itemcellBUHINBUKKENNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemNONYUNMR01
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNMR01
+	{
+		width: 192px;
+		display: inline-block;
+	}
+	.itemNONYUNMR02
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNMR02
+	{
+		width: 192px;
+		display: inline-block;
+	}
+	.itemSECCHIKYMD
+	{
+		text-align: left;
+	}
+	.itemcellSECCHIKYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemSECCHIBUKKENNO
+	{
+		text-align: left;
+	}
+	.itemcellSECCHIBUKKENNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

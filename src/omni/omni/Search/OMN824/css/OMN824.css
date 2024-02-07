@@ -1,0 +1,411 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltSEIKYUYMDFROM1
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SEIKYUYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnSEIKYUYMDFROM1
+	{
+		position: absolute;
+		top: 0px;
+		left: 156px;
+	}
+	.lbltitle1
+	{
+		position: absolute;
+		top: 2px;
+		left: 183px;
+	}
+	.SEIKYUYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 205px;
+	}
+	.btnSEIKYUYMDTO1
+	{
+		position: absolute;
+		top: 0px;
+		left: 269px;
+		height: 18px;
+	}
+	.lbltNONYUCDFROM2
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NONYUCDFROM2
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnNONYUCDFROM2
+	{
+		position: absolute;
+		top: 20px;
+		left: 136px;
+		height: 18px;
+	}
+	.NONYUNMR1
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 178px;
+	}
+	.lbltitle2
+	{
+		position: absolute;
+		top: 23px;
+		left: 384px;
+	}
+	.NONYUCDTO2
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 406px;
+	}
+	.btnNONYUCDTO2
+	{
+		position: absolute;
+		top: 20px;
+		left: 450px;
+		height: 18px;
+	}
+	.NONYUNMR2
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 492px;
+	}
+	.lbltSEIKYUCDFROM3
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SEIKYUCDFROM3
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.btnSEIKYUCDFROM3
+	{
+		position: absolute;
+		top: 40px;
+		left: 136px;
+		height: 18px;
+	}
+	.NONYUNMR3
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 178px;
+	}
+	.lbltitle3
+	{
+		position: absolute;
+		top: 44px;
+		left: 384px;
+	}
+	.SEIKYUCDTO3
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 406px;
+	}
+	.btnSEIKYUCDTO3
+	{
+		position: absolute;
+		top: 40px;
+		left: 450px;
+		height: 18px;
+	}
+	.NONYUNMR4
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 492px;
+	}
+	.divbtnSearch
+	{
+		width: 895px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 895px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 895px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemTiSEIKYUSHONO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSEIKYUYMD
+	{
+		text-align: left;
+	}
+	.itemTiSEIKYUYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellNONYUCD
+	{
+		text-align: left;
+	}
+	.itemTiNONYUCD
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellNONYUNM
+	{
+		width: 395px;
+		text-align: left;
+	}
+	.itemTiNONYUNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellKANRYOYMD
+	{
+		text-align: left;
+	}
+	.itemTiKANRYOYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSEIKYUCD
+	{
+		text-align: left;
+	}
+	.itemTiSEIKYUCD
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellSEIKYUNM
+	{
+		text-align: left;
+	}
+	.itemTiSEIKYUNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellKAISHUYOTEIYMD
+	{
+		text-align: left;
+	}
+	.itemTiKAISHUYOTEIYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellBKNNO
+	{
+		text-align: left;
+	}
+	.itemTiBKNNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		text-align: right;
+	}
+	.itemTiKING
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemSEIKYUYMD
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemNONYUCD
+	{
+		text-align: left;
+	}
+	.itemcellNONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemNONYUNM
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNM
+	{
+		width: 720px;
+		display: inline-block;
+	}
+	.itemKANRYOYMD
+	{
+		text-align: left;
+	}
+	.itemcellKANRYOYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemSEIKYUCD
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUCD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemSEIKYUNM
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUNM
+	{
+		width: 720px;
+		display: inline-block;
+	}
+	.itemKAISHUYOTEIYMD
+	{
+		text-align: left;
+	}
+	.itemcellKAISHUYOTEIYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemBKNNO
+	{
+		text-align: left;
+	}
+	.itemcellBKNNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemKING
+	{
+		text-align: right;
+	}
+	.itemcellKING
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

@@ -1,0 +1,120 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="search.Master.vb" Inherits="omni.search" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" /> 
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <title>
+    </title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .AppNo
+        {
+            color: #FFFFFF;
+            text-align: left;
+            width: 80px;
+            float: left;
+            height: 25px;
+            margin-left: 10px;
+        }
+        .AppTitle
+        {
+            color: #FFFFFF;
+            text-align: left;
+            float: left;
+            height: 25px;
+        }
+        .divHeader
+        {
+            background-color: #FFFFFF;
+            background-image: URL("../../../Master/img/SerchHeader.JPG");
+            background-repeat:repeat-x;
+            height: 25px;
+            width: 100%;
+            clear: both;
+        }
+        .main
+        {
+            background-color: #CCCCCC;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .lblAppNo
+        {
+            font-size: 12px;
+            line-height: 25px;
+
+        }
+        .lblAppTitle
+        {
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 25px;
+
+        }
+     .error
+    {
+        height: 20px;
+        clear: both;
+        background-color: #CCCCCC;
+        text-align: right;
+    }
+
+    .red
+    {
+        color: #FF0000;
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body style="background-color: #CCCCCC;">
+    <form id="form1" runat="server" onreset="return false;" onhelp="return false;">
+    <asp:ScriptManager ID="Manager" runat="server">
+    </asp:ScriptManager>
+     <script language="javascript" type="text/javascript" charset="utf-8">
+         var hiderr = "<%= HdderMSG.ClientID %>";
+         var hidlblerr = "<%= lblerror.ClientID %>";
+         var hidFocus = "<%= hidFocus.ClientID %>";
+         var CliCon = "<%= clicom.ClientID %>";
+         var SeaCon = "<%= hidbtn.ClientID %>";
+         var helpMsg = "<%= helpMsg.ClientID %>";
+    </script>
+    <div class="main">
+        <div class="divHeader" >
+            <div class="AppNo" >
+                <asp:Label ID="lblMasterAppNo" runat="server" Text="ZMK01W" CssClass="lblAppNo"></asp:Label>
+            </div>
+            <div class="AppTitle">
+                <asp:Label ID="lblMasterTitle" runat="server" Text="ＴＩＴＬＥ" CssClass="lblAppTitle"></asp:Label>
+            </div>
+        </div>
+        <div class="error" >
+            <asp:UpdatePanel ID="UpdatePanel2" runat="server" RenderMode="Inline" >
+                <ContentTemplate>
+                    <asp:Label ID="lblerror" runat="server" Text="&nbsp;Sample" CssClass="red" ></asp:Label>
+                    <asp:Button ID="btnerror" runat="server" Text="MSG" UseSubmitBehavior="False" TabIndex="-1" OnClientClick="return errView();" />
+                    <input id="HdderMSG" runat="server" type="hidden" />
+                    <input id="clicom" type="hidden" runat="server" />
+                    <input id="hidbtn" type="hidden" runat="server" />
+                    <input id="helpMsg" type="hidden" runat="server" />
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <input id="hidErr" runat="server" type="hidden" />
+            <input id="hidFocus" runat="server" type="hidden" />
+        </div>
+        <asp:ContentPlaceHolder ID="Main" runat="server">
+            
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

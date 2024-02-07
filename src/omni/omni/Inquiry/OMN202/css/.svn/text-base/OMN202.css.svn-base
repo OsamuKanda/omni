@@ -1,0 +1,561 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: -1px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltSEIKYUKBN
+	{
+		position: absolute;
+		top: 2px;
+		left: 300px;
+	}
+	.SEIKYUKBN
+	{
+		display: inline;
+		width: 85px;
+		position: absolute;
+		top: -1px;
+		left: 380px;
+		ime-mode: disabled;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 500px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 592px;
+	}
+	.btnNONYUCD
+	{
+		position: absolute;
+		top: -1px;
+		left: 636px;
+		height: 18px;
+	}
+	.NONYUNMR01
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 678px;
+	}
+	.lbltTANTCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.TANTCD
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnTANTCD
+	{
+		position: absolute;
+		top: 20px;
+		left: 142px;
+		height: 18px;
+	}
+	.TANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 184px;
+	}
+	.lbltSEIKYUCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 500px;
+	}
+	.SEIKYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 592px;
+	}
+	.btnSEIKYUCD
+	{
+		position: absolute;
+		top: 20px;
+		left: 636px;
+		height: 18px;
+	}
+	.NONYUNMR02
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 678px;
+	}
+	.lbltSAGYOBKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SAGYOBKBN
+	{
+		display: inline;
+		width: 97px;
+		position: absolute;
+		top: 41px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltHOKOKUSHOKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 300px;
+	}
+	.HOKOKUSHOKBN
+	{
+		display: inline;
+		width: 73px;
+		position: absolute;
+		top: 41px;
+		left: 380px;
+		ime-mode: disabled;
+	}
+	.lbltUKETSUKEYMDFROM1
+	{
+		position: absolute;
+		top: 44px;
+		left: 500px;
+	}
+	.UKETSUKEYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 592px;
+	}
+	.btnUKETSUKEYMDFROM1
+	{
+		position: absolute;
+		top: 42px;
+		left: 656px;
+	}
+	.lbl
+	{
+		position: absolute;
+		top: 44px;
+		left: 683px;
+	}
+	.UKETSUKEYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 705px;
+	}
+	.btnUKETSUKEYMDTO1
+	{
+		position: absolute;
+		top: 42px;
+		left: 769px;
+	}
+	.LVHeader
+	{
+		width: 752px;
+		position: relative;
+		margin-left: 10px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.divBtnSerch
+	{
+		position: absolute;
+		top: 0px;
+		width: 172px;
+		right: 0px;
+		text-align: right;
+	}
+	.LVContent
+	{
+		width: 752px;
+		height: 381px;
+		position: absolute;
+		top: 21px;
+	}
+	.SearchDP
+	{
+		width: 752px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellRENNO
+	{
+		width: 82px;
+		text-align: left;
+	}
+	.itemTiRENNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellUKETSUKEYMD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiUKETSUKEYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellNONYUCD
+	{
+		width: 40px;
+		text-align: left;
+	}
+	.itemTiNONYUCD
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellNONYUNMR01
+	{
+		width: 200px;
+		text-align: left;
+	}
+	.itemTiNONYUNMR01
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellSEIKYUKBNNM
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiSEIKYUKBNNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellCHOKIKBNNM
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiCHOKIKBNNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellTANTCD
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiTANTCD
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellTANTNM
+	{
+		width: 106px;
+		text-align: left;
+	}
+	.itemTiTANTNM
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemTiSEIKYUSHONO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSEIKYUCD
+	{
+		text-align: left;
+	}
+	.itemTiSEIKYUCD
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellNONYUNMR02
+	{
+		text-align: left;
+	}
+	.itemTiNONYUNMR02
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellHOKOKUKBNNM
+	{
+		text-align: left;
+	}
+	.itemTiHOKOKUKBNNM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellHACCHUNO
+	{
+		text-align: left;
+	}
+	.itemTiHACCHUNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellUKETSUKEKBNNM
+	{
+		text-align: left;
+	}
+	.itemTiUKETSUKEKBNNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemRENNO
+	{
+		text-align: left;
+	}
+	.itemcellRENNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemUKETSUKEYMD
+	{
+		text-align: left;
+	}
+	.itemcellUKETSUKEYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemNONYUCD
+	{
+		text-align: left;
+	}
+	.itemcellNONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemNONYUNMR01
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNMR01
+	{
+		width: 192px;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.itemSEIKYUKBNNM
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUKBNNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.itemCHOKIKBNNM
+	{
+		text-align: left;
+	}
+	.itemcellCHOKIKBNNM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemTANTCD
+	{
+		text-align: left;
+	}
+	.itemcellTANTCD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemTANTNM
+	{
+		text-align: left;
+	}
+	.itemcellTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.itemSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemSEIKYUCD
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUCD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemNONYUNMR02
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNMR02
+	{
+		width: 192px;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.itemHOKOKUKBNNM
+	{
+		text-align: left;
+	}
+	.itemcellHOKOKUKBNNM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemHACCHUNO
+	{
+		text-align: left;
+	}
+	.itemcellHACCHUNO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemUKETSUKEKBNNM
+	{
+		text-align: left;
+	}
+	.itemcellUKETSUKEKBNNM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

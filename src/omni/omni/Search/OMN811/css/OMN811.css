@@ -1,0 +1,141 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltBBUNRUINM
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.BBUNRUINM
+	{
+		width: 180px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 56px;
+	}
+	.lbltBKIKAKUNM
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.BKIKAKUNM
+	{
+		width: 336px;
+		ime-mode: active;
+		position: absolute;
+		top: 21px;
+		left: 56px;
+	}
+	.divbtnSearch
+	{
+		width: 732px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 732px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 732px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellBBUNRUICD
+	{
+		width: 88px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellBKIKAKUCD
+	{
+		width: 88px;
+		text-align: left;
+	}
+	.CellBBUNRUINM
+	{
+		width: 190px;
+		text-align: left;
+	}
+	.CellBKIKAKUNM
+	{
+		width: 346px;
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemBBUNRUICD
+	{
+		text-align: left;
+	}
+	.itemcellBBUNRUICD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemBKIKAKUCD
+	{
+		text-align: left;
+	}
+	.itemcellBKIKAKUCD
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemBBUNRUINM
+	{
+		text-align: left;
+	}
+	.itemcellBBUNRUINM
+	{
+		width: 180px;
+		display: inline-block;
+	}
+	.itemBKIKAKUNM
+	{
+		text-align: left;
+	}
+	.itemcellBKIKAKUNM
+	{
+		width: 336px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

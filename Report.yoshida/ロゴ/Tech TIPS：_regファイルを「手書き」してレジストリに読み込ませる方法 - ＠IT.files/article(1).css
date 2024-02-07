@@ -1,0 +1,499 @@
+@import url( /css/article.css );
+#cmsDate .arrow {
+	color: rgb(0, 0, 0);
+}
+#masterContents {
+	
+}
+#cmsTitle h1 big {
+	line-height: 1.4; font-size: 24px; font-weight: bold;
+}
+#cmsAbstract h2 {
+	padding-top: 10px; font-size: 12px; font-weight: normal;
+}
+#byline b {
+	font-weight: normal;
+}
+.tmplArticle {
+	background: rgb(255, 255, 255); padding: 15px 0px; margin-bottom: 15px;
+}
+#masterMain .tmplArticle .colBox {
+	padding: 0px; margin-bottom: 5px;
+}
+#masterMain .tmplArticle .colBoxOuter {
+	padding: 0px;
+}
+#tmplNews h3 {
+	padding-left: 10px; border-bottom-color: rgb(92, 163, 197); border-left-color: rgb(92, 163, 197); border-bottom-width: 1px; border-left-width: 6px; border-bottom-style: solid; border-left-style: solid;
+}
+#cmsTitle h1 small {
+	color: rgb(189, 55, 47);
+}
+#cmsBody * {
+	
+}
+#cmsBody .box {
+	padding: 5px; border: 3px solid rgb(102, 102, 102); clear: both; margin-bottom: 20px;
+}
+#cmsBody table#tbl caption {
+	line-height: 18px; font-size: 14px;
+}
+#cmsBody table#tbl50l {
+	width: 49%;
+}
+#cmsBody table#tbl50r {
+	width: 49%;
+}
+#cmsBody table#tbl75l {
+	width: 74%;
+}
+#cmsBody table#tbl75r {
+	width: 74%;
+}
+#cmsBody table#tbl25l {
+	width: 24%;
+}
+#cmsBody table#tbl25r {
+	width: 24%;
+}
+#cmsBody h4 {
+	line-height: 24px; font-size: 18px;
+}
+#cmsBody .box h3 {
+	line-height: 20px; font-size: 14px;
+}
+#cmsBody .box p {
+	line-height: 20px; font-size: 14px;
+}
+#cmsBody .colBoxHead {
+	
+}
+#cmsBody .colBoxHead h4 {
+	
+}
+#cmsBody .box li {
+	line-height: 20px; font-size: 14px;
+}
+#cmsBody .endlink h4 {
+	margin: 0px; padding: 2px 0px; border: currentColor; color: rgb(102, 102, 102); line-height: 24px; font-size: 15px;
+}
+#cmsBody ul {
+	overflow: hidden;
+}
+#cmsBody .endlink ul {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#cmsBody .endlink li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 2px; margin: 0px 0px 3px; padding: 0px 0px 3px 14px; line-height: 16px;
+}
+#cmsBody p a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody li a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .cmsBox a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .box a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .cmsTable a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .cmsBodyBox a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody blockquote a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .balBox1 a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .balAlignL a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .balAlignR a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .balAlignCC a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .balAlignCL a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .balAlignCR a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .trBoxC a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .trBoxL a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .trBoxR a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .trBoxC a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .trBoxWidth a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .cmsBodyRank a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .cmsEmbeddedFBpostsCaption a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .colBox .colBoxIndex a {
+	color: rgb(29, 57, 148);
+}
+#newzia_connect_atmarkit li a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .newzia_article.newziaBox a {
+	color: rgb(29, 57, 148);
+}
+#masterMain .newzia_article.newziaBox a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody .endlink li a {
+	font-weight: bold;
+}
+#cmsBody .endlink .endlink-art {
+	color: rgb(102, 102, 102); line-height: 18px; margin-bottom: 7px;
+}
+#cmsBody .endlink .endlink-art a {
+	color: rgb(29, 57, 148);
+}
+#cmsBody #qa_button a {
+	text-align: center; display: block;
+}
+#cmsBody #qa_button img {
+	border: currentColor;
+}
+#cmsBody .newziaBox {
+	margin-bottom: 15px;
+}
+#masterMain .newziaBox {
+	margin-bottom: 15px;
+}
+#cmsBody .newziaBox ul {
+	margin: 0px; padding: 0px; line-height: 16px; font-size: 12px; list-style-type: none;
+}
+#masterMain .newziaBox ul {
+	margin: 0px; padding: 0px; line-height: 16px; font-size: 12px; list-style-type: none;
+}
+#cmsBody .newziaBox ul li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 4px; line-height: 1.6; padding-bottom: 0px; padding-left: 11px; font-size: 13px; margin-bottom: 5px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#masterMain .newziaBox ul li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 4px; line-height: 1.6; padding-bottom: 0px; padding-left: 11px; font-size: 13px; margin-bottom: 5px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#cmsBody .newziaConnectAPI {
+	margin: 0px;
+}
+#cmsBody .newziaBox .newzia_btmlink {
+	text-align: right; line-height: 18px; font-size: 12px;
+}
+#masterMain .newziaBox .newzia_btmlink {
+	text-align: right; line-height: 18px; font-size: 12px;
+}
+#cmsBody .newziaBox .colBoxHead {
+	background: rgb(221, 221, 221); padding: 0px; border: 0px currentColor; height: 15px; clear: both; margin-bottom: 15px; margin-left: 0px;
+}
+#masterMain .newziaBox .colBoxHead {
+	background: rgb(221, 221, 221); padding: 0px; border: 0px currentColor; height: 15px; clear: both; margin-bottom: 15px; margin-left: 0px;
+}
+#cmsBody .newziaBox h4 {
+	background: rgb(255, 255, 255); margin: 0px 0px 15px; padding: 0px 10px 0px 5px; height: 15px; line-height: 15px; font-size: 14px; border-left-color: rgb(92, 163, 197); border-left-width: 5px; border-left-style: solid; display: inline-block;
+}
+#masterMain .newziaBox h4 {
+	background: rgb(255, 255, 255); margin: 0px 0px 15px; padding: 0px 10px 0px 5px; height: 15px; line-height: 15px; font-size: 14px; border-left-color: rgb(92, 163, 197); border-left-width: 5px; border-left-style: solid; display: inline-block;
+}
+#newzia_connect_atmarkit {
+	margin-bottom: 10px;
+}
+#newzia_connect_atmarkit .title {
+	color: rgb(102, 102, 102); line-height: 20px; font-size: 15px; font-weight: bold; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#newzia_connect_atmarkit ul {
+	padding: 0px; line-height: 16px; font-size: 12px; list-style-type: none;
+}
+#newzia_connect_atmarkit ul li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 2px; margin: 0px 0px 3px; padding: 0px 0px 3px 14px;
+}
+#newzia_connect_atmarkit div {
+	line-height: 18px; font-size: 12px;
+}
+#qa_button a {
+	background: url("http://image.itmedia.co.jp/ait/images/qait_button.gif") no-repeat; margin: 0px auto 15px; width: 590px; height: 62px; text-indent: -9999px; display: block;
+}
+#qa_button a:hover {
+	opacity: 0.9;
+}
+.backNumBox strong {
+	margin: 0px 0px 11px; font-size: 15px; display: block; position: relative;
+}
+.backNumBox strong::after {
+	background: rgb(221, 221, 221); width: 100%; height: 1px; bottom: -3px; display: block; position: absolute; content: "";
+}
+.backNumBox strong a {
+	color: rgb(189, 55, 47); line-height: 24px; font-size: 15px;
+}
+.backNumBoxIn ul {
+	padding: 0px 0px 0px 10px; line-height: 16px; font-size: 12px; list-style-type: none;
+}
+.backNumBoxIn ul li {
+	background: url("http://image.itmedia.co.jp/ait/images/colBox_ulli.gif") no-repeat -1px 2px; line-height: 21px; padding-bottom: 0px; padding-left: 11px; font-size: 13px; margin-bottom: 5px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.colBoxSeminar .colBoxIcon a {
+	margin: 0px 0px 3px;
+}
+.colBoxSeminar p {
+	margin: 0px 0px 10px; padding: 0px;
+}
+.colBoxSeminar small {
+	line-height: 16px; font-size: 12px;
+}
+.msbGroup .msbGroupOut .msbGroupIn .msbBtnLivedoorclip {
+	display: none;
+}
+#cmsBody pre.prettyprint ol.linenums li {
+	border-left-color: rgb(218, 218, 218); border-left-width: 1px; border-left-style: solid;
+}
+#cmsBody .cmsBodyPrettifyBlack pre.prettyprint ol.linenums li {
+	border-left-color: rgb(107, 107, 107); border-left-width: 1px; border-left-style: solid;
+}
+#cmsBody pre.prettyprint ol.linenums {
+	padding: 6px 0px;
+}
+#cmsBody pre.prettyprint {
+	padding: 10px !important;
+}
+#cmsBody .cmsBodyBoxCaption {
+	
+}
+#cmsBody table#tbl tfoot td {
+	
+}
+#masterMain #cmsBody .cmsTable tfoot td {
+	
+}
+#cmsBody .cmsBodyItmidSeriesButtonRegist {
+	margin: 15px auto;
+}
+#cmsBody .cmsBodyItmidSeriesButtonRegist a {
+	background: url("http://image.itmedia.co.jp/ait/images/rensai_alert_bg1306.jpg") no-repeat 0px 0px; margin: 0px auto; padding: 0px; width: 280px; height: 195px; text-indent: -9999px; display: block;
+}
+#cmsBody .cmsBodyItmidSeriesButtonRegist a:hover {
+	background: url("http://image.itmedia.co.jp/ait/images/rensai_alert_bg1306.jpg") no-repeat 0px -195px;
+}
+#cmsBody .patternB.cmsBodyItmidSeriesButtonRegist a {
+	background: url("http://image.itmedia.co.jp/ait/images/rensai_alert_bg1304.jpg") no-repeat 0px 0px;
+}
+#cmsBody .patternB.cmsBodyItmidSeriesButtonRegist a:hover {
+	background: url("http://image.itmedia.co.jp/ait/images/rensai_alert_bg1304.jpg") no-repeat 0px -195px;
+}
+#cmsBody .cmsBodyItmidSeriesButtonRegist .colBoxNewtxt {
+	display: none;
+}
+.prettyprint .lit {
+	color: rgb(0, 158, 0);
+}
+.prettyprint .kwd {
+	color: rgb(21, 76, 252);
+}
+.colBoxSubChannelSponsor {
+	text-align: center;
+}
+.colBoxSubChannelSponsor h2 {
+	margin: 0px; padding: 0px; color: rgb(153, 153, 153); line-height: 16px; font-size: 12px;
+}
+#CmsMembersControl .colBoxMembersControl .colBoxHead {
+	border-radius: 3px 3px 0px 0px;
+}
+#CmsMembersControl .colBoxMembersControl .colBoxHead h2 {
+	line-height: 30px; padding-left: 12px; font-size: 14px; border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+#CmsMembersControl .colBoxMembersControl .colBoxDescription p {
+	color: rgb(0, 0, 0);
+}
+#CmsMembersControl .colBoxMembersControl .colBoxButton a:link {
+	color: rgb(255, 255, 255);
+}
+#colBoxSubChannelLogo {
+	margin-bottom: 15px;
+}
+#colBoxSubChannelLogo a {
+	height: 60px; text-indent: -9999px; display: block;
+}
+#cmsBody .msbIn .msbBtn {
+	background: rgb(242, 242, 242); border-radius: 2px; border: 0px currentColor;
+}
+#cmsBody .msbIn .msbGroup {
+	background: rgb(242, 242, 242); border-radius: 2px; border: 0px currentColor;
+}
+#cmsByline {
+	margin-bottom: 30px;
+}
+#cmsBody .masterSocialbutton {
+	margin-bottom: 20px;
+}
+.colBoxArtBtmSns .colBoxInner {
+	clear: both; position: relative;
+}
+.colBoxArtBtmSns .colBoxIndex {
+	left: 0px; top: 0px; width: 100%; visibility: hidden; position: absolute; z-index: 0;
+}
+.colBoxArtBtmSns .active.colBoxIndex {
+	left: auto; top: auto; overflow: hidden; display: block; visibility: visible; position: relative; z-index: 2;
+}
+#artBtmSnsTw {
+	
+}
+#artBtmSnsTw iframe {
+	width: 100% !important; height: 350px !important;
+}
+.colBoxArtBtmSns .colBoxHead {
+	height: 25px;
+}
+.colBoxArtBtmSns .colBoxHead h2 {
+	background: rgb(230, 230, 230); padding: 5px 30px; border-radius: 2px 2px 0px 0px; color: rgb(153, 153, 153); font-weight: normal; margin-right: 4px; border-left-color: currentColor; border-left-width: 0px; border-left-style: none; float: left; cursor: pointer;
+}
+.colBoxArtBtmSns .colBoxHead .active {
+	background: rgb(92, 163, 197); color: rgb(255, 255, 255);
+}
+.colBoxArtBtmSns .colBoxHead h2 span {
+	text-align: center;
+}
+.tmplArticle .colBoxCampaignBannar {
+	
+}
+.tmplArticle .colBoxCampaignBannar .colBoxIcon {
+	padding-bottom: 9px; display: block;
+}
+.tmplArticle .colBoxCampaignBannar a {
+	margin: 0px auto; border: 0px currentColor !important; width: 590px; height: auto; text-align: center; float: none; display: block;
+}
+.tmplArticle .colBoxCampaignBannar a:hover {
+	opacity: 0.85;
+}
+.tmplArticle .colBoxCampaignBannar a img {
+	border: 0px currentColor; width: 590px; height: auto; vertical-align: top;
+}
+.backNumBoxRap {
+	margin: 30px 0px; clear: both;
+}
+.backNumBox {
+	width: 637px;
+}
+.backNumBox strong {
+	background: rgb(92, 163, 197); border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(221, 221, 221); margin: 0px; padding: 5px 10px 0px; line-height: 24px;
+}
+.backNumBox strong::after {
+	content: none;
+}
+.backNumBoxRap strong {
+	color: rgb(255, 255, 255);
+}
+.backNumBox strong a {
+	color: rgb(255, 255, 255) !important;
+}
+.backNumBox .backNumBoxIn {
+	
+}
+.backNumBox ul {
+	margin: 0px; padding: 0px;
+}
+#backNumBox .backNumBoxRap .backNumBoxIn ul li {
+	background-position: 7px 8px !important; margin: 0px; padding: 3px 10px 3px 25px !important; border-bottom-color: rgb(92, 163, 197); border-bottom-width: 1px; border-bottom-style: dotted; background-image: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png"); background-attachment: scroll; background-repeat: no-repeat; background-size: auto; background-origin: padding-box; background-clip: border-box; background-color: transparent;
+}
+.backNumBox ul li {
+	background-position: 7px 8px !important; margin: 0px; padding: 3px 10px 3px 25px !important; border-bottom-color: rgb(92, 163, 197); border-bottom-width: 1px; border-bottom-style: dotted; background-image: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png"); background-attachment: scroll; background-repeat: no-repeat; background-size: auto; background-origin: padding-box; background-clip: border-box; background-color: transparent;
+}
+#backNumBox .backNumBoxRap .backNumBoxIn ul li.backNumBoxListActive {
+	background-color: rgb(255, 255, 204);
+}
+.backNumBox ul li.backNumBoxListActive {
+	background-color: rgb(255, 255, 204);
+}
+.backNumBox span {
+	
+}
+.backNumBox a {
+	color: rgb(0, 0, 0) !important; font-size: 12px;
+}
+.backNumBoxIn ul li a {
+	color: rgb(29, 57, 148) !important; font-weight: bold;
+}
+#cmsBody .backNumBoxScroll {
+	height: 200px; overflow-x: hidden; overflow-y: scroll; box-shadow: inset 0px -10px 20px 0px rgba(255,255,255,1); -webkit-box-shadow: 0px -10px 20px 0px rgba(255, 255, 255, 1) inset;
+}
+#qa_float {
+	margin: 0px auto; width: 990px;
+}
+#qa_float_outer {
+	width: 100px; bottom: 20px; position: fixed;
+}
+#qa_float_inner {
+	left: -105px; position: relative;
+}
+#qa_float iframe {
+	border-width: medium medium 1px; border-style: none none solid; border-color: currentColor currentColor rgb(221, 221, 221); border-radius: 10px; width: 100px; box-shadow: 0px 0px 7px 0px #cecece;
+}
+#qa_backdrop {
+	left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 1000000; background-color: rgba(0, 0, 0, 0.5);
+}
+#qa_layer {
+	width: 100%; position: absolute; z-index: 10000000;
+}
+#qa_layer_outer {
+	width: 770px; margin-right: auto; margin-left: auto; position: relative;
+}
+#qa_layer iframe {
+	border: currentColor; width: 770px;
+}
+#masterType-article {
+	position: relative;
+}
+#masterMain .colBoxArticleHeader {
+	overflow: hidden; clear: both;
+}
+#masterMain .colBoxArticleHeader .colBoxIndex {
+	text-align: right;
+}
+#masterMain .editorsEyeArticle .colBoxArticleHeader .colBoxIndex {
+	float: none;
+}
+#masterMain .colBoxArticleHeader .colBoxIcon {
+	
+}
+#masterMain .editorsEyeArticle .colBoxArticleHeader .colBoxIcon img {
+	max-width: 635px;
+}
+#masterMain .colBoxArticleHeader .colBoxIcon a {
+	margin: 0px; padding: 0px; border: currentColor; float: none;
+}
+#masterMain .editorsEyeArticle .colBoxArticleHeader .colBoxIcon a {
+	border: 1px solid rgb(204, 204, 204); display: block;
+}
+.editorsEyeArticle #cmsMark {
+	display: none;
+}
+.editorsEyeArticle #cmsTitle {
+	background: url("http://image.itmedia.co.jp/images/cms_pr.gif") no-repeat right top; padding: 8px 20px 0px 0px; clear: both; position: relative;
+}
+#masterMain .editorsEyeArticle .tmplArticle .colBoxGoogleAd.colBox {
+	margin-bottom: 20px;
+}
+#masterMain .editorsEyeArticle .tmplArticle .colBoxArticleHeader .colBoxIcon a {
+	cursor: default;
+}
+#qa_float {
+	display: none !important;
+}
+#qa_float {
+	display: none !important;
+}

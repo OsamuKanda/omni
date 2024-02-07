@@ -1,0 +1,133 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltSIRCDFROM1
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SIRCDFROM1
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnSIRCDFROM1
+	{
+		position: absolute;
+		top: -1px;
+		left: 130px;
+		height: 18px;
+	}
+	.SIRNMRFROM1
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 172px;
+	}
+	.lbl0
+	{
+		position: absolute;
+		top: 2px;
+		left: 370px;
+	}
+	.SIRCDTO1
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 398px;
+	}
+	.btnSIRCDTO1
+	{
+		position: absolute;
+		top: -1px;
+		left: 436px;
+		height: 18px;
+	}
+	.SIRNMRTO1
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 478px;
+	}
+	.lbltSIRYMDFROM1
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SIRYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnSIRYMDFROM1
+	{
+		position: absolute;
+		top: 21px;
+		left: 156px;
+	}
+	.lbl1
+	{
+		position: absolute;
+		top: 23px;
+		left: 188px;
+	}
+	.SIRYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 21px;
+		left: 211px;
+	}
+	.btnSIRYMDTO1
+	{
+		position: absolute;
+		top: 21px;
+		left: 275px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

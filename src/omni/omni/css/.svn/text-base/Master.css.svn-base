@@ -1,0 +1,122 @@
+﻿.backcolor
+{
+    background-color: #FFFFFF;
+}
+.headerBack
+{
+    background-color: #112A45;
+}
+
+.header
+{
+    width: 1000px;
+    height: 45px;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: URL("../Master/img/hedder.JPG");
+    background-repeat:repeat-x;
+}
+
+.logo
+{
+    float: left;
+    width: 130px;
+    height: 45px;
+}
+
+.appTitle
+{
+    width: 420px;
+    height: 36px;
+    float: left;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+}
+.appVer
+{
+
+    width: 170px;
+    height: 32px;
+    margin-top: 4px;
+    margin-left: 10px;
+    float: left;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+.login
+{
+    width: 250px;
+    height: 45px;
+    float: right;
+}
+
+.status
+{
+    text-align: right;
+    margin-top: 4px;
+}
+.nowdate
+{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+
+.main
+{
+    overflow: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 600px;
+    width: 980px;
+}
+
+.MasTan
+{
+    width: 48px;
+    height: 18px;
+    overflow: hidden;
+    float: right;
+    margin-left: 10px;
+}
+
+.MasLogTan
+{
+    width: 112px;
+    height: 18px;
+    overflow: hidden;
+    float: right;
+    margin-left: 10px;
+}
+.MasLogEi
+{
+    width: 80px;
+    height: 18px;
+    overflow: hidden;
+    float: right;
+    margin-left: 10px;
+}
+.error
+{
+    width: 1000px;
+    height: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+}
+.errorback
+{
+    background-color: #CCCCCC;
+    clear: both;
+}
+.red
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+

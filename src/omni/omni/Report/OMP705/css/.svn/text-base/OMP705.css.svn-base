@@ -1,0 +1,99 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 107px;
+	}
+	.lbltOUTYYMM
+	{
+		position: absolute;
+		top: 3px;
+		left: 0px;
+	}
+	.OUTYYMM
+	{
+		display: inline;
+		width: 49px;
+		position: absolute;
+		top: 3px;
+		left: 92px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: 20px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltSAGYOKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SAGYOKBN
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: 41px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltOUTKBN1
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.OUTKBN1
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: 62px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltOUTKBN2
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.OUTKBN2
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: 83px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

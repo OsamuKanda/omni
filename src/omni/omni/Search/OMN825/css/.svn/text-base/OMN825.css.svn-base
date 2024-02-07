@@ -1,0 +1,324 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltSIRYMDFROM1
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SIRYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 68px;
+	}
+	.btnSIRYMDFROM1
+	{
+		position: absolute;
+		top: 0px;
+		left: 132px;
+	}
+	.lblTitle1
+	{
+		position: absolute;
+		top: 2px;
+		left: 159px;
+	}
+	.SIRYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 181px;
+	}
+	.btnSIRYMDTO1
+	{
+		position: absolute;
+		top: 0px;
+		left: 245px;
+	}
+	.lbltSIRCDFROM2
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SIRCDFROM2
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 68px;
+	}
+	.btnSIRCDFROM2
+	{
+		position: absolute;
+		top: 20px;
+		left: 106px;
+		height: 18px;
+	}
+	.SIRNMR01
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 148px;
+	}
+	.lblTitle2
+	{
+		position: absolute;
+		top: 23px;
+		left: 342px;
+	}
+	.SIRCDTO2
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 362px;
+	}
+	.btnSIRCDTO2
+	{
+		position: absolute;
+		top: 20px;
+		left: 400px;
+		height: 18px;
+	}
+	.SIRNMR02
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 442px;
+	}
+	.lbltHACCHUNOFROM3
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.HACCHUNOFROM3
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 68px;
+	}
+	.lblTitle3
+	{
+		position: absolute;
+		top: 44px;
+		left: 124px;
+	}
+	.HACCHUNOTO3
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 146px;
+	}
+	.divbtnSearch
+	{
+		width: 558px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 558px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 558px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSIRNO
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiSIRNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSIRYMD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiSIRYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSIRCD
+	{
+		width: 34px;
+		text-align: left;
+	}
+	.itemTiSIRCD
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellSIRNMR
+	{
+		width: 190px;
+		text-align: left;
+	}
+	.itemTiSIRNMR
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellGOKEY
+	{
+		width: 72px;
+		text-align: right;
+	}
+	.itemTiGOKEY
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSIRTORICDNM
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiSIRTORICDNM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellHACCHUNO
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiHACCHUNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSIRNO
+	{
+		text-align: left;
+	}
+	.itemcellSIRNO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemSIRYMD
+	{
+		text-align: left;
+	}
+	.itemcellSIRYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemSIRCD
+	{
+		text-align: left;
+	}
+	.itemcellSIRCD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.itemSIRNMR
+	{
+		text-align: left;
+	}
+	.itemcellSIRNMR
+	{
+		width: 180px;
+		display: inline-block;
+	}
+	.itemGOKEY
+	{
+		text-align: right;
+	}
+	.itemcellGOKEY
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemSIRTORICDNM
+	{
+		text-align: left;
+	}
+	.itemcellSIRTORICDNM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemHACCHUNO
+	{
+		text-align: left;
+	}
+	.itemcellHACCHUNO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

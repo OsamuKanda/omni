@@ -1,0 +1,329 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltNYUKINYMD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.NYUKINYMD
+	{
+		width: 84px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 80px;
+	}
+	.lbltNYUKING
+	{
+		position: absolute;
+		top: 2px;
+		left: 400px;
+	}
+	.NYUKING
+	{
+		width: 84px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 456px;
+	}
+	.lbltGINKOCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.GINKOCD
+	{
+		width: 18px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 80px;
+	}
+	.GINKONM
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 112px;
+	}
+	.lbltSEIKYUKING
+	{
+		position: absolute;
+		top: 23px;
+		left: 400px;
+	}
+	.SEIKYUKING
+	{
+		width: 84px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 456px;
+	}
+	.lbltSAGAKU
+	{
+		position: absolute;
+		top: 44px;
+		left: 400px;
+	}
+	.SAGAKU
+	{
+		width: 84px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 456px;
+	}
+	.LVHeader
+	{
+		width: 920px;
+		position: relative;
+		margin-left: 10px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.LVContent
+	{
+		width: 920px;
+		height: 381px;
+		position: absolute;
+	}
+	.SearchDP
+	{
+		width: 920px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.scroll
+	{
+		width: 920px;
+		height: 398px;
+		overflow: auto;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSEIKYUCD
+	{
+		width: 30px;
+		text-align: left;
+	}
+	.itemTiSEIKYUCD
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.CellSEIKYUNM
+	{
+		width: 360px;
+		text-align: left;
+	}
+	.itemTiSEIKYUNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		width: 94px;
+		text-align: right;
+	}
+	.itemTiKING
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSEIKYUSHONO
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiSEIKYUSHONO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellBUKENNO
+	{
+		width: 82px;
+		text-align: left;
+	}
+	.itemTiBUKENNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSEIKYUKING
+	{
+		width: 94px;
+		text-align: right;
+	}
+	.itemTiSEIKYUKING
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSAGAKU
+	{
+		width: 94px;
+		text-align: right;
+	}
+	.itemTiSAGAKU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSEIKYUCD
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUCD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemSEIKYUNM
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUNM
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.itemKING
+	{
+		text-align: right;
+	}
+	.itemcellKING
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.itemSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemBUKENNO
+	{
+		text-align: left;
+	}
+	.itemcellBUKENNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemSEIKYUKING
+	{
+		text-align: right;
+	}
+	.itemcellSEIKYUKING
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.itemSAGAKU
+	{
+		text-align: right;
+	}
+	.itemcellSAGAKU
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

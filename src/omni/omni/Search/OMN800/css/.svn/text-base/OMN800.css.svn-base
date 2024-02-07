@@ -1,0 +1,193 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 128px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: -1px;
+		left: 80px;
+		ime-mode: disabled;
+	}
+	.lbltNONYUNM1
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NONYUNM1
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 21px;
+		left: 80px;
+	}
+	.lbltHURIGANA
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.HURIGANA
+	{
+		width: 60px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 42px;
+		left: 80px;
+	}
+	.lbltNONYUNMR
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.NONYUNMR
+	{
+		width: 192px;
+		ime-mode: active;
+		position: absolute;
+		top: 63px;
+		left: 80px;
+	}
+	.lbltKAISHANMOLD1
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.KAISHANMOLD1
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 84px;
+		left: 80px;
+	}
+	.lbltTELNO1
+	{
+		position: absolute;
+		top: 107px;
+		left: 0px;
+	}
+	.TELNO1
+	{
+		width: 90px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 105px;
+		left: 80px;
+	}
+	.divbtnSearch
+	{
+		width: 560px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 560px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 560px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellNONYUCD
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellJIGYONM
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.CellNONYUNM1
+	{
+		width: 370px;
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemNONYUCD
+	{
+		text-align: left;
+	}
+	.itemcellNONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemJIGYONM
+	{
+		text-align: left;
+	}
+	.itemcellJIGYONM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemNONYUNM1
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.itemNONYUNM2
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNM2
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

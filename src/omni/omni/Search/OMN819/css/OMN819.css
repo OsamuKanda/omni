@@ -1,0 +1,105 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltBUMONNM
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.BUMONNM
+	{
+		width: 120px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 56px;
+	}
+	.divbtnSearch
+	{
+		width: 220px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 220px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 220px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellBUMONCD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiBUMONCD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellBUMONNM
+	{
+		width: 130px;
+		text-align: left;
+	}
+	.itemTiBUMONNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemBUMONCD
+	{
+		text-align: left;
+	}
+	.itemcellBUMONCD
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemBUMONNM
+	{
+		text-align: left;
+	}
+	.itemcellBUMONNM
+	{
+		width: 120px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

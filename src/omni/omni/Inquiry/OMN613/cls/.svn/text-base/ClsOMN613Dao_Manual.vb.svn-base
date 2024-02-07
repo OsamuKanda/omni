@@ -1,0 +1,237 @@
+﻿Partial Public Class OMN613Dao(Of T)
+    '''*************************************************************************************
+    ''' <summary>
+    ''' データ取得
+    ''' </summary>
+    '''*************************************************************************************
+    Public Function gBlnGetDataTable(ByVal o As ClsOMN613) As DataTable
+        Dim ds As New DataSet
+        Dim strSQL As New StringBuilder
+        strSQL.Append("SELECT * FROM (")
+        strSQL.Append("SELECT ")
+        strSQL.Append("  DT_URIAGEH.SEIKYUSHONO AS SEIKYUSHONO ")
+        strSQL.Append(", DT_URIAGEH.JIGYOCD AS JIGYOCD ")
+        strSQL.Append(", DT_URIAGEH.SAGYOBKBN AS SAGYOBKBN ")
+        strSQL.Append(", DT_URIAGEH.RENNO AS RENNO ")
+        strSQL.Append(", DM_JIGYO.JIGYONM AS JIGYONM ")
+        strSQL.Append(", DT_URIAGEH.SEIKYUCD AS SEIKYUCD ")
+        strSQL.Append(", DT_URIAGEH.SEIKYUNM AS SEIKYUNM ")
+        strSQL.Append(", DT_URIAGEH.NONYUCD AS NONYUCD ")
+        strSQL.Append(", DT_URIAGEH.NONYUNM AS NONYUNM ")
+        strSQL.Append(", DT_BUKKEN.UKETSUKEYMD AS UKETSUKEYMD ")
+        strSQL.Append(", DT_URIAGEH.SEIKYUYMD AS SEIKYUYMD ")
+        'strSQL.Append(", DT_URIAGEH.GOKEI AS GOKEI ")
+        strSQL.Append(", DT_URIAGEH.NYUKINYMD AS NYUKINYMD ")
+        strSQL.Append(", DT_URIAGEH.NYUKINR AS NYUKINR ")
+        strSQL.Append(", (HINNM1 || ' ' || HINNM2) AS HINNM ")
+        strSQL.Append(", TRIM(to_char(DT_URIAGEM.SURYO, '999G999G999G990D00')) AS SURYO ")
+        strSQL.Append(", DT_URIAGEM.TANINM AS TANINM ")
+        strSQL.Append(", TRIM(to_char(DT_URIAGEM.TANKA, '999G999G999G990D00')) AS TANKA ")
+        strSQL.Append(", TRIM(to_char((DT_URIAGEM.KING), '999G999G999G990')) AS GOUKING ")
+        strSQL.Append(", TRIM(to_char((DT_URIAGEM.TAX), '999G999G999G990')) AS TAX ")
+
+
+        strSQL.Append(mStrOrder(o))
+        strSQL.Append("FROM ")
+        strSQL.Append("  DT_URIAGEH ")       'ヘッダ
+        strSQL.Append(", DT_URIAGEM ")
+        strSQL.Append(", DT_BUKKEN ")
+        strSQL.Append(", DM_JIGYO ")
+        strSQL.Append(mStrWhere(o))
+        strSQL.Append(") ")
+        If o.isPager Then
+            strSQL.Append("WHERE RNUM BETWEEN " & o.startRowIndex + 1 & " AND " & o.startRowIndex + o.maximumRows)
+        End If
+
+        Return mclsDB.createDataTableConnection(strSQL.ToString)
+    End Function
+
+
+    '''*************************************************************************************
+    ''' <summary>
+    ''' データ件数取得
+    ''' </summary>
+    '''*************************************************************************************
+    Public Function gBlnGetDataCount(ByVal o As ClsOMN613) As Integer
+        Dim ds As New DataSet
+        Dim strSQL As New StringBuilder
+        strSQL.Append("SELECT COUNT(*) CNT ")
+        strSQL.Append("FROM ")
+        strSQL.Append("  DT_URIAGEH ")
+        strSQL.Append(", DT_URIAGEM ")
+        strSQL.Append(", DT_BUKKEN ")
+        strSQL.Append(", DM_JIGYO ")
+        strSQL.Append(mStrWhere(o))
+
+        Return mclsDB.createDataTableConnection(strSQL.ToString).Rows(0)("CNT")
+    End Function
+
+
+    '''*************************************************************************************
+    ''' <summary>
+    ''' データ取得
+    ''' </summary>
+    '''*************************************************************************************
+    Public Function gBlnGetExcelDataTable(ByVal o As ClsOMN613) As DataTable
+        Dim ds As New DataSet
+        Dim strSQL As New StringBuilder
+        strSQL.Append("SELECT * FROM (")
+        strSQL.Append("SELECT")
+        strSQL.Append(" '""' || (HINNM1 || ' ' || HINNM2) ")
+        strSQL.Append(" || '"",""' || TRIM(to_char(DT_URIAGEM.SURYO, '999G999G999G990D00')) ")
+        strSQL.Append(" || '"",""' || DT_URIAGEM.TANINM ")
+        strSQL.Append(" || '"",""' || TRIM(to_char(DT_URIAGEM.TANKA, '999G999G999G990D00')) ")
+        strSQL.Append(" || '"",""' || TRIM(to_char(DT_URIAGEM.GOUKING, '999G999G999G990')) ")
+        strSQL.Append(" || '""' AS CSVDATA ")
+
+        strSQL.Append(mStrOrder(o))
+        strSQL.Append("FROM ")
+        strSQL.Append("  DT_URIAGEH ")       'ヘッダ
+        strSQL.Append(", DT_URIAGEM ")
+        strSQL.Append(", DT_BUKKEN ")
+        strSQL.Append(", DM_JIGYO ")
+        strSQL.Append(mStrWhere(o))
+        strSQL.Append(") ")
+        If o.isPager Then
+            strSQL.Append("WHERE RNUM BETWEEN " & o.startRowIndex + 1 & " AND " & o.startRowIndex + o.maximumRows)
+        End If
+
+        Return mclsDB.createDataTableConnection(strSQL.ToString)
+    End Function
+
+
+    Private Function mStrOrder(ByVal o As ClsOMN613) As String
+        Dim strSQL As New StringBuilder
+        With o.gcol_H
+            If String.IsNullOrEmpty(o.sort) Then
+                strSQL.Append(", ROWNUM AS RNUM ")
+            Else
+                strSQL.Append(", ROW_NUMBER() OVER(ORDER BY ")
+                Select Case o.sort
+                    Case "DT_URIAGEM.GYONO", "DT_URIAGEM.GYONO DESC"
+                        strSQL.Append(o.sort & " ")
+                End Select
+                strSQL.Append(") AS RNUM ")
+            End If
+        End With
+        Return strSQL.ToString
+    End Function
+
+
+    Private Function mStrWhere(ByVal o As ClsOMN613) As String
+        Dim strSQL As New StringBuilder
+        With o.gcol_H
+            strSQL.Append(" WHERE DT_URIAGEH.DELKBN = 0")
+            strSQL.Append("   AND DT_URIAGEH.SEIKYUSHONO = DT_URIAGEM.SEIKYUSHONO ")
+            strSQL.Append("   AND DT_URIAGEH.JIGYOCD = DT_BUKKEN.JIGYOCD ")
+            strSQL.Append("   AND DT_URIAGEH.SAGYOBKBN = DT_BUKKEN.SAGYOBKBN ")
+            strSQL.Append("   AND DT_URIAGEH.RENNO = DT_BUKKEN.RENNO ")
+            strSQL.Append("   AND DT_URIAGEH.JIGYOCD = DM_JIGYO.JIGYOCD(+) ")
+            strSQL.Append("   AND DT_URIAGEH.DELKBN = DT_URIAGEM.DELKBN(+) ")
+            strSQL.Append("   AND DT_URIAGEH.DELKBN = DT_BUKKEN.DELKBN(+) ")
+            strSQL.Append("   AND DT_URIAGEH.DELKBN = DM_JIGYO.DELKBN(+) ")
+            strSQL.Append(pStrNULLチェック("   AND DT_URIAGEH.SEIKYUSHONO = ", .strSEIKYUSHONO, True, False)) '請求書番号
+            strSQL.Append(pStrNULLチェック("   AND DT_URIAGEH.JIGYOCD = ", .strJIGYOCD, True, False)) '事業所コード
+            strSQL.Append(pStrNULLチェック("   AND DT_URIAGEH.SAGYOBKBN = ", .strSAGYOBKBN, True, False)) '作業分類区分
+            strSQL.Append(pStrNULLチェック("   AND DT_URIAGEH.RENNO = ", .strRENNO, True, False)) '連番
+        End With
+        Return strSQL.ToString
+    End Function
+
+    '''*************************************************************************************
+    ''' <summary>
+    ''' 取得データを受け渡し用オブジェクトに値に格納する
+    ''' </summary>
+    ''' <remarks></remarks>
+    '''*************************************************************************************
+    Private Sub mSubSetDataCls(ByVal o As T, ByVal ocol_H As ClsOMN613.ClsCol_H, ByVal ds As DataSet)
+        Dim r As DataRow = ds.Tables(0).Rows(0)
+        With ocol_H
+            .strSEIKYUSHONO = r("SEIKYUSHONO").ToString          '請求書番号
+            .strJIGYOCD = r("JIGYOCD").ToString                  '事業所コード
+            .strSAGYOBKBN = r("SAGYOBKBN").ToString              '作業分類コード
+            .strRENNO = r("RENNO").ToString                      '連番
+            .strJIGYONM = r("JIGYONM").ToString                  '事業所名
+            .strSEIKYUCD = r("SEIKYUCD").ToString                '請求先コード
+            .strSEIKYUNM = r("SEIKYUNM").ToString                '請求先名
+            .strNONYUCD = r("NONYUCD").ToString                  '納入先コード
+            .strNONYUNM = r("NONYUNM").ToString                  '納入先名
+            .strBUKENNO = .strJIGYOCD & "-" & .strSAGYOBKBN & "-" & .strRENNO             '物件番号
+            .strUKETSUKEYMD = r("UKETSUKEYMD").ToString          '受付日
+            .strSEIKYUYMD = r("SEIKYUYMD").ToString              '請求日
+            '.strGOKEI = r("GOKEI").ToString                     '請求額
+            .strNYUKINYMD = r("NYUKINYMD").ToString              '入金日
+            .strNYUKINR = r("NYUKINR").ToString                  '入金額
+
+        End With
+
+    End Sub
+
+    Public Function gBlnGetHeadData(ByVal o As ClsOMN613) As Boolean
+        Dim ds As New DataSet
+        Dim strSQL As New StringBuilder
+        strSQL.Append("SELECT ")
+        strSQL.Append("  DT_URIAGEH.SEIKYUSHONO AS SEIKYUSHONO ")
+        strSQL.Append(", DT_URIAGEH.JIGYOCD AS JIGYOCD ")
+        strSQL.Append(", DT_URIAGEH.SAGYOBKBN AS SAGYOBKBN ")
+        strSQL.Append(", DT_URIAGEH.RENNO AS RENNO ")
+        strSQL.Append(", DM_JIGYO.JIGYONM AS JIGYONM ")
+        strSQL.Append(", DT_URIAGEH.SEIKYUCD AS SEIKYUCD ")
+        strSQL.Append(", DT_URIAGEH.SEIKYUNM AS SEIKYUNM ")
+        strSQL.Append(", DT_URIAGEH.NONYUCD AS NONYUCD ")
+        strSQL.Append(", DT_URIAGEH.NONYUNM AS NONYUNM ")
+        strSQL.Append(", DT_BUKKEN.UKETSUKEYMD AS UKETSUKEYMD ")
+        strSQL.Append(", DT_URIAGEH.SEIKYUYMD AS SEIKYUYMD ")
+        'strSQL.Append(", DT_URIAGEH.GOKEI AS GOKEI ")
+        strSQL.Append(", DT_URIAGEH.NYUKINYMD AS NYUKINYMD ")
+        strSQL.Append(", DT_URIAGEH.NYUKINR AS NYUKINR ")
+        strSQL.Append(", (HINNM1 || ' ' || HINNM2) AS HINNM ")
+        strSQL.Append(", TRIM(to_char(DT_URIAGEM.SURYO, '999G999G999G990D00')) AS SURYO ")
+        strSQL.Append(", DT_URIAGEM.TANINM AS TANINM ")
+        strSQL.Append(", TRIM(to_char(DT_URIAGEM.TANKA, '999G999G999G990D00')) AS TANKA ")
+        strSQL.Append(", TRIM(to_char((DT_URIAGEM.KING + DT_URIAGEM.TAX), '999G999G999G990')) AS GOUKING ")
+
+
+        strSQL.Append(mStrOrder(o))
+        strSQL.Append("FROM ")
+        strSQL.Append("  DT_URIAGEH ")       'ヘッダ
+        strSQL.Append(", DT_URIAGEM ")
+        strSQL.Append(", DT_BUKKEN ")
+        strSQL.Append(", DM_JIGYO ")
+        strSQL.Append(mStrWhere(o))
+        If o.isPager Then
+            strSQL.Append("WHERE RNUM BETWEEN " & o.startRowIndex + 1 & " AND " & o.startRowIndex + o.maximumRows)
+        End If
+
+        mBlnConnectDB()
+        mclsDB.gBlnFill(strSQL.ToString, ds)
+        mclsDB.gBlnDBClose()
+
+        If ds.Tables(0).Rows.Count = 0 Then
+            Return False
+        Else
+            mSubSetDataCls(o, o.gcol_H, ds)
+        End If
+
+        Return True
+    End Function
+
+    Public Function gBlnGetSEIKYUKING(ByVal o As ClsOMN613) As String
+        Dim ds As New DataSet
+        Dim strSQL As New StringBuilder
+        With o.gcol_H
+            strSQL.Append(" SELECT (SUM(KING) + SUM(TAX)) AS GOKEI ")
+            strSQL.Append(" FROM ")
+            strSQL.Append(" DT_URIAGEM ")
+            strSQL.Append(" WHERE DT_URIAGEM.DELKBN = '0'")
+            strSQL.Append("   AND DT_URIAGEM.SEIKYUSHONO = '" & .strSEIKYUSHONO & "'") '請求書番号
+            strSQL.Append(" GROUP BY DT_URIAGEM.SEIKYUSHONO ")
+        End With
+        mBlnConnectDB()
+        mclsDB.gBlnFill(strSQL.ToString, ds)
+        mclsDB.gBlnDBClose()
+        Dim kei = ds.Tables(0).Rows(0).Item("GOKEI").ToString
+        Return kei
+    End Function
+
+End Class

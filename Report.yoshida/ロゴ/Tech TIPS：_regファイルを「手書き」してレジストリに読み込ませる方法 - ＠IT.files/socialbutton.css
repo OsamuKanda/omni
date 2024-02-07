@@ -1,0 +1,138 @@
+.masterSocialbutton {
+	margin: 0px 0px 10px; clear: both; position: relative; z-index: 100;
+}
+.msbOut {
+	
+}
+.msbIn {
+	width: 100%; border-collapse: collapse;
+}
+.msbIn .msbBtn {
+	background: rgb(238, 238, 238); padding: 1px 2px; border: 3px solid rgb(255, 255, 255); line-height: 13px !important; font-size: 9px !important;
+}
+.msbIn .msbGroup {
+	background: rgb(238, 238, 238); padding: 1px 2px; border: 3px solid rgb(255, 255, 255); line-height: 13px !important; font-size: 9px !important;
+}
+.masterSocialbuttonBlack .msbIn .msbBtn {
+	background: rgb(0, 0, 0); border: 3px solid rgb(0, 0, 0);
+}
+.masterSocialbuttonBlack .msbIn .msbGroup {
+	background: rgb(0, 0, 0); border: 3px solid rgb(0, 0, 0);
+}
+.msbIn1 .msbBtn {
+	line-height: 15px; font-size: 11px; border-top-color: currentColor !important; border-top-width: medium !important; border-top-style: none !important;
+}
+.msbIn1 .msbGroup {
+	line-height: 15px; font-size: 11px; border-top-color: currentColor !important; border-top-width: medium !important; border-top-style: none !important;
+}
+.msbBtn a {
+	border: currentColor; text-align: left; line-height: 13px !important; font-size: 11px !important; text-decoration: none; cursor: pointer;
+}
+.msbBtn a:link {
+	color: rgb(0, 0, 0) !important; text-decoration: none !important;
+}
+.msbBtn a:visited {
+	color: rgb(0, 0, 0) !important; text-decoration: none !important;
+}
+.msbBtn a:hover {
+	color: rgb(204, 0, 0) !important; text-decoration: none !important;
+}
+.msbGroup .msbBtn {
+	border: currentColor !important;
+}
+.msbGroupOut {
+	position: relative;
+}
+.msbGroupIn {
+	margin-top: 10px; visibility: hidden; position: absolute; opacity: 0; -webkit-transition-property: opacity, margin-top, visibility; -moz-transition-property: opacity, margin-top, visibility; transition-property: opacity, margin-top, visibility; -webkit-transition-duration: 300ms; -moz-transition-duration: 300ms; transition-duration: 300ms; -webkit-transition-timing-function: ease-out; -moz-transition-timing-function: ease-out; transition-timing-function: ease-out;
+}
+.msbGroupInBlock.msbGroupIn {
+	margin-top: 0px; visibility: visible; z-index: 999; opacity: 1;
+}
+.msbGroupUnder .msbGroupIn {
+	padding: 5px; border: 1px solid rgba(204, 204, 204, 0.7); width: 200px; right: 0px; z-index: 100; background-color: rgba(255, 255, 255, 0.7);
+}
+.msbGroupUpper .msbGroupIn {
+	padding: 5px; border: 1px solid rgba(204, 204, 204, 0.7); width: 200px; right: 0px; bottom: 20px; z-index: 100; background-color: rgba(255, 255, 255, 0.7);
+}
+.msbGroupBlack .msbGroupIn {
+	background-color: rgba(102, 102, 102, 0.7);
+}
+.msbGroupBlack .msbGroupIn::after {
+	border-bottom-color: rgba(102, 102, 102, 0.7); border-bottom-width: 10px; border-bottom-style: solid;
+}
+.msbGroupIn .msbBtn {
+	line-height: 15px; font-size: 11px;
+}
+.msbBtnTweetbutton iframe {
+	width: 100px !important;
+}
+.msbBtnGoogleplusone > div {
+	width: 60px !important;
+}
+.msbBtnGoogleplusonem > div {
+	width: 70px;
+}
+.msbBtnPocketbuttonc > iframe {
+	width: 60px;
+}
+.msbBtnMixicheck span iframe {
+	height: 18px !important;
+}
+.msbBtnPocketbutton > .pocket-btn {
+	height: 20px !important;
+}
+.msbBtnPocketbuttonc > .pocket-btn {
+	height: 20px !important;
+}
+.msbBtnPocketbutton > .pocket-btn iframe {
+	width: 60px !important;
+}
+.msbBtnPocketbuttonc > .pocket-btn iframe {
+	width: 110px !important;
+}
+.msbBtnOnetopibutton a {
+	background: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnOnetopibutton.png") no-repeat 0px 0px; width: 48px; height: 18px; text-indent: -9999px; display: block;
+}
+.msbBtn .msbBtntext {
+	background-position: 3px; padding: 2px 3px 2px 18px; border-radius: 3px; border: 1px solid rgb(204, 204, 204); display: block; background-repeat: no-repeat; background-size: 12px; background-color: rgb(255, 255, 255);
+}
+.msbGroup .msbBtntext {
+	background-color: rgb(248, 248, 248);
+}
+.msbGroupIn .msbBtntext {
+	background-color: rgb(255, 255, 255);
+}
+.msbBtnSocialbutton a {
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTM5jWRgMAAAAVdEVYdENyZWF0aW9uIFRpbWUAMi8xNy8wOCCcqlgAAAQRdEVYdFhNTDpjb20uYWRvYmUueG1wADw/eHBhY2tldCBiZWdpbj0iICAgIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+Cjx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDQuMS1jMDM0IDQ2LjI3Mjk3NiwgU2F0IEphbiAyNyAyMDA3IDIyOjExOjQxICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4YXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iPgogICAgICAgICA8eGFwOkNyZWF0b3JUb29sPkFkb2JlIEZpcmV3b3JrcyBDUzM8L3hhcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhhcDpDcmVhdGVEYXRlPjIwMDgtMDItMTdUMDI6MzY6NDVaPC94YXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhhcDpNb2RpZnlEYXRlPjIwMDgtMDMtMjRUMTk6MDA6NDJaPC94YXA6TW9kaWZ5RGF0ZT4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyI+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgIDwvcmRmOkRlc2NyaXB0aW9uPgogICA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDUdUmQAAAGaSURBVDiNlZGxS1tRFMZ/t8QxvBdxe2lNC0qlsTy59w/I4ir5Bx7G2Q7i4txFcGkVsr+Q4mwXB7Ggg4NggkaHV0RI2kGIi0kcIsF4O7y85L0Qoj3T4Xzf+e53vyN4ZUkpTcAGLsrlciOYv3nlsg1UgSOgKqXM/pcA4AJmrzeB7wEQ61OcfKpHzAA/gRV+fAms2kOCqVEO3EklMx9yy5if57PhV4DjIYHaKIGMmU6jtcZMpwGyIWwNuLUsC+AhjMVCJHS3iwaeOx2AftKlUukiRIsrpRa01pVhB9v3lQrt9iOt62uAAkCQ+H5dsF8XABiG4SqlcsMOvjYur7KIiRSXVyfAjpQyF4/HXYC77oCYSCQAXKUUvqR/gT2Sb22mU/Cnht5ciqS29denbrzTkbnAydvAETOzJpNTgzxWF1ivCsbVt/eaGHDO3CewktBqRQj1p7H7QJCBlRwJ7s4M7C7+9t0cfox+wRdoNsEwIoAo3vjNrwN0cTXixnEcADzPIwbkODstvGQ1fAXP84K2MD6lXmmtI76FECIY/QMwqHwmKeNUfwAAAABJRU5ErkJggg==");
+}
+.msbBtnGooglebookmark a {
+	background-image: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnGooglebookmark.gif");
+}
+.msbBtnYahoobookmark a {
+	background-image: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnYahoobookmark.gif");
+}
+.msbBtnHatenabookmark a {
+	background-image: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnHatenabookmark.gif");
+}
+.msbBtnKwout a {
+	background-image: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnKwout.gif");
+}
+.msbBtnMail a {
+	background-image: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnMail.gif");
+}
+.msbBtnAlertbutton a {
+	background-image: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnAlert.gif");
+}
+.msbBtnAlertseries a {
+	background-image: url("http://image.itmedia.co.jp/images/socialbutton/msbBtnAlertseries.gif");
+}
+.msbBtnPrintbutton a {
+	font-weight: bold;
+}
+.msbBtnPrintbutton .msbBtntext {
+	padding: 2px 3px;
+}
+.msbBtnItmid a {
+	font-weight: bold; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAkNJREFUeNqEk89vEkEUx9/sLAt0wZIYJULSEkoRqonVQwtp9KxJ9aKJJ08melKv/gHqP2CinnrkaLUJSQ/ooRCTxqT8EKN1FVrSYpsShBYLu8zO+iCBsFrqy05m3sz7ft6+tzvEMAzoWfwhBUIA8LmA7kU8OYnHBOcqzmmmQ1pH59ZLva8RwWyohWsObygSuHp/Rh73udVW2djfKFSKidfB/e3iGJ4v4ehnFQbVmOWSwzs1N/to4c5o4FwQCLe3tJ8W7cSWf/re49sO7+RlncPMoMYEwNebDV5/ENX5ocC51iZEBEptwFiN/aqtwtn5uzNYxpVBjakExsE9Oj45xthBC9kGY3WuqrvAeZsgUHf5JjxtHTzDATpQVa3ovw+/MUKErrjR+C5SKgkWi4uAQRkCxOMAO1uZZFH20XCjsd7sZBYEq2C1eogs+6XtbHpT00l5aA+whHe5xZgi286rknTKYrOdobI8IchygEp0XE3FXpRUBvGhAPwKXxq12sqHhVerbve83ekMCyMjPsHpnLIuP3+WrVWr7zEmNxRwoBLADIsbn9Kl0lr+hySdtoiiQ1RWP24UcmsljUGs2Tb/OCZAq90dTNNh+XMyUUZxB2DJryR2cO8tNrDTRBjaxKbWX+YK+YyNEEo6OQr5rB2FGTjCTIBdGu4t68l1Ep9O2W8oigJPltTNqN+o/RewJ4YHvK8QDodA06Sul1L4UXpzD/62SqUC9frecSH/3Ma+cc7fRCLRm7j04JV/2tt3heZMcX8EGADUSQLEGWxGlgAAAABJRU5ErkJggg==");
+}

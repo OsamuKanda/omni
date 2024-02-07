@@ -1,0 +1,66 @@
+﻿#CLD__TABLE td{
+	height: 12px;
+	border: Solid 0px blue;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#CLD__TABLE {
+	border-collapse: collapse;
+	background-color: white;
+	border: 1px solid;
+	border-color:blue;
+	text-align:center;
+	table-layout: fixed;
+	font-size: 14px;
+}
+
+#CLD__TABLE .CLD_col {
+	width: 22px;
+}
+#CLD__TABLE .CLD_HeadRow {
+	background-color: blue;
+	color: white;
+}
+#CLD__TABLE .CLD_HeadDate {
+    font-size: 12px;
+}
+#CLD__TABLE .CLD_HeadNavi {
+    cursor: hand;
+}
+
+#CLD__TABLE .CLD_DayRow {
+}
+#CLD__TABLE .CLD_DayWeek {
+    border-bottom: 1px solid blue;
+}
+#CLD__TABLE .CLD_DaySat {
+	color: blue;
+    border-bottom: 1px solid blue;
+}
+#CLD__TABLE .CLD_DaySun {
+	color: red;
+    border-bottom: 1px solid blue;
+}
+
+#CLD__TABLE .CLD_DateRow {
+}
+
+#CLD__TABLE .CLD_DateWeek {
+	cursor: hand;
+}
+#CLD__TABLE .CLD_DateSat {
+	color: blue;
+	cursor: hand;
+}
+#CLD__TABLE .CLD_DateSun {
+	color: red;
+	cursor: hand;
+}
+#CLD__TABLE .CLD_DateStart {
+	border: 2px solid blue;
+	cursor: hand;
+}
+#CLD__TABLE .CLD_DateOtherMonth {
+	color: #aaaaaa;
+	cursor: hand;
+}

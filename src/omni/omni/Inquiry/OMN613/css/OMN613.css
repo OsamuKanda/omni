@@ -1,0 +1,453 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 128px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		width: 12px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 68px;
+	}
+	.JIGYONM
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 94px;
+	}
+	.lbltSEIKYUCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SEIKYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 68px;
+	}
+	.SEIKYUNM
+	{
+		width: 720px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 112px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 68px;
+	}
+	.NONYUNM
+	{
+		width: 720px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 112px;
+	}
+	.lbltBUKENNO
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.BUKENNO
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 68px;
+	}
+	.lbltUKETSUKEYMD
+	{
+		position: absolute;
+		top: 65px;
+		left: 200px;
+	}
+	.UKETSUKEYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 256px;
+	}
+	.lbltSEIKYUSHONO
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.SEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 68px;
+	}
+	.lbltSEIKYUYMD
+	{
+		position: absolute;
+		top: 86px;
+		left: 200px;
+	}
+	.SEIKYUYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 256px;
+	}
+	.lbltGOKEI
+	{
+		position: absolute;
+		top: 107px;
+		left: 400px;
+	}
+	.GOKEI
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 456px;
+	}
+	.lbltURIAGE
+	{
+		position: absolute;
+		top: 66px;
+		left: 400px;
+	}
+	.URIAGE
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 66px;
+		left: 456px;
+	}
+	.lbltTAX
+	{
+		position: absolute;
+		top: 86px;
+		left: 400px;
+	}
+	.TAX
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 456px;
+	}
+	.lbltNYUKINYMD
+	{
+		position: absolute;
+		top: 107px;
+		left: 200px;
+	}
+	.NYUKINYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 256px;
+	}
+	.lbltNYUKINR
+	{
+		position: absolute;
+		top: 107px;
+		left: 600px;
+	}
+	.NYUKINR
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 656px;
+	}
+	.LVHeader
+	{
+		width: 915px;
+		position: relative;
+		margin-left: 10px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.LVContent
+	{
+		width: 915px;
+		height: 301px;
+		position: absolute;
+	}
+	.SearchDP
+	{
+		width: 915px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellHINNM
+	{
+		width: 496px;
+		text-align: left;
+	}
+	.itemTiHINNM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellSURYO
+	{
+		width: 64px;
+		text-align: right;
+	}
+	.itemTiSURYO
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellTANINM
+	{
+		width: 46px;
+		text-align: left;
+	}
+	.itemTiTANINM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellTANKA
+	{
+		width: 82px;
+		text-align: right;
+	}
+	.itemTiTANKA
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellGOUKING
+	{
+		width: 94px;
+		text-align: right;
+	}
+	.itemTiGOUKING
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellTAX
+	{
+		width: 72px;
+		text-align: right;
+	}
+	.itemTiTAX
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemHINNM
+	{
+		text-align: left;
+	}
+	.itemcellHINNM
+	{
+		width: 486px;
+		display: inline-block;
+	}
+	.itemSURYO
+	{
+		text-align: right;
+	}
+	.itemcellSURYO
+	{
+		width: 54px;
+		display: inline-block;
+	}
+	.itemTANINM
+	{
+		text-align: left;
+	}
+	.itemcellTANINM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemTANKA
+	{
+		text-align: right;
+	}
+	.itemcellTANKA
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemGOUKING
+	{
+		text-align: right;
+	}
+	.itemcellGOUKING
+	{
+		width: 84px;
+		display: inline-block;
+	}
+	.itemTAX
+	{
+		text-align: right;
+	}
+	.itemcellTAX
+	{
+		width: 72px;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

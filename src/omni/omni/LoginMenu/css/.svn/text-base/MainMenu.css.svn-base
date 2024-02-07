@@ -1,0 +1,23 @@
+﻿.dummy{height: 20px;}
+p {float:left; margin:0px; display:block; width:10px; font-size: 18px; margin-top:5px;}
+.box li {float:left; display:block; }
+.box a {font-size: 18px; height:18px; display:block; overflow:hidden;}
+.menu li {margin: 5px 10px 5px 10px; }
+.menu a {font-size: 18px;}
+ul {margin:0px;}
+.box {height:26px;clear:both; }
+.on  {background-color:#0000CC; width:250px; height:26px; margin-right:5px; text-align:center; font-size: 18px;}
+.on a {text-decoration:none; display:block; margin-top:5px; }
+.on a:link    {color:#ffffff;}
+.on a:visited {color:#ffffff;}
+.on a:hover   {color:#ffffff;}
+.off {background-color:#99CCFF; width:110px; height:26px; margin-right:5px; text-align:center; font-size: 18px;}
+.off a {text-decoration:underline; display:block; margin-top:5px; padding-right: 9px; padding-left: 9px;}
+.off a:link    {color:#000000;}
+.off a:visited {color:#000000;}
+.off a:hover   {color:#000000; background-color:#66CCFF;}
+.menu{border-top:solid 10px #0000CC; border-bottom:solid 2px #0000CC; border-left:solid 2px #0000CC; border-right:solid 2px #0000CC;}
+.menu tr{height: 24px; }
+.menu tr a{text-decoration:none; color: #0000FF;}
+.labelname{font-size: 18px; padding-bottom:2px; color: #0000FF; }
+td {width: 490px;}

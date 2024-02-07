@@ -1,0 +1,286 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltSHRYMDFROM1
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SHRYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnSHRYMDFROM1
+	{
+		position: absolute;
+		top: 0px;
+		left: 156px;
+	}
+	.lbltitle1
+	{
+		position: absolute;
+		top: 2px;
+		left: 183px;
+	}
+	.SHRYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 205px;
+	}
+	.btnSHRYMDTO1
+	{
+		position: absolute;
+		top: 0px;
+		left: 269px;
+	}
+	.lbltSIRCDFROM2
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SIRCDFROM2
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnSIRCDFROM2
+	{
+		position: absolute;
+		top: 20px;
+		left: 130px;
+		height: 18px;
+	}
+	.SIRNMR1
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 172px;
+	}
+	.lbltitle2
+	{
+		position: absolute;
+		top: 23px;
+		left: 366px;
+	}
+	.SIRCDTO2
+	{
+		width: 24px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 388px;
+	}
+	.btnSIRCDTO2
+	{
+		position: absolute;
+		top: 20px;
+		left: 426px;
+		height: 18px;
+	}
+	.SIRNMR2
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 468px;
+	}
+	.lbltSHRGINKOKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SHRGINKOKBN
+	{
+		display: inline;
+		width: 157px;
+		position: absolute;
+		top: 41px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltKAMOKUKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 263px;
+	}
+	.KAMOKUKBN
+	{
+		display: inline;
+		width: 73px;
+		position: absolute;
+		top: 41px;
+		left: 305px;
+		ime-mode: disabled;
+	}
+	.divbtnSearch
+	{
+		width: 454px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 454px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 454px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSHRNO
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiSHRNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSHRYMD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiSHRYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellSIRCD
+	{
+		width: 34px;
+		text-align: left;
+	}
+	.itemTiSIRCD
+	{
+		width: 0px;
+		display: inline-block;
+	}
+	.CellSIRNMR
+	{
+		width: 190px;
+		text-align: left;
+	}
+	.itemTiSIRNMR
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		width: 82px;
+		text-align: right;
+	}
+	.itemTiKING
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSHRNO
+	{
+		text-align: left;
+	}
+	.itemcellSHRNO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemSHRYMD
+	{
+		text-align: left;
+	}
+	.itemcellSHRYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemSIRCD
+	{
+		text-align: left;
+	}
+	.itemcellSIRCD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.itemSIRNMR
+	{
+		text-align: left;
+	}
+	.itemcellSIRNMR
+	{
+		width: 180px;
+		display: inline-block;
+	}
+	.itemKING
+	{
+		text-align: right;
+	}
+	.itemcellKING
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

@@ -1,0 +1,433 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		width: 12px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 92px;
+	}
+	.JIGYONM
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 118px;
+	}
+	.lbltKEIKIN
+	{
+		position: absolute;
+		top: 2px;
+		left: 700px;
+	}
+	.KEIKIN
+	{
+		width: 78px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 768px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 92px;
+	}
+	.NONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 136px;
+	}
+	.NONYUNM2
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 510px;
+	}
+	.lbltSAGYOTANTCD
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SAGYOTANTCD
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.btnSAGYOTANTCD
+	{
+		position: absolute;
+		top: 41px;
+		left: 142px;
+		height: 18px;
+	}
+	.SAGYOTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 184px;
+	}
+	.lbltTENKENYMDFROM1
+	{
+		position: absolute;
+		top: 44px;
+		left: 400px;
+	}
+	.TENKENYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 456px;
+	}
+	.btnTENKENYMDFROM1
+	{
+		position: absolute;
+		top: 42px;
+		left: 520px;
+	}
+	.lbltitle1
+	{
+		position: absolute;
+		top: 44px;
+		left: 547px;
+	}
+	.TENKENYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 569px;
+	}
+	.btnTENKENYMDTO1
+	{
+		position: absolute;
+		top: 42px;
+		left: 633px;
+	}
+	.LVHeader
+	{
+		width: 890px;
+		position: relative;
+		margin-left: 10px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.divBtnSerch
+	{
+		position: absolute;
+		top: 0px;
+		width: 172px;
+		right: 0px;
+		text-align: right;
+	}
+	.LVContent
+	{
+		width: 970px;
+		height: 361px;
+		position: absolute;
+		top: 21px;
+	}
+	.SearchDP
+	{
+		width: 890px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellTENKENYMD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiTENKENYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellGOUKI
+	{
+		width: 34px;
+		text-align: left;
+	}
+	.itemTiGOUKI
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellKISHUKATA
+	{
+		width: 250px;
+		text-align: left;
+	}
+	.itemTiKISHUKATA
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellYOSHIDANO
+	{
+		width: 106px;
+		text-align: left;
+	}
+	.itemTiYOSHIDANO
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.CellSEIKYUSHONO
+	{
+		width: 96px;
+		text-align: left;
+	}
+	.itemTiSEIKYUSHONO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		width: 58px;
+		text-align: left;
+	}
+	.itemTiKING
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellTOKKI
+	{
+		width: 300px;
+		text-align: left;
+	}
+	.itemTiTOKKI
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSAGYOTANTNM
+	{
+		width: 72px;
+		text-align: left;
+	}
+	.itemTiSAGYOTANTNM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellBUKENNO
+	{
+		width: 82px;
+		text-align: left;
+	}
+	.itemTiBUKENNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemTENKENYMD
+	{
+		text-align: left;
+	}
+	.itemcellTENKENYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemGOUKI
+	{
+		text-align: left;
+	}
+	.itemcellGOUKI
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemKISHUKATA
+	{
+		text-align: left;
+	}
+	.itemcellKISHUKATA
+	{
+		width: 240px;
+		display: inline-block;
+	}
+	.itemYOSHIDANO
+	{
+		text-align: left;
+	}
+	.itemcellYOSHIDANO
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemKING
+	{
+		text-align: right;
+	}
+	.itemcellKING
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemTOKKI
+	{
+		text-align: left;
+	}
+	.itemcellTOKKI
+	{
+		width: 300px;
+		border: none;
+		background-color: transparent;
+	}
+	.itemSAGYOTANTNM
+	{
+		text-align: left;
+	}
+	.itemcellSAGYOTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.itemBUKENNO
+	{
+		text-align: left;
+	}
+	.itemcellBUKENNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

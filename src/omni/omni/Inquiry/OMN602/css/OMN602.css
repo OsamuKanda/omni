@@ -1,0 +1,244 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		display: inline;
+		width: 103px;
+		position: absolute;
+		top: -1px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltSEIKYUCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SEIKYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnSEIKYUCD
+	{
+		position: absolute;
+		top: 20px;
+		left: 136px;
+		height: 18px;
+	}
+	.SEIKYUNM
+	{
+		width: 720px;
+		ime-mode: active;
+		position: absolute;
+		top: 21px;
+		left: 178px;
+	}
+	.lbltNYUKINRFROM1
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.NYUKINRFROM1
+	{
+		width: 72px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.lblTitle1
+	{
+		position: absolute;
+		top: 44px;
+		left: 178px;
+	}
+	.NYUKINRTO1
+	{
+		width: 72px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 200px;
+	}
+	.LVHeader
+	{
+		width: 970px;
+		position: relative;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.divBtnSerch
+	{
+		position: absolute;
+		top: 0px;
+		width: 172px;
+		right: 0px;
+		text-align: right;
+	}
+	.LVContent
+	{
+		width: 970px;
+		height: 381px;
+		position: absolute;
+		top: 21px;
+	}
+	.SearchDP
+	{
+		width: 970px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSEIKYUNM
+	{
+		width: 730px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellSEIKYUYMD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.CellSEIKYUSHONO
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.CellNYUKINR
+	{
+		width: 82px;
+		text-align: right;
+	}
+	.CellNONYUNM
+	{
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSEIKYUNM
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUNM
+	{
+		width: 720px;
+		display: inline-block;
+	}
+	.itemSEIKYUYMD
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemNYUKINR
+	{
+		text-align: right;
+	}
+	.itemcellNYUKINR
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemNONYUNM
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNM
+	{
+		width: 720px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

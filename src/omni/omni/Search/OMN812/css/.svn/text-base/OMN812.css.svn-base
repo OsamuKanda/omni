@@ -1,0 +1,233 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 116px;
+	}
+	.lbltNONYUNM1
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 116px;
+	}
+	.lbltYOSHIDANO
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.YOSHIDANO
+	{
+		width: 60px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 42px;
+		left: 116px;
+	}
+	.divbtnSearch
+	{
+		width: 878px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 878px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 878px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellNONYUCD
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellGOUKI
+	{
+		width: 52px;
+		text-align: left;
+	}
+	.CellYOSHIDANO
+	{
+		width: 124px;
+		text-align: left;
+	}
+	.CellJIGYONM
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiJIGYONM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellNONYUNM1
+	{
+		width: 370px;
+		text-align: left;
+	}
+	.CellKISHUKATA
+	{
+		text-align: left;
+	}
+	.itemTiKISHUKATA
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSENPONM
+	{
+		text-align: left;
+	}
+	.itemTiSENPONM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellNONYUNM2
+	{
+		text-align: left;
+	}
+	.itemTiNONYUNM2
+	{
+		width: 54px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemNONYUCD
+	{
+		text-align: left;
+	}
+	.itemcellNONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemGOUKI
+	{
+		text-align: left;
+	}
+	.itemcellGOUKI
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemYOSHIDANO
+	{
+		text-align: left;
+	}
+	.itemcellYOSHIDANO
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemJIGYONM
+	{
+		text-align: left;
+	}
+	.itemcellJIGYONM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemNONYUNM1
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.itemKISHUKATA
+	{
+		text-align: left;
+	}
+	.itemcellKISHUKATA
+	{
+		width: 240px;
+		display: inline-block;
+	}
+	.itemSENPONM
+	{
+		text-align: left;
+	}
+	.itemcellSENPONM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemNONYUNM2
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNM2
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

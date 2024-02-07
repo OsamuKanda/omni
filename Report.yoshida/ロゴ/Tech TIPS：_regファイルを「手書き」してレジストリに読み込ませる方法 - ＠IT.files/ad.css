@@ -1,0 +1,138 @@
+#ITN {
+	width: 728px;
+}
+#BEACON {
+	display: none;
+}
+.colBoxITF {
+	margin: 0px auto 10px; width: 500px;
+}
+.colBoxITF .colBoxHead {
+	margin: 0px; padding: 0px; border: currentColor; text-align: right;
+}
+.colBoxITF .colBoxHead .colBoxHeadSubtxt {
+	font-weight: bold; position: static;
+}
+.colBoxITF .colBoxHead {
+	margin: 0px; padding: 0px; border: currentColor;
+}
+.colBoxITF .colBoxInner {
+	border: 1px solid rgb(204, 0, 0);
+}
+.colBoxITF .colBoxIndex {
+	padding: 10px; border: 3px solid rgb(255, 204, 204);
+}
+.colBoxITF .colBoxSubTitle h5 {
+	color: rgb(204, 0, 0); line-height: 20px; font-size: 14px;
+}
+.colBoxITT {
+	margin: 0px 0px 5px;
+}
+.colBoxITT .colBoxTitle {
+	background: url("http://image.itmedia.co.jp/images/ad/ITT_pr.gif") no-repeat 0px 2px; margin: 0px; padding: 0px 0px 0px 24px;
+}
+.colBoxITT .colBoxTitle h3 {
+	line-height: 16px; font-size: 12px; font-weight: normal;
+}
+.colBoxITT .colBoxTitleSubtxt {
+	display: none;
+}
+#ITNI .colBoxIndex {
+	text-align: center;
+}
+.colBoxITSB .colBoxOuter {
+	width: 300px; border-right-color: rgb(187, 187, 187); border-bottom-color: rgb(187, 187, 187); border-left-color: rgb(187, 187, 187); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.colBoxITSB .colBoxHead {
+	background: url("http://image.itmedia.co.jp/images/ad/ITSB_heading_repeat.gif") repeat-x left top; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.colBoxITSB .colBoxHead h2 {
+	background: url("http://image.itmedia.co.jp/images/ad/ITSB_heading.gif") no-repeat left top !important; text-indent: -9999px;
+}
+.colBoxITSB .colBoxHead .colBoxHeadSubtxt {
+	top: 2px; right: 3px; color: rgb(119, 119, 119);
+}
+.colBoxITSB .colBoxIndex {
+	padding: 0px 5px;
+}
+.colBoxITSB .colBoxIcon {
+	float: right;
+}
+.colBoxITSB .colBoxIcon a {
+	margin: 0px 2px 5px; border: currentColor;
+}
+.colBoxITSB .colBoxTitle h3 {
+	line-height: 23px;
+}
+.colBoxITSB .colBoxDescription p {
+	color: rgb(85, 85, 85); line-height: 20px; clear: both; font-size: 13px;
+}
+#ITWS {
+	background: rgb(0, 0, 0); margin: 0px; padding: 0px; font-family: Meiryo, "ÉÅÉCÉäÉI", "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3";
+}
+#ITWS hr {
+	clear: both; visibility: hidden;
+}
+#ITWS a:link {
+	color: rgb(0, 51, 119); text-decoration: none;
+}
+#ITWS a:visited {
+	color: rgb(128, 0, 128); text-decoration: none;
+}
+#ITWS a:hover {
+	color: rgb(204, 0, 0); text-decoration: underline;
+}
+#ITWS a img {
+	border: currentColor;
+}
+#ITWS #header {
+	background: url("http://image.itmedia.co.jp/images0509/welcome_content_bg.gif") repeat-x 0px 0px rgb(255, 255, 255); border-top-color: rgb(221, 221, 221); border-bottom-color: rgb(204, 204, 204); border-top-width: 3px; border-bottom-width: 2px; border-top-style: solid; border-bottom-style: solid;
+}
+#ITWS #header #inner {
+	margin: 0px auto; padding: 10px 0px; width: 640px; position: relative;
+}
+#ITWS #logo {
+	display: inline;
+}
+#ITWS #header h1 {
+	margin: 0px; padding: 0px; font-size: 12px;
+}
+#ITWS #header h1 a {
+	text-decoration: none;
+}
+#ITWS #header h1 a img {
+	margin: 0px 0px 5px;
+}
+#ITWS #skip {
+	background: url("http://image.itmedia.co.jp/images0509/welcome_icon_skip.gif") no-repeat 0px 1px; top: 5px; right: 0px; line-height: 150%; padding-left: 20px; font-size: 12px; position: absolute;
+}
+#ITWS #url {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold;
+}
+#ITWS #swfAd {
+	margin: 0px 0px 10px; padding: 30px 0px 0px; border-top-color: rgb(153, 153, 153); border-top-width: 2px; border-top-style: solid;
+}
+#ITWS #swfAd div {
+	background: rgb(255, 255, 255); margin: 0px auto; border: 1px solid rgb(204, 204, 204); width: 640px; height: 480px;
+}
+#COIDP {
+	background: url("http://img.itmedia.jp/so/p/image/itmidNav_bg.gif") repeat-x 0px 0px; height: 20px; line-height: 16px; font-size: 12px; min-width: 990px;
+}
+#COIDP .COIDP-Message {
+	padding: 1px 5px 0px 0px; margin-left: 10px; float: left;
+}
+#COIDP .COIDP-Member {
+	margin-right: 10px; float: right;
+}
+#COIDP .COIDP-NewEntry {
+	background: url("http://img.itmedia.jp/so/p/image/itmidNav_NewEntry.gif") no-repeat 0px 0px; padding: 1px 15px 0px 20px; float: left;
+}
+#COIDP .COIDP-MyPage {
+	background: url("http://img.itmedia.jp/so/p/image/itmidNav_MyPage.gif") no-repeat 0px 0px; padding: 1px 0px 0px 15px; float: left;
+}
+#COIDP a {
+	color: rgb(50, 55, 120); text-decoration: none;
+}
+#COIDP a:hover {
+	text-decoration: underline;
+}

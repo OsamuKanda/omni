@@ -1,0 +1,215 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltSEIKYUSHONO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SEIKYUSHONO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.lbltNYUKINYMD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.NYUKINYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnNYUKINYMD
+	{
+		position: absolute;
+		top: 21px;
+		left: 156px;
+	}
+	.lbltINPUTCD
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.INPUTCD
+	{
+		width: 36px;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.btnINPUTCD
+	{
+		position: absolute;
+		top: 42px;
+		left: 142px;
+		height: 18px;
+	}
+	.TANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 184px;
+	}
+	.divbtnSearch
+	{
+		width: 468px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+	}
+	.LVContent
+	{
+		width: 468px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 468px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSEIKYUSHONO
+	{
+		width: 80px;
+		text-align: left;
+	}
+	.itemTiSEIKYUSHONO
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellNYUKINNO
+	{
+		width: 80px;
+		text-align: left;
+	}
+	.itemTiNYUKINNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellNYUKINYMD
+	{
+		width: 80px;
+		text-align: left;
+	}
+	.itemTiNYUKINYMD
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		width: 82px;
+		text-align: right;
+	}
+	.itemTiKING
+	{
+		display: inline-block;
+	}
+	.CellTANTNM
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.itemTiTANTNM
+	{
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSEIKYUSHONO
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUSHONO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemNYUKINNO
+	{
+		text-align: left;
+	}
+	.itemcellNYUKINNO
+	{
+		width: 42px;
+		display: inline-block;
+	}
+	.itemNYUKINYMD
+	{
+		text-align: left;
+	}
+	.itemcellNYUKINYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemKING
+	{
+		text-align: right;
+	}
+	.itemcellKING
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemTANTNM
+	{
+		text-align: left;
+	}
+	.itemcellTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}

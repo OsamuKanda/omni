@@ -1,0 +1,313 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYOCD
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: -1px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltSEIKYUCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SEIKYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnSEIKYUCD
+	{
+		position: absolute;
+		top: 20px;
+		left: 136px;
+		height: 18px;
+	}
+	.SEIKYUNM
+	{
+		width: 720px;
+		ime-mode: active;
+		position: absolute;
+		top: 21px;
+		left: 178px;
+	}
+	.lbltNYUKINKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.NYUKINKBN
+	{
+		display: inline;
+		width: 139px;
+		position: absolute;
+		top: 41px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltSEIKYUYMDFROM1
+	{
+		position: absolute;
+		top: 44px;
+		left: 300px;
+	}
+	.SEIKYUYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 356px;
+	}
+	.btnSEIKYUYMDFROM1
+	{
+		position: absolute;
+		top: 42px;
+		left: 420px;
+	}
+	.lbltitle1
+	{
+		position: absolute;
+		top: 44px;
+		left: 447px;
+	}
+	.SEIKYUYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 42px;
+		left: 471px;
+	}
+	.btnSEIKYUYMDTO1
+	{
+		position: absolute;
+		top: 42px;
+		left: 535px;
+	}
+	.LVHeader
+	{
+		width: 910px;
+		position: relative;
+		margin-left: 5px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.divBtnSerch
+	{
+		position: absolute;
+		top: 0px;
+		width: 172px;
+		right: 0px;
+		text-align: right;
+	}
+	.LVContent
+	{
+		width: 910px;
+		height: 406px;
+		position: absolute;
+		top: 21px;
+	}
+	.SearchDP
+	{
+		width: 910px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSEIKYUNM
+	{
+		width: 300px;
+		text-align: left;
+	}
+	.itemTiSEIKYUNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellNONYUNM
+	{
+		width: 300px;
+		text-align: left;
+	}
+	.itemTiNONYUNM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellSAGYOKBNNM
+	{
+		width: 60px;
+		text-align: left;
+	}
+	.itemTiSAGYOKBNNM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellSEIKYUYMD
+	{
+		width: 60px;
+		text-align: left;
+	}
+	.itemTiSEIKYUYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		width: 72px;
+		text-align: right;
+	}
+	.itemTiKING
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellNYUKINYMD
+	{
+		width: 60px;
+		text-align: left;
+	}
+	.itemTiNYUKINYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSEIKYUNM
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUNM
+	{
+		width: 300px;
+		display: inline-block;
+		overflow:hidden;
+	}
+	.itemNONYUNM
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNM
+	{
+		width: 300px;
+		display: inline-block;
+		overflow:hidden;
+	}
+	.itemSAGYOKBNNM
+	{
+		text-align: left;
+	}
+	.itemcellSAGYOKBNNM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemSEIKYUYMD
+	{
+		text-align: left;
+	}
+	.itemcellSEIKYUYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemKING
+	{
+		text-align: right;
+	}
+	.itemcellKING
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemNYUKINYMD
+	{
+		text-align: left;
+	}
+	.itemcellNYUKINYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

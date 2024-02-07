@@ -1,0 +1,127 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 87px;
+	top: 0px;
+	left: 0px;
+}
+	.lbltUKETSUKEYMDFROM1
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.UKETSUKEYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnUKETSUKEYMDFROM1
+	{
+		position: absolute;
+		top: 0px;
+		left: 156px;
+	}
+	.lbl
+	{
+		position: absolute;
+		top: 2px;
+		left: 183px;
+	}
+	.UKETSUKEYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 207px;
+	}
+	.btnUKETSUKEYMDTO1
+	{
+		position: absolute;
+		top: 0px;
+		left: 271px;
+	}
+	.lbltJIGYOCDFROM1
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.JIGYOCDFROM1
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: 20px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbl1
+	{
+		position: absolute;
+		top: 20px;
+		left: 220px;
+	}	
+	.JIGYOCDTO1
+	{
+		display: inline;
+		width:115px;
+		position: absolute;
+		top: 20px;
+		left: 246px;
+		ime-mode: disabled;
+	}
+	.lbltSAGYOBKBNNM
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SAGYOBKBNNM
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: 41px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltCHOUFSITEI
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.CHOUFSITEI
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: 62px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

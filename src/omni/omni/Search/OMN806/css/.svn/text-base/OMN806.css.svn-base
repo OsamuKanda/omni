@@ -1,0 +1,150 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltSYOZOKJIGYOCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SYOZOKJIGYOCD
+	{
+		display: inline;
+		width: 115px;
+		position: absolute;
+		top: -1px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltTANTNM
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.TANTNM
+	{
+		width: 96px;
+		ime-mode: active;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.divbtnSearch
+	{
+		width: 443px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		width: 42px;
+		height: 18px;
+	}
+	.LVContent
+	{
+		width: 443px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 443px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellTANTCD
+	{
+		width: 124px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellTANTNM
+	{
+		width: 106px;
+		text-align: left;
+	}
+	.CellRYAKUSHO
+	{
+		width: 106px;
+		text-align: left;
+	}
+	.itemTiRYAKUSHO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellJIGYONM
+	{
+		width: 82px;
+		text-align: left;
+	}
+	.itemTiJIGYONM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemTANTCD
+	{
+		text-align: left;
+	}
+	.itemcellTANTCD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemTANTNM
+	{
+		text-align: left;
+	}
+	.itemcellTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.itemRYAKUSHO
+	{
+		text-align: left;
+	}
+	.itemcellRYAKUSHO
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.itemJIGYONM
+	{
+		text-align: left;
+	}
+	.itemcellJIGYONM
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

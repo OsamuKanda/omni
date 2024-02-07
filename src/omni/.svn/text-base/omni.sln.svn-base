@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "omni", "omni\omni.vbproj", "{B969A403-EEBF-433E-AFED-724D078BB26D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CommonLib", "CommonLib\CommonLib.vbproj", "{0DC10B90-6B3E-425E-9BA9-0641A85A05DB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "omniDom", "omniDom\omniDom.vbproj", "{D08C2831-9772-4E52-BB7A-994B337F405F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OMNsetup", "OMNsetup\OMNsetup.vdproj", "{D319B98C-D2A3-4650-A809-761E4172A838}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B969A403-EEBF-433E-AFED-724D078BB26D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{B969A403-EEBF-433E-AFED-724D078BB26D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{B969A403-EEBF-433E-AFED-724D078BB26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B969A403-EEBF-433E-AFED-724D078BB26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC10B90-6B3E-425E-9BA9-0641A85A05DB}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC10B90-6B3E-425E-9BA9-0641A85A05DB}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{0DC10B90-6B3E-425E-9BA9-0641A85A05DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC10B90-6B3E-425E-9BA9-0641A85A05DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08C2831-9772-4E52-BB7A-994B337F405F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08C2831-9772-4E52-BB7A-994B337F405F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08C2831-9772-4E52-BB7A-994B337F405F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08C2831-9772-4E52-BB7A-994B337F405F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D319B98C-D2A3-4650-A809-761E4172A838}.Debug|Any CPU.ActiveCfg = Debug
+		{D319B98C-D2A3-4650-A809-761E4172A838}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,581 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltBUKENNO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.BUKENNO
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 92px;
+	}
+	.JIGYONM
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 300px;
+	}
+	.LVHeader
+	{
+		width: 932px;
+		position: relative;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 128px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 104px;
+	}
+	.NONYUNM1
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 148px;
+	}
+	.NONYUNM2
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 522px;
+	}
+	.lbltGOUKI
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.GOUKI
+	{
+		width: 18px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 104px;
+	}
+	.lbltTENKENYMD
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.TENKENYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 104px;
+	}
+	.lbltKISHUKATA
+	{
+		position: absolute;
+		top: 44px;
+		left: 500px;
+	}
+	.KISHUKATA
+	{
+		width: 240px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 616px;
+	}
+	.lbltSAGYOTANTCD
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.SAGYOTANTCD
+	{
+		width: 36px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 104px;
+	}
+	.SAGYOTANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 154px;
+	}
+	.lbltYOSHIDANO
+	{
+		position: absolute;
+		top: 65px;
+		left: 500px;
+	}
+	.YOSHIDANO
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 616px;
+	}
+	.lbltSAGYOTANNMOTHER
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.SAGYOTANNMOTHER
+	{
+		width: 300px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 104px;
+	}
+	.lbltSHUBETSUCD
+	{
+		position: absolute;
+		top: 86px;
+		left: 500px;
+	}
+	.SHUBETSUCD
+	{
+		width: 12px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 616px;
+	}
+	.SHUBETSUNM
+	{
+		width: 180px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 642px;
+	}
+	.lbltSTARTTIME
+	{
+		position: absolute;
+		top: 107px;
+		left: 0px;
+	}
+	.STARTTIME
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 104px;
+	}
+	.lbltitle1
+	{
+		position: absolute;
+		top: 107px;
+		left: 148px;
+	}
+	.ENDTIME
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 174px;
+	}
+	.lbltKYAKUTANTCD
+	{
+		position: absolute;
+		top: 107px;
+		left: 500px;
+	}
+	.KYAKUTANTCD
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 616px;
+	}
+
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellGYONO
+	{
+		width: 12px;
+		text-align: left;
+	}
+	.CellHBUNRUINM
+	{
+		text-align: left;
+		width: 360px;
+	}
+	.itemTiGYONO
+	{
+		width: 12px;
+		display: inline-block;
+	}
+	.CellHSYOSAIMONG
+	{
+		width: 360px;
+		text-align: left;
+	}
+	.itemTiHSYOSAIMONG
+	{
+		width: 50px;
+		display: inline-block;
+	}
+	.CellINPUTNAIYOU
+	{
+		width: 120px;
+		text-align: left;
+	}
+	.itemTiINPUTNAIYOU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellTENKENUMU
+	{
+		width: 34px;
+		text-align: center;
+	}
+	.itemTiTENKENUMU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellCHOSEIUMU
+	{
+		width: 34px;
+		text-align: center;
+	}
+	.itemTiCHOSEIUMU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellKYUYUUMU
+	{
+		width: 34px;
+		text-align: center;
+	}
+	.itemTiKYUYUUMU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellSIMETUKEUMU
+	{
+		width: 34px;
+		text-align: center;
+	}
+	.itemTiSIMETUKEUMU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellSEISOUUMU
+	{
+		width: 34px;
+		text-align: center;
+	}
+	.itemTiSEISOUUMU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellKOUKANUMU
+	{
+		width: 34px;
+		text-align: center;
+	}
+	.itemTiKOUKANUMU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellSYURIUMU
+	{
+		width: 34px;
+		text-align: center;
+	}
+	.itemTiSYURIUMU
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellFUGUAIKBN
+	{
+		width: 46px;
+		text-align: center;
+	}
+	.itemTiFUGUAIKBN
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemGYONO
+	{
+		text-align: left;
+	}
+	.scroll
+	{
+		width: 893px;
+		height: 341px;
+		overflow: auto;
+		position: relative;
+	}
+	.itemcellGYONO
+	{
+		width: 12px;
+		display: inline-block;
+	}
+	.itemHSYOSAIMONG
+	{
+		text-align: left;
+	}
+	.itemcellHSYOSAIMONG
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.itemINPUTNAIYOU
+	{
+		text-align: left;
+	}
+	.itemcellINPUTNAIYOU
+	{
+		width: 120px;
+		display: inline-block;
+	}
+	.itemTENKENUMU
+	{
+		text-align: left;
+	}
+	.itemcellTENKENUMU
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemCHOSEIUMU
+	{
+		text-align: left;
+	}
+	.itemcellCHOSEIUMU
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemKYUYUUMU
+	{
+		text-align: left;
+	}
+	.itemcellKYUYUUMU
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemSIMETUKEUMU
+	{
+		text-align: left;
+	}
+	.itemcellSIMETUKEUMU
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemSEISOUUMU
+	{
+		text-align: left;
+	}
+	.itemcellSEISOUUMU
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemKOUKANUMU
+	{
+		text-align: left;
+	}
+	.itemcellKOUKANUMU
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemSYURIUMU
+	{
+		text-align: left;
+	}
+	.itemcellSYURIUMU
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.itemFUGUAIKBN
+	{
+		text-align: left;
+	}
+	.itemcellFUGUAIKBN
+	{
+		width: 6px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}
+    p {float:left; margin:0px; display:block; width:50px; }
+    .box li {float:left; display:block;}
+    ul {margin:0px;}
+    .box {height:14px;}
+    .on  {background-color:#0000CC; width:360px; height:14px; margin-right:5px; text-align:center; }
+    .on a {text-decoration:none; display:block; height:12px; margin-top:1px; overflow: hidden;}
+    .on a:link    {color:#ffffff;}
+    .on a:visited {color:#ffffff;}
+    .on a:hover   {color:#ffffff;}
+    .off {background-color:#99CCFF; width:50px; height:14px; margin-right:5px; text-align:center; overflow: hidden;}
+    .off a {text-decoration:underline; display:block; height:12px; margin-top:1px; overflow: hidden;}
+    .off a:link    {color:#000000;}
+    .off a:visited {color:#000000;}
+    .off a:hover   {color:#000000; background-color:#66CCFF;}

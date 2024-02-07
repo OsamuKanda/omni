@@ -1,0 +1,434 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltSAGYOBKBN
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SAGYOBKBN
+	{
+		display: inline;
+		width: 97px;
+		position: absolute;
+		top: -1px;
+		left: 68px;
+		ime-mode: disabled;
+	}
+	.lbltUKETSUKEYMDFROM1
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.UKETSUKEYMDFROM1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 21px;
+		left: 68px;
+	}
+	.btnUKETSUKEYMDFROM1
+	{
+		position: absolute;
+		top: 21px;
+		left: 132px;
+	}
+	.lblTitle1
+	{
+		position: absolute;
+		top: 23px;
+		left: 159px;
+	}
+	.UKETSUKEYMDTO1
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 21px;
+		left: 185px;
+	}
+	.btnUKETSUKEYMDTO1
+	{
+		position: absolute;
+		top: 21px;
+		left: 249px;
+	}
+	.lbltNONYUCDFROM1
+	{
+		position: absolute;
+		top: 23px;
+		left: 290px;
+	}
+	.NONYUCDFROM1
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 370px;
+	}
+	.btnNONYUCDFROM1
+	{
+		position: absolute;
+		top: 20px;
+		left: 414px;
+		height: 18px;
+	}
+	.NONYUNMRFROM1
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 456px;
+	}
+	.lblTitle3
+	{
+		position: absolute;
+		top: 23px;
+		left: 662px;
+	}
+	.NONYUCDTO1
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 688px;
+	}
+	.btnNONYUCDTO1
+	{
+		position: absolute;
+		top: 20px;
+		left: 732px;
+		height: 18px;
+	}
+	.NONYUNMRNMTO1
+	{
+		width: 192px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 774px;
+	}
+	.lbltSYORIKBN
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.SYORIKBN
+	{
+		display: inline;
+		width: 73px;
+		position: absolute;
+		top: 41px;
+		left: 68px;
+		ime-mode: disabled;
+	}
+	.lbltSAGYOTANTCDFROM1
+	{
+		position: absolute;
+		top: 44px;
+		left: 290px;
+	}
+	.SAGYOTANTCDFROM1
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 370px;
+	}
+	.btnSAGYOTANTCDFROM1
+	{
+		position: absolute;
+		top: 41px;
+		left: 420px;
+		height: 18px;
+	}
+	.SAGYOTANTNMFROM1
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 462px;
+	}
+	.lblTitle2
+	{
+		position: absolute;
+		top: 44px;
+		left: 572px;
+	}
+	.SAGYOTANTCDTO1
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 598px;
+	}
+	.btnSAGYOTANTCDTO1
+	{
+		position: absolute;
+		top: 41px;
+		left: 648px;
+		height: 18px;
+	}
+	.SAGYOTANTNMTO1
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 690px;
+	}
+	.LVHeader
+	{
+		width: 698px;
+		height: 461px;
+		margin-left: 10px;
+	}
+	.divMain
+	{
+		margin-left: 10px;
+		height: 20px;
+	}
+	.divBtnSerch
+	{
+		width: 172px;
+		height: 20px;
+		right: 0px;
+		text-align: right;
+	}
+	.LVContent
+	{
+		width: 698px;
+		height: 241px;
+
+	}
+	.LVContent2
+	{
+		width: 698px;
+		height: 181px;
+
+	}
+	.SearchDP
+	{
+		width: 698px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	th
+	{
+		height: 19px;
+		font-weight: normal;
+		color: #FFFFFF;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	td
+	{
+		height: 19px;
+		border: Solid 1px #DEDFDE;
+		padding-left: 4px;
+		padding-right: 4px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSAGYOKBNNM
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiSAGYOKBNNM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellBKNNO
+	{
+		width: 82px;
+		text-align: left;
+	}
+	.itemTiBKNNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellUKETSUKEYMD
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiUKETSUKEYMD
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellNONYUNMR
+	{
+		width: 202px;
+		text-align: left;
+	}
+	.itemTiNONYUNMR
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellTELNO
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.itemTiTELNO
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellDOWNNICHIJI1
+	{
+		width: 130px;
+		text-align: left;
+	}
+	.itemTiDOWNNICHIJI1
+	{
+		width: 96px;
+		display: inline-block;
+	}
+	.CellSELECT
+	{
+		width: 44px;
+		text-align: left;
+	}
+	.itemTiSELECT
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSAGYOKBNNM
+	{
+		text-align: left;
+	}
+	.itemcellSAGYOKBNNM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemBKNNO
+	{
+		text-align: left;
+	}
+	.itemcellBKNNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemUKETSUKEYMD
+	{
+		text-align: left;
+	}
+	.itemcellUKETSUKEYMD
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.itemNONYUNMR
+	{
+		text-align: left;
+	}
+	.itemcellNONYUNMR
+	{
+		width: 192px;
+		display: inline-block;
+	}
+	.itemTELNO
+	{
+		text-align: left;
+	}
+	.itemcellTELNO
+	{
+		width: 90px;
+		display: inline-block;
+	}
+	.itemDOWNNICHIJI1
+	{
+		text-align: left;
+	}
+	.itemcellDOWNNICHIJI1
+	{
+		width: 120px;
+		display: inline-block;
+	}
+	.itemSELECT
+	{
+		text-align: left;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

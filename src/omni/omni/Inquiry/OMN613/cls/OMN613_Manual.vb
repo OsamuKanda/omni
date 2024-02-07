@@ -1,0 +1,201 @@
+﻿'aspxへの追加修正はこのファイルを通じて行ないます。
+'請求履歴照会ページ
+Partial Public Class OMN6131
+
+    '''*************************************************************************************
+    ''' <summary>
+    ''' 必要なマスタの存在チェック
+    ''' </summary>
+    '''*************************************************************************************
+    Protected Overrides Function mBlnChkDBMaster(ByVal arr As omniDom.ClsErrorMessageList, Optional ByVal o As Object = Nothing) As Boolean
+        Dim blnChk As Boolean = True
+        With CType(mprg.gmodel, ClsOMN613)
+
+        End With
+
+        Return blnChk
+    End Function
+
+    ''' <summary>
+    ''' 画面用パラメータData生成
+    ''' </summary>
+    ''' <remarks></remarks>
+    Protected Overrides Sub mSubCreateWebIFData()
+        mprg.mwebIFDataTable = New ClsWebIFDataTable
+        With mprg.mwebIFDataTable
+            .gSubAdd(JIGYOCD.ClientID,"JIGYOCD", 0, "!numzero__2_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(JIGYONM.ClientID,"JIGYONM", 0, "!bytecount__12_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(SEIKYUCD.ClientID,"SEIKYUCD", 0, "!numzero__5_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(SEIKYUNM.ClientID,"SEIKYUNM", 0, "!bytecount__120_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(NONYUCD.ClientID,"NONYUCD", 0, "!numzero__5_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(NONYUNM.ClientID,"NONYUNM", 0, "!bytecount__120_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(BUKENNO.ClientID,"BUKENNO", 0, "!", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(UKETSUKEYMD.ClientID,"UKETSUKEYMD", 0, "!date__", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(SEIKYUSHONO.ClientID,"SEIKYUSHONO", 0, "!numzero__7_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(SEIKYUYMD.ClientID,"SEIKYUYMD", 0, "!date__", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(GOKEI.ClientID,"GOKEI", 0, "!num__100011_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(NYUKINYMD.ClientID,"NYUKINYMD", 0, "!date__", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(NYUKINR.ClientID,"NYUKINR", 0, "!num__090011_", "", "", "", "", "keyElm", "1", "0")
+            .gSubAdd(btnNext.ClientID,"btnNext", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnF2.ClientID,"btnF2", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnSubmit.ClientID,"btnSubmit", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnF4.ClientID,"btnF4", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnF5.ClientID,"btnF5", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnPre.ClientID,"btnPre", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnF7.ClientID,"btnF7", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnExcel.ClientID,"btnExcel", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnBefor.ClientID,"btnBefor", 0, "", "", "", "", "", "", "1", "1")
+            .gSubAdd(btnclear.ClientID, "btnclear", 0, "", "", "", "", "", "", "1", "1")
+
+        End With
+    End Sub
+
+    '''*************************************************************************************
+    ''' <summary>
+    ''' ドロップダウンリストの値セット
+    ''' </summary>
+    '''*************************************************************************************
+    Protected Overrides Sub mSubSetDDL()
+        'ドロップダウンリストの値セット
+        Dim o As New clsGetDropDownList
+    End Sub
+
+    '''*************************************************************************************
+    ''' <summary>
+    ''' 画面から入力された値をデータクラスへ格納する
+    ''' </summary>
+    '''*************************************************************************************
+    Protected Overrides Sub mSubGetText()
+        With CType(mprg.gmodel, ClsOMN613).gcol_H
+
+
+            .strUDTTIME = mprg.gstrUDTTIME
+            .strUDTUSER = mLoginInfo.userName
+            .strUDTPG = mstrPGID
+        End With
+    End Sub
+
+    Protected Overrides Sub gSubHistry()
+        Dim bflg = True
+        If Not mHistryList Is Nothing Then
+            For i As Integer = mHistryList.Count - 1 To 0 Step -1
+
+                '自分自身のデータ更新
+                If mHistryList.Item(i).strID = mstrPGID Then
+                    With mHistryList.Item(i)
+                        'hiddenにパラメータセット
+                        JIGYOCD.Text = .View("JIGYOCD")
+                        SEIKYUSHONO.Text = .View("SEIKYUSHONO")
+                        SAGYOBKBN.Value = .View("SAGYOBKBN")
+                        RENNO.Value = .View("RENNO")
+
+                        '画面から値取得してデータクラスへセットする
+                        Call mSubGetText()
+
+                        'ListViewの値セット
+                        LVSearch.DataSourceID = ODSSearch.ID
+                        LVSearch.Visible = True
+                        CDPSearch.Visible = True
+                        'Me.ODSSearch.Select()
+                        If .View("Direction") = "ASC" Then
+                            LVSearch.Sort("DT_URIAGEM.GYONO", SortDirection.Ascending)
+                        Else
+                            LVSearch.Sort("DT_URIAGEM.GYONO", SortDirection.Descending)
+                        End If
+                        Dim num As Integer = .View("PAGE")
+                        Dim commandEventArgs As CommandEventArgs = New CommandEventArgs(num.ToString, "")
+                        Dim dp As DataPager = udpLVSearch.FindControl("CDPSearch")
+                        Dim fiels As NumericPagerField = dp.Fields(0)
+                        Dim numericField As NumericPagerField = fiels
+                        If Not numericField Is Nothing Then
+                            numericField.HandleEvent(commandEventArgs)
+                        End If
+                    End With
+
+                    bflg = True
+                End If
+            Next
+        End If
+
+        If bflg Then
+            '未処理の場合、自信を履歴に格納する
+            With CType(mprg.gmodel, ClsOMN613).gcol_H
+                Dim head As New Hashtable
+                'head("SEIKYUSHONO") = .strSEIKYUSHONO
+                'head("JIGYOCD") = .strJIGYOCD
+                'head("SAGYOBKBN") = .strSAGYOBKBN
+                'head("RENNO") = .strRENNO
+
+                Dim view As New Hashtable
+                view("PAGE") = CDPSearch.StartRowIndex / CDPSearch.PageSize
+                If Not String.IsNullOrEmpty(LVSearch.SortExpression) Then
+                    view("sort") = LVSearch.SortExpression
+                    If LVSearch.SortDirection.ToString() = "Ascending" Then
+                        view("Direction") = "ASC"
+                    Else
+                        view("Direction") = "DESC"
+                    End If
+                End If
+
+                'クエリ部の保存
+                view("SEIKYUSHONO") = .strSEIKYUSHONO
+                view("JIGYOCD") = .strJIGYOCD
+                view("SAGYOBKBN") = .strSAGYOBKBN
+                view("RENNO") = .strRENNO
+                SEIKYUSHONO.Text = .strSEIKYUSHONO
+                JIGYOCD.Text = .strJIGYOCD
+                SAGYOBKBN.Value = .strSAGYOBKBN
+                RENNO.Value = .strRENNO
+
+                If mHistryList Is Nothing Then
+                    mHistryList = New ClsHistryList
+                End If
+                Dim URL As String = Request.Url.ToString
+                mHistryList.gSubSet(mstrPGID, head, view, URL)
+                '画面上に値セット
+                With CType(mprg.gmodel, ClsOMN613)
+                    If .gBlnGetHeadData() = True Then
+                        With .gcol_H
+                            JIGYOCD.Text = .strJIGYOCD
+                            JIGYONM.Text = .strJIGYONM
+                            SEIKYUCD.Text = .strSEIKYUCD
+                            SEIKYUNM.Text = .strSEIKYUNM
+                            NONYUCD.Text = .strNONYUCD
+                            NONYUNM.Text = .strNONYUNM
+                            BUKENNO.Text = .strBUKENNO
+                            UKETSUKEYMD.Text = ClsEditStringUtil.gStrFormatDateYYYYMMDD(.strUKETSUKEYMD)
+                            SEIKYUSHONO.Text = .strSEIKYUSHONO
+                            SEIKYUYMD.Text = ClsEditStringUtil.gStrFormatDateYYYYMMDD(.strSEIKYUYMD)
+                            NYUKINYMD.Text = ClsEditStringUtil.gStrFormatDateYYYYMMDD(.strNYUKINYMD)
+                            NYUKINR.Text = ClsEditStringUtil.gStrFormatComma(.strNYUKINR)
+                            '請求額の取得
+                            Dim seiking As String = CType(mprg.gmodel, ClsOMN613).gBlnGetSEIKYUKING
+                            GOKEI.Text = ClsEditStringUtil.gStrFormatComma(seiking)
+
+                            '★消費税の計算は明細毎でなく明細の合計に対して実施する
+                            '消費税の取得
+                            Dim t As String = CType(mprg.gmodel, ClsOMN613).gBlnGetTAX
+                            '消費税と売り上げ金額の表示
+                            TAX.Text = ClsEditStringUtil.gStrFormatComma(t)
+                            URIAGE.Text = CLng(CLng(seiking) - CLng(t)).ToString("#,##0")
+                            '★消費税の計算は明細毎でなく明細の合計に対して実施する
+
+                            'ListViewの値セット
+                            LVSearch.DataSourceID = ODSSearch.ID
+                            LVSearch.Visible = True
+                            CDPSearch.Visible = True
+                            'Me.ODSSearch.Select()
+                            LVSearch.Sort("DT_URIAGEM.GYONO", SortDirection.Ascending)
+                        End With
+                    Else
+                        SEIKYUSHONO.Text = ""
+                        JIGYOCD.Text = ""
+                        Master.errMsg = "result=1__表示できるデータはありません。"
+                    End If
+                End With
+
+            End With
+        End If
+
+    End Sub
+End Class

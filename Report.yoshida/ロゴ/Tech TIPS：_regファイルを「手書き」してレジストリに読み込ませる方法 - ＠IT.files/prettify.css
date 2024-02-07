@@ -1,0 +1,237 @@
+#cmsBody .cmsBodyPrettifyBox {
+	margin: 0px 0px 20px; clear: both;
+}
+#cmsBody .cmsBodyPrettifyBox .cmsBodyPreCaption {
+	padding: 3px; width: auto;
+}
+.pln {
+	color: rgb(0, 0, 0);
+}
+.cmsBodyPrettifyBlack .pln {
+	color: rgb(255, 255, 255);
+}
+.str {
+	color: rgb(0, 136, 0);
+}
+.cmsBodyPrettifyBlack .str {
+	color: rgb(204, 255, 204);
+}
+.kwd {
+	color: rgb(0, 0, 136);
+}
+.cmsBodyPrettifyBlack .kwd {
+	color: rgb(204, 204, 255);
+}
+.com {
+	color: rgb(153, 153, 153);
+}
+.cmsBodyPrettifyBlack .com {
+	color: rgb(153, 153, 153);
+}
+.typ {
+	color: rgb(102, 0, 102);
+}
+.cmsBodyPrettifyBlack .typ {
+	color: rgb(255, 204, 255);
+}
+.lit {
+	color: rgb(0, 102, 102);
+}
+.cmsBodyPrettifyBlack .lit {
+	color: rgb(204, 255, 255);
+}
+.pun {
+	color: rgb(102, 102, 0);
+}
+.opn {
+	color: rgb(102, 102, 0);
+}
+.clo {
+	color: rgb(102, 102, 0);
+}
+.cmsBodyPrettifyBlack .pun {
+	color: rgb(255, 255, 204);
+}
+.opn {
+	color: rgb(255, 255, 204);
+}
+.clo {
+	color: rgb(255, 255, 204);
+}
+.tag {
+	color: rgb(0, 0, 136);
+}
+.cmsBodyPrettifyBlack .tag {
+	color: rgb(204, 204, 255);
+}
+.atn {
+	color: rgb(102, 0, 102);
+}
+.cmsBodyPrettifyBlack .atn {
+	color: rgb(255, 204, 255);
+}
+.atv {
+	color: rgb(0, 136, 0);
+}
+.cmsBodyPrettifyBlack .atv {
+	color: rgb(204, 255, 204);
+}
+.dec {
+	color: rgb(102, 0, 102);
+}
+.var {
+	color: rgb(102, 0, 102);
+}
+.cmsBodyPrettifyBlack .dec {
+	color: rgb(255, 204, 255);
+}
+.var {
+	color: rgb(255, 204, 255);
+}
+.fun {
+	color: red;
+}
+.cmsBodyPrettifyBlack .fun {
+	color: rgb(255, 204, 204);
+}
+.str {
+	color: rgb(0, 102, 0);
+}
+.kwd {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+.com {
+	color: rgb(102, 0, 0); font-style: italic;
+}
+.typ {
+	color: rgb(68, 0, 68); font-weight: bold;
+}
+.lit {
+	color: rgb(0, 68, 68);
+}
+.pun {
+	color: rgb(68, 68, 0);
+}
+.opn {
+	color: rgb(68, 68, 0);
+}
+.clo {
+	color: rgb(68, 68, 0);
+}
+.tag {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+.atn {
+	color: rgb(68, 0, 68);
+}
+.atv {
+	color: rgb(0, 102, 0);
+}
+pre.prettyprint {
+	background: rgb(248, 248, 248) !important; margin: 0px; padding: 3px !important; border: 1px solid rgb(221, 221, 221); color: gray; line-height: 1.5em; overflow: auto; font-family: Menlo, Monaco,Consolas, "Courier New", monospace; font-size: 12px; white-space: pre-wrap; word-wrap: break-word;
+}
+.cmsBodyPrettifyBlack pre.prettyprint {
+	background: rgb(17, 17, 17) !important; border: 1px solid rgb(51, 51, 51); color: rgb(255, 255, 255);
+}
+pre.prettyprint ol.linenums {
+	background: rgb(248, 248, 248); margin: 0px 0px 0px 3em !important; padding: 0px;
+}
+pre.prettyprint ol.linenums li {
+	padding: 0px 0px 0px 10px; line-height: 1.5; font-size: 12px; border-left-color: rgb(153, 204, 0); border-left-width: 3px; border-left-style: solid;
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums {
+	background: rgb(0, 0, 0);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li {
+	border-left-color: rgb(204, 204, 153); border-left-width: 3px; border-left-style: solid;
+}
+pre.prettyprint ol.linenums li.L0 {
+	
+}
+pre.prettyprint ol.linenums li.L1 {
+	
+}
+pre.prettyprint ol.linenums li.L2 {
+	
+}
+pre.prettyprint ol.linenums li.L3 {
+	
+}
+pre.prettyprint ol.linenums li.L4 {
+	
+}
+pre.prettyprint ol.linenums li.L5 {
+	
+}
+pre.prettyprint ol.linenums li.L6 {
+	
+}
+pre.prettyprint ol.linenums li.L7 {
+	
+}
+pre.prettyprint ol.linenums li.L8 {
+	
+}
+pre.prettyprint ol.linenums li.L9 {
+	
+}
+pre.prettyprint ol.linenums li.L0 {
+	background: rgb(248, 248, 248);
+}
+pre.prettyprint ol.linenums li.L2 {
+	background: rgb(248, 248, 248);
+}
+pre.prettyprint ol.linenums li.L4 {
+	background: rgb(248, 248, 248);
+}
+pre.prettyprint ol.linenums li.L6 {
+	background: rgb(248, 248, 248);
+}
+pre.prettyprint ol.linenums li.L8 {
+	background: rgb(248, 248, 248);
+}
+pre.prettyprint ol.linenums li.L1 {
+	background: rgb(255, 255, 255);
+}
+pre.prettyprint ol.linenums li.L3 {
+	background: rgb(255, 255, 255);
+}
+pre.prettyprint ol.linenums li.L5 {
+	background: rgb(255, 255, 255);
+}
+pre.prettyprint ol.linenums li.L7 {
+	background: rgb(255, 255, 255);
+}
+pre.prettyprint ol.linenums li.L9 {
+	background: rgb(255, 255, 255);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L0 {
+	background: rgb(0, 0, 0);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L2 {
+	background: rgb(0, 0, 0);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L4 {
+	background: rgb(0, 0, 0);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L6 {
+	background: rgb(0, 0, 0);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L8 {
+	background: rgb(0, 0, 0);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L1 {
+	background: rgb(17, 17, 17);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L3 {
+	background: rgb(17, 17, 17);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L5 {
+	background: rgb(17, 17, 17);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L7 {
+	background: rgb(17, 17, 17);
+}
+.cmsBodyPrettifyBlack pre.prettyprint ol.linenums li.L9 {
+	background: rgb(17, 17, 17);
+}

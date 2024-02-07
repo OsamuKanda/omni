@@ -1,0 +1,136 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 65px;
+	}
+	.lbltSIRNM1
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SIRNM1
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 80px;
+	}
+	.lbltSIRNMX
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.SIRNMX
+	{
+		width: 60px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 21px;
+		left: 80px;
+	}
+	.lbltTELNO
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.TELNO
+	{
+		width: 90px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 42px;
+		left: 80px;
+	}
+	.divbtnSearch
+	{
+		width: 490px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 490px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 490px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellSIRCD
+	{
+		width: 100px;
+		text-align: left;
+	}
+	.link
+	{
+		color: #FFFFFF;
+	}
+	.CellSIRNM1
+	{
+		width: 370px;
+		text-align: left;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemSIRCD
+	{
+		text-align: left;
+	}
+	.itemcellSIRCD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.itemSIRNM1
+	{
+		text-align: left;
+	}
+	.itemcellSIRNM1
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.itemSIRNM2
+	{
+		text-align: left;
+	}
+	.itemcellSIRNM2
+	{
+		width: 360px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

@@ -1,0 +1,81 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="omni.master.vb" Inherits="omni.omni" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" /> 
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <meta http-equiv="Content-Script-Type" content="text/javascript"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    
+    <title>オムニヨシダ <%= lblMasterTitle.text %></title>
+    <base target="_self" />
+    <link href="../css/Master.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script language="javascript" type="text/javascript" >
+        var hiderr = "<%= HdderMSG.ClientID %>";
+        var hidlblerr = "<%= lblerror.ClientID %>";
+        var hidFocus = "<%= hidFocus.ClientID %>";
+        var CliCon = "<%= clicom.ClientID %>";
+        var SeaCon = "<%= hidbtn.ClientID %>";
+        var helpMsg = "<%= helpMsg.ClientID %>";
+        var btnerror = "<%= btnerror.clientID %>";
+    </script>
+</head>
+<body class="backcolor" oncontextmenu="return false;">
+    <form id="form1" runat="server" onreset="return false;" onhelp="return false;">
+    <asp:ScriptManager ID="Manager" runat="server">
+    </asp:ScriptManager>
+        <div class="headerBack">
+            <div class="header">
+                <div class="logo">
+                     <asp:image runat="server" id="Image1" ImageUrl="~/img/ImgLogo.png"/>
+                </div>
+                <div class="appTitle">
+                    <asp:Label ID="lblMasterAppNo" runat="server" Text="NOTING" Font-Size="12px" ForeColor="White" style="position: absolute;top: 4px;left: 10px;"></asp:Label>
+                    <asp:Label ID="Version" runat="server" Text="NOTING" Font-Size="12px" ForeColor="White" style="position: absolute;top: 4px;left: 80px;"></asp:Label>
+                    <asp:Label ID="lblMasterTitle" runat="server" Text="ＴＩＴＬＥ" Font-Size="20px" Font-Bold="True" ForeColor="White" style="position: absolute;top: 22px;left: 10px;"></asp:Label>
+                </div>
+
+                <div class="login">
+                    <div class="nowdate">
+                        <asp:Label ID="lblMasterNowdate" runat="server" Text="XX年XX月XX日" ForeColor="White"></asp:Label>
+                    </div>
+                    <div class="status">
+                        <div class="MasLogTan">
+                            <asp:Label ID="lblMasterLogtan" runat="server" Text="NAME" ForeColor="White"></asp:Label>
+                        </div>
+                        <div class="MasLogEi">
+                            <asp:Label ID="lblMasterLogei" runat="server" Text="EIGYOSYO" ForeColor="White"></asp:Label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="errorback">
+            <div class="error" >
+                <asp:UpdatePanel ID="UpdatePanel2" runat="server" RenderMode="Inline" >
+                    <ContentTemplate>
+                        <asp:Label ID="lblerror" runat="server" Text="&nbsp;Sample" CssClass="red" ></asp:Label>
+                        <asp:Button ID="btnerror" runat="server" Text="MSG" UseSubmitBehavior="False" TabIndex="-1" OnClientClick="return errView();"/>
+                        <input id="HdderMSG" runat="server" type="hidden" />
+                        <input id="clicom" type="hidden" runat="server" />
+                        <input id="hidbtn" type="hidden" runat="server" />
+                        <input id="helpMsg" type="hidden" runat="server" />
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                <input id="hidErr" runat="server" type="hidden" />
+                <input id="hidFocus" runat="server" type="hidden" />
+            </div>
+        </div>
+        <div id="PlaceHolderMain"class="main">
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,400 @@
+﻿	.divUPBtn
+	{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divBtn
+	{
+		float: left;
+		width: 500px;
+		text-align: left;
+		height: 20px;
+	}
+	.btn
+	{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+	}
+	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 44px;
+	}
+	.lbltSAGYOBKBN
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SAGYOBKBN
+	{
+		display: inline;
+		width: 97px;
+		position: absolute;
+		top: -1px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltRENNO
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.RENNO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 21px;
+		left: 92px;
+	}
+	.btnRENNO
+	{
+		position: absolute;
+		top: 20px;
+		left: 148px;
+		height: 18px;
+	}
+	.btnSearch
+	{
+		position: absolute;
+		top: 20px;
+		left: 190px;
+		height: 18px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 233px;
+	}
+	.lbltUKETSUKEYMD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.UKETSUKEYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 92px;
+	}
+	.lbltTANTCD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.TANTCD
+	{
+		width: 36px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 92px;
+	}
+	.TANTNM
+	{
+		width: 114px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 23px;
+		left: 142px;
+	}
+	.lbltUMUKBNNM00
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.UMUKBNNM00
+	{
+		width: 24px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 44px;
+		left: 92px;
+	}
+	.lbltUMUKBNNM01
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.UMUKBNNM01
+	{
+		width: 24px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 65px;
+		left: 92px;
+	}
+	.lbltBUNRUIDNM
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.BUNRUIDNM
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 86px;
+		left: 92px;
+	}
+	.lbltBUNRUICNM
+	{
+		position: absolute;
+		top: 107px;
+		left: 0px;
+	}
+	.BUNRUICNM
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 107px;
+		left: 92px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 128px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 128px;
+		left: 92px;
+	}
+	.NONYUNM101
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 128px;
+		left: 136px;
+	}
+	.NONYUNM201
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 128px;
+		left: 510px;
+	}
+	.lbltSEIKYUCD
+	{
+		position: absolute;
+		top: 149px;
+		left: 0px;
+	}
+	.SEIKYUCD
+	{
+		width: 30px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 149px;
+		left: 92px;
+	}
+	.NONYUNM100
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 149px;
+		left: 136px;
+	}
+	.NONYUNM200
+	{
+		width: 360px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 149px;
+		left: 510px;
+	}
+	.lbltSAGYOTANTCD1
+	{
+		position: absolute;
+		top: 170px;
+		left: 0px;
+	}
+	.SAGYOTANTCD1
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 168px;
+		left: 92px;
+	}
+	.btnSAGYOTANTCD1
+	{
+		position: absolute;
+		top: 167px;
+		left: 142px;
+		height: 18px;
+	}
+	.TANTNM01
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 170px;
+		left: 184px;
+	}
+	.lbltSAGYOTANTCD2
+	{
+		position: absolute;
+		top: 191px;
+		left: 0px;
+	}
+	.SAGYOTANTCD2
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 189px;
+		left: 92px;
+	}
+	.btnSAGYOTANTCD2
+	{
+		position: absolute;
+		top: 190px;
+		left: 142px;
+		height: 18px;
+	}
+	.TANTNM02
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 191px;
+		left: 184px;
+	}
+	.lbltSAGYOTANTCD3
+	{
+		position: absolute;
+		top: 212px;
+		left: 0px;
+	}
+	.SAGYOTANTCD3
+	{
+		width: 36px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 210px;
+		left: 92px;
+	}
+	.btnSAGYOTANTCD3
+	{
+		position: absolute;
+		top: 209px;
+		left: 142px;
+		height: 18px;
+	}
+	.TANTNM03
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 212px;
+		left: 184px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

@@ -1,0 +1,105 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltJIGYONM
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.JIGYONM
+	{
+		width: 60px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 68px;
+	}
+	.divbtnSearch
+	{
+		width: 172px;
+		text-align: right;
+		margin-left: 10px;
+	}
+	.btnSearch
+	{
+		height: 18px;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.LVContent
+	{
+		width: 172px;
+		height: 401px;
+		margin-left: 10px;
+	}
+	.SearchDP
+	{
+		width: 172px;
+		height: 14px;
+		position: relative;
+	}
+	.DPPage
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;
+	}
+	.LVTable
+	{
+		border: solid 1px #DEDFDE;
+		border-collapse: collapse;
+	}
+	.LVthedder
+	{
+		background-color: #6B696B;
+	}
+	.CellJIGYOCD
+	{
+		width: 82px;
+		text-align: left;
+	}
+	.itemTiJIGYOCD
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.CellJIGYONM
+	{
+		width: 70px;
+		text-align: left;
+	}
+	.itemTiJIGYONM
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.gu
+	{
+		background-color: #FFFFFF;
+	}
+	.itemJIGYOCD
+	{
+		text-align: left;
+	}
+	.itemcellJIGYOCD
+	{
+		width: 12px;
+		display: inline-block;
+	}
+	.itemJIGYONM
+	{
+		text-align: left;
+	}
+	.itemcellJIGYONM
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.ki
+	{
+		background-color: #F7F7DE;
+	}

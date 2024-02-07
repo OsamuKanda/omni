@@ -1,0 +1,103 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 0px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 86px;
+	}
+	.lbltTANTCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.TANTCD
+	{
+		width: 36px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 152px;
+	}
+	.TANTNM
+	{
+		width: 96px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 2px;
+		left: 202px;
+	}
+	.lbltPASSWORD
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.PASSWORD
+	{
+		width: 48px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 21px;
+		left: 152px;
+	}
+	.lbltPASSWORD2
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.PASSWORD2
+	{
+		width: 48px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 42px;
+		left: 152px;
+	}
+	.lbltPASSWORD3
+	{
+		position: absolute;
+		top: 65px;
+		left: 0px;
+	}
+	.PASSWORD3
+	{
+		width: 48px;
+		ime-mode: inactive;
+		position: absolute;
+		top: 63px;
+		left: 152px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

@@ -1,0 +1,1306 @@
+@import url( /css/base.css );
+* {
+	
+}
+body {
+	background: rgb(255, 255, 255); color: rgb(0, 0, 0); line-height: 1.6;
+}
+a:link {
+	color: rgb(29, 57, 148);
+}
+a:visited {
+	color: rgb(29, 57, 148);
+}
+a:hover {
+	color: rgb(29, 57, 148); text-decoration: underline;
+}
+a img {
+	margin: 0px; border: currentColor;
+}
+#masterBody {
+	position: relative; overflow-x: hidden; min-width: 990px;
+}
+#masterBodyOut {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 990px;
+}
+#masterContents {
+	padding-top: 0px;
+}
+#globalContents {
+	background: rgb(255, 255, 255); margin: 0px; border: 1px solid rgb(206, 206, 206); padding-top: 5px;
+}
+#masterHeader {
+	position: relative;
+}
+#masterBodyOuter {
+	position: relative; z-index: 1;
+}
+#masterMain {
+	padding: 15px; width: 637px; float: left;
+}
+#masterMainLeft {
+	width: 215px;
+}
+#masterMainLeft .colBoxOuter {
+	padding-right: 0px;
+}
+#masterMainRight {
+	
+}
+#masterSub {
+	background: rgb(255, 255, 255); padding: 10px; width: 300px; margin-bottom: 20px; float: right;
+}
+#masterNavigation {
+	background: rgb(69, 69, 69); left: 0px; top: 0px; width: 100%; position: relative; z-index: 2;
+}
+#globalNavigationGroup4 #globalNavigation {
+	margin: 0px auto;
+}
+#globalNavigationGroup4 #globalNavigation .gnavOut {
+	left: auto; top: auto; width: auto; position: relative;
+}
+#globalNavigationGroup4 #globalNavigation .gnavIn {
+	margin: 0px auto; padding: 0px; width: 990px; position: relative;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn {
+	height: 24px; border-right-color: rgb(102, 102, 102); border-right-width: 1px; border-right-style: solid; float: left; display: block;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn:hover {
+	background: rgb(103, 103, 103); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn0 {
+	background: rgb(64, 140, 179); border-left-color: rgb(85, 85, 85); border-left-width: 1px; border-left-style: solid; box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn0:hover {
+	background: rgb(0, 101, 153);
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn a {
+	margin: 0px; padding: 6px 22px; border: 0px currentColor; width: auto; height: auto; color: rgb(255, 255, 255); line-height: 13px; font-size: 12px; font-weight: normal; text-decoration: none;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn1 a {
+	background: rgb(64, 140, 179); border-radius: 0px; padding-bottom: 5px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn1 a:link {
+	background: rgb(64, 140, 179); border-radius: 0px; padding-bottom: 5px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn1 a:visited {
+	background: rgb(64, 140, 179); border-radius: 0px; padding-bottom: 5px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+#globalNavigationGroup4 #globalNavigation .gnavBtn1 a:hover {
+	background: rgb(0, 101, 153); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+#globalHeader {
+	position: relative;
+}
+#headerBgArea {
+	
+}
+#globalTagline {
+	display: none;
+}
+#globalLogo {
+	width: 228px; padding-left: 0px; float: left;
+}
+#globalLogo h1 {
+	margin: 0px auto; width: 170px;
+}
+#globalLogo .logoArea {
+	margin: 0px auto; width: 170px;
+}
+#globalLogo h1 a {
+	background: url("http://image.itmedia.co.jp/images/logo/170_ait15th_bgw.gif") no-repeat 0px 0px; width: 170px; height: 92px; line-height: 0; text-indent: -9999px; font-size: 0px; display: block;
+}
+#globalLogo .logoArea a {
+	background: url("http://image.itmedia.co.jp/images/logo/170_ait15th_bgw.gif") no-repeat 0px 0px; width: 170px; height: 92px; line-height: 0; text-indent: -9999px; font-size: 0px; display: block;
+}
+#masterType-special #globalLogo {
+	padding: 0px !important; width: 162px;
+}
+#masterType-articlePR #globalLogo {
+	padding: 0px !important; width: 162px;
+}
+#masterType-special #globalLogo h1 {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; margin: 0px; width: 162px;
+}
+#masterType-special #globalLogo div {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; margin: 0px; width: 162px;
+}
+#masterType-articlePR #globalLogo h1 {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; margin: 0px; width: 162px;
+}
+#masterType-articlePR #globalLogo div {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; margin: 0px; width: 162px;
+}
+#masterType-special #globalLogo h1 a {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; width: 100%; height: 60px; line-height: 0; text-indent: -9999px; font-size: 0px; display: block;
+}
+#masterType-special #globalLogo div a {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; width: 100%; height: 60px; line-height: 0; text-indent: -9999px; font-size: 0px; display: block;
+}
+#masterType-articlePR #globalLogo h1 a {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; width: 100%; height: 60px; line-height: 0; text-indent: -9999px; font-size: 0px; display: block;
+}
+#masterType-articlePR #globalLogo div a {
+	background: url("http://image.itmedia.co.jp/ait/images/130_ait_special_logo_reborn_w.png") no-repeat 30px 10px; width: 100%; height: 60px; line-height: 0; text-indent: -9999px; font-size: 0px; display: block;
+}
+#globalHeaderTop {
+	padding-bottom: 0px;
+}
+#globalHeaderTopInner {
+	padding: 20px 0px 10px; position: relative;
+}
+#masterSub #colBoxGlobalSearch {
+	margin-bottom: 10px;
+}
+#masterSub #colBoxGlobalSearch #globalSearchBox {
+	width: 300px; float: none;
+}
+#globalSearch {
+	width: 750px; padding-bottom: 12px; float: right;
+}
+#globalSearch form {
+	margin: 0px; padding: 0px;
+}
+#globalSearch form .q-box {
+	width: 225px; height: 23px; font-family: Meiryo, "ÉÅÉCÉäÉI", ArialMT, Hiragino Kaku Gothic Pro, "ÉqÉâÉMÉmäpÉS Pro W3", Osaka, Verdana, "ÇlÇr ÇoÉSÉVÉbÉN"; font-size: 16px;
+}
+#globalSearch form .submit {
+	vertical-align: top;
+}
+#globalSearchBox {
+	width: 160px; height: 21px; overflow: hidden; float: right;
+}
+#globalSearchBox table.gsc-search-box {
+	margin-bottom: 0px;
+}
+#globalSearchBox .gsc-input-box {
+	height: auto;
+}
+#globalSearchBox .gsc-search-box-tools .gsc-search-box .gsc-input {
+	height: 19px !important; padding-right: 0px;
+}
+#globalSearchBox input.gsc-input {
+	border-color: rgb(153, 153, 153);
+}
+#globalSearchBox .gsc-input-box {
+	border-color: rgb(153, 153, 153);
+}
+#globalSearchBox .gsc-input-box-hover {
+	border-color: rgb(153, 153, 153);
+}
+#globalSearchBox .gsc-input-box-focus {
+	border-color: rgb(153, 153, 153);
+}
+#globalSearchBox input.gsc-search-button {
+	border-color: rgb(153, 153, 153) rgb(153, 153, 153) rgb(153, 153, 153) currentColor; margin: 0px; padding: 3px; border-radius: 0px; border-left-width: 0px; border-left-style: none; filter: none; box-sizing: content-box; background-image: none; background-color: rgb(153, 153, 153);
+}
+#globalSearchBox input.gsc-search-button:focus {
+	border-color: rgb(153, 153, 153) rgb(153, 153, 153) rgb(153, 153, 153) currentColor; margin: 0px; padding: 3px; border-radius: 0px; border-left-width: 0px; border-left-style: none; filter: none; box-sizing: content-box; background-image: none; background-color: rgb(153, 153, 153);
+}
+#globalSearchBox .gsib_a {
+	padding: 0px 3px;
+}
+#globalSearchBox input.gsc-search-button:hover {
+	background-color: rgb(187, 187, 187);
+}
+#globalSearchBox td.gsc-search-button {
+	width: 18px;
+}
+#globalSubNavigation ul {
+	margin: 0px; padding: 0px;
+}
+#globalSubNavigation li {
+	list-style: none; padding-right: 10px; font-size: 12px; float: right;
+}
+#globalSubNavigation li a {
+	line-height: 22px;
+}
+#globalSubNavigation li a:visited {
+	color: rgb(0, 0, 0);
+}
+#globalHeaderMiddle {
+	background: rgb(255, 255, 255);
+}
+#globalHeaderBottom {
+	padding-top: 10px; position: relative;
+}
+#globalHeaderBottomInner {
+	position: relative;
+}
+#localNavigation {
+	width: 990px;
+}
+#lnavMain {
+	background: rgb(64, 140, 179); margin: 0px 0px 5px; width: 990px; clear: both; border-bottom-color: rgb(108, 171, 204); border-bottom-width: 1px; border-bottom-style: solid; display: table;
+}
+#lnavMain .lnavBtn {
+	text-align: center; border-left-color: rgb(108, 171, 204); border-left-width: 1px; border-left-style: solid; display: table-cell;
+}
+* + html #lnavMain .lnavBtn {
+	float: left;
+}
+#lnavMain .lnavBtn a {
+	padding: 7px 2px 6px; color: rgb(255, 255, 255); line-height: 16px; font-size: 12px; font-weight: bold; text-decoration: none; display: block; word-break: break-all;
+}
+#lnavMain .lnavBtn:hover {
+	background: rgb(0, 101, 153);
+}
+#lnavMain :first-child.lnavBtn {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+#lnavSub {
+	margin: 0px 0px 5px; padding: 0px; width: 988px; display: table; z-index: 3;
+}
+#lnavSub .lnavBtn {
+	background: rgb(232, 232, 232); margin: 0px 4px 2px 0px; padding: 4px 10px 3px; border-radius: 3px; color: rgb(85, 85, 85); float: left; display: table-cell; position: relative;
+}
+#lnavSub .lnavBtn a {
+	padding: 0px; color: rgb(85, 85, 85); line-height: 15px; font-size: 12px; text-decoration: none; display: block; word-break: break-all;
+}
+#lnavSub .lnavBtn a:visited {
+	padding: 0px; color: rgb(85, 85, 85); line-height: 15px; font-size: 12px; text-decoration: none; display: block; word-break: break-all;
+}
+#lnavSub .lnavBtn:hover {
+	background: rgb(203, 203, 203); text-decoration: none;
+}
+#lnavSub .lnavBtn a .raquo {
+	display: none;
+}
+#lnavSub .lnavBtnNew a {
+	margin: 0px;
+}
+#lnavSub .lnavBtnNew a::after {
+	color: rgb(255, 238, 0); font-size: 10px; font-weight: bold; content: " NEW!";
+}
+#lnavSub .lnavBtnHover a {
+	padding-right: 10px;
+}
+.lnavBtnHover a::after {
+	color: rgb(187, 187, 187); padding-right: 4px; font-size: 8px; content: " Å•";
+}
+#lnavSub .lnavBtnTopic {
+	border-right-color: rgb(103, 103, 103); border-right-width: 1px; border-right-style: solid;
+}
+#lnavSub .lnavBtnTopic a {
+	padding-right: 0px; margin-right: 0px;
+}
+#lnavSub .lnavBtnspecialcolor.lnavBtn {
+	background: rgb(103, 103, 103);
+}
+#lnavSub .lnavBtnspecialcolor.lnavBtn a {
+	color: rgb(255, 255, 255);
+}
+#lnavSub .lnavBtnspecialcolor.lnavBtn:hover {
+	background: rgb(69, 69, 69);
+}
+#lnavSub .lnavBtnGroup {
+	background: rgb(102, 102, 102); border: 0px currentColor; left: 0px !important; top: 25px !important; width: 150px; z-index: 150; opacity: 0.97; box-shadow: 0px 1px 2px 0px #ddd;
+}
+#lnavSub .lnavBtnGroup .lnavBtnGroupOut {
+	
+}
+#lnavSub .lnavBtnGroup .lnavBtn {
+	border-width: 0px 0px 1px; border-style: none none solid; border-color: currentColor currentColor rgb(136, 136, 136); padding: 0px; width: 100%; float: left;
+}
+#lnavSub .lnavBtnGroup .lnavBtn a {
+	padding: 0px; text-decoration: none; float: none; display: block;
+}
+#lnavSub .lnavBtnGroup .lnavBtn a::after {
+	content: "";
+}
+#lnavSub .lnavBtnGroup .lnavBtn a:visited {
+	float: none;
+}
+#lnavSub .lnavBtnGroup .lnavBtn a:hover {
+	background: rgb(120, 120, 120); color: rgb(255, 255, 255);
+}
+#lnavSub .lnavBtnNew .lnavBtnGroupOut a {
+	padding: 0px 5px; margin-right: 0px; background-image: none;
+}
+#lnavSub .lnavBtnTopic .lnavBtnGroupOut a {
+	padding: 5px 5px 3px; margin-right: 0px; background-image: none;
+}
+#localPankuzu {
+	width: 637px; position: relative; z-index: 2;
+}
+#localPankuzu .lpanOut {
+	color: rgb(153, 153, 153); line-height: 1.2em; font-size: 12px;
+}
+#masterType-top #localPankuzu {
+	display: none;
+}
+#localPankuzu .lpanOut a {
+	color: rgb(29, 57, 148);
+}
+#localPankuzu .lpanOut a:visited {
+	color: rgb(29, 57, 148);
+}
+#localPankuzu .lpanOut a:hover {
+	color: rgb(0, 0, 0);
+}
+#masterType-subtop #localPankuzu {
+	margin: 10px 0px 0px; padding-left: 15px; position: absolute;
+}
+#masterType-article #localPankuzu {
+	margin: 10px 0px 0px; padding-left: 15px; position: absolute;
+}
+#masterType-empty #localPankuzu {
+	margin: 10px 0px 0px; padding-left: 15px; position: absolute;
+}
+#mediaFooter {
+	background: rgb(255, 255, 255); margin-top: 25px; position: relative;
+}
+.mediaFooterMediaList {
+	margin: 0px auto; padding: 20px 15px; width: 990px; position: relative; z-index: 1;
+}
+.mediaFooterMediaList::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.mediaFooterMediaList .colBoxIndex {
+	width: 200px; margin-right: 42px; float: left;
+}
+.mediaFooterMediaList .colBoxTitle h3 {
+	margin: 0px 0px 3px; padding: 0px 0px 0px 6px; line-height: 16px; font-size: 12px; border-left-color: rgb(204, 0, 0); border-left-width: 3px; border-left-style: solid;
+}
+.mediaFooterMediaList .colBoxUlist {
+	padding: 3px 0px 0px; border-top-color: rgb(102, 102, 102); border-top-width: 1px; border-top-style: solid;
+}
+.mediaFooterMediaList .colBoxUlist ul li {
+	margin: 0px 0px 3px; padding: 0px;
+}
+.colBoxMailmagazine {
+	margin: 0px !important;
+}
+.colBoxMailmagazine .colBoxTitle {
+	border-bottom-color: rgb(102, 102, 102); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#masterFooter {
+	background: rgb(255, 255, 255); padding: 0px;
+}
+#mediaFooter .mediaFooterMediaList a:visited {
+	color: rgb(0, 0, 0) !important;
+}
+#globalFooterMediaList .mediaList ul li a:visited {
+	color: rgb(0, 0, 0) !important;
+}
+#globalFooter {
+	margin: 0px auto; width: 990px; padding-bottom: 15px; position: relative;
+}
+#footerBgArea {
+	background: rgb(255, 255, 255); margin: 0px -500%; padding: 0px 500%; height: 100%; position: absolute; z-index: 0;
+}
+#mediaFooterBgArea {
+	background: rgb(255, 255, 255); margin: 0px -500%; padding: 0px 500%; height: 100%; position: absolute; z-index: 0;
+}
+#mediaFooterBgArea {
+	border-top-color: rgb(230, 230, 230); border-top-width: 1px; border-top-style: solid;
+}
+#globalFooterMediaList {
+	padding: 0px 15px; position: relative; z-index: 1;
+}
+#globalFooter .colBoxAbout {
+	margin: 10px 0px 15px;
+}
+.colBoxAbout .colBoxOuter {
+	width: 200px; margin-right: 42px; float: left;
+}
+#globalFooterLink {
+	margin: 0px 0px 20px; padding: 0px 0px 10px; height: 1%; text-align: right; line-height: 14px; font-size: 10px; border-bottom-color: rgb(102, 102, 102); border-bottom-width: 3px; border-bottom-style: solid;
+}
+#globalFooterCorpLink {
+	position: relative;
+}
+#globalCopyright {
+	line-height: 16px; font-size: 12px;
+}
+#globalInquiry {
+	line-height: 16px; font-size: 10px;
+}
+.colBoxMailmagazine .colBoxDescription p {
+	margin-bottom: 10px;
+}
+#registerButton ul {
+	margin: 0px; padding: 0px;
+}
+#registerButton ul li {
+	float: left; list-style-type: none;
+}
+#registerButton a {
+	background: rgb(231, 231, 231); margin: 0px 8px 8px 0px; padding: 7px 8px; border-radius: 3px; border: 1px solid rgb(153, 153, 153); width: 130px; text-align: center; color: black; line-height: 15px; font-size: 12px; float: left; display: block; white-space: nowrap; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e7e7e7',GradientType=0 ); -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+#registerButton a:hover {
+	background: rgb(204, 204, 204); text-decoration: none; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CCCCCC', endColorstr='#CCCCCC',GradientType=0 );
+}
+.colBox a {
+	
+}
+.colBox a:hover {
+	color: rgb(0, 0, 0);
+}
+.colBox .colBoxTitle {
+	margin-bottom: 5px;
+}
+.colBox .colBoxTitle {
+	
+}
+.colBox .colBoxSubTitle {
+	
+}
+.colBox .colBoxDescription {
+	
+}
+.colBox .colBoxIcon {
+	
+}
+.colBox .colBoxIcon img {
+	
+}
+.colBoxTitle h3 {
+	line-height: 1.4; font-size: 15px;
+}
+#masterSub .colBoxTitle h3 {
+	font-size: 13px;
+}
+.colBox .colBoxIcon a {
+	margin: 0px 20px 10px 0px;
+}
+.colBox .indexDate {
+	color: rgb(153, 153, 153); font-size: 11px; font-weight: normal;
+}
+.colBoxPastArticle .colBoxDate {
+	color: rgb(153, 153, 153); font-size: 11px; font-weight: normal;
+}
+.colBox .colBoxIndexDate {
+	color: rgb(153, 153, 153); font-size: 11px; font-weight: normal;
+}
+.colBox .colBoxIndexDate p {
+	margin: 0px; padding: 3px 0px 8px; text-align: right;
+}
+.colBoxUlist ul li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 4px; line-height: 1.4; padding-bottom: 0px; padding-left: 10px; font-size: 13px; margin-bottom: 9px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#masterSub .colBoxUlist ul li {
+	line-height: 1.4;
+}
+.colBoxUlist ul li:last-child {
+	margin-bottom: 0px;
+}
+.colBoxUlist ul li.rank1 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank2 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank3 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank4 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank5 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank6 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank7 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank8 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank9 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank10 {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ranking.gif") no-repeat; padding-left: 18px;
+}
+.colBoxUlist ul li.rank1 {
+	
+}
+.colBoxUlist ul li.rank2 {
+	background-position: 0px -70px;
+}
+.colBoxUlist ul li.rank3 {
+	background-position: 0px -140px;
+}
+.colBoxUlist ul li.rank4 {
+	background-position: 0px -210px;
+}
+.colBoxUlist ul li.rank5 {
+	background-position: 0px -280px;
+}
+.colBoxUlist ul li.rank6 {
+	background-position: 0px -350px;
+}
+.colBoxUlist ul li.rank7 {
+	background-position: 0px -420px;
+}
+.colBoxUlist ul li.rank8 {
+	background-position: 0px -490px;
+}
+.colBoxUlist ul li.rank9 {
+	background-position: 0px -560px;
+}
+.colBoxUlist ul li.rank10 {
+	background-position: 0px -630px;
+}
+.colBoxHead {
+	padding-bottom: 3px; margin-bottom: 15px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.colBoxInnerHead {
+	padding-bottom: 3px; margin-bottom: 15px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#masterMain .colBox .colBoxHead {
+	position: relative;
+}
+#masterSub .colBoxHead {
+	background: rgb(221, 221, 221); padding: 0px; border: 0px currentColor; width: 100%; clear: both; margin-bottom: 15px; margin-left: 0px; min-height: 15px;
+}
+.colBoxInnerHead {
+	padding: 0px; border: 0px currentColor; width: 100%; height: 15px; background-color: rgb(221, 221, 221);
+}
+.colBoxInnerHead h2 {
+	background: rgb(255, 255, 255); padding: 0px 10px 0px 0px; border: 0px currentColor; height: 20px; color: rgb(0, 0, 0); font-size: 14px; float: left;
+}
+#masterContents .colBoxInnerHead h2 {
+	height: 15px; padding-left: 5px; border-left-color: rgb(64, 140, 179); border-left-width: 5px; border-left-style: solid;
+}
+.colBoxInnerHead h2 a:link {
+	color: rgb(0, 0, 0);
+}
+.colBoxInnerHead h2 a:visited {
+	color: rgb(0, 0, 0);
+}
+.colBox h2 {
+	margin: 0px; line-height: 15px; padding-left: 5px; font-size: 14px; border-left-color: rgb(64, 140, 179); border-left-width: 5px; border-left-style: solid;
+}
+.colBox h2 a:visited {
+	color: rgb(0, 0, 0);
+}
+#masterSub .colBoxHead h2 {
+	padding: 0px 10px 0px 5px; color: rgb(0, 0, 0); margin-left: 0px; border-left-color: rgb(64, 140, 179); border-left-width: 5px; border-left-style: solid; float: left; display: inline-block; min-height: 15px; background-color: rgb(255, 255, 255);
+}
+.colBox .colBoxSubTitle h5 {
+	color: rgb(102, 102, 102);
+}
+.colBox .colBoxDescription p {
+	color: rgb(102, 102, 102); line-height: 1.5; word-break: break-all;
+}
+.colBoxIndex .colBoxInfo {
+	color: rgb(102, 102, 102); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBoxIndex .colBoxInfo a {
+	color: rgb(102, 102, 102); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBox .colBoxDescription p {
+	color: rgb(102, 102, 102); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBoxIndex:hover .colBoxDescription p {
+	color: rgb(102, 102, 102); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBoxIndex:hover .colBoxInfo {
+	color: rgb(102, 102, 102); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBoxIndex:hover .colBoxInfo a {
+	color: rgb(102, 102, 102); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBoxIndex {
+	margin-bottom: 9px;
+}
+:last-child.colBoxIndex {
+	margin-bottom: 0px;
+}
+#masterMain .colBox * {
+	
+}
+#masterSub .colBox * {
+	
+}
+#masterMain .colBox {
+	background: rgb(255, 255, 255); margin-bottom: 0px; position: relative;
+}
+#masterMain .colBoxOuter {
+	
+}
+#masterSub .colBox {
+	margin-bottom: 15px;
+}
+#masterMain .titleList a {
+	line-height: 1.3; font-size: 13px;
+}
+#masterMain .colBoxInnerEL #js-topELIndex .colBoxUlist a {
+	line-height: 1.3; font-size: 13px;
+}
+#masterMain .colBoxInnerITtrain h3 {
+	line-height: 1.3; font-size: 13px;
+}
+#masterMain .indexDate {
+	font-size: 11px; font-weight: normal;
+}
+#masterMain .titleList .indexDate a {
+	font-size: 11px; font-weight: normal;
+}
+#masterSub .colBox .colBoxIcon a {
+	margin: 0px 5px 0px 0px;
+}
+#masterMain .colBoxTopStories * {
+	
+}
+.colBoxTopStories .colBoxIndex {
+	margin-bottom: 0px; position: relative;
+}
+.colBoxTopStories .colBoxTopImg {
+	width: 310px; float: left;
+}
+.colBoxTopStories .colBoxTopImg a:hover {
+	opacity: 0.9;
+}
+.colBoxTopStories .colBoxIconIndex {
+	height: 210px;
+}
+.colBoxTopStories .colBoxTitleList {
+	width: 315px; margin-top: -3px; float: right;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts1 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts2 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts3 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts4 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts5 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts6 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts7 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts8 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts9 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .topStoriesParts10 {
+	margin-bottom: 7px;
+}
+.colBoxTopStories .colBoxTitleList .colBoxTitle {
+	padding-bottom: 3px; margin-bottom: 0px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.colBoxTopStories .colBoxTitleList h3 {
+	list-style: none; width: 300px; line-height: 1.6; padding-left: 15px; font-size: 14px; font-weight: normal; position: relative; word-break: break-all; word-wrap: break-word;
+}
+.colBoxTopStories .colBoxTitleList h3 a {
+	word-break: break-all; word-wrap: break-word;
+}
+.colBoxTopStories .colBoxTitleList .active h3 {
+	font-weight: bold;
+}
+.colBoxTopStories .colBoxTitleList h3 a:visited {
+	color: rgb(0, 0, 0);
+}
+.colBoxTopStories .colBoxTitleList h3 .arrow {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_top_topstories_arrow.gif") no-repeat 0px 0px; left: 0px; top: -2px; width: 12px; height: 24px; display: block; position: absolute; opacity: 0.3; -webkit-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -o-transition: all 0.25s ease;
+}
+.colBoxTopStories .colBoxTitleList .active h3 .arrow {
+	left: -2px; opacity: 1; -webkit-transition: all 0.25s ease; -moz-transition: all 0.25s ease; -o-transition: all 0.25s ease;
+}
+.colBoxTopStories .colBoxTitleList .colBoxUlist {
+	padding-left: 20px;
+}
+.colBoxTopStories .colBoxTitleList ul {
+	margin: 0px; padding: 0px;
+}
+.colBoxTopStories .colBoxTitleList ul li {
+	padding: 0px 0px 0px 10px; height: 20px; overflow: hidden; margin-bottom: 0px; float: right;
+}
+.colBoxTopStories .colBoxTitleList ul li iframe {
+	width: 100px !important;
+}
+.colBoxTopStories .topStoriesIcon {
+	overflow: hidden; display: none; max-height: 210px; max-width: 310px; box-shadow: 0px 0px 0px 1px #bbb;
+}
+.colBoxTopStories .active.topStoriesIcon {
+	width: 100%; height: 100%; display: block;
+}
+.colBoxTopStories .topStoriesIcon img {
+	width: 310px;
+}
+.colBoxTopStories .colBoxSnsIndex {
+	height: 21px;
+}
+.colBoxTopStories .topStoriesBtn {
+	margin: 10px 0px 0px; padding: 0px; display: none;
+}
+.colBoxTopStories .active.topStoriesBtn {
+	display: block;
+}
+.colBoxTopStories .topStoriesBtn li {
+	list-style: none; height: 21px; overflow: hidden; padding-right: 10px; float: left;
+}
+.colBoxTopStories .colBoxRibbon {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_topStories_ribbon.png") no-repeat 0px 0px; left: -5px; top: -5px; width: 105px; height: 61px; position: absolute; pointer-events: none;
+}
+#topStoriesTitles div:last-child {
+	margin-bottom: 0px;
+}
+.colBoxCategoryArt .colBoxInner {
+	width: 310px; padding-bottom: 15px;
+}
+.colBoxCategoryArt .colBoxInnerDev {
+	float: left;
+}
+.colBoxCategoryArt .colBoxInnerSystemDesign {
+	float: left;
+}
+.colBoxCategoryArt .colBoxInnerEvent {
+	float: left;
+}
+.colBoxCategoryArt .colBoxInnerQA {
+	float: left;
+}
+.colBoxCategoryArt .colBoxInnerOperation {
+	float: right;
+}
+.colBoxCategoryArt .colBoxInnerCareer {
+	float: right;
+}
+.colBoxCategoryArt .colBoxInnerITtrain {
+	float: right;
+}
+.colBoxCategoryArt .colBoxInnerEL {
+	float: right;
+}
+.colBoxCategoryArt .colBoxInnerHead {
+	position: relative;
+}
+.colBoxCategoryArt .colBoxInnerHead h2 {
+	line-height: 18px;
+}
+.colBoxCategoryArt h3 {
+	font-size: 13px;
+}
+.colBoxMatome h3 {
+	font-size: 13px;
+}
+.colBoxCategoryArt .colBoxDescription {
+	margin-bottom: 14px;
+}
+.colBoxInnerITtrain .colBoxTitle {
+	font-size: 12px;
+}
+.colBoxInnerITtrain .colBoxDescription {
+	margin-bottom: 10px;
+}
+.colBoxInnerITtrain .colBoxAnsBtn a {
+	background: rgb(249, 249, 249); padding: 5px; border: 1px solid rgb(204, 204, 187); font-size: 12px; float: right; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 );
+}
+.colBoxInnerITtrain .colBoxAnsBtn a:visited {
+	color: rgb(0, 0, 0);
+}
+.colBoxInnerITtrain .colBoxAnsBtn a:hover {
+	background: rgb(232, 232, 232); text-decoration: none; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ededed',GradientType=0 );
+}
+.colBoxAnnounce .colBoxTitle {
+	padding-left: 90px;
+}
+.colBoxAnnounce .colBoxSubTitle {
+	padding-left: 90px;
+}
+.colBoxAnnounce .colBoxDescription {
+	padding-left: 90px;
+}
+.colBoxTopNewArticle .colBoxTitle {
+	padding-left: 90px;
+}
+.colBoxTopNewArticle .colBoxSubTitle {
+	padding-left: 90px;
+}
+.colBoxTopNewArticle .colBoxDescription {
+	padding-left: 90px;
+}
+.colBoxMatome .colBoxTitle {
+	padding-left: 90px;
+}
+.colBoxMatome .colBoxSubTitle {
+	padding-left: 90px;
+}
+.colBoxMatome .colBoxDescription {
+	padding-left: 90px;
+}
+.colBoxAnnounce .colBoxIcon a {
+	margin-right: 8px;
+}
+.colBoxCategoryArt .colBoxIcon a {
+	margin-right: 8px;
+}
+.colBoxCategoryArt .snsBtns {
+	padding-right: 19px; margin-bottom: 12px;
+}
+.colBoxCategoryArt .colBoxInnerCareer .snsBtns {
+	margin-bottom: 12px;
+}
+.colBoxCategoryArt .snsBtns ul {
+	clear: none;
+}
+.colBoxCategoryArt .snsBtns li {
+	margin: 0px; height: 20px; overflow: hidden; padding-left: 0px; float: right;
+}
+.colBoxCategoryArt .titleList {
+	clear: none;
+}
+.colBoxCategoryArtTop .titleList {
+	margin-bottom: 10px;
+}
+.colBoxCategoryArt .titleList li {
+	margin-bottom: 9px;
+}
+.colBoxCategoryArt .titleList li a {
+	
+}
+.colBoxInnerEL .colBoxIcon a {
+	width: 80px; overflow: hidden; display: block; max-height: 60px;
+}
+.colBoxInnerEL .colBoxUlist {
+	
+}
+.colBoxInnerEL img {
+	width: auto; max-width: 80px;
+}
+#masterSub .colBoxArticleRanking .colBoxRankTab {
+	height: 26px; padding-bottom: 3px; margin-bottom: 2px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+#masterSub .colBoxArticleRanking strong {
+	padding: 0px; border: 0px currentColor; width: 50%; height: 26px; text-align: center; color: rgb(153, 153, 153); line-height: 1.9; font-weight: normal; cursor: pointer; -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+#masterSub .colBoxArticleRanking strong span {
+	height: 25px; color: rgb(0, 0, 0); overflow: hidden; font-size: 14px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#masterSub .colBoxArticleRanking strong.active {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+#masterSub .colBoxArticleRanking strong:hover {
+	background: rgb(221, 221, 221); color: rgb(255, 255, 255); -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+#masterSub .colBoxArticleRanking strong.active span {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(221, 221, 221) rgb(221, 221, 221) currentColor;
+}
+#masterSub .colBoxArticleRanking strong.tab1 {
+	float: left;
+}
+#masterSub .colBoxArticleRanking strong.tab2 {
+	float: right;
+}
+#masterSub .colBoxArticleRanking .colBoxIndex {
+	display: none;
+}
+#masterSub .colBoxArticleRanking .active.colBoxIndex {
+	display: block;
+}
+#masterSub .colBoxArticleRanking .colBoxIndex .colBoxUlist ul {
+	padding-top: 10px;
+}
+#masterSub .colBoxThemeBannar {
+	overflow: hidden;
+}
+.colBoxThemeBannar .colBoxIcon {
+	margin-bottom: 10px; display: block;
+}
+.colBoxThemeBannar .colBoxIcon a {
+	margin: 0px; border: 0px currentColor; overflow: hidden; float: none; display: block;
+}
+.colBoxThemeBannar .colBoxIcon img {
+	width: auto; height: auto; max-width: 100%;
+}
+.colBoxMargeArtList .colBoxUlist ul li {
+	padding-left: 45px;
+}
+.colBoxMargeArtList .colBoxUlist ul .type-news {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_margeIcon.gif") no-repeat 0px 2px;
+}
+.colBoxMargeArtList .colBoxUlist ul .type-matome {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_margeIcon_matome.gif") no-repeat 0px 2px;
+}
+.colBoxMargeArtList .colBoxUlist ul .type-event {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_margeIcon_event.gif") no-repeat 0px 2px;
+}
+.colBoxTopApology .colBoxDescription p {
+	color: rgb(189, 55, 47);
+}
+.colBoxTopApology .colBoxDescription p:hover {
+	color: rgb(189, 55, 47);
+}
+.colBoxTopApology .colBoxDescription {
+	margin-bottom: 0px;
+}
+.colBoxTopApology .colBoxIndex {
+	margin-bottom: 0px;
+}
+#masterSub .colBoxSnsBtn {
+	margin-bottom: 10px;
+}
+.colBoxSnsBtn ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+.colBoxSnsBtn .colBoxIndex {
+	margin-bottom: 0px;
+}
+.colBoxSnsBtn ul li {
+	margin: 0px 7px 0px 0px; padding: 0px; line-height: 18px; font-size: 12px; float: left; display: block;
+}
+.colBoxSnsBtn ul li a {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_socialBtns25.gif") no-repeat 0px 0px; border-radius: 2px; width: 25px; height: 25px; text-indent: -9999px; text-decoration: none; display: block; -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBoxSnsBtn ul li a:hover {
+	opacity: 0.8; -ms-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.colBoxSnsBtn ul .globalSocialBtnRss a {
+	
+}
+.colBoxSnsBtn ul .globalSocialBtnFacebook a {
+	background-position: 0px -50px;
+}
+.colBoxSnsBtn ul .globalSocialBtnTwitter a {
+	background-position: 0px -100px;
+}
+.colBoxSnsBtn ul .globalSocialBtnMail a {
+	background: rgb(221, 55, 55); padding: 0px 5px; width: auto; color: rgb(255, 255, 255); line-height: 28px; text-indent: 0px; font-size: 11px; font-weight: bold; filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd3737', endColorstr='#bd372f',GradientType=0 );
+}
+#masterSub .colBoxEventCalendar h3 {
+	background: rgb(255, 255, 255); padding: 1px 2px; color: rgb(64, 140, 179); font-size: 11px; float: left; position: relative; z-index: 1;
+}
+#masterSub .colBoxEventCalendar .colBoxTitle {
+	position: relative;
+}
+#masterSub .colBoxEventCalendar .colBoxTitle::before {
+	left: 0px; top: 7px; width: 100%; height: 0px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dashed; position: absolute; z-index: 0; content: "";
+}
+#masterSub .colBoxEventCalendar li {
+	padding-left: 20px;
+}
+#masterSub .colBoxEventCalendar .colBoxTitle {
+	position: relative;
+}
+#masterSub .colBoxArticleRanking .colBoxHead h2 {
+	padding: 0px 5px;
+}
+#masterSub .colBoxArticleRanking .colBoxRankTab {
+	width: 300px; margin-left: 0px; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; border-bottom-style: none;
+}
+#masterSub .colBoxArticleRanking .colBoxRankTab strong {
+	padding-left: 0px; margin-left: 0px; border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+#masterSub .colBoxArticleRanking .colBoxUlist ul li {
+	padding-bottom: 4px; margin-bottom: 4px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.twtr-tweets {
+	word-break: break-all;
+}
+#snsContents {
+	margin-bottom: 10px;
+}
+#snsContents #snsButtons .colBoxIndex {
+	height: 23px; border-bottom-color: rgb(204, 204, 204) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+#snsContents .colBox {
+	margin: -1px 0px 0px;
+}
+#snsContents #colBoxSnsMosttweeted {
+	clear: both; overflow-x: auto; overflow-y: scroll;
+}
+#snsContents #colBoxSnsMosttweeted .colBoxInner {
+	height: 1%;
+}
+#snsContents #colBoxSnsMosttweeted .colBoxUlist li {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#snsContents #snsButtons {
+	height: 24px;
+}
+#snsContents #snsButtons .colBoxUlist li {
+	margin: 0px -1px 0px 0px; padding: 3px 8px; border: 1px solid rgb(204, 204, 204); font-size: 11px; float: left; display: block;
+}
+#snsContents .colBoxDescription p {
+	font-style: normal !important;
+}
+.colBoxIndexL50 .colBoxInner {
+	height: auto !important; min-height: 480px;
+}
+.colBoxIndexR50 .colBoxInner {
+	height: auto !important; min-height: 480px;
+}
+.colBoxISALR h3 a {
+	font-size: 12px !important;
+}
+.colBoxHeadSubtxt {
+	top: 2px; right: 0px; font-size: 10px !important;
+}
+#masterSub .colBoxHeadSubtxt {
+	background: rgb(221, 221, 221); margin: 0px; padding: 0px 10px 0px 0px; top: auto; right: auto; color: rgb(85, 85, 85); line-height: 15px; display: inline-block; position: static;
+}
+#masterSub .colBox .colBoxHead .colBoxHeadSubtxt {
+	padding: 0px 5px; float: right;
+}
+#masterSub .colBoxEventCalendar .colBoxHeadSubtxt {
+	top: 0px; right: 0px;
+}
+.colBoxMembersControl {
+	border-radius: 0px !important; border: 0px currentColor !important;
+}
+#masterMain .colBoxOuter {
+	border: 0px currentColor;
+}
+.colBoxMembersControl h2 {
+	color: rgb(255, 255, 255); text-shadow: none;
+}
+#masterMainLeft .twtr-widget {
+	margin-bottom: 10px;
+}
+.colBoxOlist ol li {
+	background: url("http://image.itmedia.co.jp/ait/images/olli_rank1.gif") no-repeat 0px 2px; padding: 0px 0px 3px 28px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; min-height: 0px;
+}
+.colBoxButtons .colBoxUlist ul li {
+	background: url("http://image.itmedia.co.jp/images/ulli_book0.gif") no-repeat 3px 5px;
+}
+.colBoxIndex .linkset li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 5px; line-height: 1.6; padding-bottom: 1px; padding-left: 11px; font-size: 13px; margin-bottom: 4px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.colBox .backNumBoxIn ul li {
+	background: url("http://image.itmedia.co.jp/ait/images/colBox_ulli.gif") no-repeat -1px 2px; line-height: 1.6; padding-bottom: 0px; padding-left: 11px; font-size: 13px; margin-bottom: 5px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.largeImageBody #masterContents {
+	padding: 10px 10px 0px; border-radius: 3px 3px 0px 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; -webkit-border-radius: 3px 3px 0 0; -moz-border-radius: 3px 3px 0 0;
+}
+.largeImageBody #globalFooterCorp {
+	border: currentColor;
+}
+.largeImageBody #globalFooter {
+	border-radius: 3px 3px 0px 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.largeImageBody .colBoxSubTitle h5 {
+	color: black; line-height: 18px; font-size: 14px; font-weight: normal;
+}
+.colBoxFeaturesPattern1 .linkset {
+	display: none;
+}
+.colBoxFeaturesPattern2 .linkset {
+	display: none;
+}
+.colBoxFeaturesPattern3 .linkset {
+	display: none;
+}
+.colBoxFeaturesPattern4 .linkset {
+	display: none;
+}
+.colBoxNewsFeature .linkset {
+	display: none;
+}
+#cmsBody .colBoxQuickPoll {
+	margin: 0px auto 20px !important; width: 80%;
+}
+.colBoxQuickPoll .colBoxIndex {
+	margin: 0px;
+}
+#cmsBody .colBoxQuickPoll .colBoxHead {
+	background: rgb(0, 82, 132); margin: 0px 0px 2px; padding: 5px; border-radius: 2px; color: white; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: none; -webkit-border-radius: 2px; -moz-border-radius: 2px;
+}
+#masterMain #cmsBody .colBoxQuickPoll .colBoxOuter {
+	background: rgb(255, 255, 255); border-radius: 3px; border: 1px solid rgb(204, 204, 204); box-shadow: 0px 0px 13px 0px #dbdbdb;
+}
+#masterMain #cmsBody .colBoxQuickPoll .colBoxInner {
+	padding: 20px;
+}
+.colBoxQuickPoll from {
+	margin: 0px;
+}
+.colBoxQuickPoll .colBoxIndex {
+	height: 1%;
+}
+.colBoxQuickPoll .colBoxTitle h3 {
+	background: url("http://image.itmedia.co.jp/ait/images/heading_qp5.gif") no-repeat 0px 2px; margin: 0px 0px 15px; padding: 0px 0px 0px 24px; border: 0px currentColor;
+}
+.colBoxQuickPoll .colBoxIndex form label {
+	margin: 0px 0px 3px 5px; font-weight: normal;
+}
+.colBoxQuickPoll .colBoxIndex label {
+	margin: 0px 0px 3px;
+}
+.colBoxQuickPoll .colBoxIndex form label {
+	padding: 0px; line-height: 14px; font-size: 12px; float: left;
+}
+.colBoxQuickPoll .colBoxIndex label {
+	padding: 0px; line-height: 14px; font-size: 12px; float: left;
+}
+.colBoxQuickPoll .colBoxGraph {
+	background: rgb(103, 196, 104); margin: 0px 0px 10px; padding: 2px 3px; border-radius: 2px; text-align: center; color: rgb(0, 0, 0); line-height: 12px; clear: both; font-size: 10px; display: block; max-width: 294px; box-shadow: 0px 0px 0px 0px transparent;
+}
+#cmsBody .colBoxQuickPoll .colBoxGraph {
+	max-width: 100%;
+}
+.colBoxQuickPoll .colBoxInfo {
+	margin: 10px 0px; padding: 0px; text-align: center; color: rgb(204, 0, 0); line-height: 12px; font-size: 10px;
+}
+#cmsBody .colBoxQuickPoll .colBoxInfo p {
+	line-height: 12px; font-size: 10px;
+}
+.colBoxQuickPoll .colBoxIndex input {
+	margin: 0px; padding: 0px; clear: both; vertical-align: middle; float: left;
+}
+.colBoxQuickPoll .colBoxIndex .colBoxInfoBtn input {
+	float: none;
+}
+.colBoxQuickPoll .h10px {
+	height: 0px;
+}
+#cmsBody .colBoxQuickPoll ul {
+	margin-bottom: 0px;
+}
+#masterSub .colBoxQuickPoll .colBoxHead h2 {
+	background: url("http://image.itmedia.co.jp/ait/images/qphead.gif") no-repeat 2px 0px; text-indent: -9999px;
+}
+#masterMain #cmsBody .colBoxQuickPoll h3 {
+	background: url("http://image.itmedia.co.jp/ait/images/heading_qp5.gif") no-repeat 0px 2px; padding: 0px 0px 0px 25px !important; border-bottom-color: rgb(204, 204, 204); border-left-color: currentColor; border-bottom-width: 1px; border-left-width: 0px; border-bottom-style: solid; border-left-style: none;
+}
+#masterMain .colBoxPageLink {
+	background: rgb(255, 255, 255); margin: 0px 0px 15px;
+}
+#masterMain .colBoxPageLink .arrow {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_linkArrow.gif") no-repeat 0px 0px; width: 11px; height: 11px; padding-top: 2px; vertical-align: middle; display: inline-block;
+}
+#masterMain .colBoxPageLink a {
+	padding: 0px; border: 0px currentColor; text-align: right; text-decoration: none; display: block; position: relative; -ms-transition: all 0.1s ease; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -o-transition: all 0.1s ease;
+}
+#masterMain .colBoxPageLink a:last-child {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+#masterMain .colBoxPageLink a:hover {
+	text-decoration: underline; -ms-transition: all 0.1s ease; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -o-transition: all 0.1s ease;
+}
+#masterMain .colBox .colBoxPageLink {
+	margin: 8px 0px 0px; box-shadow: 0px 0px 0px 0px transparent;
+}
+#masterMain .colBox .colBoxPageLink a {
+	padding: 0px; text-align: right; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; display: inline; position: relative;
+}
+#masterSub .colBoxPageLink {
+	margin-top: 8px;
+}
+#masterSub .colBoxPageLink a {
+	position: relative;
+}
+#masterMain .colBox .colBoxPageLink a::after {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_linkArrow.gif") no-repeat 0px 0px; left: -14px; top: 3px; width: 11px; height: 11px; display: block; position: absolute; content: "";
+}
+#masterSub .colBoxPageLink a::after {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_linkArrow.gif") no-repeat 0px 0px; left: -14px; top: 3px; width: 11px; height: 11px; display: block; position: absolute; content: "";
+}
+#masterMain .colBox .colBoxPageLink a:hover {
+	color: rgb(64, 140, 179); text-decoration: underline;
+}
+#masterSub .colBoxPageLink a:hover {
+	color: rgb(64, 140, 179); text-decoration: underline;
+}
+#masterMain .colBox .colBoxPageLink a:visited {
+	color: rgb(0, 0, 0);
+}
+#masterSub .colBoxPageLink a:visited {
+	color: rgb(0, 0, 0);
+}
+.moreLink {
+	float: right; display: block; position: relative;
+}
+.moreLink a {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_linkArrow.gif") no-repeat 30px 2px; padding: 0px 3px; border-radius: 2px; border: currentColor; top: 0px; width: 45px; height: 15px; right: -8px; color: rgb(51, 51, 51); font-size: 0px; font-weight: bold; display: block; position: absolute; z-index: 10; opacity: 0.3; -ms-transition: all 0.1s ease; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -o-transition: all 0.1s ease;
+}
+.moreLink a:hover {
+	background: url("http://image.itmedia.co.jp/ait/images/reborn_linkArrow.gif") no-repeat 30px 2px; border: currentColor; color: rgb(255, 255, 255); text-decoration: none; opacity: 0.4; -ms-transition: all 0.1s ease; -webkit-transition: all 0.1s ease; -moz-transition: all 0.1s ease; -o-transition: all 0.1s ease;
+}
+.moreLink a::after {
+	top: 1px; color: rgb(0, 0, 0); line-height: 15px; font-size: 12px; position: absolute; content: "àÍóó";
+}
+.colBoxHRBannar {
+	
+}
+.colBoxHRBannar .colBoxInner {
+	text-align: center;
+}
+.colBoxHRBannar .colBoxIndex {
+	margin: 0px 15px !important; width: 280px; display: inline-block;
+}
+.colBoxHRBannar .colBoxIndex a {
+	margin: 0px;
+}
+.colBoxHRBannar .colBoxIndex a img {
+	vertical-align: top;
+}
+.colBoxHRBannar .colBoxIndex a:hover {
+	opacity: 0.85;
+}
+.colBoxSocialButtonTweet iframe {
+	width: 100px !important;
+}
+.colBoxSocialButtonFacebook iframe {
+	width: 100px !important;
+}
+.colBoxMatome .colleft {
+	width: 48%; clear: both; float: left;
+}
+.colBoxMatome .colleft {
+	width: 48%; clear: both; float: left;
+}
+.colBoxMatome .colright {
+	width: 48%; float: right;
+}
+.colBoxMatome .colright {
+	width: 48%; float: right;
+}
+.colBoxMatome .colBoxMoreLink {
+	clear: both;
+}
+.colBoxCsbBtn .csbBtn {
+	float: left;
+}
+.colBoxCsbBtn {
+	clear: both;
+}
+#masterSub .colBoxWP .colBoxHead {
+	
+}
+#masterSub .colBoxWP .colBoxHead h2 {
+	padding: 0px 5px;
+}
+#masterSub .colBoxAitEbook .colBoxIcon {
+	margin: 0px 5px 0px 0px; float: left;
+}
+#masterSub .colBoxAitEbook .colBoxIcon a {
+	margin: 0px;
+}
+#masterSub .colBoxEditorInfo .colBoxIcon {
+	margin: 0px 5px 0px 0px; float: left;
+}
+#masterSub .colBoxEditorInfo .colBoxIcon a {
+	margin: 0px;
+}
+#masterMain .colBoxTopApology {
+	margin-bottom: 15px;
+}
+.colBoxCalendar .colBoxIndex {
+	margin: 0px 5px 5px 0px; width: 148px;
+}
+.colBoxCalendar .colBoxUlist ul li a {
+	margin: 0px 2px 2px 0px; padding: 1px; width: 30px;
+}
+#masterSub .colBoxEditorsEye .colBoxUlist ul li {
+	word-break: break-all;
+}
+.colBoxMonthSpecial.colBox .backNumBoxIn ul li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 4px; padding-left: 10px; margin-bottom: 9px;
+}

@@ -1,0 +1,41 @@
+﻿'自動生成以外のコードを追記するためのファイル
+'請求履歴照会
+Partial Public Class ClsOMN613
+    ''' <summary>
+    ''' ヘッダー 項目
+    ''' </summary>
+    ''' <remarks></remarks>
+    Public Class ClsCol_H : Inherits ColHBase
+        Public strSEIKYUSHONO As String         '請求書番号
+        Public strJIGYOCD As String             '事業所コード
+        Public strSAGYOBKBN As String           '作業分類コード
+        Public strRENNO As String               '連番
+        Public strJIGYONM As String             '事業所名
+        Public strSEIKYUCD As String            '請求先コード
+        Public strSEIKYUNM As String            '請求先名
+        Public strNONYUCD As String             '納入先コード
+        Public strNONYUNM As String             '納入先名
+        Public strBUKENNO As String             '物件番号
+        Public strUKETSUKEYMD As String         '受付日
+        Public strSEIKYUYMD As String           '請求日
+        Public strGOKEI As String               '請求額
+        Public strNYUKINYMD As String           '入金日
+        Public strNYUKINR As String             '入金額
+    End Class
+
+    '請求合計金額取得用データテーブル取得
+    Public Function gBlnGetSEIKYUKING() As String
+        With New OMN613Dao(Of ClsOMN613)
+            Return .gBlnGetSEIKYUKING(Me)
+        End With
+    End Function
+
+    Public Function gBlnGetHeadData() As String
+        With New OMN613Dao(Of ClsOMN613)
+            Return .gBlnGetHeadData(Me)
+        End With
+    End Function
+End Class
+
+
+

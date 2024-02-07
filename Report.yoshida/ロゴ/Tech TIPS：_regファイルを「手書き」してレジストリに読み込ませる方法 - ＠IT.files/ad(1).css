@@ -1,0 +1,313 @@
+@import url( /css/ad.css );
+#ITSQ {
+	margin: 0px 0px 10px;
+}
+#ITN {
+	margin: 0px 10px 0px 0px; float: right;
+}
+#ITR {
+	margin: 0px 0px 20px;
+}
+#ITR2 {
+	margin: 0px 0px 20px;
+}
+#ITEV li {
+	font-size: 13px; margin-bottom: 7px; list-style-type: none;
+}
+#ITSB {
+	margin: 0px auto 20px;
+}
+#ITT {
+	margin-top: 0px; margin-bottom: 0px;
+}
+.colBoxTopNewArticle #adHeaderText {
+	margin: 0px auto 20px !important;
+}
+.colBoxNewtxt {
+	color: rgb(189, 55, 47);
+}
+#ISTLC {
+	overflow: hidden; position: relative;
+}
+#ISTLC .colBoxISTLC {
+	margin-bottom: 15px;
+}
+#ISTLC .colBoxHead {
+	background: rgb(221, 221, 221); padding: 0px; border: 0px currentColor; width: 100%; height: 15px; color: rgb(0, 0, 0); clear: both;
+}
+#ISTLC .colBoxHead h2 {
+	background: rgb(255, 255, 255); padding: 0px 10px 0px 5px; height: 15px; line-height: 15px; border-left-color: rgb(92, 163, 197); border-left-width: 5px; border-left-style: solid; float: left; display: inline-block;
+}
+#ISTLC .colBoxHead span {
+	background: rgb(255, 255, 255); padding: 0px 5px; top: auto; right: auto; line-height: 20px; display: inline-block; position: static;
+}
+#ISTLC .colBoxHead .colBoxHeadSubtxt {
+	background: rgb(221, 221, 221); height: 15px; line-height: 15px; float: right;
+}
+#ISTLC .colBoxIndex {
+	margin-bottom: 0px; position: relative;
+}
+#ISTLC .colBoxInfo {
+	font-size: 10px; margin-bottom: 0px;
+}
+#ISTLC .colBoxTitle h3 {
+	font-size: 16px; font-weight: bold;
+}
+#ISTLC .colBoxIcon a {
+	margin: 0px 20px 0px 0px;
+}
+#ISTLC .colBoxPageLink {
+	clear: both;
+}
+#ISTLC .colBoxDescription {
+	margin: 0px; width: auto;
+}
+#ISTLC .colBoxNewtxt {
+	margin-left: 5px;
+}
+#ISTLC .colBoxInfo .colBoxLinktxt {
+	color: rgb(187, 187, 187); font-size: 10px;
+}
+#masterSub #ISTLR {
+	margin-bottom: 15px; position: relative;
+}
+#ISTLR .colBoxTitle h3 {
+	font-size: 13px;
+}
+#ISTLR .colBox .colBoxIcon a {
+	margin: 0px 5px 10px 0px;
+}
+.colBoxITSB {
+	margin: 0px auto; padding: 10px; border-radius: 10px; border: 3px solid rgb(2, 48, 160);
+}
+#colBoxITSB .colBoxTitle h3 {
+	border-width: medium medium 1px; border-style: none none dotted; border-color: currentColor currentColor rgb(204, 204, 204); line-height: 18px; padding-left: 0px; font-size: 15px;
+}
+#colBoxITSB .colBoxSubTitle h5 {
+	font-size: 14px;
+}
+#colBoxITSB .colBoxOuter {
+	width: 100%;
+}
+#colBoxITSB .colBoxIcon {
+	float: left;
+}
+#colBoxITSB .colBoxIcon a {
+	margin: 0px 15px 15px 0px; display: block;
+}
+#colBoxITSB .colBoxDescription {
+	
+}
+#colBoxITSB .colBoxDescription p {
+	margin: 0px 0px 8px; line-height: 18px; clear: none; font-size: 14px;
+}
+#colBoxITSB .colBoxInfo {
+	clear: both;
+}
+#ITTO .colBoxUlist ul li {
+	margin: 0px 0px 5px;
+}
+#ITOT1 {
+	margin: 10px 0px;
+}
+#ITTN {
+	position: relative;
+}
+.colBoxITTN .colBoxHead {
+	border: currentColor;
+}
+.colBoxITTN .colBoxHead h2 {
+	margin: 0px 0px 0px -72px; padding: 0px; left: 50%; top: 55px; color: rgb(153, 153, 153); line-height: 30px; font-size: 12px; float: left; position: absolute;
+}
+#ITTN .colBoxTitle h3 {
+	line-height: 15px; font-size: 11px;
+}
+#ITTN .colBoxHeadSubtxt {
+	display: none;
+}
+#masterSub .colBoxSeminar h3 {
+	line-height: 14px; font-size: 12px; font-weight: normal;
+}
+#masterSub .colBoxSeminar small {
+	clear: both;
+}
+#MSITTI li {
+	background: url("http://image.itmedia.co.jp/ait/images/ulli_triangle0.gif") no-repeat 0px 2px; margin: 0px 0px 10px; padding: 0px 0px 3px 14px; line-height: 16px; font-size: 12px; list-style-type: none;
+}
+.colBoxITTI {
+	margin-bottom: 0px;
+}
+#ITTI {
+	clear: both;
+}
+#ITTI li {
+	line-height: 18px; margin-bottom: 7px;
+}
+#ITTI li a {
+	color: rgb(102, 102, 102);
+}
+#ITTI li a strong {
+	color: rgb(29, 57, 148); letter-spacing: -0.7px; font-size: 13px;
+}
+#ITTI li a:hover strong {
+	color: rgb(0, 0, 0);
+}
+#ITNC1 {
+	text-align: center; margin-bottom: 10px;
+}
+#ITNC2 {
+	text-align: center; margin-bottom: 10px;
+}
+#ITNC1 img {
+	margin: 0px 0px 10px;
+}
+#ITNC2 img {
+	margin: 0px 0px 10px;
+}
+#ITNC1 #adHeaderText {
+	margin: 0px auto !important;
+}
+#ITTE li {
+	background: url("http://image.itmedia.co.jp/ait/images/ad_evecal_ulli1.gif") no-repeat 0px -2px;
+}
+#masterType-article #TABLETAD {
+	margin: 0px 0px 0px 10px; float: right;
+}
+#ITT {
+	padding: 18px 0px;
+}
+#masterMain #ITT .colBox {
+	margin-bottom: 10px; box-shadow: 0px 0px 7px 0px transparent;
+}
+#masterMain #ITT .colBoxOuter {
+	padding: 0px;
+}
+.colBoxITT .colBoxTitle {
+	background: url("http://image.itmedia.co.jp/images/ad/ITT_pr.gif") no-repeat 0px 0px;
+}
+.colBoxITT .colBoxTitle h3 {
+	line-height: 12px;
+}
+#COIDP {
+	position: relative; z-index: 2;
+}
+#masterSub #ISALR .colBoxISALR {
+	position: relative;
+}
+#masterSub #ISALR .colBoxTitle {
+	margin-bottom: 5px;
+}
+#masterSub #ISALR .colBoxTitle h3 {
+	font-size: 13px;
+}
+#masterSub #ISALR .colBoxTitle .colBoxNewtxt {
+	font-size: 11px;
+}
+#ISALR .colBoxDescription {
+	padding-left: 87px;
+}
+#ISALR .colBoxDescription p {
+	line-height: 1.6; font-size: 11px;
+}
+#ISALR .h10px {
+	height: 0px;
+}
+#ISALR .colBoxIcon a {
+	margin-bottom: 4px;
+}
+#ISALR .colBoxIndex {
+	margin-bottom: 5px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#ISALC {
+	margin-bottom: 15px;
+}
+#ISALC .ISALCHead {
+	background: rgb(221, 221, 221); margin: 0px 0px 30px; padding: 0px; border: 0px currentColor; height: 15px; position: relative;
+}
+#ISALC .ISALCHead h2 {
+	background: rgb(255, 255, 255); margin: 0px 0px 15px; padding: 0px 10px 0px 5px; height: 15px; line-height: 15px; font-size: 14px; border-left-color: rgb(92, 163, 197); border-left-width: 5px; border-left-style: solid; display: inline-block;
+}
+#ISALC .ISALCHead .ISALCHeadSubtxt {
+	padding: 0px 5px; top: 0px; right: 0px; line-height: 15px; font-size: 10px; position: absolute;
+}
+#ISALC .ISALCInnerLeft {
+	margin-left: 2px; float: left;
+}
+#ISALC .ISALCInnerRight {
+	margin-right: 2px; float: right;
+}
+#masterMain #ISALC .colBox {
+	margin-bottom: 30px;
+}
+#ISALC .colBox .colBoxHead {
+	width: 310px; padding-bottom: 6px; border-bottom-color: rgb(92, 163, 197); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#ISALC .colBox .colBoxHead h2 {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px 0px 0px 5px; height: 13px; line-height: 13px; font-size: 12px; border-left-color: rgb(92, 163, 197); border-left-width: 5px; border-left-style: solid;
+}
+#ISALC .colBox .colBoxUlist li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 0px 4px; margin: 0px 0px 8px; width: 302px; padding-bottom: 0px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none; float: none;
+}
+.ISALC_jibun#ISALC .colBoxHead {
+	background: rgb(221, 221, 221); padding: 0px; border: 0px currentColor; height: 15px; clear: both; margin-bottom: 15px; margin-left: 0px;
+}
+.ISALC_jibun#ISALC .colBoxHead h2 {
+	background: rgb(255, 255, 255); margin: 0px 0px 15px; padding: 0px 10px 0px 5px; height: 15px; line-height: 15px; font-size: 14px; border-left-color: rgb(92, 163, 197); border-left-width: 5px; border-left-style: solid; display: inline-block;
+}
+.ISALC_jibun#ISALC .colBoxHead .colBoxHeadSubtxt {
+	padding: 0px 5px; top: 0px; line-height: 15px;
+}
+.ISALC_jibun#ISALC .colBoxUlist ul {
+	overflow: hidden; margin-bottom: 0px;
+}
+.ISALC_jibun#ISALC .colBoxUlist ul::after {
+	clear: both; display: block; content: "";
+}
+.ISALC_jibun#ISALC .colBoxUlist li {
+	background: url("http://image.itmedia.co.jp/ait/images/ait1509_ulli.png") no-repeat 2px 3px; width: 300px; padding-bottom: 8px; font-size: 12px; margin-right: 8px; margin-bottom: 9px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dotted; float: left; word-break: break-all;
+}
+.ISALC_jibun#ISALC .colBox .colBoxHead {
+	width: auto;
+}
+#ITNI img {
+	margin-bottom: 20px;
+}
+#LOGOAD .colBoxIcon {
+	text-align: center; display: block;
+}
+#LOGOAD .colBoxIcon a {
+	border: 0px currentColor; text-align: center; margin-right: 0px; float: none;
+}
+#ITSB2 {
+	margin: 0px auto 20px; float: right;
+}
+#masterMain .tmplArticle .colBoxGoogleAd.colBox {
+	margin-bottom: 15px;
+}
+.colBoxGoogleAd {
+	clear: both;
+}
+.colBoxGoogleAd .colBoxL50 {
+	width: auto;
+}
+.colBoxGoogleAd .colBoxR50 {
+	width: auto;
+}
+#tmplNews #ITKB h3 {
+	border: currentColor;
+}
+#ITKB .colBoxHead {
+	background: rgb(221, 221, 221); padding: 0px; border: 0px currentColor; height: 15px; clear: both; margin-bottom: 15px; margin-left: 0px;
+}
+#ITKB .colBoxHead h2 {
+	background: rgb(255, 255, 255); margin: 0px 0px 15px; padding: 0px 10px 0px 5px; height: 15px; line-height: 15px; font-size: 14px; border-left-color: rgb(92, 163, 197); border-left-width: 5px; border-left-style: solid; display: inline-block;
+}
+#ITKB .colBoxHead .colBoxHeadSubtxt {
+	padding: 0px 10px; top: 0px; line-height: 15px;
+}
+#ITKB .colBoxIcon a {
+	border: currentColor;
+}
+#masterMain .tmplArticle #ITKB .colBox {
+	margin-bottom: 25px;
+}

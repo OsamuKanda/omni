@@ -1,0 +1,93 @@
+﻿	.divUPBtn
+	{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divBtn
+	{
+		float: left;
+		width: 500px;
+		text-align: left;
+		height: 20px;
+	}
+	.btn
+	{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+	}
+	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltBUMONCD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.BUMONCD
+	{
+		width: 6px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 80px;
+	}
+	.btnBUMONCD
+	{
+		position: absolute;
+		top: -1px;
+		left: 100px;
+		height: 18px;
+	}
+	.btnSearch
+	{
+		position: absolute;
+		top: -1px;
+		left: 142px;
+		height: 18px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltBUMONNM
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.BUMONNM
+	{
+		width: 120px;
+		ime-mode: active;
+		position: absolute;
+		top: 0px;
+		left: 80px;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

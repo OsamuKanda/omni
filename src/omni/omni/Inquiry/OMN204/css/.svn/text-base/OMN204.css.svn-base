@@ -1,0 +1,148 @@
+﻿	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 45px;
+	}
+	.lbltUPLOAD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.UPLOAD
+	{
+		width: 720px;
+		position: absolute;
+		top: 0px;
+		left: 140px;
+		height:18px;
+		vertical-align:middle;
+	}
+	.btnUPLOAD
+	{
+		position: absolute;
+		top: 21px;
+		left: 140px;
+	}
+	.CellRNUM
+	{
+		text-align: left;
+		width: 18px;
+	}
+	.itemTiRNUM
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.CellBKNNO
+	{
+		text-align: left;
+		width: 82px;
+	}
+	.itemTiBKNNO
+	{
+		width: 48px;
+		display: inline-block;
+	}
+	.CellNONYUNMR
+	{
+		text-align: left;
+		width: 202px;
+	}
+	.itemTiNONYUNMR
+	{
+		width: 60px;
+		display: inline-block;
+	}
+	.CellGOUKI
+	{
+		text-align: left;
+		width: 34px;
+	}
+	.itemTiGOUKI
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellHOKOKUSYO
+	{
+		text-align: left;
+		width: 46px;
+	}
+	.itemTiHOKOKUSYO
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.CellURIAGE
+	{
+		text-align: left;
+		width: 300px;
+	}
+	.itemTiURIAGE
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellCHG
+	{
+		text-align: left;
+		width: 30px;
+	}
+	.scroll
+	{
+		width: 755px;
+		height: 441px;
+		overflow: auto;
+		position: relative;
+	}
+	.itemcellRNUM
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemcellBKNNO
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemcellNONYUNMR
+	{
+		width: 192px;
+		display: inline-block;
+	}
+	.itemcellGOUKI
+	{
+		width: 18px;
+		display: inline-block;
+	}
+	.itemcellHOKOKUSYO
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemcellURIAGE
+	{
+		width: 300px;
+		display: inline-block;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

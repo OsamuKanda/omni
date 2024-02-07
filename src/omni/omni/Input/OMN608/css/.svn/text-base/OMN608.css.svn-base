@@ -1,0 +1,623 @@
+﻿	.divUPBtn
+	{
+		height: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divBtn
+	{
+		float: left;
+		width: 500px;
+		text-align: left;
+		height: 20px;
+	}
+	.btn
+	{
+		font-size: 12px;
+		width: 80px;
+		height: 20px;
+	}
+	.divKey
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 23px;
+	}
+	.lbltSEIKYUSHONO
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SEIKYUSHONO
+	{
+		width: 42px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnSEIKYUSHONO
+	{
+		position: absolute;
+		top: -1px;
+		left: 148px;
+		height: 18px;
+	}
+	.btnSearch
+	{
+		position: absolute;
+		top: -1px;
+		left: 190px;
+		height: 18px;
+	}
+	.divMain
+	{
+		position: relative;
+		margin-left: 10px;
+		height: 233px;
+	}
+	.lbltSEIKYUYMD
+	{
+		position: absolute;
+		top: 2px;
+		left: 0px;
+	}
+	.SEIKYUYMD
+	{
+		width: 60px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 0px;
+		left: 92px;
+	}
+	.btnSEIKYUYMD
+	{
+		position: absolute;
+		top: 0px;
+		left: 156px;
+	}
+	.lbltTAXKBN
+	{
+		position: absolute;
+		top: 23px;
+		left: 0px;
+	}
+	.TAXKBN
+	{
+		display: inline;
+		width: 61px;
+		position: absolute;
+		top: 20px;
+		left: 92px;
+		ime-mode: disabled;
+	}
+	.lbltBUNKATSU
+	{
+		position: absolute;
+		top: 44px;
+		left: 0px;
+	}
+	.BUNKATSU
+	{
+		width: 12px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 42px;
+		left: 92px;
+	}
+	.lbltNONYUCD
+	{
+		position: absolute;
+		top: 86px;
+		left: 0px;
+	}
+	.NONYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 84px;
+		left: 92px;
+	}
+	.btnNONYUCD
+	{
+		position: absolute;
+		top: 83px;
+		left: 136px;
+		height: 18px;
+	}
+	.NONYUNM
+	{
+		width: 720px;
+		ime-mode: active;
+		position: absolute;
+		top: 84px;
+		left: 178px;
+	}
+	.lbltSEIKYUCD
+	{
+		position: absolute;
+		top: 107px;
+		left: 0px;
+	}
+	.SEIKYUCD
+	{
+		width: 30px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 105px;
+		left: 92px;
+	}
+	.btnSEIKYUCD
+	{
+		position: absolute;
+		top: 104px;
+		left: 136px;
+		height: 18px;
+	}
+	.SEIKYUNM
+	{
+		width: 720px;
+		ime-mode: active;
+		position: absolute;
+		top: 105px;
+		left: 178px;
+	}
+	.lbltZIPCODE
+	{
+		position: absolute;
+		top: 128px;
+		left: 0px;
+	}
+	.ZIPCODE
+	{
+		width: 48px;
+		ime-mode: disabled;
+		position: absolute;
+		top: 126px;
+		left: 92px;
+	}
+	.btnZIPCODE
+	{
+		position: absolute;
+		top: 125px;
+		left: 154px;
+		height: 18px;
+	}
+	.lbltADD1
+	{
+		position: absolute;
+		top: 149px;
+		left: 0px;
+	}
+	.ADD1
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 147px;
+		left: 92px;
+	}
+	.lbltSENBUSHONM
+	{
+		position: absolute;
+		top: 149px;
+		left: 500px;
+	}
+	.SENBUSHONM
+	{
+		width: 192px;
+		ime-mode: active;
+		position: absolute;
+		top: 147px;
+		left: 580px;
+	}
+	.lbltADD2
+	{
+		position: absolute;
+		top: 170px;
+		left: 0px;
+	}
+	.ADD2
+	{
+		width: 360px;
+		ime-mode: active;
+		position: absolute;
+		top: 168px;
+		left: 92px;
+	}
+	.lbltSENTANTNM
+	{
+		position: absolute;
+		top: 170px;
+		left: 500px;
+	}
+	.SENTANTNM
+	{
+		width: 192px;
+		ime-mode: active;
+		position: absolute;
+		top: 168px;
+		left: 580px;
+	}
+	.lbltSEIKYUSHIME
+	{
+		position: absolute;
+		top: 191px;
+		left: 0px;
+	}
+	.SEIKYUSHIME
+	{
+		width: 12px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 189px;
+		left: 92px;
+	}
+	.lbltSHRSHIME
+	{
+		position: absolute;
+		top: 191px;
+		left: 200px;
+	}
+	.SHRSHIME
+	{
+		width: 12px;
+		ime-mode: disabled;
+		text-align: right;
+		position: absolute;
+		top: 189px;
+		left: 256px;
+	}
+	.lbltSHUKINKBN
+	{
+		position: absolute;
+		top: 191px;
+		left: 301px;
+	}
+	.SHUKINKBN
+	{
+		display: inline;
+		width: 85px;
+		position: absolute;
+		top: 188px;
+		left: 393px;
+		ime-mode: disabled;
+	}
+	.lbltKAISHUYOTEIYMD
+	{
+		position: absolute;
+		top: 191px;
+		left: 500px;
+	}
+	.KAISHUYOTEIYMD
+	{
+		width: 60px;
+		display: inline-block;
+		text-align: left;
+		height: 12px;
+		background-color: #FFFFFF;
+		overflow: hidden;
+		position: absolute;
+		top: 191px;
+		left: 580px;
+	}
+	.lbltBUKKENMEMO
+	{
+		position: absolute;
+		top: 212px;
+		left: 0px;
+	}
+	.BUKKENMEMO
+	{
+		width: 600px;
+		ime-mode: active;
+		position: absolute;
+		top: 210px;
+		left: 92px;
+	}
+	.CellRNUM
+	{
+		text-align: left;
+		width: 24px;
+	}
+	.itemTiRNUM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellMMDD
+	{
+		text-align: left;
+		width: 30px;
+	}
+	.itemTiMMDD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellHINCD
+	{
+		text-align: left;
+		width: 80px;
+	}
+	.itemTiHINCD
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellHINNM1
+	{
+		text-align: left;
+		width: 250px;
+	}
+	.itemTiHINNM1
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellSURYO
+	{
+		text-align: right;
+		width: 64px;
+	}
+	.itemTiSURYO
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellTANINM
+	{
+		text-align: left;
+		width: 46px;
+	}
+	.itemTiTANINM
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellTANKA
+	{
+		text-align: right;
+		width: 82px;
+	}
+	.itemTiTANKA
+	{
+		width: 24px;
+		display: inline-block;
+	}
+	.CellKING
+	{
+		text-align: right;
+		width: 82px;
+	}
+	.itemTiKING
+	{
+		width: 66px;
+		display: inline-block;
+	}
+	.CellCHG
+	{
+		text-align: left;
+		width: 30px;
+	}
+	.scroll
+	{
+		width: 788px;
+		min-height: 0px;
+		max-height: 121px;
+		overflow: auto;
+		position: relative;
+	}
+	.itemcellRNUM
+	{
+		width: 12px;
+		display: inline-block;
+	}
+	.itemcellMMDD
+	{
+		width: 30px;
+		display: inline-block;
+	}
+	.itemcellHINCD
+	{
+		width: 12px;
+		display: inline-block;
+	}
+	.itemcellHINNM1
+	{
+		width: 240px;
+		display: inline-block;
+	}
+	.itemcellSURYO
+	{
+		width: 54px;
+		display: inline-block;
+	}
+	.itemcellTANINM
+	{
+		width: 36px;
+		display: inline-block;
+	}
+	.itemcellTANKA
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.itemcellKING
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.btnCHG
+	{
+	    height: 18px;
+	}
+	.btnDELLNO
+	{
+	    height: 18px;
+	}
+	.CellHINNM2
+	{
+		text-align: left;
+	}
+	.itemcellHINNM2
+	{
+		width: 240px;
+		display: inline-block;
+	}
+	.CellTAX
+	{
+		text-align: right;
+	}
+	.itemcellTAX
+	{
+		width: 72px;
+		display: inline-block;
+	}
+	.gu
+	{
+	}
+	.RNUM00
+	{
+		width: 12px;
+		display: inline-block;
+		height: 12px;
+		overflow: hidden;
+	}
+	.MMDD00
+	{
+		width: 30px;
+		ime-mode: disabled;
+		border-style: none;
+		background-color: transparent;
+	}
+	.HINCD00
+	{
+		width: 12px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.btnHINCD00
+	{
+		width: 32px;
+		height: 18px;
+	}
+	.HINNM100
+	{
+		width: 240px;
+		ime-mode: active;
+		border-style: none;
+		background-color: transparent;
+	}
+	.SURYO00
+	{
+		width: 54px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.TANINM00
+	{
+		width: 36px;
+		ime-mode: active;
+		border-style: none;
+		background-color: transparent;
+	}
+	.TANKA00
+	{
+		width: 72px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.KING00
+	{
+		width: 72px;
+		ime-mode: disabled;
+		text-align: right;
+		border-style: none;
+		background-color: transparent;
+	}
+	.btnADD
+	{
+	    height: 18px;
+	}
+	.btnCANCEL
+	{
+	    height: 18px;
+	}
+	.Cell
+	{
+	}
+	.HINNM200
+	{
+		width: 240px;
+		ime-mode: active;
+		border-style: none;
+		background-color: transparent;
+	}
+	.TAX00
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		overflow: hidden;
+	}
+	.tblfoot
+	{
+	}
+	.footer
+	{
+	}
+	.ftiKEI
+	{
+		text-align: center;
+		color: #FFFFFF;
+		background-color: #000080;
+	}
+	.lbltKEI
+	{
+	}
+	.fvalKEI
+	{
+		text-align: right;
+	}
+	.KEI00
+	{
+		width: 72px;
+		display: inline-block;
+		text-align: right;
+		height: 12px;
+		overflow: hidden;
+	}
+	.divBottom
+	{
+		width: 980px;
+		position: absolute;
+		bottom: 0px;
+	}
+	.divDNBtn
+	{
+		position: relative;
+	}
+	.btnDn
+	{
+		font-size: 12px;
+		width: 98px;
+		height: 20px;
+		text-align: left;
+		padding-top: 2px;
+		margin-right: -6px;
+	}

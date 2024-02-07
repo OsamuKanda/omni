@@ -1,0 +1,1931 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B969A403-EEBF-433E-AFED-724D078BB26D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>omni</RootNamespace>
+    <AssemblyName>omni</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>omni.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>omni.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="CommonLib" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="omniDom" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Batch\OMB003\Contents\OMB003.aspx.designer.vb">
+      <DependentUpon>OMB003.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Batch\OMB003\Contents\OMB003.aspx.vb">
+      <DependentUpon>OMB003.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Batch\OMB004\Contents\OMB004.aspx.designer.vb">
+      <DependentUpon>OMB004.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Batch\OMB004\Contents\OMB004.aspx.vb">
+      <DependentUpon>OMB004.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Batch\OMB006\Contents\OMB006.aspx.designer.vb">
+      <DependentUpon>OMB006.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Batch\OMB006\Contents\OMB006.aspx.vb">
+      <DependentUpon>OMB006.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cls\ClsChkStringUtil.vb" />
+    <Compile Include="cls\ClsDataTableUtil.vb">
+    </Compile>
+    <Compile Include="cls\ClsEditString.vb">
+    </Compile>
+    <Compile Include="cls\ClsHistry.vb">
+    </Compile>
+    <Compile Include="cls\ClsLoginInfo.vb" />
+    <Compile Include="cls\ClsProgIdObject.vb" />
+    <Compile Include="cls\ClsReport.vb" />
+    <Compile Include="cls\clsReportStr.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cls\ClsWebIFDataTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cls\JPNNameTable.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cls\ModelItem.vb" />
+    <Compile Include="cls\web\ClsWebUIUtil.vb" />
+    <Compile Include="cls\web\TextBoxTabIndexComparer.vb" />
+    <Compile Include="Contents\BasePage.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\BasePage1.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\BasePage2.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\BasePage3.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\Base13Page.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\BasePage5.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\ErrMsg.aspx.designer.vb">
+      <DependentUpon>ErrMsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contents\ErrMsg.aspx.vb">
+      <DependentUpon>ErrMsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\WfmBase.aspx.designer.vb">
+      <DependentUpon>WfmBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contents\WfmBase.aspx.vb">
+      <DependentUpon>WfmBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\WfmBatchBase.aspx.designer.vb">
+      <DependentUpon>WfmBatchBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contents\WfmBatchBase.aspx.vb">
+      <DependentUpon>WfmBatchBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\WfmReportBase.aspx.designer.vb">
+      <DependentUpon>WfmReportBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contents\WfmReportBase.aspx.vb">
+      <DependentUpon>WfmReportBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\WfmSearchBase.aspx.designer.vb">
+      <DependentUpon>WfmSearchBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contents\WfmSearchBase.aspx.vb">
+      <DependentUpon>WfmSearchBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contents\BasePage4.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN201\cls\ClsOMN201.vb" />
+    <Compile Include="Input\OMN201\cls\ClsOMN201Dao.vb" />
+    <Compile Include="Input\OMN201\cls\ClsOMN201Dao_Manual.vb" />
+    <Compile Include="Input\OMN201\cls\ClsOMN201_Manual.vb" />
+    <Compile Include="Input\OMN201\cls\OMN201_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN201\Contents\OMN201.aspx.designer.vb">
+      <DependentUpon>OMN201.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN201\Contents\OMN201.aspx.vb">
+      <DependentUpon>OMN201.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN205\cls\ClsOMN205.vb" />
+    <Compile Include="Input\OMN205\cls\ClsOMN205Dao.vb" />
+    <Compile Include="Input\OMN205\cls\ClsOMN205Dao_Manual.vb" />
+    <Compile Include="Input\OMN205\cls\ClsOMN205_Manual.vb" />
+    <Compile Include="Input\OMN205\cls\OMN205_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN205\Contents\OMN205.aspx.designer.vb">
+      <DependentUpon>OMN205.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN205\Contents\OMN205.aspx.vb">
+      <DependentUpon>OMN205.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN301\cls\ClsOMN301.vb" />
+    <Compile Include="Input\OMN301\cls\ClsOMN301Dao.vb" />
+    <Compile Include="Input\OMN301\cls\ClsOMN301Dao_Manual.vb" />
+    <Compile Include="Input\OMN301\cls\ClsOMN301_Manual.vb" />
+    <Compile Include="Input\OMN301\cls\OMN301_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN301\Contents\OMN301.aspx.designer.vb">
+      <DependentUpon>OMN301.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN301\Contents\OMN301.aspx.vb">
+      <DependentUpon>OMN301.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN401\cls\ClsOMN401.vb" />
+    <Compile Include="Input\OMN401\cls\ClsOMN401Dao.vb" />
+    <Compile Include="Input\OMN401\cls\ClsOMN401Dao_Manual.vb" />
+    <Compile Include="Input\OMN401\cls\ClsOMN401_Manual.vb" />
+    <Compile Include="Input\OMN401\cls\OMN401_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN401\Contents\OMN401.aspx.designer.vb">
+      <DependentUpon>OMN401.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN401\Contents\OMN401.aspx.vb">
+      <DependentUpon>OMN401.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN501\cls\ClsOMN501.vb" />
+    <Compile Include="Input\OMN501\cls\ClsOMN501Dao.vb" />
+    <Compile Include="Input\OMN501\cls\ClsOMN501Dao_Manual.vb" />
+    <Compile Include="Input\OMN501\cls\ClsOMN501_Manual.vb" />
+    <Compile Include="Input\OMN501\cls\OMN501_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN501\Contents\OMN501.aspx.designer.vb">
+      <DependentUpon>OMN501.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN501\Contents\OMN501.aspx.vb">
+      <DependentUpon>OMN501.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN601\cls\ClsOMN601.vb" />
+    <Compile Include="Input\OMN601\cls\ClsOMN601Dao.vb" />
+    <Compile Include="Input\OMN601\cls\ClsOMN601Dao_Manual.vb" />
+    <Compile Include="Input\OMN601\cls\ClsOMN601_Manual.vb" />
+    <Compile Include="Input\OMN601\cls\OMN601_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN601\Contents\OMN601.aspx.designer.vb">
+      <DependentUpon>OMN601.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN601\Contents\OMN601.aspx.vb">
+      <DependentUpon>OMN601.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN603\cls\ClsOMN603.vb" />
+    <Compile Include="Input\OMN603\cls\ClsOMN603Dao.vb" />
+    <Compile Include="Input\OMN603\cls\ClsOMN603Dao_Manual.vb" />
+    <Compile Include="Input\OMN603\cls\ClsOMN603_Manual.vb" />
+    <Compile Include="Input\OMN603\cls\OMN603_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN603\Contents\OMN603.aspx.designer.vb">
+      <DependentUpon>OMN603.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN603\Contents\OMN603.aspx.vb">
+      <DependentUpon>OMN603.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN604\cls\ClsOMN604.vb" />
+    <Compile Include="Input\OMN604\cls\ClsOMN604Dao.vb" />
+    <Compile Include="Input\OMN604\cls\ClsOMN604Dao_Manual.vb" />
+    <Compile Include="Input\OMN604\cls\ClsOMN604_Manual.vb" />
+    <Compile Include="Input\OMN604\cls\OMN604_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN604\Contents\OMN604.aspx.designer.vb">
+      <DependentUpon>OMN604.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN604\Contents\OMN604.aspx.vb">
+      <DependentUpon>OMN604.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN605\cls\ClsOMN605.vb" />
+    <Compile Include="Input\OMN605\cls\ClsOMN605Dao.vb" />
+    <Compile Include="Input\OMN605\cls\ClsOMN605Dao_Manual.vb" />
+    <Compile Include="Input\OMN605\cls\ClsOMN605_Manual.vb" />
+    <Compile Include="Input\OMN605\cls\OMN605_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN605\Contents\OMN605.aspx.designer.vb">
+      <DependentUpon>OMN605.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN605\Contents\OMN605.aspx.vb">
+      <DependentUpon>OMN605.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN606\cls\ClsOMN606.vb" />
+    <Compile Include="Input\OMN606\cls\ClsOMN606Dao.vb" />
+    <Compile Include="Input\OMN606\cls\ClsOMN606Dao_Manual.vb" />
+    <Compile Include="Input\OMN606\cls\ClsOMN606_Manual.vb" />
+    <Compile Include="Input\OMN606\cls\OMN606_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN606\Contents\OMN606.aspx.designer.vb">
+      <DependentUpon>OMN606.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN606\Contents\OMN606.aspx.vb">
+      <DependentUpon>OMN606.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN607\cls\ClsOMN607.vb" />
+    <Compile Include="Input\OMN607\cls\ClsOMN607Dao.vb" />
+    <Compile Include="Input\OMN607\cls\ClsOMN607Dao_Manual.vb" />
+    <Compile Include="Input\OMN607\cls\ClsOMN607_Manual.vb" />
+    <Compile Include="Input\OMN607\cls\OMN607_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN607\Contents\OMN607.aspx.designer.vb">
+      <DependentUpon>OMN607.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN607\Contents\OMN607.aspx.vb">
+      <DependentUpon>OMN607.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN608\cls\ClsOMN608.vb" />
+    <Compile Include="Input\OMN608\cls\ClsOMN608Dao.vb" />
+    <Compile Include="Input\OMN608\cls\ClsOMN608Dao_Manual.vb" />
+    <Compile Include="Input\OMN608\cls\ClsOMN608_Manual.vb" />
+    <Compile Include="Input\OMN608\cls\OMN608_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN608\Contents\OMN608.aspx.designer.vb">
+      <DependentUpon>OMN608.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN608\Contents\OMN608.aspx.vb">
+      <DependentUpon>OMN608.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN609\cls\ClsOMN609.vb" />
+    <Compile Include="Input\OMN609\cls\ClsOMN609Dao.vb" />
+    <Compile Include="Input\OMN609\cls\ClsOMN609Dao_Manual.vb" />
+    <Compile Include="Input\OMN609\cls\ClsOMN609_Manual.vb" />
+    <Compile Include="Input\OMN609\cls\OMN609_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input\OMN609\Contents\OMN609.aspx.designer.vb">
+      <DependentUpon>OMN609.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input\OMN609\Contents\OMN609.aspx.vb">
+      <DependentUpon>OMN609.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN121\cls\ClsOMN121.vb" />
+    <Compile Include="Inquiry\OMN121\cls\ClsOMN121Dao.vb" />
+    <Compile Include="Inquiry\OMN121\cls\ClsOMN121Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN121\cls\ClsOMN121_Manual.vb" />
+    <Compile Include="Inquiry\OMN121\cls\OMN121_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN121\Contents\OMN121.aspx.designer.vb">
+      <DependentUpon>OMN121.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN121\Contents\OMN121.aspx.vb">
+      <DependentUpon>OMN121.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN124\cls\ClsOMN124.vb" />
+    <Compile Include="Inquiry\OMN124\cls\ClsOMN124Dao.vb" />
+    <Compile Include="Inquiry\OMN124\cls\ClsOMN124Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN124\cls\ClsOMN124_Manual.vb" />
+    <Compile Include="Inquiry\OMN124\cls\OMN124_DAL.vb" />
+    <Compile Include="Inquiry\OMN124\cls\OMN124_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN124\Contents\OMN124.aspx.designer.vb">
+      <DependentUpon>OMN124.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN124\Contents\OMN124.aspx.vb">
+      <DependentUpon>OMN124.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN202\cls\ClsOMN202.vb" />
+    <Compile Include="Inquiry\OMN202\cls\ClsOMN202Dao.vb" />
+    <Compile Include="Inquiry\OMN202\cls\ClsOMN202Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN202\cls\ClsOMN202_Manual.vb" />
+    <Compile Include="Inquiry\OMN202\cls\OMN202_DAL.vb" />
+    <Compile Include="Inquiry\OMN202\cls\OMN202_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN202\Contents\OMN202.aspx.designer.vb">
+      <DependentUpon>OMN202.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN202\Contents\OMN202.aspx.vb">
+      <DependentUpon>OMN202.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN203\cls\ClsOMN203.vb" />
+    <Compile Include="Inquiry\OMN203\cls\ClsOMN203Dao.vb" />
+    <Compile Include="Inquiry\OMN203\cls\ClsOMN203Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN203\cls\ClsOMN203_Manual.vb" />
+    <Compile Include="Inquiry\OMN203\cls\OMN203_DAL.vb" />
+    <Compile Include="Inquiry\OMN203\cls\OMN203_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN203\cls\OMN203_DAL2.vb" />
+    <Compile Include="Inquiry\OMN203\Contents\OMN203.aspx.designer.vb">
+      <DependentUpon>OMN203.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN203\Contents\OMN203.aspx.vb">
+      <DependentUpon>OMN203.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN204\cls\ClsOMN204.vb" />
+    <Compile Include="Inquiry\OMN204\cls\ClsOMN204Dao.vb" />
+    <Compile Include="Inquiry\OMN204\cls\ClsOMN204Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN204\cls\ClsOMN204_Manual.vb" />
+    <Compile Include="Inquiry\OMN204\cls\OMN204_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN204\Contents\OMN204.aspx.designer.vb">
+      <DependentUpon>OMN204.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN204\Contents\OMN204.aspx.vb">
+      <DependentUpon>OMN204.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN302\cls\ClsOMN302.vb" />
+    <Compile Include="Inquiry\OMN302\cls\ClsOMN302Dao.vb" />
+    <Compile Include="Inquiry\OMN302\cls\ClsOMN302Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN302\cls\ClsOMN302_Manual.vb" />
+    <Compile Include="Inquiry\OMN302\cls\OMN302_DAL.vb" />
+    <Compile Include="Inquiry\OMN302\cls\OMN302_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN302\Contents\OMN302.aspx.designer.vb">
+      <DependentUpon>OMN302.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN302\Contents\OMN302.aspx.vb">
+      <DependentUpon>OMN302.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN303\cls\ClsOMN303.vb" />
+    <Compile Include="Inquiry\OMN303\cls\ClsOMN303Dao.vb" />
+    <Compile Include="Inquiry\OMN303\cls\ClsOMN303Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN303\cls\ClsOMN303_Manual.vb" />
+    <Compile Include="Inquiry\OMN303\cls\OMN303_DAL.vb" />
+    <Compile Include="Inquiry\OMN303\cls\OMN303_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN303\Contents\OMN303.aspx.designer.vb">
+      <DependentUpon>OMN303.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN303\Contents\OMN303.aspx.vb">
+      <DependentUpon>OMN303.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN304\cls\ClsOMN304.vb" />
+    <Compile Include="Inquiry\OMN304\cls\ClsOMN304Dao.vb" />
+    <Compile Include="Inquiry\OMN304\cls\ClsOMN304Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN304\cls\ClsOMN304_Manual.vb" />
+    <Compile Include="Inquiry\OMN304\cls\OMN304_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN304\Contents\OMN304.aspx.designer.vb">
+      <DependentUpon>OMN304.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN304\Contents\OMN304.aspx.vb">
+      <DependentUpon>OMN304.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN502\cls\ClsOMN502.vb" />
+    <Compile Include="Inquiry\OMN502\cls\ClsOMN502Dao.vb" />
+    <Compile Include="Inquiry\OMN502\cls\ClsOMN502Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN502\cls\ClsOMN502_Manual.vb" />
+    <Compile Include="Inquiry\OMN502\cls\OMN502_DAL.vb" />
+    <Compile Include="Inquiry\OMN502\cls\OMN502_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN502\Contents\OMN502.aspx.designer.vb">
+      <DependentUpon>OMN502.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN502\Contents\OMN502.aspx.vb">
+      <DependentUpon>OMN502.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN503\cls\ClsOMN503.vb" />
+    <Compile Include="Inquiry\OMN503\cls\ClsOMN503Dao.vb" />
+    <Compile Include="Inquiry\OMN503\cls\ClsOMN503Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN503\cls\ClsOMN503_Manual.vb" />
+    <Compile Include="Inquiry\OMN503\cls\OMN503_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN503\Contents\OMN503.aspx.designer.vb">
+      <DependentUpon>OMN503.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN503\Contents\OMN503.aspx.vb">
+      <DependentUpon>OMN503.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN602\cls\ClsOMN602.vb" />
+    <Compile Include="Inquiry\OMN602\cls\ClsOMN602Dao.vb" />
+    <Compile Include="Inquiry\OMN602\cls\ClsOMN602Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN602\cls\ClsOMN602_Manual.vb" />
+    <Compile Include="Inquiry\OMN602\cls\OMN602_DAL.vb" />
+    <Compile Include="Inquiry\OMN602\cls\OMN602_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN602\Contents\OMN602.aspx.designer.vb">
+      <DependentUpon>OMN602.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN602\Contents\OMN602.aspx.vb">
+      <DependentUpon>OMN602.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN611\cls\ClsOMN611.vb" />
+    <Compile Include="Inquiry\OMN611\cls\ClsOMN611Dao.vb" />
+    <Compile Include="Inquiry\OMN611\cls\ClsOMN611Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN611\cls\ClsOMN611_Manual.vb" />
+    <Compile Include="Inquiry\OMN611\cls\OMN611_DAL.vb" />
+    <Compile Include="Inquiry\OMN611\cls\OMN611_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN611\Contents\OMN611.aspx.designer.vb">
+      <DependentUpon>OMN611.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN611\Contents\OMN611.aspx.vb">
+      <DependentUpon>OMN611.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN612\cls\ClsOMN612.vb" />
+    <Compile Include="Inquiry\OMN612\cls\ClsOMN612Dao.vb" />
+    <Compile Include="Inquiry\OMN612\cls\ClsOMN612Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN612\cls\ClsOMN612_Manual.vb" />
+    <Compile Include="Inquiry\OMN612\cls\OMN612_DAL.vb" />
+    <Compile Include="Inquiry\OMN612\cls\OMN612_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN612\Contents\OMN612.aspx.designer.vb">
+      <DependentUpon>OMN612.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN612\Contents\OMN612.aspx.vb">
+      <DependentUpon>OMN612.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN613\cls\ClsOMN613.vb" />
+    <Compile Include="Inquiry\OMN613\cls\ClsOMN613Dao.vb" />
+    <Compile Include="Inquiry\OMN613\cls\ClsOMN613Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN613\cls\ClsOMN613_Manual.vb" />
+    <Compile Include="Inquiry\OMN613\cls\OMN613_DAL.vb" />
+    <Compile Include="Inquiry\OMN613\cls\OMN613_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN613\Contents\OMN613.aspx.designer.vb">
+      <DependentUpon>OMN613.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN613\Contents\OMN613.aspx.vb">
+      <DependentUpon>OMN613.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN614\cls\ClsOMN614.vb" />
+    <Compile Include="Inquiry\OMN614\cls\ClsOMN614Dao.vb" />
+    <Compile Include="Inquiry\OMN614\cls\ClsOMN614Dao_Manual.vb" />
+    <Compile Include="Inquiry\OMN614\cls\ClsOMN614_Manual.vb" />
+    <Compile Include="Inquiry\OMN614\cls\OMN614_DAL.vb" />
+    <Compile Include="Inquiry\OMN614\cls\OMN614_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inquiry\OMN614\Contents\OMN614.aspx.designer.vb">
+      <DependentUpon>OMN614.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inquiry\OMN614\Contents\OMN614.aspx.vb">
+      <DependentUpon>OMN614.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginMenu\cls\ClsLogin.vb" />
+    <Compile Include="LoginMenu\cls\ClsLoginDao.vb" />
+    <Compile Include="LoginMenu\cls\ClsMenu.vb" />
+    <Compile Include="LoginMenu\cls\ClsMenuDao.vb" />
+    <Compile Include="LoginMenu\Contents\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginMenu\Contents\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginMenu\Contents\MainMenu.aspx.designer.vb">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginMenu\Contents\MainMenu.aspx.vb">
+      <DependentUpon>MainMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN000\cls\ClsOMN000.vb" />
+    <Compile Include="Maintainance\OMN000\cls\ClsOMN000Dao.vb" />
+    <Compile Include="Maintainance\OMN000\cls\ClsOMN000Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN000\cls\ClsOMN000_Manual.vb" />
+    <Compile Include="Maintainance\OMN000\cls\OMN000_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN000\Contents\OMN000.aspx.designer.vb">
+      <DependentUpon>OMN000.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN000\Contents\OMN000.aspx.vb">
+      <DependentUpon>OMN000.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN101\cls\ClsOMN101.vb" />
+    <Compile Include="Maintainance\OMN101\cls\ClsOMN101Dao.vb" />
+    <Compile Include="Maintainance\OMN101\cls\ClsOMN101Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN101\cls\ClsOMN101_Manual.vb" />
+    <Compile Include="Maintainance\OMN101\cls\OMN101_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN101\Contents\OMN101.aspx.designer.vb">
+      <DependentUpon>OMN101.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN101\Contents\OMN101.aspx.vb">
+      <DependentUpon>OMN101.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN102\cls\ClsOMN102.vb" />
+    <Compile Include="Maintainance\OMN102\cls\ClsOMN102Dao.vb" />
+    <Compile Include="Maintainance\OMN102\cls\ClsOMN102Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN102\cls\ClsOMN102_Manual.vb" />
+    <Compile Include="Maintainance\OMN102\cls\OMN102_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN102\Contents\OMN102.aspx.designer.vb">
+      <DependentUpon>OMN102.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN102\Contents\OMN102.aspx.vb">
+      <DependentUpon>OMN102.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN103\cls\ClsOMN103.vb" />
+    <Compile Include="Maintainance\OMN103\cls\ClsOMN103Dao.vb" />
+    <Compile Include="Maintainance\OMN103\cls\ClsOMN103Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN103\cls\ClsOMN103_Manual.vb" />
+    <Compile Include="Maintainance\OMN103\cls\OMN103_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN103\Contents\OMN103.aspx.designer.vb">
+      <DependentUpon>OMN103.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN103\Contents\OMN103.aspx.vb">
+      <DependentUpon>OMN103.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN104\cls\ClsOMN104.vb" />
+    <Compile Include="Maintainance\OMN104\cls\ClsOMN104Dao.vb" />
+    <Compile Include="Maintainance\OMN104\cls\ClsOMN104Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN104\cls\ClsOMN104_Manual.vb" />
+    <Compile Include="Maintainance\OMN104\cls\OMN104_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN104\Contents\OMN104.aspx.designer.vb">
+      <DependentUpon>OMN104.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN104\Contents\OMN104.aspx.vb">
+      <DependentUpon>OMN104.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN105\cls\ClsOMN105.vb" />
+    <Compile Include="Maintainance\OMN105\cls\ClsOMN105Dao.vb" />
+    <Compile Include="Maintainance\OMN105\cls\ClsOMN105Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN105\cls\ClsOMN105_Manual.vb" />
+    <Compile Include="Maintainance\OMN105\cls\OMN105_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN105\Contents\OMN105.aspx.designer.vb">
+      <DependentUpon>OMN105.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN105\Contents\OMN105.aspx.vb">
+      <DependentUpon>OMN105.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN106\cls\ClsOMN106.vb" />
+    <Compile Include="Maintainance\OMN106\cls\ClsOMN106Dao.vb" />
+    <Compile Include="Maintainance\OMN106\cls\ClsOMN106Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN106\cls\ClsOMN106_Manual.vb" />
+    <Compile Include="Maintainance\OMN106\cls\OMN106_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN106\Contents\OMN106.aspx.designer.vb">
+      <DependentUpon>OMN106.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN106\Contents\OMN106.aspx.vb">
+      <DependentUpon>OMN106.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN107\cls\ClsOMN107.vb" />
+    <Compile Include="Maintainance\OMN107\cls\ClsOMN107Dao.vb" />
+    <Compile Include="Maintainance\OMN107\cls\ClsOMN107Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN107\cls\ClsOMN107_Manual.vb" />
+    <Compile Include="Maintainance\OMN107\cls\OMN107_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN107\Contents\OMN107.aspx.designer.vb">
+      <DependentUpon>OMN107.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN107\Contents\OMN107.aspx.vb">
+      <DependentUpon>OMN107.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN108\cls\ClsOMN108.vb" />
+    <Compile Include="Maintainance\OMN108\cls\ClsOMN108Dao.vb" />
+    <Compile Include="Maintainance\OMN108\cls\ClsOMN108Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN108\cls\ClsOMN108_Manual.vb" />
+    <Compile Include="Maintainance\OMN108\cls\OMN108_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN108\Contents\OMN108.aspx.designer.vb">
+      <DependentUpon>OMN108.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN108\Contents\OMN108.aspx.vb">
+      <DependentUpon>OMN108.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN109\cls\ClsOMN109.vb" />
+    <Compile Include="Maintainance\OMN109\cls\ClsOMN109Dao.vb" />
+    <Compile Include="Maintainance\OMN109\cls\ClsOMN109Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN109\cls\ClsOMN109_Manual.vb" />
+    <Compile Include="Maintainance\OMN109\cls\OMN109_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN109\Contents\OMN109.aspx.designer.vb">
+      <DependentUpon>OMN109.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN109\Contents\OMN109.aspx.vb">
+      <DependentUpon>OMN109.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN110\cls\ClsOMN110.vb" />
+    <Compile Include="Maintainance\OMN110\cls\ClsOMN110Dao.vb" />
+    <Compile Include="Maintainance\OMN110\cls\ClsOMN110Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN110\cls\ClsOMN110_Manual.vb" />
+    <Compile Include="Maintainance\OMN110\cls\OMN110_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN110\Contents\OMN110.aspx.designer.vb">
+      <DependentUpon>OMN110.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN110\Contents\OMN110.aspx.vb">
+      <DependentUpon>OMN110.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN111\cls\ClsOMN111.vb" />
+    <Compile Include="Maintainance\OMN111\cls\ClsOMN111Dao.vb" />
+    <Compile Include="Maintainance\OMN111\cls\ClsOMN111Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN111\cls\ClsOMN111_Manual.vb" />
+    <Compile Include="Maintainance\OMN111\cls\OMN111_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN111\Contents\OMN111.aspx.designer.vb">
+      <DependentUpon>OMN111.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN111\Contents\OMN111.aspx.vb">
+      <DependentUpon>OMN111.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN112\cls\ClsOMN112.vb" />
+    <Compile Include="Maintainance\OMN112\cls\ClsOMN112Dao.vb" />
+    <Compile Include="Maintainance\OMN112\cls\ClsOMN112Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN112\cls\ClsOMN112_Manual.vb" />
+    <Compile Include="Maintainance\OMN112\cls\OMN112_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN112\Contents\OMN112.aspx.designer.vb">
+      <DependentUpon>OMN112.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN112\Contents\OMN112.aspx.vb">
+      <DependentUpon>OMN112.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN113\cls\ClsOMN113.vb" />
+    <Compile Include="Maintainance\OMN113\cls\ClsOMN113Dao.vb" />
+    <Compile Include="Maintainance\OMN113\cls\ClsOMN113Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN113\cls\ClsOMN113_Manual.vb" />
+    <Compile Include="Maintainance\OMN113\cls\OMN113_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN113\Contents\OMN113.aspx.designer.vb">
+      <DependentUpon>OMN113.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN113\Contents\OMN113.aspx.vb">
+      <DependentUpon>OMN113.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN114\cls\ClsOMN114.vb" />
+    <Compile Include="Maintainance\OMN114\cls\ClsOMN114Dao.vb" />
+    <Compile Include="Maintainance\OMN114\cls\ClsOMN114Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN114\cls\ClsOMN114_Manual.vb" />
+    <Compile Include="Maintainance\OMN114\cls\OMN114_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN114\Contents\OMN114.aspx.designer.vb">
+      <DependentUpon>OMN114.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN114\Contents\OMN114.aspx.vb">
+      <DependentUpon>OMN114.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN115\cls\ClsOMN115.vb" />
+    <Compile Include="Maintainance\OMN115\cls\ClsOMN115Dao.vb" />
+    <Compile Include="Maintainance\OMN115\cls\ClsOMN115Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN115\cls\ClsOMN115_Manual.vb" />
+    <Compile Include="Maintainance\OMN115\cls\OMN115_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN115\Contents\OMN115.aspx.designer.vb">
+      <DependentUpon>OMN115.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN115\Contents\OMN115.aspx.vb">
+      <DependentUpon>OMN115.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN116\cls\ClsOMN116.vb" />
+    <Compile Include="Maintainance\OMN116\cls\ClsOMN116Dao.vb" />
+    <Compile Include="Maintainance\OMN116\cls\ClsOMN116Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN116\cls\ClsOMN116_Manual.vb" />
+    <Compile Include="Maintainance\OMN116\cls\OMN116_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN116\Contents\OMN116.aspx.designer.vb">
+      <DependentUpon>OMN116.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN116\Contents\OMN116.aspx.vb">
+      <DependentUpon>OMN116.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN117\cls\ClsOMN117.vb" />
+    <Compile Include="Maintainance\OMN117\cls\ClsOMN117Dao.vb" />
+    <Compile Include="Maintainance\OMN117\cls\ClsOMN117Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN117\cls\ClsOMN117_Manual.vb" />
+    <Compile Include="Maintainance\OMN117\cls\OMN117_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN117\Contents\OMN117.aspx.designer.vb">
+      <DependentUpon>OMN117.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN117\Contents\OMN117.aspx.vb">
+      <DependentUpon>OMN117.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN118\cls\ClsOMN118.vb" />
+    <Compile Include="Maintainance\OMN118\cls\ClsOMN118Dao.vb" />
+    <Compile Include="Maintainance\OMN118\cls\ClsOMN118Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN118\cls\ClsOMN118_Manual.vb" />
+    <Compile Include="Maintainance\OMN118\cls\OMN118_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN118\Contents\OMN118.aspx.designer.vb">
+      <DependentUpon>OMN118.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN118\Contents\OMN118.aspx.vb">
+      <DependentUpon>OMN118.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN119\cls\ClsOMN119.vb" />
+    <Compile Include="Maintainance\OMN119\cls\ClsOMN119Dao.vb" />
+    <Compile Include="Maintainance\OMN119\cls\ClsOMN119Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN119\cls\ClsOMN119_Manual.vb" />
+    <Compile Include="Maintainance\OMN119\cls\OMN119_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN119\Contents\OMN119.aspx.designer.vb">
+      <DependentUpon>OMN119.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN119\Contents\OMN119.aspx.vb">
+      <DependentUpon>OMN119.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN120\cls\ClsOMN120.vb" />
+    <Compile Include="Maintainance\OMN120\cls\ClsOMN120Dao.vb" />
+    <Compile Include="Maintainance\OMN120\cls\ClsOMN120Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN120\cls\ClsOMN120_Manual.vb" />
+    <Compile Include="Maintainance\OMN120\cls\OMN120_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN120\Contents\OMN120.aspx.designer.vb">
+      <DependentUpon>OMN120.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN120\Contents\OMN120.aspx.vb">
+      <DependentUpon>OMN120.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN122\cls\ClsOMN122.vb" />
+    <Compile Include="Maintainance\OMN122\cls\ClsOMN122Dao.vb" />
+    <Compile Include="Maintainance\OMN122\cls\ClsOMN122Dao_Manual.vb" />
+    <Compile Include="Maintainance\OMN122\cls\ClsOMN122_Manual.vb" />
+    <Compile Include="Maintainance\OMN122\cls\OMN122_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN122\Contents\OMN122.aspx.designer.vb">
+      <DependentUpon>OMN122.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN122\Contents\OMN122.aspx.vb">
+      <DependentUpon>OMN122.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN123\cls\ClsOMN123.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN123\cls\ClsOMN123Dao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN123\cls\ClsOMN123Dao_Manual.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN123\cls\ClsOMN123_Manual.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN123\cls\OMN123_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance\OMN123\Contents\OMN123.aspx.designer.vb">
+      <DependentUpon>OMN123.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance\OMN123\Contents\OMN123.aspx.vb">
+      <DependentUpon>OMN123.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\omni.Master.designer.vb">
+      <DependentUpon>omni.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master\omni.Master.vb">
+      <DependentUpon>omni.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\search.Master.designer.vb">
+      <DependentUpon>search.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master\search.Master.vb">
+      <DependentUpon>search.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Report\OMP000\Contents\OMP000.aspx.designer.vb">
+      <DependentUpon>OMP000.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP000\Contents\OMP000.aspx.vb">
+      <DependentUpon>OMP000.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP001\Contents\OMP001.aspx.designer.vb">
+      <DependentUpon>OMP001.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP001\Contents\OMP001.aspx.vb">
+      <DependentUpon>OMP001.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP002\Contents\OMP002.aspx.designer.vb">
+      <DependentUpon>OMP002.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP002\Contents\OMP002.aspx.vb">
+      <DependentUpon>OMP002.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP003\Contents\OMP003.aspx.designer.vb">
+      <DependentUpon>OMP003.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP003\Contents\OMP003.aspx.vb">
+      <DependentUpon>OMP003.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP201\Contents\OMP201.aspx.designer.vb">
+      <DependentUpon>OMP201.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP201\Contents\OMP201.aspx.vb">
+      <DependentUpon>OMP201.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP601\Contents\OMP601.aspx.designer.vb">
+      <DependentUpon>OMP601.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP601\Contents\OMP601.aspx.vb">
+      <DependentUpon>OMP601.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP605\Contents\OMP605.aspx.designer.vb">
+      <DependentUpon>OMP605.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP605\Contents\OMP605.aspx.vb">
+      <DependentUpon>OMP605.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP701\Contents\OMP701.aspx.designer.vb">
+      <DependentUpon>OMP701.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP701\Contents\OMP701.aspx.vb">
+      <DependentUpon>OMP701.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP703\Contents\OMP703.aspx.designer.vb">
+      <DependentUpon>OMP703.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP703\Contents\OMP703.aspx.vb">
+      <DependentUpon>OMP703.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP705\Contents\OMP705.aspx.designer.vb">
+      <DependentUpon>OMP705.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP705\Contents\OMP705.aspx.vb">
+      <DependentUpon>OMP705.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP708\Contents\OMP708.aspx.designer.vb">
+      <DependentUpon>OMP708.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP708\Contents\OMP708.aspx.vb">
+      <DependentUpon>OMP708.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP710\Contents\OMP710.aspx.designer.vb">
+      <DependentUpon>OMP710.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP710\Contents\OMP710.aspx.vb">
+      <DependentUpon>OMP710.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP711\Contents\OMP711.aspx.designer.vb">
+      <DependentUpon>OMP711.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP711\Contents\OMP711.aspx.vb">
+      <DependentUpon>OMP711.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP713\Contents\OMP713.aspx.designer.vb">
+      <DependentUpon>OMP713.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP713\Contents\OMP713.aspx.vb">
+      <DependentUpon>OMP713.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP720\Contents\OMP720.aspx.designer.vb">
+      <DependentUpon>OMP720.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP720\Contents\OMP720.aspx.vb">
+      <DependentUpon>OMP720.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report\OMP730\Contents\OMP730.aspx.designer.vb">
+      <DependentUpon>OMP730.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report\OMP730\Contents\OMP730.aspx.vb">
+      <DependentUpon>OMP730.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN800\cls\ClsOMN800.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN800\cls\ClsOMN800Dao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN800\cls\ClsOMN800Dao_Manual.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN800\cls\ClsOMN800_Manual.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN800\cls\OMN800_DAL.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN800\cls\OMN800_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN800\Contents\OMN800.aspx.designer.vb">
+      <DependentUpon>OMN800.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN800\Contents\OMN800.aspx.vb">
+      <DependentUpon>OMN800.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN801\cls\ClsOMN801.vb" />
+    <Compile Include="Search\OMN801\cls\ClsOMN801Dao.vb" />
+    <Compile Include="Search\OMN801\cls\ClsOMN801Dao_Manual.vb" />
+    <Compile Include="Search\OMN801\cls\ClsOMN801_Manual.vb" />
+    <Compile Include="Search\OMN801\cls\OMN801_DAL.vb" />
+    <Compile Include="Search\OMN801\cls\OMN801_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN801\Contents\OMN801.aspx.designer.vb">
+      <DependentUpon>OMN801.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN801\Contents\OMN801.aspx.vb">
+      <DependentUpon>OMN801.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN802\cls\ClsOMN802.vb" />
+    <Compile Include="Search\OMN802\cls\ClsOMN802Dao.vb" />
+    <Compile Include="Search\OMN802\cls\ClsOMN802Dao_Manual.vb" />
+    <Compile Include="Search\OMN802\cls\ClsOMN802_Manual.vb" />
+    <Compile Include="Search\OMN802\cls\OMN802_DAL.vb" />
+    <Compile Include="Search\OMN802\cls\OMN802_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN802\Contents\OMN802.aspx.designer.vb">
+      <DependentUpon>OMN802.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN802\Contents\OMN802.aspx.vb">
+      <DependentUpon>OMN802.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN803\cls\ClsOMN803.vb" />
+    <Compile Include="Search\OMN803\cls\ClsOMN803Dao.vb" />
+    <Compile Include="Search\OMN803\cls\ClsOMN803Dao_Manual.vb" />
+    <Compile Include="Search\OMN803\cls\ClsOMN803_Manual.vb" />
+    <Compile Include="Search\OMN803\cls\OMN803_DAL.vb" />
+    <Compile Include="Search\OMN803\cls\OMN803_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN803\Contents\OMN803.aspx.designer.vb">
+      <DependentUpon>OMN803.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN803\Contents\OMN803.aspx.vb">
+      <DependentUpon>OMN803.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN804\cls\ClsOMN804.vb" />
+    <Compile Include="Search\OMN804\cls\ClsOMN804Dao.vb" />
+    <Compile Include="Search\OMN804\cls\ClsOMN804Dao_Manual.vb" />
+    <Compile Include="Search\OMN804\cls\ClsOMN804_Manual.vb" />
+    <Compile Include="Search\OMN804\cls\OMN804_DAL.vb" />
+    <Compile Include="Search\OMN804\cls\OMN804_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN804\Contents\OMN804.aspx.designer.vb">
+      <DependentUpon>OMN804.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN804\Contents\OMN804.aspx.vb">
+      <DependentUpon>OMN804.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN805\cls\ClsOMN805.vb" />
+    <Compile Include="Search\OMN805\cls\ClsOMN805Dao.vb" />
+    <Compile Include="Search\OMN805\cls\ClsOMN805Dao_Manual.vb" />
+    <Compile Include="Search\OMN805\cls\ClsOMN805_Manual.vb" />
+    <Compile Include="Search\OMN805\cls\OMN805_DAL.vb" />
+    <Compile Include="Search\OMN805\cls\OMN805_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN805\Contents\OMN805.aspx.designer.vb">
+      <DependentUpon>OMN805.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN805\Contents\OMN805.aspx.vb">
+      <DependentUpon>OMN805.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN806\cls\ClsOMN806.vb" />
+    <Compile Include="Search\OMN806\cls\ClsOMN806Dao.vb" />
+    <Compile Include="Search\OMN806\cls\ClsOMN806Dao_Manual.vb" />
+    <Compile Include="Search\OMN806\cls\ClsOMN806_Manual.vb" />
+    <Compile Include="Search\OMN806\cls\OMN806_DAL.vb" />
+    <Compile Include="Search\OMN806\cls\OMN806_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN806\Contents\OMN806.aspx.designer.vb">
+      <DependentUpon>OMN806.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN806\Contents\OMN806.aspx.vb">
+      <DependentUpon>OMN806.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN807\cls\ClsOMN807.vb" />
+    <Compile Include="Search\OMN807\cls\ClsOMN807Dao.vb" />
+    <Compile Include="Search\OMN807\cls\ClsOMN807Dao_Manual.vb" />
+    <Compile Include="Search\OMN807\cls\ClsOMN807_Manual.vb" />
+    <Compile Include="Search\OMN807\cls\OMN807_DAL.vb" />
+    <Compile Include="Search\OMN807\cls\OMN807_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN807\Contents\OMN807.aspx.designer.vb">
+      <DependentUpon>OMN807.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN807\Contents\OMN807.aspx.vb">
+      <DependentUpon>OMN807.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN808\cls\ClsOMN808.vb" />
+    <Compile Include="Search\OMN808\cls\ClsOMN808Dao.vb" />
+    <Compile Include="Search\OMN808\cls\ClsOMN808Dao_Manual.vb" />
+    <Compile Include="Search\OMN808\cls\ClsOMN808_Manual.vb" />
+    <Compile Include="Search\OMN808\cls\OMN808_DAL.vb" />
+    <Compile Include="Search\OMN808\cls\OMN808_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN808\Contents\OMN808.aspx.designer.vb">
+      <DependentUpon>OMN808.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN808\Contents\OMN808.aspx.vb">
+      <DependentUpon>OMN808.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN809\cls\ClsOMN809.vb" />
+    <Compile Include="Search\OMN809\cls\ClsOMN809Dao.vb" />
+    <Compile Include="Search\OMN809\cls\ClsOMN809Dao_Manual.vb" />
+    <Compile Include="Search\OMN809\cls\ClsOMN809_Manual.vb" />
+    <Compile Include="Search\OMN809\cls\OMN809_DAL.vb" />
+    <Compile Include="Search\OMN809\cls\OMN809_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN809\Contents\OMN809.aspx.designer.vb">
+      <DependentUpon>OMN809.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN809\Contents\OMN809.aspx.vb">
+      <DependentUpon>OMN809.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN810\cls\ClsOMN810.vb" />
+    <Compile Include="Search\OMN810\cls\ClsOMN810Dao.vb" />
+    <Compile Include="Search\OMN810\cls\ClsOMN810Dao_Manual.vb" />
+    <Compile Include="Search\OMN810\cls\ClsOMN810_Manual.vb" />
+    <Compile Include="Search\OMN810\cls\OMN810_DAL.vb" />
+    <Compile Include="Search\OMN810\cls\OMN810_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN810\Contents\OMN810.aspx.designer.vb">
+      <DependentUpon>OMN810.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN810\Contents\OMN810.aspx.vb">
+      <DependentUpon>OMN810.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN811\cls\ClsOMN811.vb" />
+    <Compile Include="Search\OMN811\cls\ClsOMN811Dao.vb" />
+    <Compile Include="Search\OMN811\cls\ClsOMN811Dao_Manual.vb" />
+    <Compile Include="Search\OMN811\cls\ClsOMN811_Manual.vb" />
+    <Compile Include="Search\OMN811\cls\OMN811_DAL.vb" />
+    <Compile Include="Search\OMN811\cls\OMN811_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN811\Contents\OMN811.aspx.designer.vb">
+      <DependentUpon>OMN811.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN811\Contents\OMN811.aspx.vb">
+      <DependentUpon>OMN811.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN812\cls\ClsOMN812.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN812\cls\ClsOMN812Dao.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN812\cls\ClsOMN812Dao_Manual.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN812\cls\ClsOMN812_Manual.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN812\cls\OMN812_DAL.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Search\OMN812\cls\OMN812_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN812\Contents\OMN812.aspx.designer.vb">
+      <DependentUpon>OMN812.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN812\Contents\OMN812.aspx.vb">
+      <DependentUpon>OMN812.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN813\cls\ClsOMN813.vb" />
+    <Compile Include="Search\OMN813\cls\ClsOMN813Dao.vb" />
+    <Compile Include="Search\OMN813\cls\ClsOMN813Dao_Manual.vb" />
+    <Compile Include="Search\OMN813\cls\ClsOMN813_Manual.vb" />
+    <Compile Include="Search\OMN813\cls\OMN813_DAL.vb" />
+    <Compile Include="Search\OMN813\cls\OMN813_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN813\Contents\OMN813.aspx.designer.vb">
+      <DependentUpon>OMN813.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN813\Contents\OMN813.aspx.vb">
+      <DependentUpon>OMN813.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN814\cls\ClsOMN814.vb" />
+    <Compile Include="Search\OMN814\cls\ClsOMN814Dao.vb" />
+    <Compile Include="Search\OMN814\cls\ClsOMN814Dao_Manual.vb" />
+    <Compile Include="Search\OMN814\cls\ClsOMN814_Manual.vb" />
+    <Compile Include="Search\OMN814\cls\OMN814_DAL.vb" />
+    <Compile Include="Search\OMN814\cls\OMN814_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN814\Contents\OMN814.aspx.designer.vb">
+      <DependentUpon>OMN814.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN814\Contents\OMN814.aspx.vb">
+      <DependentUpon>OMN814.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN815\cls\ClsOMN815.vb" />
+    <Compile Include="Search\OMN815\cls\ClsOMN815Dao.vb" />
+    <Compile Include="Search\OMN815\cls\ClsOMN815Dao_Manual.vb" />
+    <Compile Include="Search\OMN815\cls\ClsOMN815_Manual.vb" />
+    <Compile Include="Search\OMN815\cls\OMN815_DAL.vb" />
+    <Compile Include="Search\OMN815\cls\OMN815_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN815\Contents\OMN815.aspx.designer.vb">
+      <DependentUpon>OMN815.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN815\Contents\OMN815.aspx.vb">
+      <DependentUpon>OMN815.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN816\cls\ClsOMN816.vb" />
+    <Compile Include="Search\OMN816\cls\ClsOMN816Dao.vb" />
+    <Compile Include="Search\OMN816\cls\ClsOMN816Dao_Manual.vb" />
+    <Compile Include="Search\OMN816\cls\ClsOMN816_Manual.vb" />
+    <Compile Include="Search\OMN816\cls\OMN816_DAL.vb" />
+    <Compile Include="Search\OMN816\cls\OMN816_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN816\Contents\OMN816.aspx.designer.vb">
+      <DependentUpon>OMN816.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN816\Contents\OMN816.aspx.vb">
+      <DependentUpon>OMN816.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN817\cls\ClsOMN817.vb" />
+    <Compile Include="Search\OMN817\cls\ClsOMN817Dao.vb" />
+    <Compile Include="Search\OMN817\cls\ClsOMN817Dao_Manual.vb" />
+    <Compile Include="Search\OMN817\cls\ClsOMN817_Manual.vb" />
+    <Compile Include="Search\OMN817\cls\OMN817_DAL.vb" />
+    <Compile Include="Search\OMN817\cls\OMN817_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN817\Contents\OMN817.aspx.designer.vb">
+      <DependentUpon>OMN817.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN817\Contents\OMN817.aspx.vb">
+      <DependentUpon>OMN817.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN818\cls\ClsOMN818.vb" />
+    <Compile Include="Search\OMN818\cls\ClsOMN818Dao.vb" />
+    <Compile Include="Search\OMN818\cls\ClsOMN818Dao_Manual.vb" />
+    <Compile Include="Search\OMN818\cls\ClsOMN818_Manual.vb" />
+    <Compile Include="Search\OMN818\cls\OMN818_DAL.vb" />
+    <Compile Include="Search\OMN818\cls\OMN818_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN818\Contents\OMN818.aspx.designer.vb">
+      <DependentUpon>OMN818.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN818\Contents\OMN818.aspx.vb">
+      <DependentUpon>OMN818.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN819\cls\ClsOMN819.vb" />
+    <Compile Include="Search\OMN819\cls\ClsOMN819Dao.vb" />
+    <Compile Include="Search\OMN819\cls\ClsOMN819Dao_Manual.vb" />
+    <Compile Include="Search\OMN819\cls\ClsOMN819_Manual.vb" />
+    <Compile Include="Search\OMN819\cls\OMN819_DAL.vb" />
+    <Compile Include="Search\OMN819\cls\OMN819_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN819\Contents\OMN819.aspx.designer.vb">
+      <DependentUpon>OMN819.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN819\Contents\OMN819.aspx.vb">
+      <DependentUpon>OMN819.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN820\cls\ClsOMN820.vb" />
+    <Compile Include="Search\OMN820\cls\ClsOMN820Dao.vb" />
+    <Compile Include="Search\OMN820\cls\ClsOMN820Dao_Manual.vb" />
+    <Compile Include="Search\OMN820\cls\ClsOMN820_Manual.vb" />
+    <Compile Include="Search\OMN820\cls\OMN820_DAL.vb" />
+    <Compile Include="Search\OMN820\cls\OMN820_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN820\Contents\OMN820.aspx.designer.vb">
+      <DependentUpon>OMN820.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN820\Contents\OMN820.aspx.vb">
+      <DependentUpon>OMN820.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN821\cls\ClsOMN821.vb" />
+    <Compile Include="Search\OMN821\cls\ClsOMN821Dao.vb" />
+    <Compile Include="Search\OMN821\cls\ClsOMN821Dao_Manual.vb" />
+    <Compile Include="Search\OMN821\cls\ClsOMN821_Manual.vb" />
+    <Compile Include="Search\OMN821\cls\OMN821_DAL.vb" />
+    <Compile Include="Search\OMN821\cls\OMN821_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN821\Contents\OMN821.aspx.designer.vb">
+      <DependentUpon>OMN821.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN821\Contents\OMN821.aspx.vb">
+      <DependentUpon>OMN821.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN822\cls\ClsOMN822.vb" />
+    <Compile Include="Search\OMN822\cls\ClsOMN822Dao.vb" />
+    <Compile Include="Search\OMN822\cls\ClsOMN822Dao_Manual.vb" />
+    <Compile Include="Search\OMN822\cls\ClsOMN822_Manual.vb" />
+    <Compile Include="Search\OMN822\cls\OMN822_DAL.vb" />
+    <Compile Include="Search\OMN822\cls\OMN822_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN822\Contents\OMN822.aspx.designer.vb">
+      <DependentUpon>OMN822.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN822\Contents\OMN822.aspx.vb">
+      <DependentUpon>OMN822.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN823\cls\ClsOMN823.vb" />
+    <Compile Include="Search\OMN823\cls\ClsOMN823Dao.vb" />
+    <Compile Include="Search\OMN823\cls\ClsOMN823Dao_Manual.vb" />
+    <Compile Include="Search\OMN823\cls\ClsOMN823_Manual.vb" />
+    <Compile Include="Search\OMN823\cls\OMN823_DAL.vb" />
+    <Compile Include="Search\OMN823\cls\OMN823_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN823\Contents\OMN823.aspx.designer.vb">
+      <DependentUpon>OMN823.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN823\Contents\OMN823.aspx.vb">
+      <DependentUpon>OMN823.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN824\cls\ClsOMN824.vb" />
+    <Compile Include="Search\OMN824\cls\ClsOMN824Dao.vb" />
+    <Compile Include="Search\OMN824\cls\ClsOMN824Dao_Manual.vb" />
+    <Compile Include="Search\OMN824\cls\ClsOMN824_Manual.vb" />
+    <Compile Include="Search\OMN824\cls\OMN824_DAL.vb" />
+    <Compile Include="Search\OMN824\cls\OMN824_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN824\Contents\OMN824.aspx.designer.vb">
+      <DependentUpon>OMN824.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN824\Contents\OMN824.aspx.vb">
+      <DependentUpon>OMN824.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN825\cls\ClsOMN825.vb" />
+    <Compile Include="Search\OMN825\cls\ClsOMN825Dao.vb" />
+    <Compile Include="Search\OMN825\cls\ClsOMN825Dao_Manual.vb" />
+    <Compile Include="Search\OMN825\cls\ClsOMN825_Manual.vb" />
+    <Compile Include="Search\OMN825\cls\OMN825_DAL.vb" />
+    <Compile Include="Search\OMN825\cls\OMN825_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN825\Contents\OMN825.aspx.designer.vb">
+      <DependentUpon>OMN825.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN825\Contents\OMN825.aspx.vb">
+      <DependentUpon>OMN825.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN826\cls\ClsOMN826.vb" />
+    <Compile Include="Search\OMN826\cls\ClsOMN826Dao.vb" />
+    <Compile Include="Search\OMN826\cls\ClsOMN826Dao_Manual.vb" />
+    <Compile Include="Search\OMN826\cls\ClsOMN826_Manual.vb" />
+    <Compile Include="Search\OMN826\cls\OMN826_DAL.vb" />
+    <Compile Include="Search\OMN826\cls\OMN826_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN826\Contents\OMN826.aspx.designer.vb">
+      <DependentUpon>OMN826.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN826\Contents\OMN826.aspx.vb">
+      <DependentUpon>OMN826.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN827\cls\ClsOMN827.vb" />
+    <Compile Include="Search\OMN827\cls\ClsOMN827Dao.vb" />
+    <Compile Include="Search\OMN827\cls\ClsOMN827Dao_Manual.vb" />
+    <Compile Include="Search\OMN827\cls\ClsOMN827_Manual.vb" />
+    <Compile Include="Search\OMN827\cls\OMN827_DAL.vb" />
+    <Compile Include="Search\OMN827\cls\OMN827_Manual.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\OMN827\Contents\OMN827.aspx.designer.vb">
+      <DependentUpon>OMN827.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\OMN827\Contents\OMN827.aspx.vb">
+      <DependentUpon>OMN827.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sessiontimeout.aspx.designer.vb">
+      <DependentUpon>sessiontimeout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sessiontimeout.aspx.vb">
+      <DependentUpon>sessiontimeout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Batch\OMB003\Contents\OMB003.aspx" />
+    <Content Include="Batch\OMB003\css\OMB003.css" />
+    <Content Include="Batch\OMB003\JavaScript\OMB003.js" />
+    <Content Include="Batch\OMB004\Contents\OMB004.aspx" />
+    <Content Include="Batch\OMB004\css\OMB004.css" />
+    <Content Include="Batch\OMB004\JavaScript\OMB004.js" />
+    <Content Include="Batch\OMB006\Contents\OMB006.aspx" />
+    <Content Include="Batch\OMB006\css\OMB006.css" />
+    <Content Include="Batch\OMB006\JavaScript\OMB006.js" />
+    <Content Include="Contents\ErrMsg.aspx" />
+    <Content Include="Contents\WfmBase.aspx" />
+    <Content Include="Contents\WfmBatchBase.aspx" />
+    <Content Include="Contents\WfmReportBase.aspx" />
+    <Content Include="Contents\WfmSearchBase.aspx" />
+    <Content Include="css\Calcss.css" />
+    <Content Include="css\ComCss.css" />
+    <Content Include="css\Master.css" />
+    <Content Include="Global.asax" />
+    <Content Include="img\cal.GIF" />
+    <Content Include="Input\OMN201\Contents\OMN201.aspx" />
+    <Content Include="Input\OMN201\css\OMN201.css" />
+    <Content Include="Input\OMN201\JavaScript\OMN201.js" />
+    <Content Include="Input\OMN205\Contents\OMN205.aspx" />
+    <Content Include="Input\OMN205\css\OMN205.css" />
+    <Content Include="Input\OMN205\JavaScript\OMN205.js" />
+    <Content Include="Input\OMN301\Contents\OMN301.aspx" />
+    <Content Include="Input\OMN301\css\OMN301.css" />
+    <Content Include="Input\OMN301\JavaScript\OMN301.js" />
+    <Content Include="Input\OMN401\Contents\OMN401.aspx" />
+    <Content Include="Input\OMN401\css\OMN401.css" />
+    <Content Include="Input\OMN401\JavaScript\OMN401.js" />
+    <Content Include="Input\OMN501\Contents\OMN501.aspx" />
+    <Content Include="Input\OMN501\css\OMN501.css" />
+    <Content Include="Input\OMN501\JavaScript\OMN501.js" />
+    <Content Include="Input\OMN601\Contents\OMN601.aspx" />
+    <Content Include="Input\OMN601\css\OMN601.css" />
+    <Content Include="Input\OMN601\JavaScript\OMN601.js" />
+    <Content Include="Input\OMN603\Contents\OMN603.aspx" />
+    <Content Include="Input\OMN603\css\OMN603.css" />
+    <Content Include="Input\OMN603\JavaScript\OMN603.js" />
+    <Content Include="Input\OMN604\Contents\OMN604.aspx" />
+    <Content Include="Input\OMN604\css\OMN604.css" />
+    <Content Include="Input\OMN604\JavaScript\OMN604.js" />
+    <Content Include="Input\OMN605\Contents\OMN605.aspx" />
+    <Content Include="Input\OMN605\css\OMN605.css" />
+    <Content Include="Input\OMN605\JavaScript\OMN605.js" />
+    <Content Include="Input\OMN606\Contents\OMN606.aspx" />
+    <Content Include="Input\OMN606\css\OMN606.css" />
+    <Content Include="Input\OMN606\JavaScript\OMN606.js" />
+    <Content Include="Input\OMN607\Contents\OMN607.aspx" />
+    <Content Include="Input\OMN607\css\OMN607.css" />
+    <Content Include="Input\OMN607\JavaScript\OMN607.js" />
+    <Content Include="Input\OMN608\Contents\OMN608.aspx" />
+    <Content Include="Input\OMN608\css\OMN608.css" />
+    <Content Include="Input\OMN608\JavaScript\OMN608.js" />
+    <Content Include="Input\OMN609\Contents\OMN609.aspx" />
+    <Content Include="Input\OMN609\css\OMN609.css" />
+    <Content Include="Input\OMN609\JavaScript\OMN609.js" />
+    <Content Include="Inquiry\OMN121\Contents\OMN121.aspx" />
+    <Content Include="Inquiry\OMN121\css\OMN121.css" />
+    <Content Include="Inquiry\OMN121\JavaScript\OMN121.js" />
+    <Content Include="Inquiry\OMN124\Contents\OMN124.aspx" />
+    <Content Include="Inquiry\OMN124\css\OMN124.css" />
+    <Content Include="Inquiry\OMN124\JavaScript\OMN124.js" />
+    <Content Include="Inquiry\OMN202\Contents\OMN202.aspx" />
+    <Content Include="Inquiry\OMN202\css\OMN202.css" />
+    <Content Include="Inquiry\OMN202\JavaScript\OMN202.js" />
+    <Content Include="Inquiry\OMN203\Contents\OMN203.aspx" />
+    <Content Include="Inquiry\OMN203\css\OMN203.css" />
+    <Content Include="Inquiry\OMN203\JavaScript\OMN203.js" />
+    <Content Include="Inquiry\OMN204\Contents\OMN204.aspx" />
+    <Content Include="Inquiry\OMN204\css\OMN204.css" />
+    <Content Include="Inquiry\OMN204\JavaScript\OMN204.js" />
+    <Content Include="Inquiry\OMN302\Contents\OMN302.aspx" />
+    <Content Include="Inquiry\OMN302\css\OMN302.css" />
+    <Content Include="Inquiry\OMN302\JavaScript\OMN302.js" />
+    <Content Include="Inquiry\OMN303\Contents\OMN303.aspx" />
+    <Content Include="Inquiry\OMN303\css\OMN303.css" />
+    <Content Include="Inquiry\OMN303\JavaScript\OMN303.js" />
+    <Content Include="Inquiry\OMN304\Contents\OMN304.aspx" />
+    <Content Include="Inquiry\OMN304\css\OMN304.css" />
+    <Content Include="Inquiry\OMN304\JavaScript\OMN304.js" />
+    <Content Include="Inquiry\OMN502\Contents\OMN502.aspx" />
+    <Content Include="Inquiry\OMN502\css\OMN502.css" />
+    <Content Include="Inquiry\OMN502\JavaScript\OMN502.js" />
+    <Content Include="Inquiry\OMN503\Contents\OMN503.aspx" />
+    <Content Include="Inquiry\OMN503\css\OMN503.css" />
+    <Content Include="Inquiry\OMN503\JavaScript\OMN503.js" />
+    <Content Include="Inquiry\OMN602\Contents\OMN602.aspx" />
+    <Content Include="Inquiry\OMN602\css\OMN602.css" />
+    <Content Include="Inquiry\OMN602\JavaScript\OMN602.js" />
+    <Content Include="Inquiry\OMN611\Contents\OMN611.aspx" />
+    <Content Include="Inquiry\OMN611\css\OMN611.css" />
+    <Content Include="Inquiry\OMN611\JavaScript\OMN611.js" />
+    <Content Include="Inquiry\OMN612\Contents\OMN612.aspx" />
+    <Content Include="Inquiry\OMN612\css\OMN612.css" />
+    <Content Include="Inquiry\OMN612\JavaScript\OMN612.js" />
+    <Content Include="Inquiry\OMN613\Contents\OMN613.aspx" />
+    <Content Include="Inquiry\OMN613\css\OMN613.css" />
+    <Content Include="Inquiry\OMN613\JavaScript\OMN613.js" />
+    <Content Include="Inquiry\OMN614\Contents\OMN614.aspx" />
+    <Content Include="Inquiry\OMN614\css\OMN614.css" />
+    <Content Include="Inquiry\OMN614\JavaScript\OMN614.js" />
+    <Content Include="JavaScript\Caren.js" />
+    <Content Include="JavaScript\comData.js" />
+    <Content Include="JavaScript\common.js" />
+    <Content Include="JavaScript\Validator.js" />
+    <Content Include="LoginMenu\Contents\Login.aspx" />
+    <Content Include="LoginMenu\Contents\MainMenu.aspx" />
+    <Content Include="LoginMenu\css\Login.css" />
+    <Content Include="LoginMenu\css\MainMenu.css" />
+    <Content Include="LoginMenu\JavaScript\Login.js" />
+    <Content Include="LoginMenu\JavaScript\MENU.js" />
+    <Content Include="img\ajax.gif" />
+    <Content Include="Maintainance\OMN000\Contents\OMN000.aspx" />
+    <Content Include="Maintainance\OMN000\css\OMN000.css" />
+    <Content Include="Maintainance\OMN000\JavaScript\OMN000.js" />
+    <Content Include="Maintainance\OMN101\Contents\OMN101.aspx" />
+    <Content Include="Maintainance\OMN101\css\OMN101.css" />
+    <Content Include="Maintainance\OMN101\JavaScript\OMN101.js" />
+    <Content Include="Maintainance\OMN102\Contents\OMN102.aspx" />
+    <Content Include="Maintainance\OMN102\css\OMN102.css" />
+    <Content Include="Maintainance\OMN102\JavaScript\OMN102.js" />
+    <Content Include="Maintainance\OMN103\Contents\OMN103.aspx" />
+    <Content Include="Maintainance\OMN103\css\OMN103.css" />
+    <Content Include="Maintainance\OMN103\JavaScript\OMN103.js" />
+    <Content Include="Maintainance\OMN104\Contents\OMN104.aspx" />
+    <Content Include="Maintainance\OMN104\css\OMN104.css" />
+    <Content Include="Maintainance\OMN104\JavaScript\OMN104.js" />
+    <Content Include="Maintainance\OMN105\Contents\OMN105.aspx" />
+    <Content Include="Maintainance\OMN105\css\OMN105.css" />
+    <Content Include="Maintainance\OMN105\JavaScript\OMN105.js" />
+    <Content Include="Maintainance\OMN106\Contents\OMN106.aspx" />
+    <Content Include="Maintainance\OMN106\css\OMN106.css" />
+    <Content Include="Maintainance\OMN106\JavaScript\OMN106.js" />
+    <Content Include="Maintainance\OMN107\Contents\OMN107.aspx" />
+    <Content Include="Maintainance\OMN107\css\OMN107.css" />
+    <Content Include="Maintainance\OMN107\JavaScript\OMN107.js" />
+    <Content Include="Maintainance\OMN108\Contents\OMN108.aspx" />
+    <Content Include="Maintainance\OMN108\css\OMN108.css" />
+    <Content Include="Maintainance\OMN108\JavaScript\OMN108.js" />
+    <Content Include="Maintainance\OMN109\Contents\OMN109.aspx" />
+    <Content Include="Maintainance\OMN109\css\OMN109.css" />
+    <Content Include="Maintainance\OMN109\JavaScript\OMN109.js" />
+    <Content Include="Maintainance\OMN110\Contents\OMN110.aspx" />
+    <Content Include="Maintainance\OMN110\css\OMN110.css" />
+    <Content Include="Maintainance\OMN110\JavaScript\OMN110.js" />
+    <Content Include="Maintainance\OMN111\Contents\OMN111.aspx" />
+    <Content Include="Maintainance\OMN111\css\OMN111.css" />
+    <Content Include="Maintainance\OMN111\JavaScript\OMN111.js" />
+    <Content Include="Maintainance\OMN112\Contents\OMN112.aspx" />
+    <Content Include="Maintainance\OMN112\css\OMN112.css" />
+    <Content Include="Maintainance\OMN112\JavaScript\OMN112.js" />
+    <Content Include="Maintainance\OMN113\Contents\OMN113.aspx" />
+    <Content Include="Maintainance\OMN113\css\OMN113.css" />
+    <Content Include="Maintainance\OMN113\JavaScript\OMN113.js" />
+    <Content Include="Maintainance\OMN114\Contents\OMN114.aspx" />
+    <Content Include="Maintainance\OMN114\css\OMN114.css" />
+    <Content Include="Maintainance\OMN114\JavaScript\OMN114.js" />
+    <Content Include="Maintainance\OMN115\Contents\OMN115.aspx" />
+    <Content Include="Maintainance\OMN115\css\OMN115.css" />
+    <Content Include="Maintainance\OMN115\JavaScript\OMN115.js" />
+    <Content Include="Maintainance\OMN116\Contents\OMN116.aspx" />
+    <Content Include="Maintainance\OMN116\css\OMN116.css" />
+    <Content Include="Maintainance\OMN116\JavaScript\OMN116.js" />
+    <Content Include="Maintainance\OMN117\Contents\OMN117.aspx" />
+    <Content Include="Maintainance\OMN117\css\OMN117.css" />
+    <Content Include="Maintainance\OMN117\JavaScript\OMN117.js" />
+    <Content Include="Maintainance\OMN118\Contents\OMN118.aspx" />
+    <Content Include="Maintainance\OMN118\css\OMN118.css" />
+    <Content Include="Maintainance\OMN118\JavaScript\OMN118.js" />
+    <Content Include="Maintainance\OMN119\Contents\OMN119.aspx" />
+    <Content Include="Maintainance\OMN119\css\OMN119.css" />
+    <Content Include="Maintainance\OMN119\JavaScript\OMN119.js" />
+    <Content Include="Maintainance\OMN120\Contents\OMN120.aspx" />
+    <Content Include="Maintainance\OMN120\css\OMN120.css" />
+    <Content Include="Maintainance\OMN120\JavaScript\OMN120.js" />
+    <Content Include="Maintainance\OMN122\Contents\OMN122.aspx" />
+    <Content Include="Maintainance\OMN122\css\OMN122.css" />
+    <Content Include="Maintainance\OMN122\JavaScript\OMN122.js" />
+    <Content Include="Maintainance\OMN123\Contents\OMN123.aspx" />
+    <Content Include="Maintainance\OMN123\css\OMN123.css" />
+    <Content Include="Maintainance\OMN123\JavaScript\OMN123.js" />
+    <Content Include="img\ImgLogo.png" />
+    <Content Include="Master\img\hedder.JPG" />
+    <Content Include="Master\img\SerchHeader.JPG" />
+    <Content Include="Master\search.Master" />
+    <Content Include="Report\OMP000\Contents\OMP000.aspx" />
+    <Content Include="Report\OMP000\css\OMP000.css" />
+    <Content Include="Report\OMP000\JavaScript\OMP000.js" />
+    <Content Include="Report\OMP001\Contents\OMP001.aspx" />
+    <Content Include="Report\OMP001\css\OMP001.css" />
+    <Content Include="Report\OMP001\JavaScript\OMP001.js" />
+    <Content Include="Report\OMP002\Contents\OMP002.aspx" />
+    <Content Include="Report\OMP002\css\OMP002.css" />
+    <Content Include="Report\OMP002\JavaScript\OMP002.js" />
+    <Content Include="Report\OMP003\Contents\OMP003.aspx" />
+    <Content Include="Report\OMP003\css\OMP003.css" />
+    <Content Include="Report\OMP003\JavaScript\OMP003.js" />
+    <Content Include="Report\OMP201\Contents\OMP201.aspx" />
+    <Content Include="Report\OMP201\css\OMP201.css" />
+    <Content Include="Report\OMP201\JavaScript\OMP201.js" />
+    <Content Include="Report\OMP601\Contents\OMP601.aspx" />
+    <Content Include="Report\OMP601\css\OMP601.css" />
+    <Content Include="Report\OMP601\JavaScript\OMP601.js" />
+    <Content Include="Report\OMP605\Contents\OMP605.aspx" />
+    <Content Include="Report\OMP605\css\OMP605.css" />
+    <Content Include="Report\OMP605\JavaScript\OMP605.js" />
+    <Content Include="Report\OMP701\Contents\OMP701.aspx" />
+    <Content Include="Report\OMP701\css\OMP701.css" />
+    <Content Include="Report\OMP701\css\JavaScript\OMP701.js" />
+    <Content Include="Report\OMP703\Contents\OMP703.aspx" />
+    <Content Include="Report\OMP703\css\OMP703.css" />
+    <Content Include="Report\OMP703\JavaScript\OMP703.js" />
+    <Content Include="Report\OMP705\Contents\OMP705.aspx" />
+    <Content Include="Report\OMP705\css\OMP705.css" />
+    <Content Include="Report\OMP705\JavaScript\OMP705.js" />
+    <Content Include="Report\OMP708\Contents\OMP708.aspx" />
+    <Content Include="Report\OMP708\css\OMP708.css" />
+    <Content Include="Report\OMP708\JavaScript\OMP708.js" />
+    <Content Include="Report\OMP710\Contents\OMP710.aspx" />
+    <Content Include="Report\OMP710\css\OMP710.css" />
+    <Content Include="Report\OMP710\JavaScript\OMP710.js" />
+    <Content Include="Report\OMP711\Contents\OMP711.aspx" />
+    <Content Include="Report\OMP711\css\OMP711.css" />
+    <Content Include="Report\OMP711\JavaScript\OMP711.js" />
+    <Content Include="Report\OMP713\Contents\OMP713.aspx" />
+    <Content Include="Report\OMP713\css\OMP713.css" />
+    <Content Include="Report\OMP713\JavaScript\OMP713.js" />
+    <Content Include="Report\OMP720\Contents\OMP720.aspx" />
+    <Content Include="Report\OMP720\css\OMP720.css" />
+    <Content Include="Report\OMP720\JavaScript\OMP720.js" />
+    <Content Include="Report\OMP730\Contents\OMP730.aspx" />
+    <Content Include="Report\OMP730\css\OMP730.css" />
+    <Content Include="Report\OMP730\JavaScript\OMP730.js" />
+    <Content Include="Search\OMN800\Contents\OMN800.aspx" />
+    <Content Include="Search\OMN800\css\OMN800.css" />
+    <Content Include="Search\OMN800\JavaScript\OMN800.js" />
+    <Content Include="Search\OMN801\Contents\OMN801.aspx" />
+    <Content Include="Search\OMN801\css\OMN801.css" />
+    <Content Include="Search\OMN801\JavaScript\OMN801.js" />
+    <Content Include="Search\OMN802\Contents\OMN802.aspx" />
+    <Content Include="Search\OMN802\css\OMN802.css" />
+    <Content Include="Search\OMN802\JavaScript\OMN802.js" />
+    <Content Include="Search\OMN803\Contents\OMN803.aspx" />
+    <Content Include="Search\OMN803\css\OMN803.css" />
+    <Content Include="Search\OMN803\JavaScript\OMN803.js" />
+    <Content Include="Search\OMN804\Contents\OMN804.aspx" />
+    <Content Include="Search\OMN804\css\OMN804.css" />
+    <Content Include="Search\OMN804\JavaScript\OMN804.js" />
+    <Content Include="Search\OMN805\Contents\OMN805.aspx" />
+    <Content Include="Search\OMN805\css\OMN805.css" />
+    <Content Include="Search\OMN805\JavaScript\OMN805.js" />
+    <Content Include="Search\OMN806\Contents\OMN806.aspx" />
+    <Content Include="Search\OMN806\css\OMN806.css" />
+    <Content Include="Search\OMN806\JavaScript\OMN806.js" />
+    <Content Include="Search\OMN807\Contents\OMN807.aspx" />
+    <Content Include="Search\OMN807\css\OMN807.css" />
+    <Content Include="Search\OMN807\JavaScript\OMN807.js" />
+    <Content Include="Search\OMN808\Contents\OMN808.aspx" />
+    <Content Include="Search\OMN808\css\OMN808.css" />
+    <Content Include="Search\OMN808\JavaScript\OMN808.js" />
+    <Content Include="Search\OMN809\Contents\OMN809.aspx" />
+    <Content Include="Search\OMN809\css\OMN809.css" />
+    <Content Include="Search\OMN809\JavaScript\OMN809.js" />
+    <Content Include="Search\OMN810\Contents\OMN810.aspx" />
+    <Content Include="Search\OMN810\css\OMN810.css" />
+    <Content Include="Search\OMN810\JavaScript\OMN810.js" />
+    <Content Include="Search\OMN811\Contents\OMN811.aspx" />
+    <Content Include="Search\OMN811\css\OMN811.css" />
+    <Content Include="Search\OMN811\JavaScript\OMN811.js" />
+    <Content Include="Search\OMN812\Contents\OMN812.aspx" />
+    <Content Include="Search\OMN812\css\OMN812.css" />
+    <Content Include="Search\OMN812\JavaScript\OMN812.js" />
+    <Content Include="Search\OMN813\Contents\OMN813.aspx" />
+    <Content Include="Search\OMN813\css\OMN813.css" />
+    <Content Include="Search\OMN813\JavaScript\OMN813.js" />
+    <Content Include="Search\OMN814\Contents\OMN814.aspx" />
+    <Content Include="Search\OMN814\css\OMN814.css" />
+    <Content Include="Search\OMN814\JavaScript\OMN814.js" />
+    <Content Include="Search\OMN815\Contents\OMN815.aspx" />
+    <Content Include="Search\OMN815\css\OMN815.css" />
+    <Content Include="Search\OMN815\JavaScript\OMN815.js" />
+    <Content Include="Search\OMN816\Contents\OMN816.aspx" />
+    <Content Include="Search\OMN816\css\OMN816.css" />
+    <Content Include="Search\OMN816\JavaScript\OMN816.js" />
+    <Content Include="Search\OMN817\Contents\OMN817.aspx" />
+    <Content Include="Search\OMN817\css\OMN817.css" />
+    <Content Include="Search\OMN817\JavaScript\OMN817.js" />
+    <Content Include="Search\OMN818\Contents\OMN818.aspx" />
+    <Content Include="Search\OMN818\css\OMN818.css" />
+    <Content Include="Search\OMN818\JavaScript\OMN818.js" />
+    <Content Include="Search\OMN819\Contents\OMN819.aspx" />
+    <Content Include="Search\OMN819\css\OMN819.css" />
+    <Content Include="Search\OMN819\JavaScript\OMN819.js" />
+    <Content Include="Search\OMN820\Contents\OMN820.aspx" />
+    <Content Include="Search\OMN820\css\OMN820.css" />
+    <Content Include="Search\OMN820\JavaScript\OMN820.js" />
+    <Content Include="Search\OMN821\Contents\OMN821.aspx" />
+    <Content Include="Search\OMN821\css\OMN821.css" />
+    <Content Include="Search\OMN821\JavaScript\OMN821.js" />
+    <Content Include="Search\OMN822\Contents\OMN822.aspx" />
+    <Content Include="Search\OMN822\css\OMN822.css" />
+    <Content Include="Search\OMN822\JavaScript\OMN822.js" />
+    <Content Include="Search\OMN823\Contents\OMN823.aspx" />
+    <Content Include="Search\OMN823\css\OMN823.css" />
+    <Content Include="Search\OMN823\JavaScript\OMN823.js" />
+    <Content Include="Search\OMN824\Contents\OMN824.aspx" />
+    <Content Include="Search\OMN824\css\OMN824.css" />
+    <Content Include="Search\OMN824\JavaScript\OMN824.js" />
+    <Content Include="Search\OMN825\Contents\OMN825.aspx" />
+    <Content Include="Search\OMN825\css\OMN825.css" />
+    <Content Include="Search\OMN825\JavaScript\OMN825.js" />
+    <Content Include="Search\OMN826\Contents\OMN826.aspx" />
+    <Content Include="Search\OMN826\css\OMN826.css" />
+    <Content Include="Search\OMN826\JavaScript\OMN826.js" />
+    <Content Include="Search\OMN827\Contents\OMN827.aspx" />
+    <Content Include="Search\OMN827\css\OMN827.css" />
+    <Content Include="Search\OMN827\JavaScript\OMN827.js" />
+    <Content Include="sessiontimeout.aspx" />
+    <Content Include="Master\omni.Master" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommonLib\CommonLib.vbproj">
+      <Project>{0DC10B90-6B3E-425E-9BA9-0641A85A05DB}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\omniDom\omniDom.vbproj">
+      <Project>{D08C2831-9772-4E52-BB7A-994B337F405F}</Project>
+      <Name>omniDom</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Preview\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2831</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
