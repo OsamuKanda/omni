@@ -941,7 +941,8 @@ Partial Public Class OMN6011
                 '★伝票毎に消費税計算するため、５行以上入力できないようにする
                 Dim int明細数 As Integer = gInt明細件数取得()
 
-                If int明細数 >= 5 Then
+                'If int明細数 >= 5 Then <-- 間違い。これだと５明細目もエラーになる。画面側で５明細以上入力でいないので不要だが念のため残す
+                If int明細数 > 5 Then
                     Dim strMsg As String = "消費税表記のために５明細以上登録することはできません。伝票分割してください"
                     Master.errMsg = strMsg
                     mprg.gstrエラーメッセージ = strMsg
