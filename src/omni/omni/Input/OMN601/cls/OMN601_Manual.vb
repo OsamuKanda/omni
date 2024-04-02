@@ -938,22 +938,24 @@ Partial Public Class OMN6011
             '削除のときはチェックしない
             If mprg.mem今回更新区分 <> em更新区分.削除 Then
 
-                '★伝票毎に消費税計算するため、５行以上入力できないようにする
-                Dim int明細数 As Integer = gInt明細件数取得()
+                '★2024.04.02 入力時と登録時に実行されるため、４行でも呼び出しされるため、明細ロックで対応
+                ''★伝票毎に消費税計算するため、５行以上入力できないようにする
+                'Dim int明細数 As Integer = gInt明細件数取得()
 
-                'If int明細数 >= 5 Then <-- 間違い。これだと５明細目もエラーになる。画面側で５明細以上入力でいないので不要だが念のため残す
-                If int明細数 > 5 Then
-                    Dim strMsg As String = "消費税表記のために５明細以上登録することはできません。伝票分割してください"
-                    Master.errMsg = strMsg
-                    mprg.gstrエラーメッセージ = strMsg
-                    Master.errorMSG = "明細数超過"
+                ''If int明細数 >= 5 Then <-- 間違い。これだと５明細目もエラーになる。画面側で５明細以上入力でいないので不要だが念のため残す
+                'If int明細数 >= 5 Then  'チェック時は４項目で、コミット時は５項目なので、
+                '    Dim strMsg As String = "消費税表記のために５明細以上登録することはできません。伝票分割してください"
+                '    Master.errMsg = strMsg
+                '    mprg.gstrエラーメッセージ = strMsg
+                '    Master.errorMSG = "明細数超過"
 
-                    'フォーカス制御
-                    mSubSetFocus(False)
-                    Return False
+                '    'フォーカス制御
+                '    mSubSetFocus(False)
+                '    Return False
 
-                End If
-                '★伝票毎に消費税計算するため、５行以上入力できないようにする
+                'End If
+                ''★伝票毎に消費税計算するため、５行以上入力できないようにする
+                '★2024.04.02 入力時と登録時に実行されるため、４行でも呼び出しされるため、明細ロックで対応
 
                 '登録前の項目チェック処理、整形
                 If mBlnChkBody() = False Then
@@ -993,6 +995,7 @@ Partial Public Class OMN6011
         End Try
 
     End Function
+
 
     '''*************************************************************************************
     ''' <summary>
@@ -1549,7 +1552,9 @@ Partial Public Class OMN6011
                             .gSubメイン部有効無効設定(True)
                             '明細部も有効とする
                             .gSub明細部有効無効設定(True, 1)
+                            '★2024.4.2 明細は削除の可能性があるため、ロックしない
                             Call DetailLock()
+                            '★2024.4.2 明細は削除の可能性があるため、ロックしない
                         Case em更新区分.削除
                             '明細部のボタン部もロックする
                             .gSub明細部有効無効設定(False, 1)
@@ -1687,5 +1692,6 @@ Partial Public Class OMN6011
             mHistryList.gSubSet(mstrPGID, head, view, URL)
         End If
     End Sub
+
 #End Region
 End Class

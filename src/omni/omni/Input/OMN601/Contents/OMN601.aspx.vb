@@ -798,7 +798,10 @@ Public Class OMN6011
             If gInt明細件数取得() >= 5 Then
                 .gSub明細部有効無効設定(False, 1)
             Else
-                .gSub明細部有効無効設定(True, 1)
+                '★2024.4.2 挿入を可能にする
+                '.gSub明細部有効無効設定(True, 1)
+                .gSub明細部有効無効設定(True, 2)
+                '★2024.4.2 挿入を可能にする
             End If
             '★2023.10.04 明細部を５行に制限
             Master.strclicom = .gStrArrToString
@@ -895,8 +898,12 @@ Public Class OMN6011
             btnChg.CommandArgument = row("INDEX")
 
             With mprg.mwebIFDataTable
-                .gSubAdd(btnChg.ClientID, btnChg.ClientID, 1, "", "0", "1", "", "", "G00", "1", "0")
-                .gSubAdd(btnDell.ClientID, btnDell.ClientID, 1, "", "0", "1", "", "", "G00", "1", "0")
+                '★2024.04.02 明細ごとの有効／無効切り替えで、削除と編集は有効にしておきたい
+                '.gSubAdd(btnChg.ClientID, btnChg.ClientID, 1, "", "0", "1", "", "", "G00", "1", "0")
+                '.gSubAdd(btnDell.ClientID, btnDell.ClientID, 1, "", "0", "1", "", "", "G00", "1", "0")
+                .gSubAdd(btnChg.ClientID, btnChg.ClientID, 1, "", "0", "1", "", "", "G01", "1", "0")
+                .gSubAdd(btnDell.ClientID, btnDell.ClientID, 1, "", "0", "1", "", "", "G01", "1", "0")
+                '★2024.04.02 明細ごとの有効／無効切り替えで、削除と編集は有効にしておきたい
             End With
         End If
 
